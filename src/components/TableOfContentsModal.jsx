@@ -34,7 +34,7 @@ export default function TableOfContentsModal({
       <div className="modal toc-modal">
         <div className="modal-header">
           <h2>📖 Mục lục</h2>
-          <button className="modal-close-btn" onClick={onClose} aria-label="Đóng">
+          <button className="modal-close" onClick={onClose} aria-label="Đóng">
             ✕
           </button>
         </div>

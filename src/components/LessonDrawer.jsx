@@ -44,42 +44,43 @@ export default function LessonDrawer({
       {/* Backdrop overlay */}
       <div className="drawer-overlay" onClick={onClose} />
 
-      {/* Slide-up drawer */}
+      {/* Slide-up drawer on mobile, centralized modal on tablet/iPad */}
       <div className="lesson-drawer">
-        <button className="drawer-close-btn" onClick={onClose} aria-label="Đóng">
-          ✕
-        </button>
+        <div className="drawer-header">
+          <span className="lesson-emoji">📝</span>
+          <h3>{lesson.title}</h3>
+          <button className="drawer-close" onClick={onClose} aria-label="Đóng">
+            ✕
+          </button>
+        </div>
 
-        <div className="drawer-content">
-          <h2 className="drawer-title">{lesson.title}</h2>
+        <div className="drawer-body">
           <p className="drawer-description">{lesson.description}</p>
 
           {/* Theory button */}
           <button
-            className="drawer-btn drawer-btn--theory"
+            className="btn-theory"
             onClick={onStartTheory}
           >
-            Lý thuyết 📖
+            Lý thuyết <span className="btn-emoji">📖</span>
           </button>
 
           {/* Difficulty level buttons */}
-          <div className="drawer-levels">
-            <h3 className="drawer-levels-title">Chọn mức độ:</h3>
+          <h3 className="difficulty-label">Chọn mức độ:</h3>
+          <div className="difficulty-buttons">
             {levels.map((lvl) => (
               <button
                 key={lvl.key}
-                className={`drawer-btn drawer-btn--level drawer-btn--${lvl.key} ${
-                  !lvl.unlocked ? 'drawer-btn--locked' : ''
-                } ${lvl.completed ? 'drawer-btn--completed' : ''}`}
+                className={`btn-${lvl.key} ${!lvl.unlocked ? 'btn-locked' : ''}`}
                 onClick={() => lvl.unlocked && onStartQuiz(lvl.key)}
                 disabled={!lvl.unlocked}
               >
-                <span className="level-label">
-                  {lvl.label} {lvl.starsIcon}
+                <span className="diff-emoji">
+                  {!lvl.unlocked ? '🔒' : lvl.completed ? '⭐' : '📝'}
                 </span>
-                {!lvl.unlocked && <span className="level-lock">🔒</span>}
+                <span>{lvl.label}</span>
                 {lvl.completed && (
-                  <span className="level-earned">
+                  <span className="diff-stars">
                     {'⭐'.repeat(lvl.earnedStars)}
                   </span>
                 )}

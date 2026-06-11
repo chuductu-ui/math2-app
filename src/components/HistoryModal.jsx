@@ -22,7 +22,7 @@ export default function HistoryModal({ history, allLessons, onClose }) {
       <div className="modal history-modal">
         <div className="modal-header">
           <h2>📊 Lịch sử làm bài</h2>
-          <button className="modal-close-btn" onClick={onClose} aria-label="Đóng">
+          <button className="modal-close" onClick={onClose} aria-label="Đóng">
             ✕
           </button>
         </div>
