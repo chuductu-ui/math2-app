@@ -1,0 +1,312 @@
+/* ============================================================
+   🐸 Toán 2 Phiêu Lưu Ký — App.css
+   Component-specific overrides, print styles, & accessibility
+   ============================================================ */
+
+/* ══════════════════════════════════════════════════════════════
+   1. FOCUS STYLES (Accessibility)
+   ══════════════════════════════════════════════════════════════ */
+
+/* Visible focus ring for keyboard navigation (all interactive elements) */
+*:focus-visible {
+  outline: 3px solid var(--color-sky);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* Remove default focus ring for mouse/touch users */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Enhanced focus for primary action buttons */
+.btn-theory:focus-visible,
+.btn-next:focus-visible,
+.btn-retry:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px rgba(66, 165, 245, 0.4);
+}
+
+/* Focus for option buttons in quiz */
+.option-btn:focus-visible {
+  outline: 3px solid var(--color-sky);
+  outline-offset: 2px;
+  border-color: var(--color-sky);
+  box-shadow: 0 0 0 5px rgba(66, 165, 245, 0.25);
+}
+
+/* Focus for lesson nodes on quest map */
+.lesson-node:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 7px rgba(66, 165, 245, 0.4), var(--shadow-md);
+}
+
+/* Focus for header buttons */
+.btn-toc:focus-visible,
+.btn-history:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Focus for modal / drawer close buttons */
+.drawer-close:focus-visible,
+.modal-close:focus-visible {
+  outline: 3px solid var(--color-sky);
+  outline-offset: 2px;
+  background: rgba(66, 165, 245, 0.15);
+}
+
+/* Focus for difficulty buttons */
+.btn-easy:focus-visible,
+.btn-medium:focus-visible,
+.btn-hard:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+/* Skip link for screen readers */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-text);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  z-index: 9999;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   2. COMPONENT-SPECIFIC OVERRIDES
+   ══════════════════════════════════════════════════════════════ */
+
+/* Smooth page transitions when switching views */
+.view-enter {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.view-exit {
+  animation: fadeIn 0.2s ease reverse forwards;
+}
+
+/* Visualizer interactive elements: larger hit targets for kids */
+.visualizer-container button,
+.visualizer-container [role="button"] {
+  min-width: 48px;
+  min-height: 48px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Ensure emoji don't affect line height weirdly */
+.emoji-icon,
+.logo-emoji,
+.question-emoji,
+.chapter-emoji,
+.lesson-emoji,
+.results-emoji,
+.loading-emoji,
+.recovery-emoji,
+.game-over-emoji,
+.empty-emoji {
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+}
+
+/* Prevent text selection on interactive elements (less frustration for kids) */
+.lesson-node,
+.option-btn,
+.btn-theory,
+.btn-easy,
+.btn-medium,
+.btn-hard,
+.btn-next,
+.btn-retry,
+.btn-share,
+.btn-copy,
+.btn-back,
+.btn-toc,
+.btn-history,
+.stat-badge,
+.difficulty-buttons button {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Allow text selection for educational content */
+.theory-text,
+.question-text,
+.explanation-text,
+.drawer-description {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* Scrollbar styling for modern browsers */
+.modal-body::-webkit-scrollbar,
+.app-main::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-body::-webkit-scrollbar-track,
+.app-main::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-body::-webkit-scrollbar-thumb,
+.app-main::-webkit-scrollbar-thumb {
+  background: var(--color-text-muted);
+  border-radius: var(--radius-full);
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover,
+.app-main::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-light);
+}
+
+/* Firefox scrollbar */
+.modal-body,
+.app-main {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-text-muted) transparent;
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   3. SELECTION COLORS
+   ══════════════════════════════════════════════════════════════ */
+::selection {
+  background: rgba(76, 175, 80, 0.25);
+  color: var(--color-text);
+}
+
+::-moz-selection {
+  background: rgba(76, 175, 80, 0.25);
+  color: var(--color-text);
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   4. PRINT STYLES
+   ══════════════════════════════════════════════════════════════ */
+@media print {
+  /* Hide interactive & nav elements */
+  .app-header,
+  .btn-toc,
+  .btn-history,
+  .btn-back,
+  .btn-theory,
+  .btn-next,
+  .btn-retry,
+  .btn-share,
+  .btn-copy,
+  .btn-home,
+  .difficulty-buttons,
+  .drawer-overlay,
+  .lesson-drawer,
+  .modal-overlay,
+  .modal-content,
+  .quiz-hearts,
+  .options-grid,
+  .toast {
+    display: none !important;
+  }
+
+  /* Reset background for ink-saving */
+  body,
+  .app-container,
+  .quest-map,
+  .theory-section,
+  .quiz-section {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Clean typography for print */
+  .theory-text {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    font-size: 12pt;
+    line-height: 1.6;
+  }
+
+  .question-card {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  .question-text {
+    font-size: 14pt;
+    color: #000;
+  }
+
+  /* Show the question text and score for results */
+  .results-screen {
+    page-break-before: always;
+  }
+
+  .score-text {
+    color: #000;
+    font-size: 18pt;
+  }
+
+  /* Reduce animations for print */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 1.5cm;
+    size: A4;
+  }
+}
+
+
+/* ══════════════════════════════════════════════════════════════
+   5. HIGH CONTRAST / FORCED COLORS
+   ══════════════════════════════════════════════════════════════ */
+@media (forced-colors: active) {
+  .lesson-node,
+  .option-btn,
+  .btn-theory,
+  .btn-next,
+  .btn-retry {
+    border: 2px solid ButtonText;
+  }
+
+  .option-btn.correct {
+    border-color: Highlight;
+    background: Canvas;
+  }
+
+  .option-btn.wrong {
+    border-color: LinkText;
+    background: Canvas;
+  }
+
+  .stat-badge {
+    border: 1px solid ButtonText;
+  }
+
+  .quiz-progress-bar {
+    border: 1px solid ButtonText;
+  }
+
+  .quiz-progress-bar .fill {
+    background: Highlight;
+  }
+}

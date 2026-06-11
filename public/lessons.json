@@ -1,0 +1,1064 @@
+{
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Chương 1: Ôn tập và bổ sung",
+      "lessons": [
+        {
+          "id": "bai-1-on-tap-cac-so-den-100",
+          "title": "Bài 1: Ôn tập các số đến 100",
+          "description": "Ôn lại các số từ 0 đến 100, cách đọc, viết và so sánh các số.",
+          "theory": {
+            "explanation": "Các số từ 0 đến 100 được sắp xếp theo thứ tự từ bé đến lớn trên trục số. Mỗi số gồm hai phần: chữ số hàng chục và chữ số hàng đơn vị. Ví dụ: số 47 gồm 4 chục và 7 đơn vị. Khi so sánh hai số, ta so sánh chữ số hàng chục trước: số nào có chữ số hàng chục lớn hơn thì lớn hơn. Nếu chữ số hàng chục bằng nhau, ta so sánh chữ số hàng đơn vị.",
+            "visualizerType": "NumberLine100",
+            "visualizerConfig": {
+              "min": 0,
+              "max": 100,
+              "step": 10
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q1_1",
+                "type": "multiple-choice",
+                "question": "Số nào lớn nhất trong các số: 45, 54, 35, 53?",
+                "options": ["45", "54", "35", "53"],
+                "correctAnswer": "54",
+                "explanation": "So sánh chữ số hàng chục: 54 và 53 có hàng chục là 5, lớn hơn 45 và 35. So sánh 54 và 53: hàng đơn vị 4 > 3, nên 54 > 53. Vậy 54 là số lớn nhất."
+              },
+              {
+                "id": "q1_2",
+                "type": "multiple-choice",
+                "question": "Số liền sau của 79 là số nào?",
+                "options": ["78", "80", "81", "70"],
+                "correctAnswer": "80",
+                "explanation": "Số liền sau của một số bằng số đó cộng thêm 1. Vậy số liền sau của 79 là 79 + 1 = 80."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q1_3",
+                "type": "multiple-choice",
+                "question": "Số gồm 6 chục và 8 đơn vị là số nào?",
+                "options": ["86", "68", "60", "80"],
+                "correctAnswer": "68",
+                "explanation": "6 chục = 60, cộng thêm 8 đơn vị = 60 + 8 = 68."
+              },
+              {
+                "id": "q1_4",
+                "type": "multiple-choice",
+                "question": "Sắp xếp các số 32, 23, 45, 54 theo thứ tự từ bé đến lớn:",
+                "options": ["23, 32, 45, 54", "54, 45, 32, 23", "23, 45, 32, 54", "32, 23, 54, 45"],
+                "correctAnswer": "23, 32, 45, 54",
+                "explanation": "So sánh từng cặp số: 23 < 32 < 45 < 54. Vậy thứ tự từ bé đến lớn là 23, 32, 45, 54."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q1_5",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu số có hai chữ số mà chữ số hàng chục lớn hơn chữ số hàng đơn vị?",
+                "options": ["45", "36", "50", "40"],
+                "correctAnswer": "45",
+                "explanation": "Chữ số hàng chục từ 1-9, chữ số hàng đơn vị từ 0 đến nhỏ hơn hàng chục. Khi hàng chục = 1: 1 số (10). Hàng chục = 2: 2 số (20, 21). ... Hàng chục = 9: 9 số. Tổng: 1+2+3+4+5+6+7+8+9 = 45."
+              },
+              {
+                "id": "q1_6",
+                "type": "multiple-choice",
+                "question": "Tìm số có hai chữ số, biết rằng chữ số hàng chục gấp 3 lần chữ số hàng đơn vị và tổng hai chữ số bằng 8.",
+                "options": ["62", "31", "60", "42"],
+                "correctAnswer": "62",
+                "explanation": "Gọi chữ số hàng đơn vị là a. Hàng chục = 3a. Ta có: 3a + a = 8, suy ra 4a = 8, a = 2. Hàng chục = 6. Vậy số cần tìm là 62."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-2-on-tap-phep-cong-tru",
+          "title": "Bài 2: Ôn tập phép cộng, phép trừ",
+          "description": "Ôn lại phép cộng, phép trừ không nhớ trong phạm vi 100 và các tính chất cơ bản.",
+          "theory": {
+            "explanation": "Phép cộng là gộp hai số lại với nhau. Phép trừ là bớt đi một phần từ một số. Ví dụ: 34 + 25 = 59 (cộng hàng đơn vị: 4+5=9, cộng hàng chục: 3+2=5). Phép trừ: 67 - 23 = 44 (trừ hàng đơn vị: 7-3=4, trừ hàng chục: 6-2=4). Khi cộng, ta có thể đổi chỗ các số hạng mà kết quả không thay đổi: a + b = b + a.",
+            "visualizerType": "AddSubVisualizer",
+            "visualizerConfig": {
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q2_1",
+                "type": "multiple-choice",
+                "question": "34 + 25 = ?",
+                "options": ["59", "49", "69", "58"],
+                "correctAnswer": "59",
+                "explanation": "Cộng hàng đơn vị: 4 + 5 = 9. Cộng hàng chục: 3 + 2 = 5. Vậy 34 + 25 = 59."
+              },
+              {
+                "id": "q2_2",
+                "type": "multiple-choice",
+                "question": "87 - 42 = ?",
+                "options": ["45", "55", "35", "44"],
+                "correctAnswer": "45",
+                "explanation": "Trừ hàng đơn vị: 7 - 2 = 5. Trừ hàng chục: 8 - 4 = 4. Vậy 87 - 42 = 45."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q2_3",
+                "type": "multiple-choice",
+                "question": "Tìm x: x + 23 = 58",
+                "options": ["35", "81", "25", "45"],
+                "correctAnswer": "35",
+                "explanation": "x = 58 - 23 = 35. Thử lại: 35 + 23 = 58 ✓"
+              },
+              {
+                "id": "q2_4",
+                "type": "multiple-choice",
+                "question": "Lan có 45 viên bi, Lan cho bạn 12 viên bi. Hỏi Lan còn lại bao nhiêu viên bi?",
+                "options": ["33", "57", "23", "43"],
+                "correctAnswer": "33",
+                "explanation": "Lan còn lại: 45 - 12 = 33 viên bi."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q2_5",
+                "type": "multiple-choice",
+                "question": "Tìm x: 72 - x = 38",
+                "options": ["34", "44", "110", "36"],
+                "correctAnswer": "34",
+                "explanation": "x = 72 - 38 = 34. Thử lại: 72 - 34 = 38 ✓"
+              },
+              {
+                "id": "q2_6",
+                "type": "multiple-choice",
+                "question": "Trong một phép cộng, nếu một số hạng tăng thêm 5, số hạng kia giảm đi 5 thì tổng sẽ:",
+                "options": ["Không đổi", "Tăng thêm 5", "Giảm đi 5", "Tăng thêm 10"],
+                "correctAnswer": "Không đổi",
+                "explanation": "Khi một số hạng tăng 5 và số hạng kia giảm 5, tổng thay đổi: +5 + (-5) = 0. Vậy tổng không đổi."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-3-so-hang-tong",
+          "title": "Bài 3: Số hạng - Tổng",
+          "description": "Nhận biết số hạng và tổng trong phép cộng, mối quan hệ giữa các thành phần.",
+          "theory": {
+            "explanation": "Trong phép cộng: Số hạng + Số hạng = Tổng. Ví dụ: 35 + 24 = 59 thì 35 và 24 là hai số hạng, 59 là tổng. Muốn tìm một số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết. Ví dụ: x + 24 = 59 → x = 59 - 24 = 35. Tính chất giao hoán: a + b = b + a. Cộng với 0: a + 0 = a.",
+            "visualizerType": "AddSubVisualizer",
+            "visualizerConfig": {
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q3_1",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 27 + 41 = 68, đâu là tổng?",
+                "options": ["27", "41", "68", "Không có"],
+                "correctAnswer": "68",
+                "explanation": "Trong phép cộng, kết quả (số đứng sau dấu =) được gọi là tổng. Vậy 68 là tổng."
+              },
+              {
+                "id": "q3_2",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 15 + 34 = 49, các số hạng là:",
+                "options": ["15 và 34", "15 và 49", "34 và 49", "15, 34 và 49"],
+                "correctAnswer": "15 và 34",
+                "explanation": "Các số đứng trước dấu = trong phép cộng là các số hạng. Vậy 15 và 34 là các số hạng."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q3_3",
+                "type": "multiple-choice",
+                "question": "Tìm x: x + 36 = 78",
+                "options": ["42", "52", "32", "114"],
+                "correctAnswer": "42",
+                "explanation": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết: x = 78 - 36 = 42."
+              },
+              {
+                "id": "q3_4",
+                "type": "multiple-choice",
+                "question": "Hai số có tổng bằng 90, một số hạng là 50. Số hạng kia là:",
+                "options": ["40", "140", "30", "50"],
+                "correctAnswer": "40",
+                "explanation": "Số hạng kia = Tổng - Số hạng đã biết = 90 - 50 = 40."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q3_5",
+                "type": "multiple-choice",
+                "question": "Tìm hai số biết tổng của chúng bằng 50 và số lớn hơn số bé là 10. Số lớn là:",
+                "options": ["30", "20", "25", "40"],
+                "correctAnswer": "30",
+                "explanation": "Gọi số bé là a, số lớn là a + 10. Ta có: a + (a + 10) = 50, suy ra 2a + 10 = 50, 2a = 40, a = 20. Số lớn = 20 + 10 = 30."
+              },
+              {
+                "id": "q3_6",
+                "type": "multiple-choice",
+                "question": "Một phép cộng có tổng bằng 100. Nếu một số hạng tăng thêm 15 thì tổng mới bằng bao nhiêu?",
+                "options": ["115", "85", "100", "105"],
+                "correctAnswer": "115",
+                "explanation": "Khi một số hạng tăng thêm 15 (số hạng kia giữ nguyên), tổng mới = 100 + 15 = 115."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chương 2: Phép cộng, phép trừ trong phạm vi 20",
+      "lessons": [
+        {
+          "id": "bai-4-phep-cong-trong-pham-vi-20",
+          "title": "Bài 4: Phép cộng trong phạm vi 20",
+          "description": "Học phép cộng có nhớ trong phạm vi 20, bảng cộng qua 10.",
+          "theory": {
+            "explanation": "Phép cộng có tổng đến 20 gồm các phép tính như 9+2, 8+5, 7+6... Để cộng qua 10, ta tách một số thành hai phần: một phần cộng với số kia cho đủ 10, rồi cộng phần còn lại. Ví dụ: 9 + 4 = 9 + 1 + 3 = 10 + 3 = 13. Cách khác: 8 + 5 = 8 + 2 + 3 = 10 + 3 = 13.",
+            "visualizerType": "TenFrameVisualizer",
+            "visualizerConfig": {
+              "maxValue": 20
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q4_1",
+                "type": "multiple-choice",
+                "question": "9 + 5 = ?",
+                "options": ["13", "14", "15", "12"],
+                "correctAnswer": "14",
+                "explanation": "9 + 5 = 9 + 1 + 4 = 10 + 4 = 14."
+              },
+              {
+                "id": "q4_2",
+                "type": "multiple-choice",
+                "question": "8 + 6 = ?",
+                "options": ["12", "13", "14", "15"],
+                "correctAnswer": "14",
+                "explanation": "8 + 6 = 8 + 2 + 4 = 10 + 4 = 14."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q4_3",
+                "type": "multiple-choice",
+                "question": "7 + 8 = ?",
+                "options": ["14", "16", "15", "13"],
+                "correctAnswer": "15",
+                "explanation": "7 + 8 = 7 + 3 + 5 = 10 + 5 = 15."
+              },
+              {
+                "id": "q4_4",
+                "type": "multiple-choice",
+                "question": "Mẹ mua 6 quả cam và 8 quả cam. Hỏi mẹ mua tất cả bao nhiêu quả cam?",
+                "options": ["14 quả", "12 quả", "15 quả", "13 quả"],
+                "correctAnswer": "14 quả",
+                "explanation": "Mẹ mua tất cả: 6 + 8 = 14 quả cam."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q4_5",
+                "type": "multiple-choice",
+                "question": "Tìm x: x + 7 = 15",
+                "options": ["8", "7", "9", "22"],
+                "correctAnswer": "8",
+                "explanation": "x = 15 - 7 = 8. Thử lại: 8 + 7 = 15 ✓"
+              },
+              {
+                "id": "q4_6",
+                "type": "multiple-choice",
+                "question": "Tính: 6 + 5 + 4 = ?",
+                "options": ["15", "14", "16", "13"],
+                "correctAnswer": "15",
+                "explanation": "6 + 5 = 11, rồi 11 + 4 = 15."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-5-phep-tru-trong-pham-vi-20",
+          "title": "Bài 5: Phép trừ trong phạm vi 20",
+          "description": "Học phép trừ có nhớ trong phạm vi 20 (11-1, 12-3...).",
+          "theory": {
+            "explanation": "Phép trừ trong phạm vi 20 là các phép tính như 13-5, 15-7, 17-9... Để trừ qua 10, ta tách số bị trừ thành 10 và phần còn lại. Ví dụ: 13 - 5 = 10 + 3 - 5 = 10 - 5 + 3 = 5 + 3 = 8. Cách khác: 15 - 8 = 15 - 5 - 3 = 10 - 3 = 7. Mối quan hệ: nếu a + b = c thì c - a = b và c - b = a.",
+            "visualizerType": "TenFrameVisualizer",
+            "visualizerConfig": {
+              "maxValue": 20,
+              "mode": "subtract"
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q5_1",
+                "type": "multiple-choice",
+                "question": "13 - 5 = ?",
+                "options": ["7", "8", "9", "6"],
+                "correctAnswer": "8",
+                "explanation": "13 - 5 = 13 - 3 - 2 = 10 - 2 = 8."
+              },
+              {
+                "id": "q5_2",
+                "type": "multiple-choice",
+                "question": "15 - 9 = ?",
+                "options": ["5", "7", "6", "4"],
+                "correctAnswer": "6",
+                "explanation": "15 - 9 = 15 - 5 - 4 = 10 - 4 = 6."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q5_3",
+                "type": "multiple-choice",
+                "question": "Lan có 17 cái kẹo, Lan cho bạn 8 cái kẹo. Lan còn lại bao nhiêu cái kẹo?",
+                "options": ["9", "8", "10", "7"],
+                "correctAnswer": "9",
+                "explanation": "Lan còn lại: 17 - 8 = 9 cái kẹo."
+              },
+              {
+                "id": "q5_4",
+                "type": "multiple-choice",
+                "question": "16 - 7 = ?",
+                "options": ["8", "9", "10", "7"],
+                "correctAnswer": "9",
+                "explanation": "16 - 7 = 16 - 6 - 1 = 10 - 1 = 9."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q5_5",
+                "type": "multiple-choice",
+                "question": "Tìm x: 18 - x = 9",
+                "options": ["9", "27", "8", "10"],
+                "correctAnswer": "9",
+                "explanation": "x = 18 - 9 = 9. Thử lại: 18 - 9 = 9 ✓"
+              },
+              {
+                "id": "q5_6",
+                "type": "multiple-choice",
+                "question": "Tính: 20 - 6 - 5 = ?",
+                "options": ["9", "11", "8", "10"],
+                "correctAnswer": "9",
+                "explanation": "20 - 6 = 14, rồi 14 - 5 = 9."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-6-bang-cong-bang-tru",
+          "title": "Bài 6: Bảng cộng, bảng trừ",
+          "description": "Luyện thuộc bảng cộng trừ trong phạm vi 20 một cách thành thạo.",
+          "theory": {
+            "explanation": "Bảng cộng trong phạm vi 20 giúp con tính nhẩm nhanh hơn. Con cần nhớ: 9+2=11, 9+3=12, ..., 9+9=18. Tương tự: 8+3=11, 8+4=12, ..., 8+8=16. Và: 7+4=11, 7+5=12, ..., 7+7=14. Bảng trừ ngược lại: 11-2=9, 11-3=8, 12-3=9, 12-4=8... Luyện tập nhiều để thuộc nhanh như đếm ngón tay nhé!",
+            "visualizerType": "AdditionTableVisualizer",
+            "visualizerConfig": {}
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q6_1",
+                "type": "multiple-choice",
+                "question": "9 + 7 = ?",
+                "options": ["15", "16", "17", "14"],
+                "correctAnswer": "16",
+                "explanation": "9 + 7 = 9 + 1 + 6 = 10 + 6 = 16."
+              },
+              {
+                "id": "q6_2",
+                "type": "multiple-choice",
+                "question": "14 - 6 = ?",
+                "options": ["7", "8", "9", "6"],
+                "correctAnswer": "8",
+                "explanation": "14 - 6 = 14 - 4 - 2 = 10 - 2 = 8."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q6_3",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 7 + ☐ = 13",
+                "options": ["5", "6", "7", "4"],
+                "correctAnswer": "6",
+                "explanation": "☐ = 13 - 7 = 6. Thử lại: 7 + 6 = 13 ✓"
+              },
+              {
+                "id": "q6_4",
+                "type": "multiple-choice",
+                "question": "Phép tính nào có kết quả lớn nhất?",
+                "options": ["8 + 9", "7 + 8", "9 + 9", "6 + 7"],
+                "correctAnswer": "9 + 9",
+                "explanation": "8+9=17, 7+8=15, 9+9=18, 6+7=13. Vậy 9+9=18 là lớn nhất."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q6_5",
+                "type": "multiple-choice",
+                "question": "Tính nhanh: 8 + 7 - 6 + 5 = ?",
+                "options": ["14", "12", "16", "13"],
+                "correctAnswer": "14",
+                "explanation": "8 + 7 = 15, 15 - 6 = 9, 9 + 5 = 14."
+              },
+              {
+                "id": "q6_6",
+                "type": "multiple-choice",
+                "question": "Tìm hai số biết tổng bằng 16 và hiệu bằng 2. Số lớn là:",
+                "options": ["9", "7", "8", "10"],
+                "correctAnswer": "9",
+                "explanation": "Số lớn = (Tổng + Hiệu) ÷ 2 = (16 + 2) ÷ 2 = 18 ÷ 2 = 9."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-3",
+      "title": "Chương 3: Phép cộng, phép trừ trong phạm vi 100",
+      "lessons": [
+        {
+          "id": "bai-7-phep-cong-khong-nho",
+          "title": "Bài 7: Phép cộng (không nhớ) trong phạm vi 100",
+          "description": "Cộng hai số có hai chữ số (không nhớ), đặt tính theo cột dọc.",
+          "theory": {
+            "explanation": "Khi cộng hai số có hai chữ số mà tổng các chữ số ở mỗi hàng đều nhỏ hơn 10, ta gọi là phép cộng không nhớ. Cách đặt tính: viết các số sao cho các chữ số cùng hàng thẳng cột với nhau, rồi cộng từ phải sang trái (hàng đơn vị trước, hàng chục sau). Ví dụ: 43 + 25 → Đơn vị: 3+5=8, Chục: 4+2=6 → Kết quả: 68.",
+            "visualizerType": "ColumnAddition",
+            "visualizerConfig": {
+              "carry": false,
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q7_1",
+                "type": "multiple-choice",
+                "question": "43 + 25 = ?",
+                "options": ["68", "58", "78", "67"],
+                "correctAnswer": "68",
+                "explanation": "Đơn vị: 3 + 5 = 8. Chục: 4 + 2 = 6. Vậy 43 + 25 = 68."
+              },
+              {
+                "id": "q7_2",
+                "type": "multiple-choice",
+                "question": "51 + 37 = ?",
+                "options": ["88", "78", "87", "98"],
+                "correctAnswer": "88",
+                "explanation": "Đơn vị: 1 + 7 = 8. Chục: 5 + 3 = 8. Vậy 51 + 37 = 88."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q7_3",
+                "type": "multiple-choice",
+                "question": "An có 32 viên bi xanh và 46 viên bi đỏ. Hỏi An có tất cả bao nhiêu viên bi?",
+                "options": ["78", "68", "88", "76"],
+                "correctAnswer": "78",
+                "explanation": "An có tất cả: 32 + 46 = 78 viên bi."
+              },
+              {
+                "id": "q7_4",
+                "type": "multiple-choice",
+                "question": "Tìm x: x + 41 = 73",
+                "options": ["32", "114", "42", "22"],
+                "correctAnswer": "32",
+                "explanation": "x = 73 - 41 = 32."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q7_5",
+                "type": "multiple-choice",
+                "question": "Lớp 2A có 24 bạn nữ, số bạn nam nhiều hơn số bạn nữ 3 bạn. Hỏi lớp 2A có tất cả bao nhiêu bạn?",
+                "options": ["51", "45", "48", "27"],
+                "correctAnswer": "51",
+                "explanation": "Số bạn nam: 24 + 3 = 27. Tổng: 24 + 27 = 51 bạn."
+              },
+              {
+                "id": "q7_6",
+                "type": "multiple-choice",
+                "question": "Tính: 12 + 34 + 23 = ?",
+                "options": ["69", "59", "79", "68"],
+                "correctAnswer": "69",
+                "explanation": "12 + 34 = 46, rồi 46 + 23 = 69."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-8-phep-tru-khong-nho",
+          "title": "Bài 8: Phép trừ (không nhớ) trong phạm vi 100",
+          "description": "Trừ hai số có hai chữ số (không nhớ), đặt tính theo cột dọc.",
+          "theory": {
+            "explanation": "Phép trừ không nhớ là khi chữ số ở mỗi hàng của số bị trừ đều lớn hơn hoặc bằng chữ số tương ứng của số trừ. Cách đặt tính: viết số bị trừ ở trên, số trừ ở dưới, các chữ số cùng hàng thẳng cột, trừ từ phải sang trái. Ví dụ: 68 - 35 → Đơn vị: 8-5=3, Chục: 6-3=3 → Kết quả: 33.",
+            "visualizerType": "ColumnAddition",
+            "visualizerConfig": {
+              "carry": false,
+              "mode": "subtract",
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q8_1",
+                "type": "multiple-choice",
+                "question": "68 - 35 = ?",
+                "options": ["33", "23", "43", "34"],
+                "correctAnswer": "33",
+                "explanation": "Đơn vị: 8 - 5 = 3. Chục: 6 - 3 = 3. Vậy 68 - 35 = 33."
+              },
+              {
+                "id": "q8_2",
+                "type": "multiple-choice",
+                "question": "97 - 54 = ?",
+                "options": ["43", "53", "33", "42"],
+                "correctAnswer": "43",
+                "explanation": "Đơn vị: 7 - 4 = 3. Chục: 9 - 5 = 4. Vậy 97 - 54 = 43."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q8_3",
+                "type": "multiple-choice",
+                "question": "Cửa hàng có 86 quyển vở, đã bán 43 quyển. Hỏi cửa hàng còn bao nhiêu quyển vở?",
+                "options": ["43", "53", "33", "129"],
+                "correctAnswer": "43",
+                "explanation": "Cửa hàng còn: 86 - 43 = 43 quyển vở."
+              },
+              {
+                "id": "q8_4",
+                "type": "multiple-choice",
+                "question": "Tìm x: 75 - x = 32",
+                "options": ["43", "107", "33", "53"],
+                "correctAnswer": "43",
+                "explanation": "x = 75 - 32 = 43."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q8_5",
+                "type": "multiple-choice",
+                "question": "Tính: 99 - 23 - 44 = ?",
+                "options": ["32", "22", "42", "12"],
+                "correctAnswer": "32",
+                "explanation": "99 - 23 = 76, rồi 76 - 44 = 32."
+              },
+              {
+                "id": "q8_6",
+                "type": "multiple-choice",
+                "question": "Bạn Nam có 78 trang giấy, bạn ấy dùng 25 trang buổi sáng và 32 trang buổi chiều. Hỏi Nam còn bao nhiêu trang giấy?",
+                "options": ["21", "31", "11", "53"],
+                "correctAnswer": "21",
+                "explanation": "Nam dùng tất cả: 25 + 32 = 57 trang. Còn lại: 78 - 57 = 21 trang."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-9-luyen-tap-chung",
+          "title": "Bài 9: Luyện tập chung",
+          "description": "Luyện tập tổng hợp phép cộng và phép trừ trong phạm vi 100.",
+          "theory": {
+            "explanation": "Tổng kết: Khi cộng hoặc trừ hai số có hai chữ số, ta đặt tính theo cột dọc và tính từ hàng đơn vị trước. Nhớ kiểm tra kết quả bằng phép tính ngược: nếu a + b = c thì c - b = a. Trong bài toán có lời văn, cần đọc kĩ đề, tìm hiểu bài toán cho biết gì, hỏi gì, rồi chọn phép tính phù hợp.",
+            "visualizerType": "ColumnAddition",
+            "visualizerConfig": {
+              "carry": false,
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q9_1",
+                "type": "multiple-choice",
+                "question": "56 + 32 = ?",
+                "options": ["88", "78", "98", "87"],
+                "correctAnswer": "88",
+                "explanation": "Đơn vị: 6+2=8. Chục: 5+3=8. Vậy 56+32=88."
+              },
+              {
+                "id": "q9_2",
+                "type": "multiple-choice",
+                "question": "74 - 51 = ?",
+                "options": ["23", "33", "13", "25"],
+                "correctAnswer": "23",
+                "explanation": "Đơn vị: 4-1=3. Chục: 7-5=2. Vậy 74-51=23."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q9_3",
+                "type": "multiple-choice",
+                "question": "Thùng thứ nhất có 35 quả táo, thùng thứ hai có 42 quả táo. Hỏi cả hai thùng có bao nhiêu quả táo?",
+                "options": ["77", "67", "87", "73"],
+                "correctAnswer": "77",
+                "explanation": "Cả hai thùng có: 35 + 42 = 77 quả táo."
+              },
+              {
+                "id": "q9_4",
+                "type": "multiple-choice",
+                "question": "Tìm x biết: x - 24 = 53",
+                "options": ["77", "29", "67", "87"],
+                "correctAnswer": "77",
+                "explanation": "x = 53 + 24 = 77. Thử lại: 77 - 24 = 53 ✓"
+              }
+            ],
+            "hard": [
+              {
+                "id": "q9_5",
+                "type": "multiple-choice",
+                "question": "Bể cá có 65 con cá. Cho đi 22 con, rồi thả thêm 14 con. Hỏi bể có bao nhiêu con cá?",
+                "options": ["57", "47", "67", "43"],
+                "correctAnswer": "57",
+                "explanation": "Cho đi: 65 - 22 = 43. Thả thêm: 43 + 14 = 57 con cá."
+              },
+              {
+                "id": "q9_6",
+                "type": "multiple-choice",
+                "question": "Cho hai số có tổng bằng 88 và hiệu bằng 22. Số lớn là:",
+                "options": ["55", "33", "44", "66"],
+                "correctAnswer": "55",
+                "explanation": "Số lớn = (Tổng + Hiệu) ÷ 2 = (88 + 22) ÷ 2 = 110 ÷ 2 = 55."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chương 4: Hình học và Đo lường",
+      "lessons": [
+        {
+          "id": "bai-10-duong-thang-duong-cong",
+          "title": "Bài 10: Đường thẳng, đường cong, đường gấp khúc",
+          "description": "Nhận biết đường thẳng, đường cong, đường gấp khúc và điểm.",
+          "theory": {
+            "explanation": "Đường thẳng là đường không cong, kéo dài vô tận về hai phía. Đường cong là đường có chỗ uốn cong. Đường gấp khúc gồm nhiều đoạn thẳng nối tiếp nhau tại các điểm gấp. Đoạn thẳng là phần đường thẳng giới hạn bởi hai điểm (hai đầu mút). Ví dụ: đường kẻ trên vở là đường thẳng, vành bánh xe là đường cong, hình cái thang là đường gấp khúc.",
+            "visualizerType": "ShapeExplorer",
+            "visualizerConfig": {
+              "shapes": ["line", "curve", "zigzag"]
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q10_1",
+                "type": "multiple-choice",
+                "question": "Đường nào sau đây là đường thẳng?",
+                "options": ["Cạnh thước kẻ", "Vành xe đạp", "Dây thừng vắt qua cành cây", "Đường leo núi ngoằn ngoèo"],
+                "correctAnswer": "Cạnh thước kẻ",
+                "explanation": "Cạnh thước kẻ là thẳng, không cong, đó là đường thẳng."
+              },
+              {
+                "id": "q10_2",
+                "type": "multiple-choice",
+                "question": "Đường gấp khúc gồm có mấy loại đường nhỏ?",
+                "options": ["Gồm các đoạn thẳng nối tiếp", "Gồm các đường cong", "Gồm các đường tròn", "Gồm các đường xoắn ốc"],
+                "correctAnswer": "Gồm các đoạn thẳng nối tiếp",
+                "explanation": "Đường gấp khúc được tạo thành từ các đoạn thẳng nối tiếp nhau tại các đỉnh."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q10_3",
+                "type": "multiple-choice",
+                "question": "Một đường gấp khúc gồm 3 đoạn thẳng. Hỏi đường gấp khúc đó có mấy đỉnh (điểm gấp)?",
+                "options": ["2 đỉnh", "3 đỉnh", "4 đỉnh", "1 đỉnh"],
+                "correctAnswer": "2 đỉnh",
+                "explanation": "Đường gấp khúc gồm 3 đoạn thẳng sẽ có 2 điểm gấp (đỉnh) ở giữa."
+              },
+              {
+                "id": "q10_4",
+                "type": "multiple-choice",
+                "question": "Chữ cái in hoa nào sau đây chỉ gồm các đoạn thẳng?",
+                "options": ["H", "S", "O", "C"],
+                "correctAnswer": "H",
+                "explanation": "Chữ H gồm 3 đoạn thẳng. Chữ S, O, C đều có đường cong."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q10_5",
+                "type": "multiple-choice",
+                "question": "Tính độ dài đường gấp khúc gồm 3 đoạn thẳng có độ dài lần lượt là: 4cm, 6cm, 5cm.",
+                "options": ["15cm", "10cm", "11cm", "20cm"],
+                "correctAnswer": "15cm",
+                "explanation": "Độ dài đường gấp khúc = tổng các đoạn thẳng = 4 + 6 + 5 = 15cm."
+              },
+              {
+                "id": "q10_6",
+                "type": "multiple-choice",
+                "question": "Một hình tam giác có 3 cạnh. Hình tam giác là đường gấp khúc loại nào?",
+                "options": ["Đường gấp khúc kín", "Đường gấp khúc hở", "Đường thẳng", "Đường cong"],
+                "correctAnswer": "Đường gấp khúc kín",
+                "explanation": "Hình tam giác là đường gấp khúc kín vì điểm đầu trùng với điểm cuối, tạo thành hình khép kín."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-11-hinh-tu-giac-hinh-chu-nhat",
+          "title": "Bài 11: Hình tứ giác, hình chữ nhật",
+          "description": "Nhận biết hình tứ giác, hình chữ nhật và các đặc điểm của chúng.",
+          "theory": {
+            "explanation": "Hình tứ giác là hình có 4 cạnh, 4 đỉnh. Hình chữ nhật là hình tứ giác đặc biệt có 4 góc vuông, hai cạnh dài bằng nhau (chiều dài) và hai cạnh ngắn bằng nhau (chiều rộng). Hình vuông cũng là hình chữ nhật đặc biệt có 4 cạnh bằng nhau. Chu vi hình chữ nhật = (chiều dài + chiều rộng) × 2.",
+            "visualizerType": "ShapeExplorer",
+            "visualizerConfig": {
+              "shapes": ["quadrilateral", "rectangle", "square"]
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q11_1",
+                "type": "multiple-choice",
+                "question": "Hình tứ giác có bao nhiêu cạnh?",
+                "options": ["4 cạnh", "3 cạnh", "5 cạnh", "6 cạnh"],
+                "correctAnswer": "4 cạnh",
+                "explanation": "Từ 'tứ giác' có nghĩa là 4 góc, 4 cạnh."
+              },
+              {
+                "id": "q11_2",
+                "type": "multiple-choice",
+                "question": "Đồ vật nào có dạng hình chữ nhật?",
+                "options": ["Mặt bàn học", "Quả bóng", "Cái nón", "Chiếc lá"],
+                "correctAnswer": "Mặt bàn học",
+                "explanation": "Mặt bàn học thường có dạng hình chữ nhật với 4 góc vuông."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q11_3",
+                "type": "multiple-choice",
+                "question": "Hình chữ nhật khác hình vuông ở điểm nào?",
+                "options": ["Hình chữ nhật có 2 cạnh dài hơn 2 cạnh ngắn", "Hình chữ nhật không có góc vuông", "Hình chữ nhật có 5 cạnh", "Hình chữ nhật không có đỉnh"],
+                "correctAnswer": "Hình chữ nhật có 2 cạnh dài hơn 2 cạnh ngắn",
+                "explanation": "Hình chữ nhật có chiều dài lớn hơn chiều rộng. Hình vuông có 4 cạnh bằng nhau."
+              },
+              {
+                "id": "q11_4",
+                "type": "multiple-choice",
+                "question": "Hình chữ nhật có mấy góc vuông?",
+                "options": ["4 góc vuông", "2 góc vuông", "0 góc vuông", "1 góc vuông"],
+                "correctAnswer": "4 góc vuông",
+                "explanation": "Hình chữ nhật luôn có đủ 4 góc vuông."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q11_5",
+                "type": "multiple-choice",
+                "question": "Chu vi hình chữ nhật có chiều dài 8cm, chiều rộng 5cm là bao nhiêu?",
+                "options": ["26cm", "13cm", "40cm", "18cm"],
+                "correctAnswer": "26cm",
+                "explanation": "Chu vi = (chiều dài + chiều rộng) × 2 = (8 + 5) × 2 = 13 × 2 = 26cm."
+              },
+              {
+                "id": "q11_6",
+                "type": "multiple-choice",
+                "question": "Một sân trường hình chữ nhật có chiều dài 30m, chiều rộng kém chiều dài 10m. Chu vi sân trường là:",
+                "options": ["80m", "100m", "60m", "70m"],
+                "correctAnswer": "100m",
+                "explanation": "Chiều rộng = 30 - 10 = 20m. Chu vi = (chiều dài + chiều rộng) × 2 = (30 + 20) × 2 = 50 × 2 = 100m."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-12-do-dai-xang-ti-met",
+          "title": "Bài 12: Đo độ dài - Xăng-ti-mét",
+          "description": "Nhận biết đơn vị đo độ dài xăng-ti-mét (cm) và cách đo bằng thước.",
+          "theory": {
+            "explanation": "Xăng-ti-mét (viết tắt: cm) là đơn vị đo độ dài. Khi đo độ dài một vật, ta đặt thước sao cho một đầu vật trùng với vạch 0 trên thước, rồi đọc số ở đầu kia của vật. Ví dụ: bút chì dài 15cm nghĩa là từ đầu này đến đầu kia là 15 vạch cm trên thước. 1 mét (m) = 100 xăng-ti-mét (cm). Đề-xi-mét (dm): 1dm = 10cm.",
+            "visualizerType": "RulerVisualizer",
+            "visualizerConfig": {
+              "unit": "cm",
+              "maxLength": 30
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q12_1",
+                "type": "multiple-choice",
+                "question": "cm là viết tắt của đơn vị nào?",
+                "options": ["Xăng-ti-mét", "Mét", "Ki-lô-mét", "Đề-xi-mét"],
+                "correctAnswer": "Xăng-ti-mét",
+                "explanation": "cm là viết tắt của xăng-ti-mét (centimetre)."
+              },
+              {
+                "id": "q12_2",
+                "type": "multiple-choice",
+                "question": "Bút chì dài 18cm. Bút bi dài 15cm. Bút nào dài hơn?",
+                "options": ["Bút chì", "Bút bi", "Dài bằng nhau", "Không so sánh được"],
+                "correctAnswer": "Bút chì",
+                "explanation": "18cm > 15cm nên bút chì dài hơn bút bi."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q12_3",
+                "type": "multiple-choice",
+                "question": "1 dm = ? cm",
+                "options": ["10 cm", "100 cm", "1 cm", "1000 cm"],
+                "correctAnswer": "10 cm",
+                "explanation": "1 đề-xi-mét (dm) bằng 10 xăng-ti-mét (cm)."
+              },
+              {
+                "id": "q12_4",
+                "type": "multiple-choice",
+                "question": "Đoạn thẳng AB dài 12cm, đoạn thẳng CD dài 8cm. Đoạn thẳng AB dài hơn đoạn thẳng CD bao nhiêu cm?",
+                "options": ["4cm", "20cm", "8cm", "12cm"],
+                "correctAnswer": "4cm",
+                "explanation": "Dài hơn: 12 - 8 = 4cm."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q12_5",
+                "type": "multiple-choice",
+                "question": "Một sợi dây dài 50cm. Cắt đi 18cm. Sợi dây còn lại dài bao nhiêu cm?",
+                "options": ["32cm", "68cm", "42cm", "22cm"],
+                "correctAnswer": "32cm",
+                "explanation": "Sợi dây còn lại: 50 - 18 = 32cm."
+              },
+              {
+                "id": "q12_6",
+                "type": "multiple-choice",
+                "question": "3 dm 5 cm = ? cm",
+                "options": ["35cm", "305cm", "53cm", "30cm"],
+                "correctAnswer": "35cm",
+                "explanation": "3 dm = 30 cm. Vậy 3 dm 5 cm = 30 + 5 = 35cm."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chương 5: Phép cộng, phép trừ có nhớ trong phạm vi 100",
+      "lessons": [
+        {
+          "id": "bai-13-phep-cong-co-nho",
+          "title": "Bài 13: Phép cộng (có nhớ) trong phạm vi 100",
+          "description": "Phép cộng có nhớ: khi tổng hàng đơn vị lớn hơn hoặc bằng 10, phải nhớ 1 sang hàng chục.",
+          "theory": {
+            "explanation": "Khi cộng hai số mà tổng các chữ số hàng đơn vị ≥ 10, ta phải 'nhớ' 1 sang hàng chục. Ví dụ: 36 + 27 → Đơn vị: 6+7=13 (viết 3 nhớ 1). Chục: 3+2+1(nhớ)=6 → Kết quả: 63. Cách nhẩm: 36+27 = 36+4+23 = 40+23 = 63 (tách 27 thành 4 và 23 để làm tròn 36 thành 40).",
+            "visualizerType": "ColumnAddition",
+            "visualizerConfig": {
+              "carry": true,
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q13_1",
+                "type": "multiple-choice",
+                "question": "36 + 27 = ?",
+                "options": ["53", "63", "73", "62"],
+                "correctAnswer": "63",
+                "explanation": "Đơn vị: 6+7=13, viết 3 nhớ 1. Chục: 3+2+1=6. Vậy 36+27=63."
+              },
+              {
+                "id": "q13_2",
+                "type": "multiple-choice",
+                "question": "45 + 28 = ?",
+                "options": ["73", "63", "83", "72"],
+                "correctAnswer": "73",
+                "explanation": "Đơn vị: 5+8=13, viết 3 nhớ 1. Chục: 4+2+1=7. Vậy 45+28=73."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q13_3",
+                "type": "multiple-choice",
+                "question": "Sáng bán 38 kg gạo, chiều bán 47 kg gạo. Hỏi cả ngày bán bao nhiêu kg gạo?",
+                "options": ["85 kg", "75 kg", "95 kg", "65 kg"],
+                "correctAnswer": "85 kg",
+                "explanation": "Cả ngày bán: 38 + 47 = 85 kg gạo."
+              },
+              {
+                "id": "q13_4",
+                "type": "multiple-choice",
+                "question": "Tìm x: x + 46 = 83",
+                "options": ["37", "129", "47", "27"],
+                "correctAnswer": "37",
+                "explanation": "x = 83 - 46 = 37."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q13_5",
+                "type": "multiple-choice",
+                "question": "Tính: 28 + 35 + 17 = ?",
+                "options": ["80", "70", "90", "75"],
+                "correctAnswer": "80",
+                "explanation": "28 + 35 = 63. Rồi 63 + 17 = 80."
+              },
+              {
+                "id": "q13_6",
+                "type": "multiple-choice",
+                "question": "Năm nay mẹ 36 tuổi, con kém mẹ 29 tuổi. Hỏi 5 năm sau, tổng số tuổi của hai mẹ con là bao nhiêu?",
+                "options": ["53", "43", "63", "46"],
+                "correctAnswer": "53",
+                "explanation": "Tuổi con năm nay: 36 - 29 = 7. Sau 5 năm: mẹ 41, con 12. Tổng: 41 + 12 = 53."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-14-phep-tru-co-nho",
+          "title": "Bài 14: Phép trừ (có nhớ) trong phạm vi 100",
+          "description": "Phép trừ có nhớ: khi chữ số hàng đơn vị của số bị trừ nhỏ hơn chữ số hàng đơn vị của số trừ.",
+          "theory": {
+            "explanation": "Khi trừ mà chữ số hàng đơn vị của số bị trừ nhỏ hơn chữ số hàng đơn vị của số trừ, ta phải 'mượn' 1 chục (= 10 đơn vị) từ hàng chục. Ví dụ: 63 - 27 → Đơn vị: 3 < 7, mượn 1 chục: 13-7=6. Chục: 6-1(mượn)-2=3 → Kết quả: 36.",
+            "visualizerType": "ColumnAddition",
+            "visualizerConfig": {
+              "carry": true,
+              "mode": "subtract",
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q14_1",
+                "type": "multiple-choice",
+                "question": "63 - 27 = ?",
+                "options": ["36", "46", "26", "34"],
+                "correctAnswer": "36",
+                "explanation": "Đơn vị: 3<7, mượn 1: 13-7=6. Chục: 6-1-2=3. Vậy 63-27=36."
+              },
+              {
+                "id": "q14_2",
+                "type": "multiple-choice",
+                "question": "52 - 18 = ?",
+                "options": ["34", "44", "24", "36"],
+                "correctAnswer": "34",
+                "explanation": "Đơn vị: 2<8, mượn 1: 12-8=4. Chục: 5-1-1=3. Vậy 52-18=34."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q14_3",
+                "type": "multiple-choice",
+                "question": "Trong thư viện có 75 quyển sách, cho mượn 38 quyển. Thư viện còn lại bao nhiêu quyển sách?",
+                "options": ["37", "47", "27", "113"],
+                "correctAnswer": "37",
+                "explanation": "Thư viện còn lại: 75 - 38 = 37 quyển sách."
+              },
+              {
+                "id": "q14_4",
+                "type": "multiple-choice",
+                "question": "Tìm x: 81 - x = 45",
+                "options": ["36", "126", "46", "26"],
+                "correctAnswer": "36",
+                "explanation": "x = 81 - 45 = 36."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q14_5",
+                "type": "multiple-choice",
+                "question": "Tính: 90 - 34 - 28 = ?",
+                "options": ["28", "38", "18", "32"],
+                "correctAnswer": "28",
+                "explanation": "90 - 34 = 56. Rồi 56 - 28 = 28."
+              },
+              {
+                "id": "q14_6",
+                "type": "multiple-choice",
+                "question": "Tìm số có hai chữ số, biết rằng hiệu giữa số đó và 47 bằng 29. Số đó là:",
+                "options": ["76", "18", "66", "86"],
+                "correctAnswer": "76",
+                "explanation": "Gọi số cần tìm là x. Ta có: x - 47 = 29. Suy ra x = 29 + 47 = 76."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-15-luyen-tap-cong-tru-co-nho",
+          "title": "Bài 15: Luyện tập cộng trừ có nhớ",
+          "description": "Luyện tập tổng hợp phép cộng và phép trừ có nhớ trong phạm vi 100.",
+          "theory": {
+            "explanation": "Tổng kết chương: Phép cộng có nhớ: khi tổng hàng đơn vị ≥ 10, viết chữ số hàng đơn vị, nhớ 1 sang hàng chục. Phép trừ có nhớ: khi chữ số hàng đơn vị không đủ trừ, mượn 1 chục (= 10 đơn vị) rồi trừ. Luôn kiểm tra bằng phép ngược: cộng kiểm tra bằng trừ, trừ kiểm tra bằng cộng.",
+            "visualizerType": "ColumnAddition",
+            "visualizerConfig": {
+              "carry": true,
+              "maxValue": 100
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q15_1",
+                "type": "multiple-choice",
+                "question": "57 + 36 = ?",
+                "options": ["93", "83", "73", "91"],
+                "correctAnswer": "93",
+                "explanation": "Đơn vị: 7+6=13, viết 3 nhớ 1. Chục: 5+3+1=9. Vậy 57+36=93."
+              },
+              {
+                "id": "q15_2",
+                "type": "multiple-choice",
+                "question": "71 - 45 = ?",
+                "options": ["26", "36", "16", "34"],
+                "correctAnswer": "26",
+                "explanation": "Đơn vị: 1<5, mượn 1: 11-5=6. Chục: 7-1-4=2. Vậy 71-45=26."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q15_3",
+                "type": "multiple-choice",
+                "question": "Một cửa hàng buổi sáng bán được 47 cái áo, buổi chiều bán được 38 cái áo. Hỏi cả ngày cửa hàng bán được bao nhiêu cái áo?",
+                "options": ["85", "75", "95", "79"],
+                "correctAnswer": "85",
+                "explanation": "Cả ngày bán: 47 + 38 = 85 cái áo."
+              },
+              {
+                "id": "q15_4",
+                "type": "multiple-choice",
+                "question": "Bác Hà có 80 quả trứng, bác bán đi 56 quả. Hỏi bác Hà còn lại bao nhiêu quả trứng?",
+                "options": ["24", "34", "14", "136"],
+                "correctAnswer": "24",
+                "explanation": "Bác Hà còn lại: 80 - 56 = 24 quả trứng."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q15_5",
+                "type": "multiple-choice",
+                "question": "Tính nhanh: 48 + 29 - 37 = ?",
+                "options": ["40", "30", "50", "42"],
+                "correctAnswer": "40",
+                "explanation": "48 + 29 = 77. Rồi 77 - 37 = 40."
+              },
+              {
+                "id": "q15_6",
+                "type": "multiple-choice",
+                "question": "Một đoàn tàu có 64 hành khách. Tại ga A, 28 hành khách xuống và 19 hành khách lên. Hỏi trên tàu có bao nhiêu hành khách?",
+                "options": ["55", "45", "65", "83"],
+                "correctAnswer": "55",
+                "explanation": "Sau ga A: 64 - 28 + 19 = 36 + 19 = 55 hành khách."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
