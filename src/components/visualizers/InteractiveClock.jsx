@@ -91,7 +91,7 @@ export default function InteractiveClock() {
             id="minute-slider"
             type="range"
             min="0"
-            max="59"
+            max="55"
             step="5"
             value={minute}
             onChange={(e) => setMinute(Number(e.target.value))}

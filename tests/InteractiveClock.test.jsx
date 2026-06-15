@@ -15,4 +15,14 @@ describe('InteractiveClock visualizer', () => {
 
     expect(screen.getByTestId('clock-time-text')).toHaveTextContent('10 giờ rưỡi');
   });
+
+  test('verifies standard minute time formatting (e.g. 9 giờ 15 phút)', () => {
+    render(<InteractiveClock />);
+    const hourSlider = screen.getByTestId('hour-slider');
+    fireEvent.change(hourSlider, { target: { value: 9 } });
+    const minuteSlider = screen.getByTestId('minute-slider');
+    fireEvent.change(minuteSlider, { target: { value: 15 } });
+
+    expect(screen.getByTestId('clock-time-text')).toHaveTextContent('9 giờ 15 phút');
+  });
 });
