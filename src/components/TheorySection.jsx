@@ -2,13 +2,16 @@ import React, { useState, useEffect, lazy, Suspense } from 'react';
 
 // Lazy-load visualizers to keep initial bundle small
 const visualizerMap = {
-  NumberLine100: lazy(() => import('./visualizers/NumberLine100')),
-  AddSubVisualizer: lazy(() => import('./visualizers/AddSubVisualizer')),
-  TenFrameVisualizer: lazy(() => import('./visualizers/TenFrameVisualizer')),
-  AdditionTableVisualizer: lazy(() => import('./visualizers/AdditionTableVisualizer')),
-  ColumnAddition: lazy(() => import('./visualizers/ColumnAddition')),
+  BaseTenBlocks: lazy(() => import('./visualizers/BaseTenBlocks')),
+  NumberLine: lazy(() => import('./visualizers/NumberLine')),
+  InteractiveEquation: lazy(() => import('./visualizers/InteractiveEquation')),
+  TenFrames: lazy(() => import('./visualizers/TenFrames')),
+  BalanceScale: lazy(() => import('./visualizers/BalanceScale')),
+  LitreCup: lazy(() => import('./visualizers/LitreCup')),
   ShapeExplorer: lazy(() => import('./visualizers/ShapeExplorer')),
-  RulerVisualizer: lazy(() => import('./visualizers/RulerVisualizer')),
+  ShapeClassifier: lazy(() => import('./visualizers/ShapeClassifier')),
+  InteractiveClock: lazy(() => import('./visualizers/InteractiveClock')),
+  ItemDistributor: lazy(() => import('./visualizers/ItemDistributor')),
 };
 
 export default function TheorySection({
