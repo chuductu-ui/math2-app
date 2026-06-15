@@ -24,28 +24,47 @@ describe('LitreCup visualizer', () => {
     render(<LitreCup />);
     
     // Check initial capacity overlays
-    expect(screen.getByTestId('overlay-1l')).toHaveTextContent('0 L');
-    expect(screen.getByTestId('overlay-2l')).toHaveTextContent('0 L');
-    expect(screen.getByTestId('overlay-5l')).toHaveTextContent('0 L');
+    expect(screen.getByTestId('overlay-1l')).toHaveTextContent('0 l');
+    expect(screen.getByTestId('overlay-2l')).toHaveTextContent('0 l');
+    expect(screen.getByTestId('overlay-5l')).toHaveTextContent('0 l');
     
     // Fill 2L cup and verify overlay
     const fill2L = screen.getByTestId('fill-2l');
     fireEvent.click(fill2L);
-    expect(screen.getByTestId('overlay-2l')).toHaveTextContent('2 L');
+    expect(screen.getByTestId('overlay-2l')).toHaveTextContent('2 l');
     
     // Empty 2L cup and verify overlay
     const empty2L = screen.getByTestId('empty-2l');
     fireEvent.click(empty2L);
-    expect(screen.getByTestId('overlay-2l')).toHaveTextContent('0 L');
+    expect(screen.getByTestId('overlay-2l')).toHaveTextContent('0 l');
 
     // Fill 5L cup and verify overlay
     const fill5L = screen.getByTestId('fill-5l');
     fireEvent.click(fill5L);
-    expect(screen.getByTestId('overlay-5l')).toHaveTextContent('5 L');
+    expect(screen.getByTestId('overlay-5l')).toHaveTextContent('5 l');
     
     // Empty 5L cup and verify overlay
     const empty5L = screen.getByTestId('empty-5l');
     fireEvent.click(empty5L);
-    expect(screen.getByTestId('overlay-5l')).toHaveTextContent('0 L');
+    expect(screen.getByTestId('overlay-5l')).toHaveTextContent('0 l');
+  });
+
+  test('pours multiple cups consecutively and accumulates volume in the tank', () => {
+    render(<LitreCup />);
+    
+    // Fill and pour 1l
+    fireEvent.click(screen.getByTestId('fill-1l'));
+    fireEvent.click(screen.getByTestId('pour-1l'));
+    expect(screen.getByTestId('tank-label')).toHaveTextContent('1 Lít (l)');
+
+    // Fill and pour 2l
+    fireEvent.click(screen.getByTestId('fill-2l'));
+    fireEvent.click(screen.getByTestId('pour-2l'));
+    expect(screen.getByTestId('tank-label')).toHaveTextContent('3 Lít (l)');
+
+    // Fill and pour 5l
+    fireEvent.click(screen.getByTestId('fill-5l'));
+    fireEvent.click(screen.getByTestId('pour-5l'));
+    expect(screen.getByTestId('tank-label')).toHaveTextContent('8 Lít (l)');
   });
 });

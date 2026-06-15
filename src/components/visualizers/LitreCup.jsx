@@ -7,7 +7,8 @@ export default function LitreCup() {
   const [tank, setTank] = useState(0);
 
   const pourIntoTank = (volume, setCup) => {
-    setTank(tank + volume);
+    if (volume <= 0) return; // Guard clause
+    setTank(prev => prev + volume);
     setCup(0);
   };
 
@@ -30,12 +31,26 @@ export default function LitreCup() {
           <div style={styles.cupLabel}>Ca 1 Lít</div>
           <div style={styles.cup1L}>
             <div style={{ ...styles.water, height: `${cup1L * 100}%` }} />
-            <div style={styles.capacityOverlay} data-testid="overlay-1l">{cup1L} L</div>
+            <div style={styles.capacityOverlay} data-testid="overlay-1l">{cup1L} l</div>
           </div>
           <div style={styles.cupButtons}>
             <button style={styles.btn} onClick={() => setCup1L(1)} data-testid="fill-1l">Múc đầy</button>
-            <button style={{ ...styles.btn, backgroundColor: '#fa8c16' }} onClick={() => setCup1L(0)} data-testid="empty-1l">Đổ đi</button>
-            <button style={styles.btn} onClick={() => pourIntoTank(cup1L, setCup1L)} data-testid="pour-1l">Rót vào bể</button>
+            <button 
+              style={{ ...styles.btn, backgroundColor: '#fa8c16', opacity: cup1L === 0 ? 0.5 : 1, cursor: cup1L === 0 ? 'not-allowed' : 'pointer' }} 
+              onClick={() => setCup1L(0)} 
+              disabled={cup1L === 0}
+              data-testid="empty-1l"
+            >
+              Đổ đi
+            </button>
+            <button 
+              style={{ ...styles.btn, opacity: cup1L === 0 ? 0.5 : 1, cursor: cup1L === 0 ? 'not-allowed' : 'pointer' }} 
+              onClick={() => pourIntoTank(cup1L, setCup1L)} 
+              disabled={cup1L === 0}
+              data-testid="pour-1l"
+            >
+              Rót vào bể
+            </button>
           </div>
         </div>
 
@@ -44,12 +59,26 @@ export default function LitreCup() {
           <div style={styles.cupLabel}>Ca 2 Lít</div>
           <div style={styles.cup2L}>
             <div style={{ ...styles.water, height: `${(cup2L / 2) * 100}%` }} />
-            <div style={styles.capacityOverlay} data-testid="overlay-2l">{cup2L} L</div>
+            <div style={styles.capacityOverlay} data-testid="overlay-2l">{cup2L} l</div>
           </div>
           <div style={styles.cupButtons}>
             <button style={styles.btn} onClick={() => setCup2L(2)} data-testid="fill-2l">Múc đầy</button>
-            <button style={{ ...styles.btn, backgroundColor: '#fa8c16' }} onClick={() => setCup2L(0)} data-testid="empty-2l">Đổ đi</button>
-            <button style={styles.btn} onClick={() => pourIntoTank(cup2L, setCup2L)} data-testid="pour-2l">Rót vào bể</button>
+            <button 
+              style={{ ...styles.btn, backgroundColor: '#fa8c16', opacity: cup2L === 0 ? 0.5 : 1, cursor: cup2L === 0 ? 'not-allowed' : 'pointer' }} 
+              onClick={() => setCup2L(0)} 
+              disabled={cup2L === 0}
+              data-testid="empty-2l"
+            >
+              Đổ đi
+            </button>
+            <button 
+              style={{ ...styles.btn, opacity: cup2L === 0 ? 0.5 : 1, cursor: cup2L === 0 ? 'not-allowed' : 'pointer' }} 
+              onClick={() => pourIntoTank(cup2L, setCup2L)} 
+              disabled={cup2L === 0}
+              data-testid="pour-2l"
+            >
+              Rót vào bể
+            </button>
           </div>
         </div>
 
@@ -58,12 +87,26 @@ export default function LitreCup() {
           <div style={styles.cupLabel}>Ca 5 Lít</div>
           <div style={styles.cup5L}>
             <div style={{ ...styles.water, height: `${(cup5L / 5) * 100}%` }} />
-            <div style={styles.capacityOverlay} data-testid="overlay-5l">{cup5L} L</div>
+            <div style={styles.capacityOverlay} data-testid="overlay-5l">{cup5L} l</div>
           </div>
           <div style={styles.cupButtons}>
             <button style={styles.btn} onClick={() => setCup5L(5)} data-testid="fill-5l">Múc đầy</button>
-            <button style={{ ...styles.btn, backgroundColor: '#fa8c16' }} onClick={() => setCup5L(0)} data-testid="empty-5l">Đổ đi</button>
-            <button style={styles.btn} onClick={() => pourIntoTank(cup5L, setCup5L)} data-testid="pour-5l">Rót vào bể</button>
+            <button 
+              style={{ ...styles.btn, backgroundColor: '#fa8c16', opacity: cup5L === 0 ? 0.5 : 1, cursor: cup5L === 0 ? 'not-allowed' : 'pointer' }} 
+              onClick={() => setCup5L(0)} 
+              disabled={cup5L === 0}
+              data-testid="empty-5l"
+            >
+              Đổ đi
+            </button>
+            <button 
+              style={{ ...styles.btn, opacity: cup5L === 0 ? 0.5 : 1, cursor: cup5L === 0 ? 'not-allowed' : 'pointer' }} 
+              onClick={() => pourIntoTank(cup5L, setCup5L)} 
+              disabled={cup5L === 0}
+              data-testid="pour-5l"
+            >
+              Rót vào bể
+            </button>
           </div>
         </div>
       </div>
