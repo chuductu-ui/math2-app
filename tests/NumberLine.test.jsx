@@ -34,12 +34,26 @@ describe('NumberLine visualizer', () => {
     fireEvent.mouseMove(window, { clientX: 30 });
     expect(screen.getByTestId('selected-number')).toHaveTextContent('0');
 
-    // Drag to touch (simulate TouchMove) at clientX = 80 (tick 2 center is 10 + 40 + 20 + 10 = 80px)
+    // MouseUp to finish dragging
+    fireEvent.mouseUp(window);
+
+    // MouseMove after mouseUp should not update anything (isDragging is false)
+    fireEvent.mouseMove(window, { clientX: 60 });
+    expect(screen.getByTestId('selected-number')).toHaveTextContent('0');
+
+    // Drag to touch (simulate TouchStart + TouchMove) at clientX = 80 (tick 2 center is 10 + 40 + 20 + 10 = 80px)
     fireEvent.touchStart(lineContainer, { touches: [{ clientX: 80 }] });
     expect(screen.getByTestId('selected-number')).toHaveTextContent('2');
 
     // TouchMove to clientX = 60
     fireEvent.touchMove(window, { touches: [{ clientX: 60 }] });
+    expect(screen.getByTestId('selected-number')).toHaveTextContent('1');
+
+    // TouchEnd to finish touch dragging
+    fireEvent.touchEnd(window);
+
+    // TouchMove after touchEnd should not update anything
+    fireEvent.touchMove(window, { touches: [{ clientX: 80 }] });
     expect(screen.getByTestId('selected-number')).toHaveTextContent('1');
   });
 });

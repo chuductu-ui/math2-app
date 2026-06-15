@@ -6,52 +6,53 @@ function getColor(n) {
   return COLORS[n % COLORS.length];
 }
 
+const getTickCenter = (index) => {
+  let offset = 10; // paddingLeft of ticksRow is 10px
+  for (let j = 0; j < index; j++) {
+    offset += (j % 10 === 0) ? 40 : 20;
+  }
+  offset += (index % 10 === 0) ? 20 : 10; // half of the tick's width
+  return offset;
+};
+
+const getClosestTickIndex = (x) => {
+  let currentOffset = 10; // paddingLeft
+  let closestIndex = 0;
+  let minDiff = Infinity;
+  
+  for (let i = 0; i <= 100; i++) {
+    const width = (i % 10 === 0) ? 40 : 20;
+    const center = currentOffset + width / 2;
+    const diff = Math.abs(x - center);
+    if (diff < minDiff) {
+      minDiff = diff;
+      closestIndex = i;
+    }
+    currentOffset += width;
+  }
+  return closestIndex;
+};
+
 export default function NumberLine({ config = {} }) {
   const [selected, setSelected] = useState(config.defaultValue ?? 10);
   const [isDragging, setIsDragging] = useState(false);
   const scrollRef = useRef(null);
   const selectedRef = useRef(null);
   const ticksRowRef = useRef(null);
+  const trackRectRef = useRef(null);
 
   useEffect(() => {
+    if (isDragging) return; // Don't scroll while dragging
     if (selectedRef.current && typeof selectedRef.current.scrollIntoView === 'function') {
       selectedRef.current.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
     }
-  }, [selected]);
+  }, [selected, isDragging]);
 
   const numbers = Array.from({ length: 101 }, (_, i) => i);
 
-  const getTickCenter = (index) => {
-    let offset = 10; // paddingLeft of ticksRow is 10px
-    for (let j = 0; j < index; j++) {
-      offset += (j % 10 === 0) ? 40 : 20;
-    }
-    offset += (index % 10 === 0) ? 20 : 10; // half of the tick's width
-    return offset;
-  };
-
-  const getClosestTickIndex = (x) => {
-    let currentOffset = 10; // paddingLeft
-    let closestIndex = 0;
-    let minDiff = Infinity;
-    
-    for (let i = 0; i <= 100; i++) {
-      const width = (i % 10 === 0) ? 40 : 20;
-      const center = currentOffset + width / 2;
-      const diff = Math.abs(x - center);
-      if (diff < minDiff) {
-        minDiff = diff;
-        closestIndex = i;
-      }
-      currentOffset += width;
-    }
-    return closestIndex;
-  };
-
   const handleDrag = useCallback((clientX) => {
-    if (!ticksRowRef.current) return;
-    const rect = ticksRowRef.current.getBoundingClientRect();
-    const relativeX = clientX - rect.left;
+    if (!trackRectRef.current) return;
+    const relativeX = clientX - trackRectRef.current.left;
     const closestIndex = getClosestTickIndex(relativeX);
     setSelected(closestIndex);
   }, []);
@@ -59,12 +60,18 @@ export default function NumberLine({ config = {} }) {
   const handleMouseDown = (e) => {
     if (e.button !== 0) return; // Only left click
     e.preventDefault();
+    if (ticksRowRef.current) {
+      trackRectRef.current = ticksRowRef.current.getBoundingClientRect();
+    }
     setIsDragging(true);
     handleDrag(e.clientX);
   };
 
   const handleTouchStart = (e) => {
     if (e.touches.length > 0) {
+      if (ticksRowRef.current) {
+        trackRectRef.current = ticksRowRef.current.getBoundingClientRect();
+      }
       setIsDragging(true);
       handleDrag(e.touches[0].clientX);
     }
@@ -96,12 +103,14 @@ export default function NumberLine({ config = {} }) {
     window.addEventListener('mouseup', handleMouseUp);
     window.addEventListener('touchmove', handleTouchMove, { passive: false });
     window.addEventListener('touchend', handleTouchEnd);
+    window.addEventListener('touchcancel', handleTouchEnd);
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('mouseup', handleMouseUp);
       window.removeEventListener('touchmove', handleTouchMove);
       window.removeEventListener('touchend', handleTouchEnd);
+      window.removeEventListener('touchcancel', handleTouchEnd);
     };
   }, [isDragging, handleDrag]);
 
@@ -209,7 +218,7 @@ const styles = {
   neighborPanel: { display: 'flex', gap: '10px', marginTop: '10px' },
   neighborBtn: { padding: '8px 12px', border: '1px solid #ccc', borderRadius: '6px', cursor: 'pointer', backgroundColor: '#f5f5f5' },
   scrollContainer: { overflowX: 'auto', padding: '10px 0' },
-  lineContainer: { position: 'relative', display: 'inline-flex', alignItems: 'flex-end', paddingBottom: '20px' },
+  lineContainer: { position: 'relative', display: 'inline-flex', alignItems: 'flex-end', paddingBottom: '20px', touchAction: 'none' },
   mainLine: { position: 'absolute', bottom: '30px', left: 0, right: 0, height: '4px', backgroundColor: '#1890FF' },
   arrow: { position: 'absolute', bottom: '24px', right: '-10px', color: '#1890FF', fontSize: '14px' },
   ticksRow: { display: 'flex', alignItems: 'flex-end', paddingLeft: '10px', paddingRight: '20px' },
@@ -223,5 +232,6 @@ const styles = {
     fontSize: '24px',
     userSelect: 'none',
     zIndex: 10,
+    touchAction: 'none',
   },
 };
