@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 
 const COLORS = ['#FF6B6B', '#FF8E53', '#FFC53D', '#52C41A', '#13C2C2', '#1890FF', '#722ED1'];
 
@@ -8,8 +8,10 @@ function getColor(n) {
 
 export default function NumberLine({ config = {} }) {
   const [selected, setSelected] = useState(config.defaultValue ?? 10);
+  const [isDragging, setIsDragging] = useState(false);
   const scrollRef = useRef(null);
   const selectedRef = useRef(null);
+  const ticksRowRef = useRef(null);
 
   useEffect(() => {
     if (selectedRef.current && typeof selectedRef.current.scrollIntoView === 'function') {
@@ -18,6 +20,90 @@ export default function NumberLine({ config = {} }) {
   }, [selected]);
 
   const numbers = Array.from({ length: 101 }, (_, i) => i);
+
+  const getTickCenter = (index) => {
+    let offset = 10; // paddingLeft of ticksRow is 10px
+    for (let j = 0; j < index; j++) {
+      offset += (j % 10 === 0) ? 40 : 20;
+    }
+    offset += (index % 10 === 0) ? 20 : 10; // half of the tick's width
+    return offset;
+  };
+
+  const getClosestTickIndex = (x) => {
+    let currentOffset = 10; // paddingLeft
+    let closestIndex = 0;
+    let minDiff = Infinity;
+    
+    for (let i = 0; i <= 100; i++) {
+      const width = (i % 10 === 0) ? 40 : 20;
+      const center = currentOffset + width / 2;
+      const diff = Math.abs(x - center);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestIndex = i;
+      }
+      currentOffset += width;
+    }
+    return closestIndex;
+  };
+
+  const handleDrag = useCallback((clientX) => {
+    if (!ticksRowRef.current) return;
+    const rect = ticksRowRef.current.getBoundingClientRect();
+    const relativeX = clientX - rect.left;
+    const closestIndex = getClosestTickIndex(relativeX);
+    setSelected(closestIndex);
+  }, []);
+
+  const handleMouseDown = (e) => {
+    if (e.button !== 0) return; // Only left click
+    e.preventDefault();
+    setIsDragging(true);
+    handleDrag(e.clientX);
+  };
+
+  const handleTouchStart = (e) => {
+    if (e.touches.length > 0) {
+      setIsDragging(true);
+      handleDrag(e.touches[0].clientX);
+    }
+  };
+
+  useEffect(() => {
+    if (!isDragging) return;
+
+    const handleMouseMove = (e) => {
+      handleDrag(e.clientX);
+    };
+
+    const handleMouseUp = () => {
+      setIsDragging(false);
+    };
+
+    const handleTouchMove = (e) => {
+      if (e.touches.length > 0) {
+        if (e.cancelable) e.preventDefault();
+        handleDrag(e.touches[0].clientX);
+      }
+    };
+
+    const handleTouchEnd = () => {
+      setIsDragging(false);
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseup', handleMouseUp);
+    window.addEventListener('touchmove', handleTouchMove, { passive: false });
+    window.addEventListener('touchend', handleTouchEnd);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+      window.removeEventListener('touchmove', handleTouchMove);
+      window.removeEventListener('touchend', handleTouchEnd);
+    };
+  }, [isDragging, handleDrag]);
 
   return (
     <div style={styles.wrapper} data-testid="numberline-visualizer">
@@ -48,11 +134,29 @@ export default function NumberLine({ config = {} }) {
       )}
 
       <div style={styles.scrollContainer} ref={scrollRef}>
-        <div style={styles.lineContainer}>
+        <div
+          style={styles.lineContainer}
+          onMouseDown={handleMouseDown}
+          onTouchStart={handleTouchStart}
+          data-testid="line-container"
+        >
           <div style={styles.mainLine} />
           <div style={styles.arrow}>▶</div>
 
-          <div style={styles.ticksRow}>
+          {/* Draggable pointer */}
+          <div
+            style={{
+              ...styles.draggablePointer,
+              left: `${getTickCenter(selected)}px`,
+              transition: isDragging ? 'none' : 'left 0.1s ease-out',
+              cursor: isDragging ? 'grabbing' : 'grab',
+            }}
+            data-testid="draggable-pointer"
+          >
+            🐰
+          </div>
+
+          <div style={styles.ticksRow} ref={ticksRowRef}>
             {numbers.map((n) => {
               const isMajor = n % 10 === 0;
               const isSelected = selected === n;
@@ -112,4 +216,12 @@ const styles = {
   tickGroup: { display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer', flexShrink: 0 },
   tickLine: { transition: 'all 0.2s' },
   label: { fontSize: '12px', marginTop: '4px' },
+  draggablePointer: {
+    position: 'absolute',
+    bottom: '34px',
+    transform: 'translateX(-50%)',
+    fontSize: '24px',
+    userSelect: 'none',
+    zIndex: 10,
+  },
 };
