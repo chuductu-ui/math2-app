@@ -1,11 +1,18 @@
 import { useState } from 'react';
 
-export default function InteractiveEquation() {
+export default function InteractiveEquation({ config = {} }) {
   const [selectedTerm, setSelectedTerm] = useState(null);
-  const [eqMode, setEqMode] = useState('add'); // add | sub
+  const [eqMode, setEqMode] = useState(config.mode || 'add'); // add | sub
 
   const handleSelect = (term, vnName, desc) => {
     setSelectedTerm({ term, vnName, desc });
+  };
+
+  const handleKeyDown = (e, term, vnName, desc) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      handleSelect(term, vnName, desc);
+    }
   };
 
   return (
@@ -33,16 +40,23 @@ export default function InteractiveEquation() {
         {eqMode === 'add' ? (
           <>
             <span
-              style={{ ...styles.term, color: '#52C41A' }}
+              style={{ ...styles.term, color: '#389E0D' }}
               onClick={() => handleSelect('12', 'Số hạng', 'Số đứng trong phép cộng để tính tổng.')}
+              onKeyDown={(e) => handleKeyDown(e, '12', 'Số hạng', 'Số đứng trong phép cộng để tính tổng.')}
               data-testid="term-add-a"
+              role="button"
+              tabIndex={0}
             >
               12
             </span>
             <span style={styles.symbol}>+</span>
             <span
-              style={{ ...styles.term, color: '#13C2C2' }}
+              style={{ ...styles.term, color: '#08979C' }}
               onClick={() => handleSelect('5', 'Số hạng', 'Số đứng trong phép cộng để tính tổng.')}
+              onKeyDown={(e) => handleKeyDown(e, '5', 'Số hạng', 'Số đứng trong phép cộng để tính tổng.')}
+              data-testid="term-add-b"
+              role="button"
+              tabIndex={0}
             >
               5
             </span>
@@ -50,7 +64,10 @@ export default function InteractiveEquation() {
             <span
               style={{ ...styles.term, color: '#722ED1' }}
               onClick={() => handleSelect('17', 'Tổng', 'Kết quả thu được sau khi thực hiện phép cộng.')}
+              onKeyDown={(e) => handleKeyDown(e, '17', 'Tổng', 'Kết quả thu được sau khi thực hiện phép cộng.')}
               data-testid="term-add-sum"
+              role="button"
+              tabIndex={0}
             >
               17
             </span>
@@ -58,24 +75,34 @@ export default function InteractiveEquation() {
         ) : (
           <>
             <span
-              style={{ ...styles.term, color: '#FF4D4F' }}
+              style={{ ...styles.term, color: '#D32029' }}
               onClick={() => handleSelect('25', 'Số bị trừ', 'Số đứng trước dấu trừ, bị bớt đi một lượng.')}
+              onKeyDown={(e) => handleKeyDown(e, '25', 'Số bị trừ', 'Số đứng trước dấu trừ, bị bớt đi một lượng.')}
               data-testid="term-sub-a"
+              role="button"
+              tabIndex={0}
             >
               25
             </span>
             <span style={styles.symbol}>-</span>
             <span
-              style={{ ...styles.term, color: '#FA8C16' }}
+              style={{ ...styles.term, color: '#D46B08' }}
               onClick={() => handleSelect('5', 'Số trừ', 'Số đứng sau dấu trừ, là lượng bớt đi.')}
+              onKeyDown={(e) => handleKeyDown(e, '5', 'Số trừ', 'Số đứng sau dấu trừ, là lượng bớt đi.')}
+              data-testid="term-sub-b"
+              role="button"
+              tabIndex={0}
             >
               5
             </span>
             <span style={styles.symbol}>=</span>
             <span
-              style={{ ...styles.term, color: '#EB2F96' }}
+              style={{ ...styles.term, color: '#C41D7F' }}
               onClick={() => handleSelect('20', 'Hiệu', 'Kết quả thu được sau khi thực hiện phép trừ.')}
+              onKeyDown={(e) => handleKeyDown(e, '20', 'Hiệu', 'Kết quả thu được sau khi thực hiện phép trừ.')}
               data-testid="term-sub-diff"
+              role="button"
+              tabIndex={0}
             >
               20
             </span>
@@ -108,3 +135,4 @@ const styles = {
   infoBox: { padding: '15px', border: '1px solid #e8e8e8', borderRadius: '8px', backgroundColor: '#fafafa', minHeight: '80px', textAlign: 'center' },
   badge: { backgroundColor: '#1890FF', color: '#fff', padding: '2px 8px', borderRadius: '12px', fontSize: '14px', marginLeft: '6px' }
 };
+
