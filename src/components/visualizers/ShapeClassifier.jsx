@@ -13,11 +13,14 @@ export default function ShapeClassifier() {
   const [items, setItems] = useState(SHAPES);
   const [sphereBox, setSphereBox] = useState([]);
   const [cylinderBox, setCylinderBox] = useState([]);
-  const [feedback, setFeedback] = useState('');
+  const [feedback, setFeedback] = useState(null);
 
   const classify = (item, targetType) => {
     if (item.type === targetType) {
-      setFeedback(`🎉 Đúng rồi! ${item.name} là khối ${targetType === 'sphere' ? 'cầu' : 'trụ'}.`);
+      setFeedback({
+        text: `🎉 Đúng rồi! ${item.name} là khối ${targetType === 'sphere' ? 'cầu' : 'trụ'}.`,
+        isCorrect: true
+      });
       setItems(items.filter(i => i.id !== item.id));
       if (targetType === 'sphere') {
         setSphereBox([...sphereBox, item]);
@@ -25,7 +28,10 @@ export default function ShapeClassifier() {
         setCylinderBox([...cylinderBox, item]);
       }
     } else {
-      setFeedback(`😢 Sai rồi! Hãy suy nghĩ kỹ xem ${item.name} có hình gì nhé.`);
+      setFeedback({
+        text: `😢 Sai rồi! Hãy suy nghĩ kỹ xem ${item.name} có hình gì nhé.`,
+        isCorrect: false
+      });
     }
   };
 
@@ -33,15 +39,27 @@ export default function ShapeClassifier() {
     setItems(SHAPES);
     setSphereBox([]);
     setCylinderBox([]);
-    setFeedback('');
+    setFeedback(null);
   };
 
   return (
     <div style={styles.wrapper} data-testid="shapeclassifier-visualizer">
       <h3 style={styles.title}>📦 Phân loại khối hình</h3>
-      <p style={styles.help}>Bé hãy bấm vào các vật bên dưới để chọn hộp phân loại tương ứng nhé!</p>
+      <p style={styles.help}>Bé hãy bấm vào các nút bên dưới mỗi vật để xếp vào hộp cho đúng nhé!</p>
 
-      {feedback && <div style={styles.feedback} data-testid="classifier-feedback">{feedback}</div>}
+      {feedback && (
+        <div
+          style={{
+            ...styles.feedback,
+            backgroundColor: feedback.isCorrect ? '#F6FFED' : '#FFF0F6',
+            borderColor: feedback.isCorrect ? '#B7EB8F' : '#FFADD2',
+            color: feedback.isCorrect ? '#389E0D' : '#CF1322',
+          }}
+          data-testid="classifier-feedback"
+        >
+          {feedback.text}
+        </div>
+      )}
 
       {/* Unclassified Items */}
       <div style={styles.itemsPool}>
@@ -94,7 +112,7 @@ const styles = {
   wrapper: { padding: '20px', backgroundColor: '#fff', borderRadius: '12px', border: '2px solid #ddd', textAlign: 'center' },
   title: { margin: '0 0 10px', color: '#722ED1' },
   help: { color: '#8c8c8c', marginBottom: '15px' },
-  feedback: { padding: '10px', backgroundColor: '#e6f7ff', border: '1px solid #91d5ff', borderRadius: '6px', marginBottom: '15px', display: 'inline-block' },
+  feedback: { padding: '10px', border: '1px solid', borderRadius: '6px', marginBottom: '15px', display: 'inline-block' },
   itemsPool: { display: 'flex', flexWrap: 'wrap', gap: '15px', justifyContent: 'center', margin: '20px 0' },
   itemCard: { border: '1px solid #ccc', padding: '10px', borderRadius: '8px', backgroundColor: '#fafafa', display: 'flex', flexDirection: 'column', alignItems: 'center' },
   actionRow: { display: 'flex', gap: '6px', marginTop: '8px' },
