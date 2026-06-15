@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 
 // Lazy-load visualizers to keep initial bundle small
 const visualizerMap = {
@@ -27,9 +27,11 @@ export default function TheorySection({
   useEffect(() => {
     if (hearts < maxHearts) {
       recoverHearts();
-      setHeartsRecovered(true);
+      setTimeout(() => {
+        setHeartsRecovered(true);
+      }, 0);
     }
-  }, []); // Run once on mount
+  }, [hearts, maxHearts, recoverHearts]);
 
   const theory = lesson.theory;
   const VisualizerComponent = theory?.visualizerType
