@@ -30,9 +30,11 @@ export default function LitreCup() {
           <div style={styles.cupLabel}>Ca 1 Lít</div>
           <div style={styles.cup1L}>
             <div style={{ ...styles.water, height: `${cup1L * 100}%` }} />
+            <div style={styles.capacityOverlay} data-testid="overlay-1l">{cup1L} L</div>
           </div>
           <div style={styles.cupButtons}>
             <button style={styles.btn} onClick={() => setCup1L(1)} data-testid="fill-1l">Múc đầy</button>
+            <button style={{ ...styles.btn, backgroundColor: '#fa8c16' }} onClick={() => setCup1L(0)} data-testid="empty-1l">Đổ đi</button>
             <button style={styles.btn} onClick={() => pourIntoTank(cup1L, setCup1L)} data-testid="pour-1l">Rót vào bể</button>
           </div>
         </div>
@@ -42,10 +44,12 @@ export default function LitreCup() {
           <div style={styles.cupLabel}>Ca 2 Lít</div>
           <div style={styles.cup2L}>
             <div style={{ ...styles.water, height: `${(cup2L / 2) * 100}%` }} />
+            <div style={styles.capacityOverlay} data-testid="overlay-2l">{cup2L} L</div>
           </div>
           <div style={styles.cupButtons}>
-            <button style={styles.btn} onClick={() => setCup2L(2)}>Múc đầy</button>
-            <button style={styles.btn} onClick={() => pourIntoTank(cup2L, setCup2L)}>Rót vào bể</button>
+            <button style={styles.btn} onClick={() => setCup2L(2)} data-testid="fill-2l">Múc đầy</button>
+            <button style={{ ...styles.btn, backgroundColor: '#fa8c16' }} onClick={() => setCup2L(0)} data-testid="empty-2l">Đổ đi</button>
+            <button style={styles.btn} onClick={() => pourIntoTank(cup2L, setCup2L)} data-testid="pour-2l">Rót vào bể</button>
           </div>
         </div>
 
@@ -54,10 +58,12 @@ export default function LitreCup() {
           <div style={styles.cupLabel}>Ca 5 Lít</div>
           <div style={styles.cup5L}>
             <div style={{ ...styles.water, height: `${(cup5L / 5) * 100}%` }} />
+            <div style={styles.capacityOverlay} data-testid="overlay-5l">{cup5L} L</div>
           </div>
           <div style={styles.cupButtons}>
-            <button style={styles.btn} onClick={() => setCup5L(5)}>Múc đầy</button>
-            <button style={styles.btn} onClick={() => pourIntoTank(cup5L, setCup5L)}>Rót vào bể</button>
+            <button style={styles.btn} onClick={() => setCup5L(5)} data-testid="fill-5l">Múc đầy</button>
+            <button style={{ ...styles.btn, backgroundColor: '#fa8c16' }} onClick={() => setCup5L(0)} data-testid="empty-5l">Đổ đi</button>
+            <button style={styles.btn} onClick={() => pourIntoTank(cup5L, setCup5L)} data-testid="pour-5l">Rót vào bể</button>
           </div>
         </div>
       </div>
@@ -86,6 +92,7 @@ const styles = {
   cup2L: { width: '50px', height: '70px', border: '2px solid #333', borderTop: 'none', borderRadius: '0 0 8px 8px', position: 'relative', overflow: 'hidden', backgroundColor: '#fafafa' },
   cup5L: { width: '70px', height: '90px', border: '2px solid #333', borderTop: 'none', borderRadius: '0 0 12px 12px', position: 'relative', overflow: 'hidden', backgroundColor: '#fafafa' },
   water: { position: 'absolute', bottom: 0, left: 0, right: 0, backgroundColor: '#1890FF', transition: 'height 0.4s ease' },
+  capacityOverlay: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '12px', color: '#000', textShadow: '1px 1px 2px #fff', pointerEvents: 'none' },
   cupButtons: { display: 'flex', flexDirection: 'column', gap: '4px', marginTop: '10px' },
   btn: { padding: '4px 8px', backgroundColor: '#13C2C2', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '12px' },
   tankSection: { display: 'flex', flexDirection: 'column', alignItems: 'center' },
