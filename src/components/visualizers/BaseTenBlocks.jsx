@@ -10,7 +10,29 @@ export default function BaseTenBlocks({ config = {} }) {
   const [multA, setMultA] = useState(defaultA);
   const [multB, setMultB] = useState(defaultB);
 
-  const targetVal = mode === 'split' ? value : multA * multB;
+  const parseVal = (val, minVal, maxVal) => {
+    if (val === "" || val === undefined || val === null) return 0;
+    const num = Math.round(Number(val));
+    if (isNaN(num)) return 0;
+    return Math.max(minVal, Math.min(maxVal, num));
+  };
+
+  const handleBlur = (setter, val, minVal, maxVal) => {
+    if (val === "" || val === undefined || val === null) {
+      setter(minVal);
+    } else {
+      const num = Math.round(Number(val));
+      if (isNaN(num)) {
+        setter(minVal);
+      } else {
+        setter(Math.max(minVal, Math.min(maxVal, num)));
+      }
+    }
+  };
+
+  const targetVal = mode === 'split' 
+    ? parseVal(value, 0, 199) 
+    : parseVal(multA, 1, 10) * parseVal(multB, 1, 10);
 
   const hundreds = Math.floor(targetVal / 100);
   const remainder = targetVal % 100;
@@ -30,7 +52,8 @@ export default function BaseTenBlocks({ config = {} }) {
             min="0"
             max="199"
             value={value}
-            onChange={(e) => setValue(Math.max(0, Math.min(199, Number(e.target.value))))}
+            onChange={(e) => setValue(e.target.value)}
+            onBlur={() => handleBlur(setValue, value, 0, 199)}
             style={styles.input}
             data-testid="block-input"
           />
@@ -44,7 +67,8 @@ export default function BaseTenBlocks({ config = {} }) {
             min="1"
             max="10"
             value={multA}
-            onChange={(e) => setMultA(Math.max(1, Math.min(10, Number(e.target.value))))}
+            onChange={(e) => setMultA(e.target.value)}
+            onBlur={() => handleBlur(setMultA, multA, 1, 10)}
             style={styles.input}
             data-testid="multA-input"
           />
@@ -55,7 +79,8 @@ export default function BaseTenBlocks({ config = {} }) {
             min="1"
             max="10"
             value={multB}
-            onChange={(e) => setMultB(Math.max(1, Math.min(10, Number(e.target.value))))}
+            onChange={(e) => setMultB(e.target.value)}
+            onBlur={() => handleBlur(setMultB, multB, 1, 10)}
             style={styles.input}
             data-testid="multB-input"
           />
@@ -74,28 +99,32 @@ export default function BaseTenBlocks({ config = {} }) {
         {Array.from({ length: hundreds }).map((_, i) => (
           <div key={`h-${i}`} style={styles.hundredBlock} title="1 Trăm (10x10)">
             {Array.from({ length: 100 }).map((_, j) => (
-              <div key={j} style={styles.unitSquare} />
+              <div key={j} style={styles.hundredUnitSquare} />
             ))}
           </div>
         ))}
 
         {/* Tens blocks */}
-        <div style={styles.tensContainer}>
-          {Array.from({ length: tens }).map((_, i) => (
-            <div key={`t-${i}`} style={styles.tenBlock} title="1 Chục (1x10)">
-              {Array.from({ length: 10 }).map((_, j) => (
-                <div key={j} style={styles.unitSquare} />
-              ))}
-            </div>
-          ))}
-        </div>
+        {tens > 0 && (
+          <div style={styles.tensContainer}>
+            {Array.from({ length: tens }).map((_, i) => (
+              <div key={`t-${i}`} style={styles.tenBlock} title="1 Chục (1x10)">
+                {Array.from({ length: 10 }).map((_, j) => (
+                  <div key={j} style={styles.tenUnitSquare} />
+                ))}
+              </div>
+            ))}
+          </div>
+        )}
 
         {/* Units blocks */}
-        <div style={styles.unitsContainer}>
-          {Array.from({ length: units }).map((_, i) => (
-            <div key={`u-${i}`} style={{ ...styles.unitSquare, border: '1px solid #d4b106', backgroundColor: '#FFD666' }} title="1 Đơn vị" />
-          ))}
-        </div>
+        {units > 0 && (
+          <div style={styles.unitsContainer}>
+            {Array.from({ length: units }).map((_, i) => (
+              <div key={`u-${i}`} style={styles.unitBlock} title="1 Đơn vị" />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -108,9 +137,12 @@ const styles = {
   input: { width: '60px', padding: '6px', fontSize: '14px', borderRadius: '4px', border: '1px solid #ccc' },
   summary: { textAlign: 'center', marginBottom: '20px', fontWeight: 'bold', fontSize: '16px' },
   grid: { display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', alignItems: 'flex-start' },
-  hundredBlock: { display: 'grid', gridTemplateColumns: 'repeat(10, 8px)', gap: '1px', padding: '2px', backgroundColor: '#52C41A', borderRadius: '4px' },
-  tenBlock: { display: 'grid', gridTemplateRows: 'repeat(10, 8px)', gap: '1px', padding: '2px', backgroundColor: '#FF8E53', borderRadius: '4px' },
+  hundredBlock: { display: 'grid', gridTemplateColumns: 'repeat(10, 8px)', gap: '1px', padding: '2px', backgroundColor: '#52C41A', borderRadius: '4px', border: '1px solid #52C41A' },
+  hundredUnitSquare: { width: '8px', height: '8px', backgroundColor: '#B7EB8F', border: 'none' },
+  tenBlock: { display: 'grid', gridTemplateRows: 'repeat(10, 8px)', gap: '1px', padding: '2px', backgroundColor: '#FF8E53', borderRadius: '4px', border: '1px solid #FF8E53' },
+  tenUnitSquare: { width: '8px', height: '8px', backgroundColor: '#FFBB96', border: 'none' },
   tensContainer: { display: 'flex', gap: '4px' },
   unitsContainer: { display: 'flex', flexWrap: 'wrap', gap: '4px', maxWidth: '80px' },
-  unitSquare: { width: '8px', height: '8px', backgroundColor: '#fff', border: '1px solid #ccc' }
+  unitBlock: { width: '8px', height: '8px', backgroundColor: '#FFD666', border: '1px solid #d4b106', borderRadius: '2px' }
 };
+
