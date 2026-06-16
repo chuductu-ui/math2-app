@@ -123,7 +123,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px; /* Increased from 16px for better readability */
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
 }
@@ -1918,6 +1918,10 @@ a {
 
 /* ── Tablets (768px+) ─── */
 @media (min-width: 768px) {
+  html {
+    font-size: 20px; /* Scale font size on iPad/Tablets */
+  }
+
   .app-header {
     padding: var(--space-md) var(--space-xl);
     min-height: 64px;
@@ -2012,6 +2016,10 @@ a {
 
 /* ── Desktop (1024px+) ─── */
 @media (min-width: 1024px) {
+  html {
+    font-size: 21px; /* Scale font size on desktop */
+  }
+
   .quest-path {
     max-width: 520px;
   }

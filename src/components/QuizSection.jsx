@@ -116,11 +116,13 @@ export default function QuizSection({
   if (gameOver) {
     return (
       <div className="quiz-section">
-        <div className="quiz-gameover">
-          <div className="gameover-icon">💔</div>
-          <h2>Hết trái tim!</h2>
-          <p>Đừng buồn nhé! Hãy đọc lại lý thuyết để hồi phục trái tim và thử lại nào! 🐸</p>
-          <button className="quiz-btn quiz-btn--back" onClick={onBack}>
+        <div className="game-over">
+          <div className="game-over-emoji">💔</div>
+          <h2 className="game-over-title">Hết trái tim!</h2>
+          <p className="game-over-text" style={{ marginBottom: '24px' }}>
+            Đừng buồn nhé! Hãy đọc lại lý thuyết để hồi phục trái tim và thử lại nào! 🐸
+          </p>
+          <button className="btn-back" onClick={onBack}>
             ← Quay lại bản đồ
           </button>
         </div>
@@ -135,25 +137,29 @@ export default function QuizSection({
 
     return (
       <div className="quiz-section">
-        <div className="quiz-result">
-          <div className="result-emoji">
+        <div className="results-screen">
+          <div className="results-emoji">
             {score === questions.length ? '🎉' : score > 0 ? '👍' : '😢'}
           </div>
-          <h2>Kết quả</h2>
-          <p className="result-lesson">{lesson.title}</p>
-          <p className="result-level">Mức: {levelLabel}</p>
+          <h2 className="results-title">Kết quả</h2>
+          <p style={{ fontSize: '1.25rem', marginBottom: '8px', fontWeight: '800' }}>{lesson.title}</p>
+          <p style={{ fontSize: '1.1rem', color: 'var(--color-text-light)', marginBottom: '24px' }}>Mức: {levelLabel}</p>
 
-          <div className="result-score">
-            <span className="score-number">
-              {score}/{questions.length}
-            </span>
+          <div className="score-text">
+            {score}/{questions.length}
           </div>
 
-          <div className="result-stars">
-            {'⭐'.repeat(starsEarned)}
-            {'☆'.repeat(3 - starsEarned)}
+          <div className="stars-display">
+            {Array.from({ length: 3 }, (_, i) => (
+              <span
+                key={i}
+                className={`star ${i < starsEarned ? 'earned' : 'empty'}`}
+              >
+                ⭐
+              </span>
+            ))}
           </div>
-          <p className="result-stars-text">
+          <p style={{ fontSize: '1.2rem', fontWeight: '800', marginBottom: '32px' }}>
             {starsEarned === 3
               ? 'Xuất sắc! 🏆'
               : starsEarned === 1
@@ -162,13 +168,13 @@ export default function QuizSection({
           </p>
 
           <div className="result-actions">
-            <button className="quiz-btn quiz-btn--copy" onClick={handleCopyResult}>
+            <button className="btn-copy" onClick={handleCopyResult}>
               {resultCopied ? '✅ Đã sao chép!' : '📋 Sao chép kết quả'}
             </button>
-            <button className="quiz-btn quiz-btn--zalo" onClick={handleShareZalo}>
+            <button className="btn-share" onClick={handleShareZalo}>
               💬 Chia sẻ Zalo
             </button>
-            <button className="quiz-btn quiz-btn--back" onClick={onBack}>
+            <button className="btn-retry" onClick={onBack}>
               ← Quay lại bản đồ
             </button>
           </div>
@@ -183,7 +189,7 @@ export default function QuizSection({
     return (
       <div className="quiz-section">
         <p>Không có câu hỏi cho mức độ này.</p>
-        <button className="quiz-btn quiz-btn--back" onClick={onBack}>
+        <button className="btn-back" onClick={onBack}>
           ← Quay lại bản đồ
         </button>
       </div>
@@ -196,39 +202,41 @@ export default function QuizSection({
     <div className="quiz-section">
       {/* Quiz header */}
       <div className="quiz-header">
-        <button className="quiz-back-btn" onClick={onBack}>
+        <button className="btn-back" onClick={onBack}>
           ← Thoát
         </button>
-        <span className="quiz-counter">
-          Q {currentQ + 1}/{questions.length}
+        <span className="quiz-progress">
+          Câu {currentQ + 1}/{questions.length}
         </span>
-        <span className="quiz-level-badge">{levelLabel}</span>
+        <span className="quiz-progress" style={{ backgroundColor: 'var(--color-primary-bg)', color: 'var(--color-primary-dark)' }}>
+          {levelLabel}
+        </span>
       </div>
 
       {/* Progress bar */}
       <div className="quiz-progress-bar">
         <div
-          className="quiz-progress-fill"
+          className="fill"
           style={{ width: `${((currentQ + 1) / questions.length) * 100}%` }}
         />
       </div>
 
       {/* Question */}
-      <div className="quiz-question-card">
-        <h3 className="quiz-question-text">{question.question}</h3>
+      <div className="question-card">
+        <h3 className="question-text">{question.question}</h3>
 
         {/* Answer options */}
-        <div className="quiz-options">
+        <div className="options-grid" style={{ marginTop: '24px' }}>
           {shuffledOptions.map((option, idx) => {
-            let optionClass = 'quiz-option';
+            let optionClass = 'option-btn';
 
             if (selectedAnswer !== null) {
               if (option === question.correctAnswer) {
-                optionClass += ' quiz-option--correct';
+                optionClass += ' correct';
               } else if (option === selectedAnswer && !isCorrect) {
-                optionClass += ' quiz-option--wrong';
+                optionClass += ' wrong';
               } else {
-                optionClass += ' quiz-option--disabled';
+                optionClass += ' disabled';
               }
             }
 
@@ -239,8 +247,8 @@ export default function QuizSection({
                 onClick={() => handleAnswer(option)}
                 disabled={selectedAnswer !== null}
               >
-                <span className="option-letter">
-                  {String.fromCharCode(65 + idx)}
+                <span className="option-letter" style={{ marginRight: '8px', color: 'var(--color-primary-dark)', fontWeight: '800' }}>
+                  {String.fromCharCode(65 + idx)}.
                 </span>
                 <span className="option-text">{option}</span>
               </button>
@@ -251,14 +259,14 @@ export default function QuizSection({
         {/* Feedback */}
         {selectedAnswer !== null && (
           <div
-            className={`quiz-feedback ${
-              isCorrect ? 'quiz-feedback--correct' : 'quiz-feedback--wrong'
+            className={`explanation-box ${
+              isCorrect ? 'correct' : 'wrong'
             }`}
           >
-            <p className="feedback-status">
+            <p className="explanation-header" style={{ fontWeight: '800', marginBottom: '8px' }}>
               {isCorrect ? '✅ Đúng rồi!' : '❌ Sai rồi!'}
             </p>
-            <p className="feedback-explanation">{question.explanation}</p>
+            <p className="explanation-text">{question.explanation}</p>
           </div>
         )}
       </div>
