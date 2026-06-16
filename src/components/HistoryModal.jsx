@@ -1,4 +1,3 @@
-import React from 'react';
 
 export default function HistoryModal({ history, allLessons, onClose }) {
   // Build a lookup for lesson titles

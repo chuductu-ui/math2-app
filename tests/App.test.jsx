@@ -1,11 +1,10 @@
 import { describe, test, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
 import App from '../src/App';
-import React from 'react';
 
 // Mock fetch before tests
 beforeEach(() => {
-  global.fetch = vi.fn().mockImplementation(() =>
+  globalThis.fetch = vi.fn().mockImplementation(() =>
     Promise.resolve({
       ok: true,
       json: () => Promise.resolve({ chapters: [] }),

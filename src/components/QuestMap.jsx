@@ -1,8 +1,5 @@
-import React from 'react';
-
 export default function QuestMap({
   chapters,
-  allLessons,
   progress,
   isLessonUnlocked,
   onSelectLesson,
@@ -45,7 +42,7 @@ export default function QuestMap({
   return (
     <div className="quest-map">
       <div className="quest-path">
-        {nodes.map((node, idx) => {
+        {nodes.map((node) => {
           if (node.type === 'chapter') {
             return (
               <div key={node.chapter.id} className="quest-chapter-header">

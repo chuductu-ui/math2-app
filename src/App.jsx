@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import QuestMap from './components/QuestMap';
 import LessonDrawer from './components/LessonDrawer';
 import TheorySection from './components/TheorySection';
@@ -16,7 +16,6 @@ export default function App() {
   const [error, setError] = useState(null);
 
   // --- Game state ---
-  const [stars, setStars] = useState(0);
   const [hearts, setHearts] = useState(MAX_HEARTS);
   const [selectedLesson, setSelectedLesson] = useState(null);
   const [currentView, setCurrentView] = useState('map'); // map | theory | quiz
@@ -60,6 +59,7 @@ export default function App() {
 
   // --- Load history ---
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setHistoryList(getHistory());
   }, [showHistory]);
 
@@ -120,9 +120,6 @@ export default function App() {
       }
       return prev;
     });
-
-    // Update total stars
-    setStars((prev) => prev + starsEarned);
 
     // Save attempt to history
     saveAttempt({

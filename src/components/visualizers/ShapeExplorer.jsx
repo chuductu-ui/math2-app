@@ -143,7 +143,7 @@ const LINES = [
   },
 ];
 
-export default function ShapeExplorer({ config = {} }) {
+export default function ShapeExplorer() {
   const [selectedShape, setSelectedShape] = useState(null);
   const [selectedLine, setSelectedLine] = useState(null);
   const [tab, setTab] = useState('shapes'); // 'shapes' or 'lines'

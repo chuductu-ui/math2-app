@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { saveAttempt } from '../utils/storage';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 
 /**
  * Shuffle an array (Fisher-Yates) and return a new array.
@@ -21,7 +20,7 @@ export default function QuizSection({
   onCompleted,
   onBack,
 }) {
-  const questions = lesson.exercises?.[level] || [];
+  const questions = useMemo(() => lesson.exercises?.[level] || [], [lesson, level]);
   const [currentQ, setCurrentQ] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -35,6 +34,7 @@ export default function QuizSection({
   // Shuffle options for the current question
   useEffect(() => {
     if (currentQ < questions.length) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShuffledOptions(shuffleArray(questions[currentQ].options));
     }
   }, [currentQ, questions]);
