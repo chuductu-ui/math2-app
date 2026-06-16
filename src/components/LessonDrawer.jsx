@@ -7,10 +7,10 @@ export default function LessonDrawer({
   onStartTheory,
   onStartQuiz,
 }) {
-  // Level unlock logic: Easy always available, Medium after Easy, Hard after Medium
+  // Level unlock logic: all levels (Easy, Medium, Hard) are unlocked immediately
   const easyUnlocked = true;
-  const mediumUnlocked = (progress.easy || 0) > 0;
-  const hardUnlocked = (progress.medium || 0) > 0;
+  const mediumUnlocked = true;
+  const hardUnlocked = true;
 
   const levels = [
     {

@@ -90,7 +90,6 @@ export default function App() {
   const handleStartQuiz = (level) => {
     setQuizLevel(level);
     setCurrentView('quiz');
-    setSelectedLesson(null); // close drawer
   };
 
   const handleBackToMap = () => {

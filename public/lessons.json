@@ -28,7 +28,124 @@
                   "40 chục và 7 đơn vị"
                 ],
                 "correctAnswer": "4 chục và 7 đơn vị",
-                "explanation": "Chữ số 4 đứng trước là hàng chục, số 7 là hàng đơn vị."
+                "explanation": "Chữ số 4 đứng trước là hàng chục, số 7 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e2",
+                "type": "multiple-choice",
+                "question": "Số 35 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "3 chục và 5 đơn vị",
+                  "5 chục và 3 đơn vị",
+                  "3 chục và 50 đơn vị",
+                  "30 chục và 5 đơn vị"
+                ],
+                "correctAnswer": "3 chục và 5 đơn vị",
+                "explanation": "Chữ số 3 đứng trước là hàng chục, số 5 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e3",
+                "type": "multiple-choice",
+                "question": "Số 82 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "8 chục và 2 đơn vị",
+                  "2 chục và 8 đơn vị",
+                  "8 chục và 20 đơn vị",
+                  "80 chục và 2 đơn vị"
+                ],
+                "correctAnswer": "8 chục và 2 đơn vị",
+                "explanation": "Chữ số 8 đứng trước là hàng chục, số 2 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e4",
+                "type": "multiple-choice",
+                "question": "Số 50 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "5 chục và 0 đơn vị",
+                  "0 chục và 5 đơn vị",
+                  "5 chục và 50 đơn vị",
+                  "50 chục và 0 đơn vị"
+                ],
+                "correctAnswer": "5 chục và 0 đơn vị",
+                "explanation": "Chữ số 5 đứng trước là hàng chục, số 0 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e5",
+                "type": "multiple-choice",
+                "question": "Số 16 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "1 chục và 6 đơn vị",
+                  "6 chục và 1 đơn vị",
+                  "1 chục và 60 đơn vị",
+                  "10 chục và 6 đơn vị"
+                ],
+                "correctAnswer": "1 chục và 6 đơn vị",
+                "explanation": "Chữ số 1 đứng trước là hàng chục, số 6 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e6",
+                "type": "multiple-choice",
+                "question": "Số 99 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "9 chục và 9 đơn vị",
+                  "90 chục và 9 đơn vị",
+                  "9 chục và 90 đơn vị",
+                  "90 chục và 90 đơn vị"
+                ],
+                "correctAnswer": "9 chục và 9 đơn vị",
+                "explanation": "Cả hai chữ số đều là 9, gồm 9 chục và 9 đơn vị."
+              },
+              {
+                "id": "b1_e7",
+                "type": "multiple-choice",
+                "question": "Số 68 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "6 chục và 8 đơn vị",
+                  "8 chục và 6 đơn vị",
+                  "6 chục và 80 đơn vị",
+                  "60 chục và 8 đơn vị"
+                ],
+                "correctAnswer": "6 chục và 8 đơn vị",
+                "explanation": "Chữ số 6 đứng trước là hàng chục, số 8 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e8",
+                "type": "multiple-choice",
+                "question": "Số 73 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "7 chục và 3 đơn vị",
+                  "3 chục và 7 đơn vị",
+                  "7 chục và 30 đơn vị",
+                  "70 chục và 3 đơn vị"
+                ],
+                "correctAnswer": "7 chục và 3 đơn vị",
+                "explanation": "Chữ số 7 đứng trước là hàng chục, số 3 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e9",
+                "type": "multiple-choice",
+                "question": "Số 24 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "2 chục và 4 đơn vị",
+                  "4 chục và 2 đơn vị",
+                  "2 chục và 40 đơn vị",
+                  "20 chục và 4 đơn vị"
+                ],
+                "correctAnswer": "2 chục và 4 đơn vị",
+                "explanation": "Chữ số 2 đứng trước là hàng chục, số 4 đứng sau là hàng đơn vị."
+              },
+              {
+                "id": "b1_e10",
+                "type": "multiple-choice",
+                "question": "Số 91 gồm mấy chục và mấy đơn vị?",
+                "options": [
+                  "9 chục và 1 đơn vị",
+                  "1 chục và 9 đơn vị",
+                  "9 chục và 10 đơn vị",
+                  "90 chục và 1 đơn vị"
+                ],
+                "correctAnswer": "9 chục và 1 đơn vị",
+                "explanation": "Chữ số 9 đứng trước là hàng chục, số 1 đứng sau là hàng đơn vị."
               }
             ],
             "medium": [
@@ -44,6 +161,123 @@
                 ],
                 "correctAnswer": "11",
                 "explanation": "Số bé nhất có hai chữ số là 10, nhưng hai chữ số giống nhau bé nhất là 11."
+              },
+              {
+                "id": "b1_m2",
+                "type": "multiple-choice",
+                "question": "Tìm số bé nhất có hai chữ số.",
+                "options": [
+                  "10",
+                  "11",
+                  "01",
+                  "20"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Số bé nhất có hai chữ số là 10."
+              },
+              {
+                "id": "b1_m3",
+                "type": "multiple-choice",
+                "question": "Tìm số lớn nhất có hai chữ số.",
+                "options": [
+                  "99",
+                  "100",
+                  "90",
+                  "98"
+                ],
+                "correctAnswer": "99",
+                "explanation": "Số lớn nhất có hai chữ số là 99."
+              },
+              {
+                "id": "b1_m4",
+                "type": "multiple-choice",
+                "question": "Tìm số lớn nhất có hai chữ số giống nhau.",
+                "options": [
+                  "99",
+                  "88",
+                  "90",
+                  "100"
+                ],
+                "correctAnswer": "99",
+                "explanation": "Số lớn nhất có hai chữ số giống nhau là 99."
+              },
+              {
+                "id": "b1_m5",
+                "type": "multiple-choice",
+                "question": "Số tròn chục bé nhất có hai chữ số là số nào?",
+                "options": [
+                  "10",
+                  "20",
+                  "00",
+                  "50"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Các số tròn chục có hai chữ số là 10, 20, ..., 90. Số bé nhất là 10."
+              },
+              {
+                "id": "b1_m6",
+                "type": "multiple-choice",
+                "question": "Số tròn chục lớn nhất có hai chữ số là số nào?",
+                "options": [
+                  "90",
+                  "99",
+                  "100",
+                  "80"
+                ],
+                "correctAnswer": "90",
+                "explanation": "Các số tròn chục có hai chữ số kết thúc bằng 0. Số lớn nhất là 90."
+              },
+              {
+                "id": "b1_m7",
+                "type": "multiple-choice",
+                "question": "Số gồm 8 chục và 5 đơn vị được viết là gì?",
+                "options": [
+                  "85",
+                  "58",
+                  "805",
+                  "850"
+                ],
+                "correctAnswer": "85",
+                "explanation": "Chữ số hàng chục đứng trước, đơn vị đứng sau: 85."
+              },
+              {
+                "id": "b1_m8",
+                "type": "multiple-choice",
+                "question": "Số gồm 3 chục và 0 đơn vị được viết là gì?",
+                "options": [
+                  "30",
+                  "3",
+                  "300",
+                  "33"
+                ],
+                "correctAnswer": "30",
+                "explanation": "Chữ số hàng chục đứng trước, đơn vị đứng sau: 30."
+              },
+              {
+                "id": "b1_m9",
+                "type": "multiple-choice",
+                "question": "Số liền trước của 100 là gì?",
+                "options": [
+                  "99",
+                  "98",
+                  "90",
+                  "101"
+                ],
+                "correctAnswer": "99",
+                "explanation": "Số liền trước 100 kém 100 là 1 đơn vị, tức 99."
+              },
+              {
+                "id": "b1_m10",
+                "type": "multiple-choice",
+                "question": "Số liền sau của 9 là gì?",
+                "options": [
+                  "10",
+                  "8",
+                  "11",
+                  "0"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Số liền sau của 9 hơn 9 là 1 đơn vị, tức 10."
               }
             ],
             "hard": [
@@ -59,6 +293,123 @@
                 ],
                 "correctAnswer": "4 số",
                 "explanation": "Các số viết được là 33, 35, 53, 55. Tổng cộng có 4 số."
+              },
+              {
+                "id": "b1_h2",
+                "type": "multiple-choice",
+                "question": "Viết được bao nhiêu số có hai chữ số khác nhau từ hai chữ số 2 và 7?",
+                "options": [
+                  "2 số",
+                  "4 số",
+                  "3 số",
+                  "1 số"
+                ],
+                "correctAnswer": "2 số",
+                "explanation": "Các số có hai chữ số khác nhau viết từ 2 và 7 là 27 và 72. (22 và 77 có hai chữ số giống nhau nên loại)."
+              },
+              {
+                "id": "b1_h3",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu số tròn chục có hai chữ số?",
+                "options": [
+                  "9 số",
+                  "10 số",
+                  "8 số",
+                  "90 số"
+                ],
+                "correctAnswer": "9 số",
+                "explanation": "Các số tròn chục có hai chữ số gồm: 10, 20, 30, 40, 50, 60, 70, 80, 90. Có 9 số."
+              },
+              {
+                "id": "b1_h4",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu số có hai chữ số mà chữ số hàng chục là 5?",
+                "options": [
+                  "10 số",
+                  "9 số",
+                  "5 số",
+                  "11 số"
+                ],
+                "correctAnswer": "10 số",
+                "explanation": "Các số có hai chữ số bắt đầu bằng 5 là từ 50 đến 59. Có tất cả 10 số."
+              },
+              {
+                "id": "b1_h5",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu số có hai chữ số mà chữ số hàng đơn vị là 0?",
+                "options": [
+                  "9 số",
+                  "10 số",
+                  "90 số",
+                  "8 số"
+                ],
+                "correctAnswer": "9 số",
+                "explanation": "Các số có hai chữ số kết thúc bằng 0 gồm: 10, 20, 30, 40, 50, 60, 70, 80, 90. Có 9 số."
+              },
+              {
+                "id": "b1_h6",
+                "type": "multiple-choice",
+                "question": "Tìm số có hai chữ số, biết chữ số hàng chục là 7 và chữ số hàng đơn vị kém chữ số hàng chục 2 đơn vị.",
+                "options": [
+                  "75",
+                  "79",
+                  "57",
+                  "72"
+                ],
+                "correctAnswer": "75",
+                "explanation": "Hàng chục là 7. Hàng đơn vị kém hàng chục 2 đơn vị nên hàng đơn vị là 7 - 2 = 5. Vậy số đó là 75."
+              },
+              {
+                "id": "b1_h7",
+                "type": "multiple-choice",
+                "question": "Tìm số có hai chữ số, biết chữ số hàng chục là 4 và chữ số hàng đơn vị gấp đôi chữ số hàng chục.",
+                "options": [
+                  "48",
+                  "84",
+                  "42",
+                  "44"
+                ],
+                "correctAnswer": "48",
+                "explanation": "Hàng chục là 4. Hàng đơn vị gấp đôi hàng chục nên hàng đơn vị là 4 x 2 = 8. Số đó là 48."
+              },
+              {
+                "id": "b1_h8",
+                "type": "multiple-choice",
+                "question": "Tìm số có hai chữ số, biết tổng hai chữ số của số đó bằng 9 và chữ số hàng chục là 5.",
+                "options": [
+                  "54",
+                  "59",
+                  "45",
+                  "55"
+                ],
+                "correctAnswer": "54",
+                "explanation": "Hàng chục là 5. Tổng hai chữ số bằng 9 nên hàng đơn vị là 9 - 5 = 4. Số đó là 54."
+              },
+              {
+                "id": "b1_h9",
+                "type": "multiple-choice",
+                "question": "Tìm số có hai chữ số, biết hiệu của chữ số hàng chục và hàng đơn vị bằng 0, và hàng chục là 6.",
+                "options": [
+                  "66",
+                  "60",
+                  "69",
+                  "61"
+                ],
+                "correctAnswer": "66",
+                "explanation": "Hiệu bằng 0 có nghĩa hai chữ số hàng chục và đơn vị giống nhau. Hàng chục là 6 thì hàng đơn vị cũng là 6. Số đó là 66."
+              },
+              {
+                "id": "b1_h10",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu số có hai chữ số bé hơn 20?",
+                "options": [
+                  "10 số",
+                  "9 số",
+                  "11 số",
+                  "20 số"
+                ],
+                "correctAnswer": "10 số",
+                "explanation": "Các số có hai chữ số bé hơn 20 gồm: 10, 11, 12, 13, 14, 15, 16, 17, 18, 19. Có 10 số."
               }
             ]
           }
@@ -89,11 +440,9 @@
                 ],
                 "correctAnswer": "80",
                 "explanation": "Số liền sau của 79 bằng 79 + 1 = 80."
-              }
-            ],
-            "medium": [
+              },
               {
-                "id": "b2_m1",
+                "id": "b2_e2",
                 "type": "multiple-choice",
                 "question": "Số liền trước của số 90 là số nào?",
                 "options": [
@@ -104,13 +453,117 @@
                 ],
                 "correctAnswer": "89",
                 "explanation": "Số liền trước của 90 bằng 90 - 1 = 89."
+              },
+              {
+                "id": "b2_e3",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số 45 là số nào?",
+                "options": [
+                  "46",
+                  "44",
+                  "47",
+                  "50"
+                ],
+                "correctAnswer": "46",
+                "explanation": "Số liền sau của 45 bằng 45 + 1 = 46."
+              },
+              {
+                "id": "b2_e4",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số 60 là số nào?",
+                "options": [
+                  "59",
+                  "61",
+                  "58",
+                  "50"
+                ],
+                "correctAnswer": "59",
+                "explanation": "Số liền trước của 60 bằng 60 - 1 = 59."
+              },
+              {
+                "id": "b2_e5",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số 12 là số nào?",
+                "options": [
+                  "13",
+                  "11",
+                  "14",
+                  "10"
+                ],
+                "correctAnswer": "13",
+                "explanation": "Số liền sau của 12 bằng 12 + 1 = 13."
+              },
+              {
+                "id": "b2_e6",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số 2 là số nào?",
+                "options": [
+                  "1",
+                  "3",
+                  "0",
+                  "4"
+                ],
+                "correctAnswer": "1",
+                "explanation": "Số liền trước của 2 bằng 2 - 1 = 1."
+              },
+              {
+                "id": "b2_e7",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số 99 là số nào?",
+                "options": [
+                  "100",
+                  "98",
+                  "90",
+                  "101"
+                ],
+                "correctAnswer": "100",
+                "explanation": "Số liền sau của 99 bằng 99 + 1 = 100."
+              },
+              {
+                "id": "b2_e8",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số 88 là số nào?",
+                "options": [
+                  "87",
+                  "89",
+                  "86",
+                  "80"
+                ],
+                "correctAnswer": "87",
+                "explanation": "Số liền trước của 88 bằng 88 - 1 = 87."
+              },
+              {
+                "id": "b2_e9",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số 34 là số nào?",
+                "options": [
+                  "35",
+                  "33",
+                  "36",
+                  "40"
+                ],
+                "correctAnswer": "35",
+                "explanation": "Số liền sau của 34 bằng 34 + 1 = 35."
+              },
+              {
+                "id": "b2_e10",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số 71 là số nào?",
+                "options": [
+                  "70",
+                  "72",
+                  "69",
+                  "73"
+                ],
+                "correctAnswer": "70",
+                "explanation": "Số liền trước của 71 bằng 71 - 1 = 70."
               }
             ],
-            "hard": [
+            "medium": [
               {
-                "id": "b2_h1",
+                "id": "b2_m1",
                 "type": "multiple-choice",
-                "question": "Tìm số liền trước của số liền trước số 50.",
+                "question": "Số liền trước của số liền trước 50 là số nào?",
                 "options": [
                   "48",
                   "49",
@@ -119,6 +572,255 @@
                 ],
                 "correctAnswer": "48",
                 "explanation": "Số liền trước số 50 là 49. Số liền trước của 49 là 48."
+              },
+              {
+                "id": "b2_m2",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số liền sau 20 là số nào?",
+                "options": [
+                  "22",
+                  "21",
+                  "19",
+                  "23"
+                ],
+                "correctAnswer": "22",
+                "explanation": "Số liền sau số 20 là 21. Số liền sau của 21 là 22."
+              },
+              {
+                "id": "b2_m3",
+                "type": "multiple-choice",
+                "question": "Số nằm giữa 45 và 47 là số nào?",
+                "options": [
+                  "46",
+                  "44",
+                  "48",
+                  "45"
+                ],
+                "correctAnswer": "46",
+                "explanation": "Số ở giữa 45 và 47 là 46."
+              },
+              {
+                "id": "b2_m4",
+                "type": "multiple-choice",
+                "question": "Hai số liền trước của số 15 là những số nào?",
+                "options": [
+                  "13 và 14",
+                  "14 và 15",
+                  "15 và 16",
+                  "12 và 13"
+                ],
+                "correctAnswer": "13 và 14",
+                "explanation": "Hai số liền trước của 15 là 14 (đứng ngay trước) và 13 (đứng trước 14)."
+              },
+              {
+                "id": "b2_m5",
+                "type": "multiple-choice",
+                "question": "Hai số liền sau của số 28 là những số nào?",
+                "options": [
+                  "29 và 30",
+                  "27 và 28",
+                  "28 và 29",
+                  "30 và 31"
+                ],
+                "correctAnswer": "29 và 30",
+                "explanation": "Hai số liền sau của 28 là 29 (đứng ngay sau) và 30 (đứng sau 29)."
+              },
+              {
+                "id": "b2_m6",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số liền sau 70 là số nào?",
+                "options": [
+                  "70",
+                  "69",
+                  "71",
+                  "68"
+                ],
+                "correctAnswer": "70",
+                "explanation": "Số liền sau của 70 là 71. Số liền trước của 71 quay lại là 70."
+              },
+              {
+                "id": "b2_m7",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số liền trước 85 là số nào?",
+                "options": [
+                  "85",
+                  "84",
+                  "86",
+                  "83"
+                ],
+                "correctAnswer": "85",
+                "explanation": "Số liền trước của 85 là 84. Số liền sau của 84 quay lại là 85."
+              },
+              {
+                "id": "b2_m8",
+                "type": "multiple-choice",
+                "question": "Trên tia số, số đứng ngay bên trái số 66 là số nào?",
+                "options": [
+                  "65",
+                  "67",
+                  "66",
+                  "60"
+                ],
+                "correctAnswer": "65",
+                "explanation": "Số đứng bên trái là số bé hơn 1 đơn vị, tức số liền trước: 65."
+              },
+              {
+                "id": "b2_m9",
+                "type": "multiple-choice",
+                "question": "Trên tia số, số đứng ngay bên phải số 99 là số nào?",
+                "options": [
+                  "100",
+                  "98",
+                  "99",
+                  "101"
+                ],
+                "correctAnswer": "100",
+                "explanation": "Số đứng bên phải là số lớn hơn 1 đơn vị, tức số liền sau: 100."
+              },
+              {
+                "id": "b2_m10",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số bé nhất có hai chữ số là số nào?",
+                "options": [
+                  "9",
+                  "10",
+                  "11",
+                  "8"
+                ],
+                "correctAnswer": "9",
+                "explanation": "Số bé nhất có hai chữ số là 10. Số liền trước của 10 là 9."
+              }
+            ],
+            "hard": [
+              {
+                "id": "b2_h1",
+                "type": "multiple-choice",
+                "question": "Tìm một số biết số liền sau của nó là 100.",
+                "options": [
+                  "99",
+                  "100",
+                  "98",
+                  "101"
+                ],
+                "correctAnswer": "99",
+                "explanation": "Số có số liền sau là 100 thì kém 100 là 1 đơn vị, tức 99."
+              },
+              {
+                "id": "b2_h2",
+                "type": "multiple-choice",
+                "question": "Tìm một số biết số liền trước của nó là 9.",
+                "options": [
+                  "10",
+                  "9",
+                  "8",
+                  "11"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Số có số liền trước là 9 thì lớn hơn 9 là 1 đơn vị, tức 10."
+              },
+              {
+                "id": "b2_h3",
+                "type": "multiple-choice",
+                "question": "Tìm một số biết số liền trước của số liền trước nó là 35.",
+                "options": [
+                  "37",
+                  "36",
+                  "34",
+                  "38"
+                ],
+                "correctAnswer": "37",
+                "explanation": "Số liền trước của số đó là 35 + 1 = 36. Vậy số đó là 36 + 1 = 37."
+              },
+              {
+                "id": "b2_h4",
+                "type": "multiple-choice",
+                "question": "Tìm một số biết số liền sau của số liền sau nó là 80.",
+                "options": [
+                  "78",
+                  "79",
+                  "81",
+                  "82"
+                ],
+                "correctAnswer": "78",
+                "explanation": "Số liền sau của số đó là 80 - 1 = 79. Vậy số đó là 79 - 1 = 78."
+              },
+              {
+                "id": "b2_h5",
+                "type": "multiple-choice",
+                "question": "Tổng của số liền trước và số liền sau của số 10 là bao nhiêu?",
+                "options": [
+                  "20",
+                  "19",
+                  "21",
+                  "18"
+                ],
+                "correctAnswer": "20",
+                "explanation": "Số liền trước 10 là 9, số liền sau 10 là 11. Tổng: 9 + 11 = 20."
+              },
+              {
+                "id": "b2_h6",
+                "type": "multiple-choice",
+                "question": "Hiệu của số liền sau và số liền trước của số 54 là bao nhiêu?",
+                "options": [
+                  "2",
+                  "0",
+                  "1",
+                  "54"
+                ],
+                "correctAnswer": "2",
+                "explanation": "Số liền sau là 55, số liền trước là 53. Hiệu: 55 - 53 = 2."
+              },
+              {
+                "id": "b2_h7",
+                "type": "multiple-choice",
+                "question": "Số liền trước của số lớn nhất có hai chữ số giống nhau là số nào?",
+                "options": [
+                  "98",
+                  "99",
+                  "97",
+                  "100"
+                ],
+                "correctAnswer": "98",
+                "explanation": "Số lớn nhất có hai chữ số giống nhau là 99. Số liền trước của 99 là 98."
+              },
+              {
+                "id": "b2_h8",
+                "type": "multiple-choice",
+                "question": "Số liền sau của số bé nhất có hai chữ số giống nhau là số nào?",
+                "options": [
+                  "12",
+                  "11",
+                  "10",
+                  "13"
+                ],
+                "correctAnswer": "12",
+                "explanation": "Số bé nhất có hai chữ số giống nhau là 11. Số liền sau of 11 là 12."
+              },
+              {
+                "id": "b2_h9",
+                "type": "multiple-choice",
+                "question": "Nếu số liền trước của X là 15 thì số liền sau của X là bao nhiêu?",
+                "options": [
+                  "17",
+                  "16",
+                  "15",
+                  "14"
+                ],
+                "correctAnswer": "17",
+                "explanation": "Số liền trước X là 15 thì X = 16. Số liền sau of 16 là 17."
+              },
+              {
+                "id": "b2_h10",
+                "type": "multiple-choice",
+                "question": "Nếu số liền sau của Y là 30 thì số liền trước của Y là bao nhiêu?",
+                "options": [
+                  "28",
+                  "29",
+                  "30",
+                  "31"
+                ],
+                "correctAnswer": "28",
+                "explanation": "Số liền sau Y là 30 thì Y = 29. Số liền trước của 29 là 28."
               }
             ]
           }
@@ -146,11 +848,22 @@
                 ],
                 "correctAnswer": "Tổng",
                 "explanation": "Kết quả của phép cộng được gọi là Tổng."
-              }
-            ],
-            "medium": [
+              },
               {
-                "id": "b3_m1",
+                "id": "b3_e2",
+                "type": "multiple-choice",
+                "question": "Trong phép cộng 12 + 5 = 17, số 12 được gọi là gì?",
+                "options": [
+                  "Số hạng",
+                  "Tổng",
+                  "Số trừ",
+                  "Số bị trừ"
+                ],
+                "correctAnswer": "Số hạng",
+                "explanation": "Các số cộng với nhau được gọi là Số hạng."
+              },
+              {
+                "id": "b3_e3",
                 "type": "multiple-choice",
                 "question": "Trong phép trừ 25 - 5 = 20, số 25 được gọi là gì?",
                 "options": [
@@ -161,31 +874,365 @@
                 ],
                 "correctAnswer": "Số bị trừ",
                 "explanation": "Số đứng trước dấu trừ gọi là Số bị trừ."
+              },
+              {
+                "id": "b3_e4",
+                "type": "multiple-choice",
+                "question": "Trong phép trừ 25 - 5 = 20, số 5 được gọi là gì?",
+                "options": [
+                  "Số trừ",
+                  "Số bị trừ",
+                  "Hiệu",
+                  "Tổng"
+                ],
+                "correctAnswer": "Số trừ",
+                "explanation": "Số đứng sau dấu trừ gọi là Số trừ."
+              },
+              {
+                "id": "b3_e5",
+                "type": "multiple-choice",
+                "question": "Trong phép trừ 25 - 5 = 20, số 20 được gọi là gì?",
+                "options": [
+                  "Hiệu",
+                  "Số bị trừ",
+                  "Số trừ",
+                  "Tổng"
+                ],
+                "correctAnswer": "Hiệu",
+                "explanation": "Kết quả của phép trừ được gọi là Hiệu."
+              },
+              {
+                "id": "b3_e6",
+                "type": "multiple-choice",
+                "question": "Trong phép cộng 30 + 40 = 70, số 40 được gọi là gì?",
+                "options": [
+                  "Số hạng",
+                  "Tổng",
+                  "Số trừ",
+                  "Hiệu"
+                ],
+                "correctAnswer": "Số hạng",
+                "explanation": "Trong phép cộng, các số tham gia phép cộng đều là Số hạng."
+              },
+              {
+                "id": "b3_e7",
+                "type": "multiple-choice",
+                "question": "Kết quả của phép trừ được gọi là gì?",
+                "options": [
+                  "Hiệu",
+                  "Tổng",
+                  "Số bị trừ",
+                  "Số trừ"
+                ],
+                "correctAnswer": "Hiệu",
+                "explanation": "Kết quả của phép trừ được gọi là Hiệu."
+              },
+              {
+                "id": "b3_e8",
+                "type": "multiple-choice",
+                "question": "Kết quả của phép cộng được gọi là gì?",
+                "options": [
+                  "Tổng",
+                  "Hiệu",
+                  "Số hạng",
+                  "Thừa số"
+                ],
+                "correctAnswer": "Tổng",
+                "explanation": "Kết quả của phép cộng được gọi là Tổng."
+              },
+              {
+                "id": "b3_e9",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 8 + 9 = 17, cả phép tính '8 + 9' cũng được gọi là gì?",
+                "options": [
+                  "Tổng",
+                  "Số hạng",
+                  "Hiệu",
+                  "Số trừ"
+                ],
+                "correctAnswer": "Tổng",
+                "explanation": "Cả biểu thức phép cộng '8 + 9' cũng gọi là một Tổng."
+              },
+              {
+                "id": "b3_e10",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 15 - 3 = 12, cả phép tính '15 - 3' cũng được gọi là gì?",
+                "options": [
+                  "Hiệu",
+                  "Số bị trừ",
+                  "Số trừ",
+                  "Tổng"
+                ],
+                "correctAnswer": "Hiệu",
+                "explanation": "Cả biểu thức phép trừ '15 - 3' cũng gọi là một Hiệu."
+              }
+            ],
+            "medium": [
+              {
+                "id": "b3_m1",
+                "type": "multiple-choice",
+                "question": "Tìm tổng của 20 và 30.",
+                "options": [
+                  "50",
+                  "10",
+                  "60",
+                  "40"
+                ],
+                "correctAnswer": "50",
+                "explanation": "Tổng = 20 + 30 = 50."
+              },
+              {
+                "id": "b3_m2",
+                "type": "multiple-choice",
+                "question": "Tìm hiệu của 50 và 10.",
+                "options": [
+                  "40",
+                  "60",
+                  "50",
+                  "30"
+                ],
+                "correctAnswer": "40",
+                "explanation": "Hiệu = 50 - 10 = 40."
+              },
+              {
+                "id": "b3_m3",
+                "type": "multiple-choice",
+                "question": "Tìm tổng của số lớn nhất có một chữ số và số bé nhất có hai chữ số.",
+                "options": [
+                  "19",
+                  "18",
+                  "10",
+                  "11"
+                ],
+                "correctAnswer": "19",
+                "explanation": "Số lớn nhất có 1 chữ số là 9. Số bé nhất có 2 chữ số là 10. Tổng: 9 + 10 = 19."
+              },
+              {
+                "id": "b3_m4",
+                "type": "multiple-choice",
+                "question": "Tìm hiệu của số bé nhất có hai chữ số và số lớn nhất có một chữ số.",
+                "options": [
+                  "1",
+                  "10",
+                  "9",
+                  "2"
+                ],
+                "correctAnswer": "1",
+                "explanation": "Số bé nhất có 2 chữ số là 10. Số lớn nhất có 1 chữ số là 9. Hiệu: 10 - 9 = 1."
+              },
+              {
+                "id": "b3_m5",
+                "type": "multiple-choice",
+                "question": "Biết số bị trừ là 15, số trừ là 5. Hiệu là bao nhiêu?",
+                "options": [
+                  "10",
+                  "20",
+                  "5",
+                  "15"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Hiệu = Số bị trừ - Số trừ = 15 - 5 = 10."
+              },
+              {
+                "id": "b3_m6",
+                "type": "multiple-choice",
+                "question": "Biết số hạng thứ nhất là 7, số hạng thứ hai là 8. Tổng là bao nhiêu?",
+                "options": [
+                  "15",
+                  "14",
+                  "16",
+                  "13"
+                ],
+                "correctAnswer": "15",
+                "explanation": "Tổng = 7 + 8 = 15."
+              },
+              {
+                "id": "b3_m7",
+                "type": "multiple-choice",
+                "question": "Biết tổng là 50, một số hạng là 20. Số hạng còn lại là bao nhiêu?",
+                "options": [
+                  "30",
+                  "70",
+                  "40",
+                  "20"
+                ],
+                "correctAnswer": "30",
+                "explanation": "Số hạng còn lại = Tổng - Số hạng đã biết = 50 - 20 = 30."
+              },
+              {
+                "id": "b3_m8",
+                "type": "multiple-choice",
+                "question": "Biết hiệu là 10, số trừ là 6. Số bị trừ là bao nhiêu?",
+                "options": [
+                  "16",
+                  "4",
+                  "10",
+                  "20"
+                ],
+                "correctAnswer": "16",
+                "explanation": "Số bị trừ = Hiệu + Số trừ = 10 + 6 = 16."
+              },
+              {
+                "id": "b3_m9",
+                "type": "multiple-choice",
+                "question": "Biết số bị trừ là 20, hiệu là 15. Số trừ là bao nhiêu?",
+                "options": [
+                  "5",
+                  "35",
+                  "15",
+                  "10"
+                ],
+                "correctAnswer": "5",
+                "explanation": "Số trừ = Số bị trừ - Hiệu = 20 - 15 = 5."
+              },
+              {
+                "id": "b3_m10",
+                "type": "multiple-choice",
+                "question": "Trong phép cộng, nếu tăng một số hạng thêm 4 đơn vị và giữ nguyên số hạng kia thì tổng thay đổi thế nào?",
+                "options": [
+                  "Tổng tăng thêm 4 đơn vị",
+                  "Tổng giảm đi 4 đơn vị",
+                  "Tổng không thay đổi",
+                  "Tổng tăng thêm 8 đơn vị"
+                ],
+                "correctAnswer": "Tổng tăng thêm 4 đơn vị",
+                "explanation": "Vì Tổng = Số hạng + Số hạng, khi một số hạng tăng bao nhiêu thì Tổng tăng bấy nhiêu."
               }
             ],
             "hard": [
               {
                 "id": "b3_h1",
                 "type": "multiple-choice",
-                "question": "Nếu số hạng thứ nhất tăng thêm 5 đơn vị và giữ nguyên số hạng thứ hai, Tổng sẽ thay đổi thế nào?",
+                "question": "Trong phép trừ, nếu tăng số bị trừ thêm 5 đơn vị và giữ nguyên số trừ thì hiệu thay đổi thế nào?",
                 "options": [
-                  "Tăng thêm 5 đơn vị",
-                  "Giảm đi 5 đơn vị",
-                  "Không thay đổi",
-                  "Tăng thêm 10 đơn vị"
+                  "Hiệu tăng thêm 5 đơn vị",
+                  "Hiệu giảm đi 5 đơn vị",
+                  "Hiệu không đổi",
+                  "Hiệu tăng thêm 10 đơn vị"
                 ],
-                "correctAnswer": "Tăng thêm 5 đơn vị",
-                "explanation": "Tổng = Số hạng + Số hạng. Khi một số hạng tăng 5 thì Tổng tăng 5."
+                "correctAnswer": "Hiệu tăng thêm 5 đơn vị",
+                "explanation": "Số bị trừ tăng bao nhiêu thì hiệu tăng bấy nhiêu. Vậy hiệu tăng thêm 5 đơn vị."
+              },
+              {
+                "id": "b3_h2",
+                "type": "multiple-choice",
+                "question": "Trong phép trừ, nếu giữ nguyên số bị trừ và tăng số trừ thêm 3 đơn vị thì hiệu thay đổi thế nào?",
+                "options": [
+                  "Hiệu giảm đi 3 đơn vị",
+                  "Hiệu tăng thêm 3 đơn vị",
+                  "Hiệu không đổi",
+                  "Hiệu giảm đi 6 đơn vị"
+                ],
+                "correctAnswer": "Hiệu giảm đi 3 đơn vị",
+                "explanation": "Số trừ tăng bao nhiêu thì hiệu giảm bấy nhiêu. Vậy hiệu giảm đi 3 đơn vị."
+              },
+              {
+                "id": "b3_h3",
+                "type": "multiple-choice",
+                "question": "Trong phép cộng, nếu số hạng thứ nhất tăng 5 đơn vị và số hạng thứ hai giảm 2 đơn vị thì tổng thay đổi thế nào?",
+                "options": [
+                  "Tổng tăng thêm 3 đơn vị",
+                  "Tổng giảm đi 3 đơn vị",
+                  "Tổng tăng thêm 7 đơn vị",
+                  "Tổng không đổi"
+                ],
+                "correctAnswer": "Tổng tăng thêm 3 đơn vị",
+                "explanation": "Tổng mới thay đổi: +5 - 2 = +3 đơn vị. Vậy tổng tăng thêm 3 đơn vị."
+              },
+              {
+                "id": "b3_h4",
+                "type": "multiple-choice",
+                "question": "Tìm tổng của số liền trước 20 và số liền sau 30.",
+                "options": [
+                  "50",
+                  "49",
+                  "51",
+                  "48"
+                ],
+                "correctAnswer": "50",
+                "explanation": "Số liền trước 20 là 19. Số liền sau 30 là 31. Tổng: 19 + 31 = 50."
+              },
+              {
+                "id": "b3_h5",
+                "type": "multiple-choice",
+                "question": "Tìm hiệu của số liền sau 40 và số liền trước 10.",
+                "options": [
+                  "32",
+                  "30",
+                  "31",
+                  "29"
+                ],
+                "correctAnswer": "32",
+                "explanation": "Số liền sau 40 là 41. Số liền trước 10 là 9. Hiệu: 41 - 9 = 32."
+              },
+              {
+                "id": "b3_h6",
+                "type": "multiple-choice",
+                "question": "Tổng của hai số là 15. Nếu ta thêm vào số hạng thứ nhất 5 đơn vị thì tổng mới là bao nhiêu?",
+                "options": [
+                  "20",
+                  "15",
+                  "10",
+                  "25"
+                ],
+                "correctAnswer": "20",
+                "explanation": "Tổng mới = 15 + 5 = 20."
+              },
+              {
+                "id": "b3_h7",
+                "type": "multiple-choice",
+                "question": "Hiệu của hai số là 20. Nếu ta bớt ở số bị trừ 5 đơn vị thì hiệu mới là bao nhiêu?",
+                "options": [
+                  "15",
+                  "20",
+                  "25",
+                  "10"
+                ],
+                "correctAnswer": "15",
+                "explanation": "Hiệu mới = 20 - 5 = 15."
+              },
+              {
+                "id": "b3_h8",
+                "type": "multiple-choice",
+                "question": "Hiệu của hai số là 12. Nếu ta thêm vào số trừ 2 đơn vị thì hiệu mới là bao nhiêu?",
+                "options": [
+                  "10",
+                  "12",
+                  "14",
+                  "8"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Khi thêm vào số trừ thì hiệu giảm đi: 12 - 2 = 10."
+              },
+              {
+                "id": "b3_h9",
+                "type": "multiple-choice",
+                "question": "Tìm số bị trừ biết hiệu là 8 và số trừ là số liền sau của 5.",
+                "options": [
+                  "14",
+                  "13",
+                  "12",
+                  "15"
+                ],
+                "correctAnswer": "14",
+                "explanation": "Số liền sau của 5 là 6, nên số trừ là 6. Số bị trừ = Hiệu + Số trừ = 8 + 6 = 14."
+              },
+              {
+                "id": "b3_h10",
+                "type": "multiple-choice",
+                "question": "Tìm số hạng thứ hai biết tổng là số lớn nhất có hai chữ số tròn chục và số hạng thứ nhất là 30.",
+                "options": [
+                  "60",
+                  "70",
+                  "50",
+                  "90"
+                ],
+                "correctAnswer": "60",
+                "explanation": "Số lớn nhất có 2 chữ số tròn chục là 90. Số hạng thứ hai = 90 - 30 = 60."
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "id": "chapter-2",
-      "title": "Chương II: Phép cộng, phép trừ trong phạm vi 20",
-      "lessons": [
+        },
         {
           "id": "bai-7-phep-cong-qua-10-trong-pham-vi-20",
           "title": "Bài 7: Phép cộng (qua 10) trong phạm vi 20",
@@ -204,22 +1251,20 @@
               {
                 "id": "b7_e1",
                 "type": "multiple-choice",
-                "question": "9 + 4 = ?",
+                "question": "9 + 2 = ?",
                 "options": [
-                  "13",
+                  "11",
+                  "10",
                   "12",
-                  "14",
-                  "15"
+                  "13"
                 ],
-                "correctAnswer": "13",
-                "explanation": "Tách 4 = 1 + 3. Ta có 9 + 1 = 10, rồi 10 + 3 = 13."
-              }
-            ],
-            "medium": [
+                "correctAnswer": "11",
+                "explanation": "Tách 2 = 1 + 1. Ta có: 9 + 1 = 10, rồi 10 + 1 = 11."
+              },
               {
-                "id": "b7_m1",
+                "id": "b7_e2",
                 "type": "multiple-choice",
-                "question": "8 + 6 = ?",
+                "question": "9 + 5 = ?",
                 "options": [
                   "14",
                   "13",
@@ -227,7 +1272,243 @@
                   "16"
                 ],
                 "correctAnswer": "14",
-                "explanation": "Tách 6 = 2 + 4. Ta có 8 + 2 = 10, rồi 10 + 4 = 14."
+                "explanation": "Tách 5 = 1 + 4. Ta có: 9 + 1 = 10, rồi 10 + 4 = 14."
+              },
+              {
+                "id": "b7_e3",
+                "type": "multiple-choice",
+                "question": "8 + 3 = ?",
+                "options": [
+                  "11",
+                  "10",
+                  "12",
+                  "13"
+                ],
+                "correctAnswer": "11",
+                "explanation": "Tách 3 = 2 + 1. Ta có: 8 + 2 = 10, rồi 10 + 1 = 11."
+              },
+              {
+                "id": "b7_e4",
+                "type": "multiple-choice",
+                "question": "8 + 5 = ?",
+                "options": [
+                  "13",
+                  "12",
+                  "14",
+                  "15"
+                ],
+                "correctAnswer": "13",
+                "explanation": "Tách 5 = 2 + 3. Ta có: 8 + 2 = 10, rồi 10 + 3 = 13."
+              },
+              {
+                "id": "b7_e5",
+                "type": "multiple-choice",
+                "question": "7 + 4 = ?",
+                "options": [
+                  "11",
+                  "10",
+                  "12",
+                  "13"
+                ],
+                "correctAnswer": "11",
+                "explanation": "Tách 4 = 3 + 1. Ta có: 7 + 3 = 10, rồi 10 + 1 = 11."
+              },
+              {
+                "id": "b7_e6",
+                "type": "multiple-choice",
+                "question": "7 + 6 = ?",
+                "options": [
+                  "13",
+                  "12",
+                  "14",
+                  "15"
+                ],
+                "correctAnswer": "13",
+                "explanation": "Tách 6 = 3 + 3. Ta có: 7 + 3 = 10, rồi 10 + 3 = 13."
+              },
+              {
+                "id": "b7_e7",
+                "type": "multiple-choice",
+                "question": "6 + 5 = ?",
+                "options": [
+                  "11",
+                  "10",
+                  "12",
+                  "13"
+                ],
+                "correctAnswer": "11",
+                "explanation": "Tách 5 = 4 + 1. Ta có: 6 + 4 = 10, rồi 10 + 1 = 11."
+              },
+              {
+                "id": "b7_e8",
+                "type": "multiple-choice",
+                "question": "9 + 7 = ?",
+                "options": [
+                  "16",
+                  "15",
+                  "17",
+                  "18"
+                ],
+                "correctAnswer": "16",
+                "explanation": "Tách 7 = 1 + 6. Ta có: 9 + 1 = 10, rồi 10 + 6 = 16."
+              },
+              {
+                "id": "b7_e9",
+                "type": "multiple-choice",
+                "question": "8 + 7 = ?",
+                "options": [
+                  "15",
+                  "14",
+                  "16",
+                  "17"
+                ],
+                "correctAnswer": "15",
+                "explanation": "Tách 7 = 2 + 5. Ta có: 8 + 2 = 10, rồi 10 + 5 = 15."
+              },
+              {
+                "id": "b7_e10",
+                "type": "multiple-choice",
+                "question": "7 + 8 = ?",
+                "options": [
+                  "15",
+                  "14",
+                  "16",
+                  "17"
+                ],
+                "correctAnswer": "15",
+                "explanation": "Tách 8 = 3 + 5. Ta có: 7 + 3 = 10, rồi 10 + 5 = 15."
+              }
+            ],
+            "medium": [
+              {
+                "id": "b7_m1",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 9 + ? = 13",
+                "options": [
+                  "4",
+                  "3",
+                  "5",
+                  "6"
+                ],
+                "correctAnswer": "4",
+                "explanation": "Ta có: 9 + 4 = 13."
+              },
+              {
+                "id": "b7_m2",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 8 + ? = 12",
+                "options": [
+                  "4",
+                  "3",
+                  "5",
+                  "6"
+                ],
+                "correctAnswer": "4",
+                "explanation": "Ta có: 8 + 4 = 12."
+              },
+              {
+                "id": "b7_m3",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 7 + ? = 15",
+                "options": [
+                  "8",
+                  "7",
+                  "9",
+                  "6"
+                ],
+                "correctAnswer": "8",
+                "explanation": "Ta có: 7 + 8 = 15."
+              },
+              {
+                "id": "b7_m4",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 6 + ? = 12",
+                "options": [
+                  "6",
+                  "5",
+                  "7",
+                  "8"
+                ],
+                "correctAnswer": "6",
+                "explanation": "Ta có: 6 + 6 = 12."
+              },
+              {
+                "id": "b7_m5",
+                "type": "multiple-choice",
+                "question": "So sánh: 9 + 4 ... 8 + 6",
+                "options": [
+                  "<",
+                  ">",
+                  "=",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "<",
+                "explanation": "9 + 4 = 13. 8 + 6 = 14. Vì 13 < 14 nên 9 + 4 < 8 + 6."
+              },
+              {
+                "id": "b7_m6",
+                "type": "multiple-choice",
+                "question": "So sánh: 9 + 6 ... 8 + 7",
+                "options": [
+                  "=",
+                  "<",
+                  ">",
+                  "Khác nhau"
+                ],
+                "correctAnswer": "=",
+                "explanation": "9 + 6 = 15. 8 + 7 = 15. Hai phép tính có kết quả bằng nhau."
+              },
+              {
+                "id": "b7_m7",
+                "type": "multiple-choice",
+                "question": "Tìm X biết: X - 5 = 9",
+                "options": [
+                  "14",
+                  "13",
+                  "15",
+                  "4"
+                ],
+                "correctAnswer": "14",
+                "explanation": "X = 9 + 5 = 14."
+              },
+              {
+                "id": "b7_m8",
+                "type": "multiple-choice",
+                "question": "Tính nhanh: 9 + 1 + 5 = ?",
+                "options": [
+                  "15",
+                  "14",
+                  "16",
+                  "10"
+                ],
+                "correctAnswer": "15",
+                "explanation": "Gộp 9 + 1 = 10, rồi 10 + 5 = 15."
+              },
+              {
+                "id": "b7_m9",
+                "type": "multiple-choice",
+                "question": "Tính nhanh: 8 + 2 + 7 = ?",
+                "options": [
+                  "17",
+                  "16",
+                  "18",
+                  "10"
+                ],
+                "correctAnswer": "17",
+                "explanation": "Gộp 8 + 2 = 10, rồi 10 + 7 = 17."
+              },
+              {
+                "id": "b7_m10",
+                "type": "multiple-choice",
+                "question": "Tính nhanh: 7 + 3 + 4 = ?",
+                "options": [
+                  "14",
+                  "13",
+                  "15",
+                  "10"
+                ],
+                "correctAnswer": "14",
+                "explanation": "Gộp 7 + 3 = 10, rồi 10 + 4 = 14."
               }
             ],
             "hard": [
@@ -242,7 +1523,124 @@
                   "14 bông hoa"
                 ],
                 "correctAnswer": "16 bông hoa",
-                "explanation": "Phép tính là 9 + 7. Tách 7 = 1 + 6. Ta được 9 + 1 = 10; 10 + 6 = 16."
+                "explanation": "Phép tính: 9 + 7. Tách 7 = 1 + 6. Ta được 9 + 1 = 10; 10 + 6 = 16."
+              },
+              {
+                "id": "b7_h2",
+                "type": "multiple-choice",
+                "question": "Lan có 8 cái nhãn vở, Mai có nhiều hơn Lan 5 cái. Hỏi Mai có bao nhiêu cái nhãn vở?",
+                "options": [
+                  "13 cái",
+                  "12 cái",
+                  "14 cái",
+                  "3 cái"
+                ],
+                "correctAnswer": "13 cái",
+                "explanation": "Số nhãn vở của Mai là: 8 + 5 = 13 cái."
+              },
+              {
+                "id": "b7_h3",
+                "type": "multiple-choice",
+                "question": "Trong vườn có 7 cây cam và 8 cây bưởi. Hỏi trong vườn có tất cả bao nhiêu cây cam và bưởi?",
+                "options": [
+                  "15 cây",
+                  "14 cây",
+                  "16 cây",
+                  "13 cây"
+                ],
+                "correctAnswer": "15 cây",
+                "explanation": "Tổng số cây là: 7 + 8 = 15 cây."
+              },
+              {
+                "id": "b7_h4",
+                "type": "multiple-choice",
+                "question": "Tổ Một trồng được 9 cây, tổ Hai trồng được nhiều hơn tổ Một 3 cây. Hỏi tổ Hai trồng được bao nhiêu cây?",
+                "options": [
+                  "12 cây",
+                  "11 cây",
+                  "13 cây",
+                  "6 cây"
+                ],
+                "correctAnswer": "12 cây",
+                "explanation": "Số cây tổ Hai trồng được là: 9 + 3 = 12 cây."
+              },
+              {
+                "id": "b7_h5",
+                "type": "multiple-choice",
+                "question": "Đàn vịt dưới ao có 8 con vịt trắng và 6 con vịt khoang. Hỏi đàn vịt có tất cả bao nhiêu con?",
+                "options": [
+                  "14 con",
+                  "13 con",
+                  "15 con",
+                  "12 con"
+                ],
+                "correctAnswer": "14 con",
+                "explanation": "Tổng số vịt là: 8 + 6 = 14 con."
+              },
+              {
+                "id": "b7_h6",
+                "type": "multiple-choice",
+                "question": "Trên kệ sách có 9 quyển truyện tranh và 8 quyển sách giáo khoa. Hỏi có tất cả bao nhiêu quyển sách trên kệ?",
+                "options": [
+                  "17 quyển",
+                  "16 quyển",
+                  "18 quyển",
+                  "15 quyển"
+                ],
+                "correctAnswer": "17 quyển",
+                "explanation": "Tổng số sách là: 9 + 8 = 17 quyển."
+              },
+              {
+                "id": "b7_h7",
+                "type": "multiple-choice",
+                "question": "Dũng có 9 viên bi, Hùng cho Dũng thêm 9 viên bi nữa. Hỏi Dũng có tất cả bao nhiêu viên bi?",
+                "options": [
+                  "18 viên bi",
+                  "17 viên bi",
+                  "19 viên bi",
+                  "16 viên bi"
+                ],
+                "correctAnswer": "18 viên bi",
+                "explanation": "Tổng số bi của Dũng là: 9 + 9 = 18 viên bi."
+              },
+              {
+                "id": "b7_h8",
+                "type": "multiple-choice",
+                "question": "Có hai bao gạo, bao thứ nhất nặng 8kg, bao thứ hai nặng hơn bao thứ nhất 4kg. Hỏi bao thứ hai nặng bao nhiêu ki-lô-gam?",
+                "options": [
+                  "12 kg",
+                  "11 kg",
+                  "13 kg",
+                  "4 kg"
+                ],
+                "correctAnswer": "12 kg",
+                "explanation": "Khối lượng bao thứ hai là: 8 + 4 = 12 kg."
+              },
+              {
+                "id": "b7_h9",
+                "type": "multiple-choice",
+                "question": "Minh cắt được 7 ngôi sao giấy, Hà cắt được nhiều hơn Minh 7 ngôi sao. Hỏi Hà cắt được bao nhiêu ngôi sao giấy?",
+                "options": [
+                  "14 ngôi sao",
+                  "13 ngôi sao",
+                  "15 ngôi sao",
+                  "0 ngôi sao"
+                ],
+                "correctAnswer": "14 ngôi sao",
+                "explanation": "Số ngôi sao của Hà là: 7 + 7 = 14 ngôi sao."
+              },
+              {
+                "id": "b7_h10",
+                "type": "multiple-choice",
+                "question": "Bác An nuôi 9 con gà mái và 8 con gà trống. Hỏi nhà bác An nuôi tất cả bao nhiêu con gà?",
+                "options": [
+                  "17 con",
+                  "16 con",
+                  "18 con",
+                  "15 con"
+                ],
+                "correctAnswer": "17 con",
+                "explanation": "Tổng số gà nhà bác An là: 9 + 8 = 17 con."
               }
             ]
           }
@@ -274,11 +1672,74 @@
                 ],
                 "correctAnswer": "8",
                 "explanation": "Trừ đi 1 để được 10: 11 - 1 - 2 = 10 - 2 = 8."
-              }
-            ],
-            "medium": [
+              },
               {
-                "id": "b11_m1",
+                "id": "b11_e2",
+                "type": "multiple-choice",
+                "question": "11 - 2 = ?",
+                "options": [
+                  "9",
+                  "8",
+                  "10",
+                  "7"
+                ],
+                "correctAnswer": "9",
+                "explanation": "Trừ đi 1 để được 10: 11 - 1 - 1 = 9."
+              },
+              {
+                "id": "b11_e3",
+                "type": "multiple-choice",
+                "question": "11 - 5 = ?",
+                "options": [
+                  "6",
+                  "5",
+                  "7",
+                  "8"
+                ],
+                "correctAnswer": "6",
+                "explanation": "Trừ đi 1 để được 10: 11 - 1 - 4 = 6."
+              },
+              {
+                "id": "b11_e4",
+                "type": "multiple-choice",
+                "question": "12 - 3 = ?",
+                "options": [
+                  "9",
+                  "8",
+                  "10",
+                  "7"
+                ],
+                "correctAnswer": "9",
+                "explanation": "Trừ đi 2 để được 10: 12 - 2 - 1 = 9."
+              },
+              {
+                "id": "b11_e5",
+                "type": "multiple-choice",
+                "question": "12 - 5 = ?",
+                "options": [
+                  "7",
+                  "6",
+                  "8",
+                  "9"
+                ],
+                "correctAnswer": "7",
+                "explanation": "Trừ đi 2 để được 10: 12 - 2 - 3 = 7."
+              },
+              {
+                "id": "b11_e6",
+                "type": "multiple-choice",
+                "question": "13 - 4 = ?",
+                "options": [
+                  "9",
+                  "8",
+                  "10",
+                  "7"
+                ],
+                "correctAnswer": "9",
+                "explanation": "Trừ đi 3 để được 10: 13 - 3 - 1 = 9."
+              },
+              {
+                "id": "b11_e7",
                 "type": "multiple-choice",
                 "question": "13 - 6 = ?",
                 "options": [
@@ -288,7 +1749,178 @@
                   "9"
                 ],
                 "correctAnswer": "7",
-                "explanation": "Trừ đi 3 để được 10: 13 - 3 - 3 = 10 - 3 = 7."
+                "explanation": "Trừ đi 3 để được 10: 13 - 3 - 3 = 7."
+              },
+              {
+                "id": "b11_e8",
+                "type": "multiple-choice",
+                "question": "14 - 5 = ?",
+                "options": [
+                  "9",
+                  "8",
+                  "7",
+                  "10"
+                ],
+                "correctAnswer": "9",
+                "explanation": "Trừ đi 4 để được 10: 14 - 4 - 1 = 9."
+              },
+              {
+                "id": "b11_e9",
+                "type": "multiple-choice",
+                "question": "15 - 7 = ?",
+                "options": [
+                  "8",
+                  "7",
+                  "9",
+                  "6"
+                ],
+                "correctAnswer": "8",
+                "explanation": "Trừ đi 5 để được 10: 15 - 5 - 2 = 8."
+              },
+              {
+                "id": "b11_e10",
+                "type": "multiple-choice",
+                "question": "16 - 8 = ?",
+                "options": [
+                  "8",
+                  "7",
+                  "9",
+                  "6"
+                ],
+                "correctAnswer": "8",
+                "explanation": "Trừ đi 6 để được 10: 16 - 6 - 2 = 8."
+              }
+            ],
+            "medium": [
+              {
+                "id": "b11_m1",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 11 - ? = 8",
+                "options": [
+                  "3",
+                  "2",
+                  "4",
+                  "5"
+                ],
+                "correctAnswer": "3",
+                "explanation": "Ta có: 11 - 3 = 8."
+              },
+              {
+                "id": "b11_m2",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 12 - ? = 6",
+                "options": [
+                  "6",
+                  "5",
+                  "7",
+                  "8"
+                ],
+                "correctAnswer": "6",
+                "explanation": "Ta có: 12 - 6 = 6."
+              },
+              {
+                "id": "b11_m3",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 13 - ? = 8",
+                "options": [
+                  "5",
+                  "4",
+                  "6",
+                  "7"
+                ],
+                "correctAnswer": "5",
+                "explanation": "Ta có: 13 - 5 = 8."
+              },
+              {
+                "id": "b11_m4",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 14 - ? = 7",
+                "options": [
+                  "7",
+                  "6",
+                  "8",
+                  "9"
+                ],
+                "correctAnswer": "7",
+                "explanation": "Ta có: 14 - 7 = 7."
+              },
+              {
+                "id": "b11_m5",
+                "type": "multiple-choice",
+                "question": "So sánh: 13 - 5 ... 12 - 4",
+                "options": [
+                  "=",
+                  "<",
+                  ">",
+                  "Không bằng nhau"
+                ],
+                "correctAnswer": "=",
+                "explanation": "13 - 5 = 8. 12 - 4 = 8. Cả hai phép tính đều bằng 8."
+              },
+              {
+                "id": "b11_m6",
+                "type": "multiple-choice",
+                "question": "So sánh: 15 - 7 ... 14 - 8",
+                "options": [
+                  ">",
+                  "<",
+                  "=",
+                  "Nhỏ hơn hoặc bằng"
+                ],
+                "correctAnswer": ">",
+                "explanation": "15 - 7 = 8. 14 - 8 = 6. Vì 8 > 6 nên 15 - 7 > 14 - 8."
+              },
+              {
+                "id": "b11_m7",
+                "type": "multiple-choice",
+                "question": "Tìm X biết: 15 - X = 8",
+                "options": [
+                  "7",
+                  "8",
+                  "9",
+                  "6"
+                ],
+                "correctAnswer": "7",
+                "explanation": "X = 15 - 8 = 7."
+              },
+              {
+                "id": "b11_m8",
+                "type": "multiple-choice",
+                "question": "Tính: 12 - 2 - 3 = ?",
+                "options": [
+                  "7",
+                  "8",
+                  "6",
+                  "10"
+                ],
+                "correctAnswer": "7",
+                "explanation": "Thực hiện lần lượt từ trái sang: 12 - 2 = 10; 10 - 3 = 7."
+              },
+              {
+                "id": "b11_m9",
+                "type": "multiple-choice",
+                "question": "Tính: 15 - 5 - 4 = ?",
+                "options": [
+                  "6",
+                  "7",
+                  "5",
+                  "10"
+                ],
+                "correctAnswer": "6",
+                "explanation": "Thực hiện lần lượt từ trái sang: 15 - 5 = 10; 10 - 4 = 6."
+              },
+              {
+                "id": "b11_m10",
+                "type": "multiple-choice",
+                "question": "Tính: 17 - 7 - 2 = ?",
+                "options": [
+                  "8",
+                  "9",
+                  "7",
+                  "10"
+                ],
+                "correctAnswer": "8",
+                "explanation": "Thực hiện lần lượt từ trái sang: 17 - 7 = 10; 10 - 2 = 8."
               }
             ],
             "hard": [
@@ -304,6 +1936,123 @@
                 ],
                 "correctAnswer": "8 quả",
                 "explanation": "Phép tính: 12 - 4. Trừ đi 2 để được 10: 12 - 2 - 2 = 10 - 2 = 8."
+              },
+              {
+                "id": "b11_h2",
+                "type": "multiple-choice",
+                "question": "Cửa hàng có 15 cái xe đạp, đã bán được 7 cái. Hỏi cửa hàng còn lại bao nhiêu cái xe đạp?",
+                "options": [
+                  "8 cái",
+                  "7 cái",
+                  "9 cái",
+                  "6 cái"
+                ],
+                "correctAnswer": "8 cái",
+                "explanation": "Số xe đạp còn lại là: 15 - 7 = 8 cái."
+              },
+              {
+                "id": "b11_h3",
+                "type": "multiple-choice",
+                "question": "An có 13 viên kẹo, An cho Bình 6 viên kẹo. Hỏi An còn lại bao nhiêu viên kẹo?",
+                "options": [
+                  "7 viên",
+                  "6 viên",
+                  "8 viên",
+                  "9 viên"
+                ],
+                "correctAnswer": "7 viên",
+                "explanation": "Số kẹo còn lại của An là: 13 - 6 = 7 viên."
+              },
+              {
+                "id": "b11_h4",
+                "type": "multiple-choice",
+                "question": "Lớp 2A có 14 học sinh tham gia học vẽ, trong đó có 8 bạn nữ. Hỏi có bao nhiêu bạn nam tham gia?",
+                "options": [
+                  "6 bạn",
+                  "7 bạn",
+                  "8 bạn",
+                  "5 bạn"
+                ],
+                "correctAnswer": "6 bạn",
+                "explanation": "Số bạn nam là: 14 - 8 = 6 bạn."
+              },
+              {
+                "id": "b11_h5",
+                "type": "multiple-choice",
+                "question": "Đàn gà nhà Nam có 11 con, Nam đã bán đi 3 con. Hỏi nhà Nam còn lại bao nhiêu con gà?",
+                "options": [
+                  "8 con",
+                  "7 con",
+                  "9 con",
+                  "10 con"
+                ],
+                "correctAnswer": "8 con",
+                "explanation": "Số gà còn lại nhà Nam là: 11 - 3 = 8 con."
+              },
+              {
+                "id": "b11_h6",
+                "type": "multiple-choice",
+                "question": "Hộp bút có 13 cây bút chì màu, Hà lấy ra dùng 5 cây. Hỏi trong hộp còn lại bao nhiêu cây bút?",
+                "options": [
+                  "8 cây",
+                  "7 cây",
+                  "9 cây",
+                  "6 cây"
+                ],
+                "correctAnswer": "8 cây",
+                "explanation": "Số bút còn lại trong hộp là: 13 - 5 = 8 cây."
+              },
+              {
+                "id": "b11_h7",
+                "type": "multiple-choice",
+                "question": "Bình có 16 tờ giấy màu, Bình đã dùng hết 8 tờ để gấp thuyền. Hỏi Bình còn lại bao nhiêu tờ?",
+                "options": [
+                  "8 tờ",
+                  "7 tờ",
+                  "9 tờ",
+                  "10 tờ"
+                ],
+                "correctAnswer": "8 tờ",
+                "explanation": "Số tờ giấy màu còn lại là: 16 - 8 = 8 tờ."
+              },
+              {
+                "id": "b11_h8",
+                "type": "multiple-choice",
+                "question": "Trong rổ có 11 quả cam, mẹ lấy ra 4 quả để vắt nước. Hỏi trong rổ còn lại bao nhiêu quả cam?",
+                "options": [
+                  "7 quả",
+                  "6 quả",
+                  "8 quả",
+                  "5 quả"
+                ],
+                "correctAnswer": "7 quả",
+                "explanation": "Số quả cam còn lại là: 11 - 4 = 7 quả cam."
+              },
+              {
+                "id": "b11_h9",
+                "type": "multiple-choice",
+                "question": "Một đoạn dây dài 15cm, bé cắt đi một đoạn dài 6cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?",
+                "options": [
+                  "9 cm",
+                  "8 cm",
+                  "10 cm",
+                  "7 cm"
+                ],
+                "correctAnswer": "9 cm",
+                "explanation": "Độ dài đoạn dây còn lại là: 15 - 6 = 9 cm."
+              },
+              {
+                "id": "b11_h10",
+                "type": "multiple-choice",
+                "question": "Cuốn truyện có 18 trang, Nam đã đọc được 9 trang. Hỏi Nam còn phải đọc bao nhiêu trang nữa?",
+                "options": [
+                  "9 trang",
+                  "8 trang",
+                  "10 trang",
+                  "7 trang"
+                ],
+                "correctAnswer": "9 trang",
+                "explanation": "Số trang Nam còn phải đọc là: 18 - 9 = 9 trang."
               }
             ]
           }
@@ -337,11 +2086,180 @@
                 ],
                 "correctAnswer": "kg",
                 "explanation": "Ki-lô-gam viết tắt là kg."
+              },
+              {
+                "id": "b15_e2",
+                "type": "multiple-choice",
+                "question": "Ki-lô-gam đọc là gì?",
+                "options": [
+                  "Ki-lô-gam",
+                  "Lít",
+                  "Xăng-ti-mét",
+                  "Ki-lô-mét"
+                ],
+                "correctAnswer": "Ki-lô-gam",
+                "explanation": "Từ kg được phát âm tiếng Việt là ki-lô-gam."
+              },
+              {
+                "id": "b15_e3",
+                "type": "multiple-choice",
+                "question": "Dụng cụ nào dưới đây dùng để đo khối lượng?",
+                "options": [
+                  "Cân",
+                  "Thước",
+                  "Ca đong",
+                  "Đồng hồ"
+                ],
+                "correctAnswer": "Cân",
+                "explanation": "Chúng ta dùng Cân để cân đo khối lượng (nặng, nhẹ)."
+              },
+              {
+                "id": "b15_e4",
+                "type": "multiple-choice",
+                "question": "Quả cân ghi '5 kg' nghĩa là gì?",
+                "options": [
+                  "Quả cân nặng 5 ki-lô-gam",
+                  "Quả cân nặng 5 lít",
+                  "Quả cân dài 5 xăng-ti-mét",
+                  "Quả cân nặng 50 gam"
+                ],
+                "correctAnswer": "Quả cân nặng 5 ki-lô-gam",
+                "explanation": "Chữ kg biểu thị đơn vị ki-lô-gam, vậy quả cân này nặng 5 ki-lô-gam."
+              },
+              {
+                "id": "b15_e5",
+                "type": "multiple-choice",
+                "question": "Khi đĩa cân thăng bằng, kim ở giữa, đĩa bên trái có vật, đĩa bên phải có quả cân 2kg thì vật nặng bao nhiêu?",
+                "options": [
+                  "2 kg",
+                  "1 kg",
+                  "3 kg",
+                  "4 kg"
+                ],
+                "correctAnswer": "2 kg",
+                "explanation": "Khi cân thăng bằng, khối lượng vật bằng khối lượng quả cân: 2kg."
+              },
+              {
+                "id": "b15_e6",
+                "type": "multiple-choice",
+                "question": "Vật nào dưới đây thường nặng hơn 1kg?",
+                "options": [
+                  "Bao gạo lớn nhà ăn",
+                  "Một chiếc nhãn vở",
+                  "Một cái bút chì",
+                  "Một chiếc lá cây"
+                ],
+                "correctAnswer": "Bao gạo lớn nhà ăn",
+                "explanation": "Bao gạo lớn thường nặng 10kg, 20kg trở lên, nặng hơn nhiều so với 1kg."
+              },
+              {
+                "id": "b15_e7",
+                "type": "multiple-choice",
+                "question": "So sánh: Vật nặng 3kg với vật nặng 5kg, vật nào nhẹ hơn?",
+                "options": [
+                  "Vật nặng 3kg",
+                  "Vật nặng 5kg",
+                  "Bằng nhau",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "Vật nặng 3kg",
+                "explanation": "Vì 3 < 5 nên vật nặng 3kg nhẹ hơn vật nặng 5kg."
+              },
+              {
+                "id": "b15_e8",
+                "type": "multiple-choice",
+                "question": "Quả đu đủ nặng 2kg, quả dưa hấu nặng 3kg. Quả nào nặng hơn?",
+                "options": [
+                  "Quả dưa hấu",
+                  "Quả đu đủ",
+                  "Bằng nhau",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "Quả dưa hấu",
+                "explanation": "Vì 3kg > 2kg nên quả dưa hấu nặng hơn."
+              },
+              {
+                "id": "b15_e9",
+                "type": "multiple-choice",
+                "question": "Chọn nhận xét đúng về một quả táo nhỏ.",
+                "options": [
+                  "Nhẹ hơn 1kg",
+                  "Nặng hơn 1kg",
+                  "Nặng đúng 10kg",
+                  "Nặng bằng 50kg"
+                ],
+                "correctAnswer": "Nhẹ hơn 1kg",
+                "explanation": "Quả táo nhỏ rất nhẹ, thường nhẹ hơn nhiều so với 1kg."
+              },
+              {
+                "id": "b15_e10",
+                "type": "multiple-choice",
+                "question": "Bao xi măng nặng 50kg, bao gạo nặng 10kg. Hỏi bao nào nhẹ hơn?",
+                "options": [
+                  "Bao gạo",
+                  "Bao xi măng",
+                  "Bằng nhau",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "Bao gạo",
+                "explanation": "Vì 10kg < 50kg nên bao gạo nhẹ hơn."
               }
             ],
             "medium": [
               {
                 "id": "b15_m1",
+                "type": "multiple-choice",
+                "question": "5kg + 8kg = ?",
+                "options": [
+                  "13 kg",
+                  "12 kg",
+                  "14 kg",
+                  "15 kg"
+                ],
+                "correctAnswer": "13 kg",
+                "explanation": "Cộng số: 5 + 8 = 13, thêm đơn vị kg vào sau kết quả."
+              },
+              {
+                "id": "b15_m2",
+                "type": "multiple-choice",
+                "question": "15kg - 7kg = ?",
+                "options": [
+                  "8 kg",
+                  "9 kg",
+                  "7 kg",
+                  "10 kg"
+                ],
+                "correctAnswer": "8 kg",
+                "explanation": "Trừ số: 15 - 7 = 8, thêm đơn vị kg vào sau kết quả."
+              },
+              {
+                "id": "b15_m3",
+                "type": "multiple-choice",
+                "question": "12kg + 6kg = ?",
+                "options": [
+                  "18 kg",
+                  "17 kg",
+                  "19 kg",
+                  "16 kg"
+                ],
+                "correctAnswer": "18 kg",
+                "explanation": "12 + 6 = 18. Vậy kết quả là 18kg."
+              },
+              {
+                "id": "b15_m4",
+                "type": "multiple-choice",
+                "question": "20kg - 8kg = ?",
+                "options": [
+                  "12 kg",
+                  "11 kg",
+                  "13 kg",
+                  "10 kg"
+                ],
+                "correctAnswer": "12 kg",
+                "explanation": "20 - 8 = 12. Vậy kết quả là 12kg."
+              },
+              {
+                "id": "b15_m5",
                 "type": "multiple-choice",
                 "question": "Đĩa cân bên trái có quả bí ngô, đĩa bên phải có 2 quả cân loại 2kg và 1 quả cân loại 1kg. Khi cân thăng bằng, quả bí ngô nặng bao nhiêu?",
                 "options": [
@@ -352,6 +2270,71 @@
                 ],
                 "correctAnswer": "5 kg",
                 "explanation": "Khối lượng quả bí ngô bằng tổng khối lượng các quả cân: 2kg + 2kg + 1kg = 5kg."
+              },
+              {
+                "id": "b15_m6",
+                "type": "multiple-choice",
+                "question": "Để cân một con gà nặng 3kg bằng cân đĩa, người ta đặt lên đĩa cân bên kia những quả cân nào để thăng bằng?",
+                "options": [
+                  "1 quả 2kg và 1 quả 1kg",
+                  "3 quả 2kg",
+                  "1 quả 5kg",
+                  "2 quả 1kg"
+                ],
+                "correctAnswer": "1 quả 2kg và 1 quả 1kg",
+                "explanation": "Tổng khối lượng quả cân phải bằng 3kg: 2kg + 1kg = 3kg."
+              },
+              {
+                "id": "b15_m7",
+                "type": "multiple-choice",
+                "question": "So sánh: 9kg + 4kg ... 15kg - 2kg",
+                "options": [
+                  "=",
+                  "<",
+                  ">",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "=",
+                "explanation": "9kg + 4kg = 13kg. 15kg - 2kg = 13kg. Cả hai bằng nhau."
+              },
+              {
+                "id": "b15_m8",
+                "type": "multiple-choice",
+                "question": "So sánh: 8kg + 7kg ... 12kg + 4kg",
+                "options": [
+                  "<",
+                  ">",
+                  "=",
+                  "Khác nhau"
+                ],
+                "correctAnswer": "<",
+                "explanation": "8kg + 7kg = 15kg. 12kg + 4kg = 16kg. Vì 15 < 16 nên phép thứ nhất nhỏ hơn."
+              },
+              {
+                "id": "b15_m9",
+                "type": "multiple-choice",
+                "question": "Tìm X biết: X + 5kg = 12kg",
+                "options": [
+                  "7 kg",
+                  "8 kg",
+                  "6 kg",
+                  "17 kg"
+                ],
+                "correctAnswer": "7 kg",
+                "explanation": "X = 12kg - 5kg = 7kg."
+              },
+              {
+                "id": "b15_m10",
+                "type": "multiple-choice",
+                "question": "Tìm Y biết: Y - 6kg = 8kg",
+                "options": [
+                  "14 kg",
+                  "2 kg",
+                  "12 kg",
+                  "8 kg"
+                ],
+                "correctAnswer": "14 kg",
+                "explanation": "Y = 8kg + 6kg = 14kg."
               }
             ],
             "hard": [
@@ -367,6 +2350,123 @@
                 ],
                 "correctAnswer": "8 kg",
                 "explanation": "Phép tính: 15kg - 7kg = 8kg."
+              },
+              {
+                "id": "b15_h2",
+                "type": "multiple-choice",
+                "question": "Bao ngô nặng 25kg, bao thóc nặng hơn bao ngô 5kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam?",
+                "options": [
+                  "30 kg",
+                  "20 kg",
+                  "25 kg",
+                  "35 kg"
+                ],
+                "correctAnswer": "30 kg",
+                "explanation": "Bao thóc nặng hơn nên thực hiện phép cộng: 25kg + 5kg = 30kg."
+              },
+              {
+                "id": "b15_h3",
+                "type": "multiple-choice",
+                "question": "Con ngỗng nặng 6kg, con gà nặng kém con ngỗng 4kg. Hỏi con gà nặng bao nhiêu ki-lô-gam?",
+                "options": [
+                  "2 kg",
+                  "3 kg",
+                  "10 kg",
+                  "4 kg"
+                ],
+                "correctAnswer": "2 kg",
+                "explanation": "Con gà nặng kém hơn nên thực hiện phép trừ: 6kg - 4kg = 2kg."
+              },
+              {
+                "id": "b15_h4",
+                "type": "multiple-choice",
+                "question": "Cả gà và vịt cân nặng 5kg. Biết con gà cân nặng 3kg. Hỏi con vịt cân nặng bao nhiêu ki-lô-gam?",
+                "options": [
+                  "2 kg",
+                  "3 kg",
+                  "8 kg",
+                  "1 kg"
+                ],
+                "correctAnswer": "2 kg",
+                "explanation": "Cân nặng của con vịt là: 5kg - 3kg = 2kg."
+              },
+              {
+                "id": "b15_h5",
+                "type": "multiple-choice",
+                "question": "Mẹ mua 5kg ổi và 8kg xoài. Hỏi mẹ đã mua tất cả bao nhiêu ki-lô-gam hoa quả?",
+                "options": [
+                  "13 kg",
+                  "12 kg",
+                  "14 kg",
+                  "3 kg"
+                ],
+                "correctAnswer": "13 kg",
+                "explanation": "Tổng khối lượng hoa quả mẹ mua là: 5kg + 8kg = 13kg."
+              },
+              {
+                "id": "b15_h6",
+                "type": "multiple-choice",
+                "question": "Con lợn nặng 50kg, con chó nặng kém con lợn 38kg. Hỏi con chó nặng bao nhiêu ki-lô-gam?",
+                "options": [
+                  "12 kg",
+                  "18 kg",
+                  "22 kg",
+                  "88 kg"
+                ],
+                "correctAnswer": "12 kg",
+                "explanation": "Khối lượng con chó là: 50kg - 38kg = 12kg."
+              },
+              {
+                "id": "b15_h7",
+                "type": "multiple-choice",
+                "question": "Cửa hàng có 35kg đường, đã bán đi 15kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam đường?",
+                "options": [
+                  "20 kg",
+                  "15 kg",
+                  "25 kg",
+                  "50 kg"
+                ],
+                "correctAnswer": "20 kg",
+                "explanation": "Khối lượng đường còn lại là: 35kg - 15kg = 20kg."
+              },
+              {
+                "id": "b15_h8",
+                "type": "multiple-choice",
+                "question": "Thùng thứ nhất đựng 12kg sơn, thùng thứ hai đựng nhiều hơn thùng thứ nhất 5kg sơn. Hỏi thùng thứ hai đựng bao nhiêu ki-lô-gam sơn?",
+                "options": [
+                  "17 kg",
+                  "16 kg",
+                  "7 kg",
+                  "12 kg"
+                ],
+                "correctAnswer": "17 kg",
+                "explanation": "Khối lượng sơn thùng thứ hai đựng là: 12kg + 5kg = 17kg."
+              },
+              {
+                "id": "b15_h9",
+                "type": "multiple-choice",
+                "question": "Có 3 quả cân loại 2kg, 5kg và 1kg. Tổng khối lượng của cả 3 quả cân này là bao nhiêu?",
+                "options": [
+                  "8 kg",
+                  "7 kg",
+                  "9 kg",
+                  "10 kg"
+                ],
+                "correctAnswer": "8 kg",
+                "explanation": "Tổng khối lượng: 2kg + 5kg + 1kg = 8kg."
+              },
+              {
+                "id": "b15_h10",
+                "type": "multiple-choice",
+                "question": "Bé Nam nặng 22kg, bé Bình nặng hơn bé Nam 3kg. Hỏi bé Bình nặng bao nhiêu ki-lô-gam?",
+                "options": [
+                  "25 kg",
+                  "19 kg",
+                  "22 kg",
+                  "28 kg"
+                ],
+                "correctAnswer": "25 kg",
+                "explanation": "Cân nặng của bé Bình là: 22kg + 3kg = 25kg."
               }
             ]
           }
@@ -394,13 +2494,182 @@
                 ],
                 "correctAnswer": "Lít",
                 "explanation": "Chữ l viết tắt cho đơn vị Lít."
+              },
+              {
+                "id": "b16_e2",
+                "type": "multiple-choice",
+                "question": "Lít là đơn vị dùng để đo gì?",
+                "options": [
+                  "Dung tích hoặc sức chứa chất lỏng",
+                  "Chiều dài của bàn học",
+                  "Cân nặng của em bé",
+                  "Thời gian làm bài tập"
+                ],
+                "correctAnswer": "Dung tích hoặc sức chứa chất lỏng",
+                "explanation": "Lít dùng để đo sức chứa chất lỏng (nước, dầu, sữa,...)."
+              },
+              {
+                "id": "b16_e3",
+                "type": "multiple-choice",
+                "question": "Vật nào dưới đây thường chứa được nhiều nước nhất?",
+                "options": [
+                  "Cái bể chứa nước lớn",
+                  "Cái ca đong 1 lít",
+                  "Cái cốc thủy tinh nhỏ",
+                  "Cái bát ăn cơm"
+                ],
+                "correctAnswer": "Cái bể chứa nước lớn",
+                "explanation": "Bể chứa nước lớn chứa hàng trăm lít nước, nhiều nhất."
+              },
+              {
+                "id": "b16_e4",
+                "type": "multiple-choice",
+                "question": "Ca đong nước ghi '1 l' nghĩa là ca đong chứa được bao nhiêu nước?",
+                "options": [
+                  "1 lít nước",
+                  "10 lít nước",
+                  "1 ki-lô-gam nước",
+                  "100 lít nước"
+                ],
+                "correctAnswer": "1 lít nước",
+                "explanation": "Ghi '1 l' tức là dung tích ca đong chứa tối đa 1 lít."
+              },
+              {
+                "id": "b16_e5",
+                "type": "multiple-choice",
+                "question": "So sánh: Ca 2 lít và ca 5 lít, ca nào chứa được nhiều nước hơn?",
+                "options": [
+                  "Ca 5 lít",
+                  "Ca 2 lít",
+                  "Bằng nhau",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "Ca 5 lít",
+                "explanation": "Vì 5 > 2 nên ca 5 lít chứa được nhiều hơn."
+              },
+              {
+                "id": "b16_e6",
+                "type": "multiple-choice",
+                "question": "Dụng cụ nào dưới đây thường dùng để đong nước theo đơn vị Lít?",
+                "options": [
+                  "Ca đong có chia vạch",
+                  "Thước dây",
+                  "Cân bàn",
+                  "Nhiệt kế"
+                ],
+                "correctAnswer": "Ca đong có chia vạch",
+                "explanation": "Chúng ta dùng các loại ca đong, chai hoặc can có vạch chia lít để đong chất lỏng."
+              },
+              {
+                "id": "b16_e7",
+                "type": "multiple-choice",
+                "question": "Chất nào dưới đây thường được đo bằng đơn vị Lít?",
+                "options": [
+                  "Nước ngọt",
+                  "Gạo tẻ",
+                  "Sách giáo khoa",
+                  "Quả bí ngô"
+                ],
+                "correctAnswer": "Nước ngọt",
+                "explanation": "Nước ngọt là chất lỏng, được đo bằng lít. Gạo, quả bí đo bằng kg, sách đo bằng quyển."
+              },
+              {
+                "id": "b16_e8",
+                "type": "multiple-choice",
+                "question": "Bình nước lọc lớn đặt ở văn phòng lớp học thường chứa khoảng bao nhiêu lít?",
+                "options": [
+                  "20 lít",
+                  "1 lít",
+                  "1000 lít",
+                  "500 lít"
+                ],
+                "correctAnswer": "20 lít",
+                "explanation": "Bình nước lọc lớn dùng chung thường chứa khoảng 19 hoặc 20 lít."
+              },
+              {
+                "id": "b16_e9",
+                "type": "multiple-choice",
+                "question": "Hộp sữa giấy bé uống hàng ngày ở trường thường có dung tích thế nào?",
+                "options": [
+                  "Ít hơn 1 lít",
+                  "Nhiều hơn 1 lít",
+                  "Đúng bằng 10 lít",
+                  "Đúng bằng 100 lít"
+                ],
+                "correctAnswer": "Ít hơn 1 lít",
+                "explanation": "Hộp sữa giấy học đường rất nhỏ (khoảng 180ml), ít hơn nhiều so với 1 lít."
+              },
+              {
+                "id": "b16_e10",
+                "type": "multiple-choice",
+                "question": "So sánh: Can 10 lít đựng đầy nước với can 5 lít đựng đầy nước, can nào nặng hơn?",
+                "options": [
+                  "Can 10 lít",
+                  "Can 5 lít",
+                  "Bằng nhau",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "Can 10 lít",
+                "explanation": "Can chứa nhiều nước hơn (10l > 5l) sẽ nặng hơn."
               }
             ],
             "medium": [
               {
                 "id": "b16_m1",
                 "type": "multiple-choice",
-                "question": "Rót đầy 1 ca 5 lít và 1 ca 2 lít nước rồi đổ chung vào một xô. Hỏi trong xô có tất cả bao nhiêu lít nước?",
+                "question": "5l + 8l = ?",
+                "options": [
+                  "13 lít",
+                  "12 lít",
+                  "14 lít",
+                  "15 lít"
+                ],
+                "correctAnswer": "13 lít",
+                "explanation": "Cộng số: 5 + 8 = 13, thêm đơn vị lít vào sau."
+              },
+              {
+                "id": "b16_m2",
+                "type": "multiple-choice",
+                "question": "15l - 7l = ?",
+                "options": [
+                  "8 lít",
+                  "9 lít",
+                  "7 lít",
+                  "10 lít"
+                ],
+                "correctAnswer": "8 lít",
+                "explanation": "Trừ số: 15 - 7 = 8, thêm đơn vị lít vào sau."
+              },
+              {
+                "id": "b16_m3",
+                "type": "multiple-choice",
+                "question": "12l + 6l = ?",
+                "options": [
+                  "18 lít",
+                  "17 lít",
+                  "19 lít",
+                  "16 lít"
+                ],
+                "correctAnswer": "18 lít",
+                "explanation": "12 + 6 = 18. Vậy kết quả là 18 lít."
+              },
+              {
+                "id": "b16_m4",
+                "type": "multiple-choice",
+                "question": "20l - 8l = ?",
+                "options": [
+                  "12 lít",
+                  "11 lít",
+                  "13 lít",
+                  "10 lít"
+                ],
+                "correctAnswer": "12 lít",
+                "explanation": "20 - 8 = 12. Vậy kết quả là 12 lít."
+              },
+              {
+                "id": "b16_m5",
+                "type": "multiple-choice",
+                "question": "Rót đầy 1 ca 5 lít and 1 ca 2 lít nước rồi đổ chung vào một xô. Hỏi trong xô có tất cả bao nhiêu lít nước?",
                 "options": [
                   "7 lít",
                   "6 lít",
@@ -409,6 +2678,71 @@
                 ],
                 "correctAnswer": "7 lít",
                 "explanation": "Tổng số nước đổ vào xô là: 5 + 2 = 7 lít."
+              },
+              {
+                "id": "b16_m6",
+                "type": "multiple-choice",
+                "question": "Đổ đầy 10 lít nước từ một bình lớn vào các chai 2 lít. Hỏi đổ đầy được bao nhiêu chai?",
+                "options": [
+                  "5 chai",
+                  "4 chai",
+                  "6 chai",
+                  "2 chai"
+                ],
+                "correctAnswer": "5 chai",
+                "explanation": "Ta có: 10 : 2 = 5 chai."
+              },
+              {
+                "id": "b16_m7",
+                "type": "multiple-choice",
+                "question": "So sánh: 9l + 4l ... 15l - 2l",
+                "options": [
+                  "=",
+                  "<",
+                  ">",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "=",
+                "explanation": "9l + 4l = 13l. 15l - 2l = 13l. Hai kết quả bằng nhau."
+              },
+              {
+                "id": "b16_m8",
+                "type": "multiple-choice",
+                "question": "So sánh: 8l + 7l ... 12l + 4l",
+                "options": [
+                  "<",
+                  ">",
+                  "=",
+                  "Khác nhau"
+                ],
+                "correctAnswer": "<",
+                "explanation": "8l + 7l = 15l. 12l + 4l = 16l. Vì 15 < 16 nên dấu cần điền là <."
+              },
+              {
+                "id": "b16_m9",
+                "type": "multiple-choice",
+                "question": "Tìm X biết: X + 5l = 12l",
+                "options": [
+                  "7 lít",
+                  "8 lít",
+                  "6 lít",
+                  "17 lít"
+                ],
+                "correctAnswer": "7 lít",
+                "explanation": "X = 12l - 5l = 7 lít."
+              },
+              {
+                "id": "b16_m10",
+                "type": "multiple-choice",
+                "question": "Tìm Y biết: Y - 6l = 8l",
+                "options": [
+                  "14 lít",
+                  "2 lít",
+                  "12 lít",
+                  "8 lít"
+                ],
+                "correctAnswer": "14 lít",
+                "explanation": "Y = 8l + 6l = 14 lít."
               }
             ],
             "hard": [
@@ -424,16 +2758,127 @@
                 ],
                 "correctAnswer": "7 lít",
                 "explanation": "Số lít nước còn lại trong can là: 10 - 3 = 7 lít."
+              },
+              {
+                "id": "b16_h2",
+                "type": "multiple-choice",
+                "question": "Thùng thứ nhất đựng 18 lít dầu, thùng thứ hai đựng ít hơn thùng thứ nhất 5 lít dầu. Hỏi thùng thứ hai đựng bao nhiêu lít dầu?",
+                "options": [
+                  "13 lít",
+                  "12 lít",
+                  "23 lít",
+                  "5 lít"
+                ],
+                "correctAnswer": "13 lít",
+                "explanation": "Số lít dầu thùng thứ hai đựng là: 18 - 5 = 13 lít."
+              },
+              {
+                "id": "b16_h3",
+                "type": "multiple-choice",
+                "question": "Nhà Nam một ngày dùng hết 15 lít sữa, nhà Bình dùng nhiều hơn nhà Nam 7 lít sữa. Hỏi nhà Bình dùng hết bao nhiêu lít sữa?",
+                "options": [
+                  "22 lít",
+                  "8 lít",
+                  "12 lít",
+                  "20 lít"
+                ],
+                "correctAnswer": "22 lít",
+                "explanation": "Số lít sữa nhà Bình dùng là: 15 + 7 = 22 lít."
+              },
+              {
+                "id": "b16_h4",
+                "type": "multiple-choice",
+                "question": "Bể nước có 50 lít nước, bố bơm thêm vào bể 30 lít nữa. Hỏi lúc này bể có bao nhiêu lít nước?",
+                "options": [
+                  "80 lít",
+                  "20 lít",
+                  "70 lít",
+                  "90 lít"
+                ],
+                "correctAnswer": "80 lít",
+                "explanation": "Tổng số lít nước trong bể là: 50 + 30 = 80 lít."
+              },
+              {
+                "id": "b16_h5",
+                "type": "multiple-choice",
+                "question": "Một xô nước đựng được 12 lít nước, một can nước đựng được ít hơn xô nước 4 lít. Hỏi can nước đựng được bao nhiêu lít nước?",
+                "options": [
+                  "8 lít",
+                  "16 lít",
+                  "6 lít",
+                  "4 lít"
+                ],
+                "correctAnswer": "8 lít",
+                "explanation": "Số lít nước can đựng được là: 12 - 4 = 8 lít."
+              },
+              {
+                "id": "b16_h6",
+                "type": "multiple-choice",
+                "question": "Can A đựng 8 lít nước ngọt, can B đựng 12 lít nước ngọt. Người ta đổ chung cả hai can vào một thùng. Hỏi thùng có bao nhiêu lít?",
+                "options": [
+                  "20 lít",
+                  "4 lít",
+                  "18 lít",
+                  "22 lít"
+                ],
+                "correctAnswer": "20 lít",
+                "explanation": "Tổng số nước ngọt là: 8 + 12 = 20 lít."
+              },
+              {
+                "id": "b16_h7",
+                "type": "multiple-choice",
+                "question": "Một chai dầu ăn có 2 lít dầu. Mẹ dùng hết 1 lít để chiên bánh. Hỏi trong chai còn lại bao nhiêu lít dầu?",
+                "options": [
+                  "1 lít",
+                  "0 lít",
+                  "2 lít",
+                  "3 lít"
+                ],
+                "correctAnswer": "1 lít",
+                "explanation": "Số dầu ăn còn lại là: 2 - 1 = 1 lít."
+              },
+              {
+                "id": "b16_h8",
+                "type": "multiple-choice",
+                "question": "Bình xăng xe máy chứa được 4 lít xăng. Bố đổ thêm 3 lít xăng thì đầy bình. Hỏi trước khi đổ, trong bình có bao nhiêu lít xăng?",
+                "options": [
+                  "1 lít",
+                  "2 lít",
+                  "3 lít",
+                  "0 lít"
+                ],
+                "correctAnswer": "1 lít",
+                "explanation": "Số lít xăng có sẵn trong bình là: 4 - 3 = 1 lít."
+              },
+              {
+                "id": "b16_h9",
+                "type": "multiple-choice",
+                "question": "Có hai cái can, can thứ nhất đựng 9 lít nước, can thứ hai đựng 6 lít nước. Hỏi can thứ nhất đựng nhiều hơn can thứ hai bao nhiêu lít?",
+                "options": [
+                  "3 lít",
+                  "15 lít",
+                  "2 lít",
+                  "4 lít"
+                ],
+                "correctAnswer": "3 lít",
+                "explanation": "Hiệu thể hiện can thứ nhất nhiều hơn: 9 - 6 = 3 lít."
+              },
+              {
+                "id": "b16_h10",
+                "type": "multiple-choice",
+                "question": "Một thùng đựng dầu có 45 lít dầu, người ta đã bán đi 20 lít dầu. Hỏi trong thùng còn lại bao nhiêu lít dầu?",
+                "options": [
+                  "25 lít",
+                  "20 lít",
+                  "15 lít",
+                  "30 lít"
+                ],
+                "correctAnswer": "25 lít",
+                "explanation": "Số lít dầu còn lại trong thùng là: 45 - 20 = 25 lít."
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "id": "chapter-4",
-      "title": "Chương IV: Hình phẳng và Hình khối",
-      "lessons": [
+        },
         {
           "id": "bai-21-hinh-tam-giac-hinh-tu-giac",
           "title": "Bài 21: Hình tam giác, hình tứ giác",
@@ -456,12 +2901,142 @@
                   "2 cạnh"
                 ],
                 "correctAnswer": "3 cạnh",
-                "explanation": "Hình tam giác gồm có 3 cạnh và 3 đỉnh."
+                "explanation": "Hình tam giác gồm có 3 cạnh nối các đỉnh với nhau."
+              },
+              {
+                "id": "b21_e2",
+                "type": "multiple-choice",
+                "question": "Hình tam giác có mấy đỉnh?",
+                "options": [
+                  "3 đỉnh",
+                  "4 đỉnh",
+                  "2 đỉnh",
+                  "5 đỉnh"
+                ],
+                "correctAnswer": "3 đỉnh",
+                "explanation": "Hình tam giác gồm có 3 góc và 3 đỉnh."
+              },
+              {
+                "id": "b21_e3",
+                "type": "multiple-choice",
+                "question": "Hình tứ giác có mấy cạnh?",
+                "options": [
+                  "4 cạnh",
+                  "3 cạnh",
+                  "5 cạnh",
+                  "2 cạnh"
+                ],
+                "correctAnswer": "4 cạnh",
+                "explanation": "Chữ 'tứ' nghĩa là bốn. Hình tứ giác có 4 cạnh."
+              },
+              {
+                "id": "b21_e4",
+                "type": "multiple-choice",
+                "question": "Hình tứ giác có mấy đỉnh?",
+                "options": [
+                  "4 đỉnh",
+                  "3 đỉnh",
+                  "5 đỉnh",
+                  "2 đỉnh"
+                ],
+                "correctAnswer": "4 đỉnh",
+                "explanation": "Hình tứ giác có 4 đỉnh nối liền các cạnh."
+              },
+              {
+                "id": "b21_e5",
+                "type": "multiple-choice",
+                "question": "Hình tam giác có bao nhiêu góc?",
+                "options": [
+                  "3 góc",
+                  "4 góc",
+                  "5 góc",
+                  "2 góc"
+                ],
+                "correctAnswer": "3 góc",
+                "explanation": "Hình tam giác có 3 đỉnh, tương ứng với 3 góc."
+              },
+              {
+                "id": "b21_e6",
+                "type": "multiple-choice",
+                "question": "Hình tứ giác có bao nhiêu góc?",
+                "options": [
+                  "4 góc",
+                  "3 góc",
+                  "5 góc",
+                  "2 góc"
+                ],
+                "correctAnswer": "4 góc",
+                "explanation": "Hình tứ giác có 4 đỉnh, tương ứng với 4 góc."
+              },
+              {
+                "id": "b21_e7",
+                "type": "multiple-choice",
+                "question": "Hình vuông là một hình có mấy cạnh?",
+                "options": [
+                  "4 cạnh",
+                  "3 cạnh",
+                  "5 cạnh",
+                  "6 cạnh"
+                ],
+                "correctAnswer": "4 cạnh",
+                "explanation": "Hình vuông là một trường hợp đặc biệt của hình tứ giác, nên nó có 4 cạnh bằng nhau."
+              },
+              {
+                "id": "b21_e8",
+                "type": "multiple-choice",
+                "question": "Hình chữ nhật là một hình có mấy cạnh?",
+                "options": [
+                  "4 cạnh",
+                  "3 cạnh",
+                  "5 cạnh",
+                  "6 cạnh"
+                ],
+                "correctAnswer": "4 cạnh",
+                "explanation": "Hình chữ nhật là một loại hình tứ giác, do đó có 4 cạnh."
+              },
+              {
+                "id": "b21_e9",
+                "type": "multiple-choice",
+                "question": "Hình phẳng nào dưới đây có ít cạnh nhất?",
+                "options": [
+                  "Hình tam giác",
+                  "Hình tứ giác",
+                  "Hình ngũ giác",
+                  "Hình vuông"
+                ],
+                "correctAnswer": "Hình tam giác",
+                "explanation": "Hình tam giác có 3 cạnh (ít nhất), hình tứ giác và vuông có 4 cạnh, ngũ giác có 5 cạnh."
+              },
+              {
+                "id": "b21_e10",
+                "type": "multiple-choice",
+                "question": "Bánh chưng ngày Tết thường có hình dạng phẳng giống hình gì?",
+                "options": [
+                  "Hình tứ giác",
+                  "Hình tam giác",
+                  "Hình tròn",
+                  "Hình bầu dục"
+                ],
+                "correctAnswer": "Hình tứ giác",
+                "explanation": "Bánh chưng vuông vắn có 4 cạnh, tương ứng với hình tứ giác (hình vuông)."
               }
             ],
             "medium": [
               {
                 "id": "b21_m1",
+                "type": "multiple-choice",
+                "question": "Hình vuông và hình chữ nhật đều thuộc loại hình nào?",
+                "options": [
+                  "Hình tứ giác",
+                  "Hình tam giác",
+                  "Hình tròn",
+                  "Hình đa giác 5 cạnh"
+                ],
+                "correctAnswer": "Hình tứ giác",
+                "explanation": "Cả hai hình đều có 4 cạnh và 4 đỉnh, nên đều thuộc hình tứ giác."
+              },
+              {
+                "id": "b21_m2",
                 "type": "multiple-choice",
                 "question": "Hình nào dưới đây có 4 cạnh?",
                 "options": [
@@ -471,12 +3046,129 @@
                   "Hình năm cạnh"
                 ],
                 "correctAnswer": "Hình tứ giác",
-                "explanation": "Hình tứ giác là hình có 4 cạnh."
+                "explanation": "Hình tứ giác là hình phẳng khép kín có đúng 4 cạnh thẳng."
+              },
+              {
+                "id": "b21_m3",
+                "type": "multiple-choice",
+                "question": "Một hình có 3 đỉnh và 3 cạnh thẳng là hình gì?",
+                "options": [
+                  "Hình tam giác",
+                  "Hình tứ giác",
+                  "Hình vuông",
+                  "Hình tròn"
+                ],
+                "correctAnswer": "Hình tam giác",
+                "explanation": "Hình có 3 đỉnh và 3 cạnh thẳng là hình tam giác."
+              },
+              {
+                "id": "b21_m4",
+                "type": "multiple-choice",
+                "question": "Một hình có 4 đỉnh và 4 cạnh thẳng là hình gì?",
+                "options": [
+                  "Hình tứ giác",
+                  "Hình tam giác",
+                  "Hình tròn",
+                  "Hình ngôi sao"
+                ],
+                "correctAnswer": "Hình tứ giác",
+                "explanation": "Hình có 4 đỉnh và 4 cạnh thẳng là hình tứ giác."
+              },
+              {
+                "id": "b21_m5",
+                "type": "multiple-choice",
+                "question": "Hình tam giác ABC có các cạnh AB, BC, CA. Có tất cả bao nhiêu cạnh?",
+                "options": [
+                  "3 cạnh",
+                  "4 cạnh",
+                  "2 cạnh",
+                  "6 cạnh"
+                ],
+                "correctAnswer": "3 cạnh",
+                "explanation": "Tên cạnh tương ứng với 3 đoạn thẳng AB, BC, CA. Vậy có 3 cạnh."
+              },
+              {
+                "id": "b21_m6",
+                "type": "multiple-choice",
+                "question": "Hình tứ giác MNPQ có các đỉnh M, N, P, Q. Có tất cả bao nhiêu đỉnh?",
+                "options": [
+                  "4 đỉnh",
+                  "3 đỉnh",
+                  "8 đỉnh",
+                  "5 đỉnh"
+                ],
+                "correctAnswer": "4 đỉnh",
+                "explanation": "Các đỉnh của tứ giác là M, N, P, Q. Có tất cả 4 đỉnh."
+              },
+              {
+                "id": "b21_m7",
+                "type": "multiple-choice",
+                "question": "Để ghép một hình tứ giác từ các đoạn thẳng nhỏ, ta cần ít nhất bao nhiêu đoạn thẳng?",
+                "options": [
+                  "4 đoạn thẳng",
+                  "3 đoạn thẳng",
+                  "5 đoạn thẳng",
+                  "2 đoạn thẳng"
+                ],
+                "correctAnswer": "4 đoạn thẳng",
+                "explanation": "Tứ giác cần có 4 cạnh, nên cần ít nhất 4 đoạn thẳng."
+              },
+              {
+                "id": "b21_m8",
+                "type": "multiple-choice",
+                "question": "Nếu ta cắt một góc của hình tam giác bằng một đường thẳng, phần hình còn lại có thể là hình gì?",
+                "options": [
+                  "Hình tứ giác",
+                  "Hình tròn",
+                  "Hình tam giác đều",
+                  "Đoạn thẳng"
+                ],
+                "correctAnswer": "Hình tứ giác",
+                "explanation": "Khi cắt đi một đỉnh, hình tam giác cũ sẽ bị thêm một cạnh mới, trở thành hình có 4 cạnh (hình tứ giác)."
+              },
+              {
+                "id": "b21_m9",
+                "type": "multiple-choice",
+                "question": "Cánh buồm của con thuyền thường có hình dạng giống hình phẳng nào?",
+                "options": [
+                  "Hình tam giác",
+                  "Hình tứ giác",
+                  "Hình tròn",
+                  "Hình vuông"
+                ],
+                "correctAnswer": "Hình tam giác",
+                "explanation": "Cánh buồm đón gió thường có cấu trúc 3 góc, trông giống hình tam giác."
+              },
+              {
+                "id": "b21_m10",
+                "type": "multiple-choice",
+                "question": "Khung ảnh hình chữ nhật có bao nhiêu góc vuông?",
+                "options": [
+                  "4 góc vuông",
+                  "3 góc vuông",
+                  "2 góc vuông",
+                  "0 góc vuông"
+                ],
+                "correctAnswer": "4 góc vuông",
+                "explanation": "Hình chữ nhật có đặc điểm là có đúng 4 góc vuông ở 4 đỉnh."
               }
             ],
             "hard": [
               {
                 "id": "b21_h1",
+                "type": "multiple-choice",
+                "question": "Một hình tam giác có độ dài các cạnh lần lượt là 3cm, 4cm, 5cm. Chu vi của hình tam giác đó là bao nhiêu?",
+                "options": [
+                  "12 cm",
+                  "10 cm",
+                  "11 cm",
+                  "14 cm"
+                ],
+                "correctAnswer": "12 cm",
+                "explanation": "Chu vi hình tam giác bằng tổng độ dài 3 cạnh: 3 + 4 + 5 = 12 cm."
+              },
+              {
+                "id": "b21_h2",
                 "type": "multiple-choice",
                 "question": "Một hình tứ giác có độ dài các cạnh lần lượt là 2cm, 3cm, 4cm, 5cm. Chu vi của hình tứ giác đó là bao nhiêu?",
                 "options": [
@@ -486,7 +3178,111 @@
                   "15 cm"
                 ],
                 "correctAnswer": "14 cm",
-                "explanation": "Chu vi của hình tứ giác là tổng độ dài các cạnh: 2 + 3 + 4 + 5 = 14 cm."
+                "explanation": "Chu vi hình tứ giác bằng tổng độ dài 4 cạnh: 2 + 3 + 4 + 5 = 14 cm."
+              },
+              {
+                "id": "b21_h3",
+                "type": "multiple-choice",
+                "question": "Một hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 4cm. Chu vi hình tam giác đó là bao nhiêu?",
+                "options": [
+                  "12 cm",
+                  "8 cm",
+                  "16 cm",
+                  "10 cm"
+                ],
+                "correctAnswer": "12 cm",
+                "explanation": "Chu vi tam giác là: 4 + 4 + 4 = 12 cm (hoặc 4 x 3 = 12 cm)."
+              },
+              {
+                "id": "b21_h4",
+                "type": "multiple-choice",
+                "question": "Một hình tứ giác có 4 cạnh bằng nhau (hình vuông), mỗi cạnh dài 3cm. Chu vi hình tứ giác đó là bao nhiêu?",
+                "options": [
+                  "12 cm",
+                  "9 cm",
+                  "6 cm",
+                  "15 cm"
+                ],
+                "correctAnswer": "12 cm",
+                "explanation": "Chu vi hình vuông đó là: 3 + 3 + 3 + 3 = 12 cm (hoặc 3 x 4 = 12 cm)."
+              },
+              {
+                "id": "b21_h5",
+                "type": "multiple-choice",
+                "question": "Chu vi của một hình tam giác là 15cm. Biết tổng độ dài hai cạnh đầu là 10cm. Cạnh thứ ba dài bao nhiêu xăng-ti-mét?",
+                "options": [
+                  "5 cm",
+                  "6 cm",
+                  "4 cm",
+                  "7 cm"
+                ],
+                "correctAnswer": "5 cm",
+                "explanation": "Độ dài cạnh thứ ba = Chu vi - Tổng hai cạnh còn lại = 15 - 10 = 5 cm."
+              },
+              {
+                "id": "b21_h6",
+                "type": "multiple-choice",
+                "question": "Một hình chữ nhật có chiều dài 5cm, chiều rộng 3cm. Chu vi hình chữ nhật đó là bao nhiêu?",
+                "options": [
+                  "16 cm",
+                  "8 cm",
+                  "15 cm",
+                  "10 cm"
+                ],
+                "correctAnswer": "16 cm",
+                "explanation": "Chu vi hình chữ nhật bằng tổng độ dài 4 cạnh: 5 + 3 + 5 + 3 = 16 cm."
+              },
+              {
+                "id": "b21_h7",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu hình tam giác trong hình vẽ gồm hai hình tam giác nhỏ ghép sát nhau tạo thành một hình tam giác lớn?",
+                "options": [
+                  "3 hình",
+                  "2 hình",
+                  "4 hình",
+                  "1 hình"
+                ],
+                "correctAnswer": "3 hình",
+                "explanation": "Có 2 hình tam giác nhỏ và 1 hình tam giác lớn bao ngoài. Tổng cộng có 3 hình tam giác."
+              },
+              {
+                "id": "b21_h8",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu hình tứ giác trong hình vẽ gồm hai hình chữ nhật nhỏ ghép sát nhau tạo thành một hình chữ nhật lớn?",
+                "options": [
+                  "3 hình",
+                  "2 hình",
+                  "4 hình",
+                  "1 hình"
+                ],
+                "correctAnswer": "3 hình",
+                "explanation": "Có 2 hình chữ nhật nhỏ và 1 hình chữ nhật lớn bao ngoài. Tổng cộng có 3 hình tứ giác."
+              },
+              {
+                "id": "b21_h9",
+                "type": "multiple-choice",
+                "question": "Chu vi hình tam giác ABC là 18cm. Biết cạnh AB = 5cm, BC = 6cm. Độ dài cạnh AC là bao nhiêu xăng-ti-mét?",
+                "options": [
+                  "7 cm",
+                  "8 cm",
+                  "9 cm",
+                  "11 cm"
+                ],
+                "correctAnswer": "7 cm",
+                "explanation": "Độ dài cạnh AC = 18 - 5 - 6 = 7 cm."
+              },
+              {
+                "id": "b21_h10",
+                "type": "multiple-choice",
+                "question": "Một sợi dây đồng uốn thành hình vuông có cạnh dài 5cm. Hỏi sợi dây đồng đó dài bao nhiêu xăng-ti-mét?",
+                "options": [
+                  "20 cm",
+                  "10 cm",
+                  "15 cm",
+                  "25 cm"
+                ],
+                "correctAnswer": "20 cm",
+                "explanation": "Sợi dây đồng dài bằng chu vi hình vuông đó: 5 x 4 = 20 cm."
               }
             ]
           }
@@ -514,11 +3310,9 @@
                 ],
                 "correctAnswer": "Khối cầu",
                 "explanation": "Quả bóng đá tròn đều nên có hình dạng khối cầu."
-              }
-            ],
-            "medium": [
+              },
               {
-                "id": "b22_m1",
+                "id": "b22_e2",
                 "type": "multiple-choice",
                 "question": "Hộp sữa đặc có hình dạng khối gì?",
                 "options": [
@@ -529,11 +3323,115 @@
                 ],
                 "correctAnswer": "Khối trụ",
                 "explanation": "Hộp sữa đặc có hai mặt phẳng tròn và một mặt cong bao quanh nên có hình dạng khối trụ."
+              },
+              {
+                "id": "b22_e3",
+                "type": "multiple-choice",
+                "question": "Lon nước ngọt Coca-Cola có hình dạng khối gì?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối lập phương",
+                  "Khối chữ nhật"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Lon nước ngọt có hình ống tròn dài, hai đầu là vòng tròn phẳng, đây là khối trụ."
+              },
+              {
+                "id": "b22_e4",
+                "type": "multiple-choice",
+                "question": "Viên bi thủy tinh có hình dạng khối gì?",
+                "options": [
+                  "Khối cầu",
+                  "Khối trụ",
+                  "Khối lập phương",
+                  "Khối chữ nhật"
+                ],
+                "correctAnswer": "Khối cầu",
+                "explanation": "Viên bi tròn đều về mọi phía nên có hình dạng khối cầu."
+              },
+              {
+                "id": "b22_e5",
+                "type": "multiple-choice",
+                "question": "Trái Đất của chúng ta có hình dạng gần giống khối gì?",
+                "options": [
+                  "Khối cầu",
+                  "Khối trụ",
+                  "Khối lập phương",
+                  "Khối nón"
+                ],
+                "correctAnswer": "Khối cầu",
+                "explanation": "Trái Đất tròn đều, lơ lửng ngoài không gian, gần giống khối cầu."
+              },
+              {
+                "id": "b22_e6",
+                "type": "multiple-choice",
+                "question": "Cuộn băng dính tròn dày có hình dạng khối gì?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối chữ nhật",
+                  "Khối tam giác"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Cuộn băng dính tròn có hình ống trụ ngắn, thuộc dạng khối trụ."
+              },
+              {
+                "id": "b22_e7",
+                "type": "multiple-choice",
+                "question": "Quả bóng bàn có hình dạng khối gì?",
+                "options": [
+                  "Khối cầu",
+                  "Khối trụ",
+                  "Khối hộp",
+                  "Khối chóp"
+                ],
+                "correctAnswer": "Khối cầu",
+                "explanation": "Quả bóng bàn tròn xoe, lăn được mọi hướng nên có hình dạng khối cầu."
+              },
+              {
+                "id": "b22_e8",
+                "type": "multiple-choice",
+                "question": "Cột đình hình ống tròn thẳng đứng có hình dạng khối gì?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối vuông",
+                  "Khối lập phương"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Cột đình thẳng đứng, tròn đều từ trên xuống dưới là khối trụ."
+              },
+              {
+                "id": "b22_e9",
+                "type": "multiple-choice",
+                "question": "Hộp chè hình ống tròn có hình dạng khối gì?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối chữ nhật",
+                  "Khối lập phương"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Hộp chè ống tròn có hai mặt phẳng tròn ở nắp và đáy, đó là khối trụ."
+              },
+              {
+                "id": "b22_e10",
+                "type": "multiple-choice",
+                "question": "Quả địa cầu mô hình trong lớp học có hình dạng khối gì?",
+                "options": [
+                  "Khối cầu",
+                  "Khối trụ",
+                  "Khối chóp",
+                  "Khối lập phương"
+                ],
+                "correctAnswer": "Khối cầu",
+                "explanation": "Quả địa cầu tròn mô phỏng Trái Đất có hình dạng khối cầu."
               }
             ],
-            "hard": [
+            "medium": [
               {
-                "id": "b22_h1",
+                "id": "b22_m1",
                 "type": "multiple-choice",
                 "question": "Đồ vật nào dưới đây không có hình dạng khối trụ?",
                 "options": [
@@ -544,16 +3442,259 @@
                 ],
                 "correctAnswer": "Quả bóng bàn",
                 "explanation": "Quả bóng bàn có hình dạng khối cầu, không phải khối trụ."
+              },
+              {
+                "id": "b22_m2",
+                "type": "multiple-choice",
+                "question": "Đồ vật nào dưới đây không có hình dạng khối cầu?",
+                "options": [
+                  "Lon nước ngọt",
+                  "Quả bóng đá",
+                  "Viên bi thủy tinh",
+                  "Quả địa cầu"
+                ],
+                "correctAnswer": "Lon nước ngọt",
+                "explanation": "Lon nước ngọt có hình dạng khối trụ, các đồ vật khác đều tròn xoe dạng khối cầu."
+              },
+              {
+                "id": "b22_m3",
+                "type": "multiple-choice",
+                "question": "Khối nào dưới đây có thể lăn được về mọi phía (trước, sau, trái, phải)?",
+                "options": [
+                  "Khối cầu",
+                  "Khối trụ",
+                  "Khối lập phương",
+                  "Khối hộp chữ nhật"
+                ],
+                "correctAnswer": "Khối cầu",
+                "explanation": "Khối cầu tròn đều nên lăn được mọi phía dễ dàng."
+              },
+              {
+                "id": "b22_m4",
+                "type": "multiple-choice",
+                "question": "Khối trụ đứng thẳng có bao nhiêu mặt phẳng tròn ở hai đầu?",
+                "options": [
+                  "2 mặt",
+                  "1 mặt",
+                  "3 mặt",
+                  "0 mặt"
+                ],
+                "correctAnswer": "2 mặt",
+                "explanation": "Khối trụ có hai mặt phẳng hình tròn ở phần nắp trên và đáy dưới."
+              },
+              {
+                "id": "b22_m5",
+                "type": "multiple-choice",
+                "question": "Đặc điểm nào dưới đây là của khối cầu?",
+                "options": [
+                  "Tròn đều và không có mặt phẳng nào",
+                  "Có hai mặt phẳng tròn",
+                  "Có 6 mặt vuông bằng nhau",
+                  "Có 4 đỉnh nhọn"
+                ],
+                "correctAnswer": "Tròn đều và không có mặt phẳng nào",
+                "explanation": "Khối cầu hoàn toàn cong tròn, không có mặt phẳng hay đỉnh nào cả."
+              },
+              {
+                "id": "b22_m6",
+                "type": "multiple-choice",
+                "question": "Nếu ta đặt nằm ngang một khối trụ trên mặt bàn phẳng, ta có thể làm gì?",
+                "options": [
+                  "Lăn khối trụ đi",
+                  "Chồng khối hình khác lên mặt cong",
+                  "Làm nó đứng yên mãi",
+                  "Cắt nó thành hình tam giác"
+                ],
+                "correctAnswer": "Lăn khối trụ đi",
+                "explanation": "Khi đặt nằm ngang, khối trụ sẽ tiếp xúc mặt bàn bằng mặt cong nên có thể lăn đi được."
+              },
+              {
+                "id": "b22_m7",
+                "type": "multiple-choice",
+                "question": "Nếu ta đặt đứng thẳng một khối trụ trên mặt bàn phẳng, ta có thể làm gì?",
+                "options": [
+                  "Xếp chồng khối khác vững chãi lên trên nắp nó",
+                  "Lăn nó về mọi phía dễ dàng",
+                  "Đặt nó trên mặt cong",
+                  "Biến nó thành khối cầu"
+                ],
+                "correctAnswer": "Xếp chồng khối khác vững chãi lên trên nắp nó",
+                "explanation": "Mặt trên của khối trụ đứng là mặt phẳng, giúp ta xếp chồng vật khác lên vững vàng."
+              },
+              {
+                "id": "b22_m8",
+                "type": "multiple-choice",
+                "question": "Điểm giống nhau giữa khối trụ và khối cầu là gì?",
+                "options": [
+                  "Đều có mặt cong và có thể lăn được",
+                  "Đều có mặt phẳng tròn",
+                  "Đều có 8 đỉnh",
+                  "Đều tròn xoe về mọi phía"
+                ],
+                "correctAnswer": "Đều có mặt cong và có thể lăn được",
+                "explanation": "Cả hai đều có bề mặt cong giúp chúng có thể lăn được (khối trụ lăn khi nằm ngang, khối cầu lăn tự do)."
+              },
+              {
+                "id": "b22_m9",
+                "type": "multiple-choice",
+                "question": "Hộp bút hình ống tròn có hình dạng khối gì?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối hộp chữ nhật",
+                  "Khối tam giác"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Hộp bút hình ống tròn thẳng dài là khối trụ."
+              },
+              {
+                "id": "b22_m10",
+                "type": "multiple-choice",
+                "question": "Quả cam tròn trịa có hình dạng giống khối gì?",
+                "options": [
+                  "Khối cầu",
+                  "Khối trụ",
+                  "Khối lập phương",
+                  "Khối chữ nhật"
+                ],
+                "correctAnswer": "Khối cầu",
+                "explanation": "Quả cam tròn đều giống khối cầu."
+              }
+            ],
+            "hard": [
+              {
+                "id": "b22_h1",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu khối trụ trong hình vẽ gồm 3 lon nước chồng lên nhau và 2 quả bóng bên cạnh?",
+                "options": [
+                  "3 khối trụ",
+                  "2 khối trụ",
+                  "5 khối trụ",
+                  "1 khối trụ"
+                ],
+                "correctAnswer": "3 khối trụ",
+                "explanation": "Chỉ có 3 lon nước là khối trụ. 2 quả bóng là khối cầu."
+              },
+              {
+                "id": "b22_h2",
+                "type": "multiple-choice",
+                "question": "Có bao nhiêu khối cầu trong hình vẽ gồm 4 viên bi và 2 hộp sữa đặc?",
+                "options": [
+                  "4 khối cầu",
+                  "2 khối cầu",
+                  "6 khối cầu",
+                  "0 khối cầu"
+                ],
+                "correctAnswer": "4 khối cầu",
+                "explanation": "Chỉ có 4 viên bi là khối cầu. 2 hộp sữa là khối trụ."
+              },
+              {
+                "id": "b22_h3",
+                "type": "multiple-choice",
+                "question": "Bé xếp chồng 5 khối lập phương và 2 khối trụ đứng thẳng lên nhau. Hỏi bé có tất cả bao nhiêu khối hình?",
+                "options": [
+                  "7 khối hình",
+                  "5 khối hình",
+                  "2 khối hình",
+                  "10 khối hình"
+                ],
+                "correctAnswer": "7 khối hình",
+                "explanation": "Tổng số khối hình bé xếp là: 5 + 2 = 7 khối."
+              },
+              {
+                "id": "b22_h4",
+                "type": "multiple-choice",
+                "question": "Trong các hình sau: Hộp diêm, Quả bóng rổ, Lon sữa, Bao diêm. Có bao nhiêu đồ vật có hình dạng khối cầu?",
+                "options": [
+                  "1 đồ vật",
+                  "2 đồ vật",
+                  "3 đồ vật",
+                  "4 đồ vật"
+                ],
+                "correctAnswer": "1 đồ vật",
+                "explanation": "Chỉ có Quả bóng rổ là khối cầu. Hộp diêm, bao diêm là khối hộp chữ nhật, lon sữa là khối trụ."
+              },
+              {
+                "id": "b22_h5",
+                "type": "multiple-choice",
+                "question": "Trong các hình sau: Hộp chè ống tròn, Quả dưa hấu tròn, Lon bia, Hộp sữa ống tròn. Có bao nhiêu đồ vật có hình dạng khối trụ?",
+                "options": [
+                  "3 đồ vật",
+                  "2 đồ vật",
+                  "4 đồ vật",
+                  "1 đồ vật"
+                ],
+                "correctAnswer": "3 đồ vật",
+                "explanation": "Có 3 đồ vật khối trụ: Hộp chè, lon bia, hộp sữa ống tròn. Quả dưa hấu tròn là khối cầu."
+              },
+              {
+                "id": "b22_h6",
+                "type": "multiple-choice",
+                "question": "Người ta xếp 4 khối trụ nằm ngang nối đuôi nhau. Mỗi khối trụ dài 5cm. Hỏi cả hàng dài bao nhiêu xăng-ti-mét?",
+                "options": [
+                  "20 cm",
+                  "15 cm",
+                  "16 cm",
+                  "25 cm"
+                ],
+                "correctAnswer": "20 cm",
+                "explanation": "Tổng độ dài là: 5 + 5 + 5 + 5 = 20 cm (hoặc 5 x 4 = 20 cm)."
+              },
+              {
+                "id": "b22_h7",
+                "type": "multiple-choice",
+                "question": "Hình khối nào có thể vừa đứng vững (không lăn) vừa lăn được tùy thuộc cách ta đặt nó?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối lập phương",
+                  "Khối hộp chữ nhật"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Khối trụ đặt đứng thì đứng vững, đặt nằm ngang thì lăn được. Khối cầu luôn lăn, khối lập phương luôn đứng vững."
+              },
+              {
+                "id": "b22_h8",
+                "type": "multiple-choice",
+                "question": "Nếu ta cắt đôi quả bóng bàn tròn đều, mặt cắt ở chỗ chia đôi sẽ có hình gì?",
+                "options": [
+                  "Hình tròn",
+                  "Hình vuông",
+                  "Hình tam giác",
+                  "Hình chữ nhật"
+                ],
+                "correctAnswer": "Hình tròn",
+                "explanation": "Mặt cắt của khối cầu luôn là hình tròn."
+              },
+              {
+                "id": "b22_h9",
+                "type": "multiple-choice",
+                "question": "Bé có 3 viên bi khối cầu và 5 lon sữa khối trụ. Hỏi bé có tất cả bao nhiêu đồ vật?",
+                "options": [
+                  "8 đồ vật",
+                  "15 đồ vật",
+                  "2 đồ vật",
+                  "5 đồ vật"
+                ],
+                "correctAnswer": "8 đồ vật",
+                "explanation": "Tổng số đồ vật của bé: 3 + 5 = 8 đồ vật."
+              },
+              {
+                "id": "b22_h10",
+                "type": "multiple-choice",
+                "question": "Khối nào dưới đây giúp xếp chồng lên nhau cao nhất mà vẫn vững vàng theo chiều thẳng đứng?",
+                "options": [
+                  "Khối trụ",
+                  "Khối cầu",
+                  "Khối nón",
+                  "Khối lăng trụ nghiêng"
+                ],
+                "correctAnswer": "Khối trụ",
+                "explanation": "Khối trụ có mặt phẳng tròn ở hai đầu giúp giữ thăng bằng tốt khi xếp thẳng đứng. Khối cầu không xếp chồng lên nhau được."
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "id": "chapter-5",
-      "title": "Chương V: Thời gian",
-      "lessons": [
+        },
         {
           "id": "bai-25-ngay-gio-gio-phut-xem-dong-ho",
           "title": "Bài 25: Ngày - giờ, giờ - phút. Xem đồng hồ",
@@ -576,7 +3717,124 @@
                   "20 giờ"
                 ],
                 "correctAnswer": "24 giờ",
-                "explanation": "Theo quy ước, một ngày có đúng 24 giờ."
+                "explanation": "Theo quy ước quốc tế, một ngày đêm kéo dài đúng 24 giờ."
+              },
+              {
+                "id": "b25_e2",
+                "type": "multiple-choice",
+                "question": "Một giờ có bao nhiêu phút?",
+                "options": [
+                  "60 phút",
+                  "24 phút",
+                  "12 phút",
+                  "100 phút"
+                ],
+                "correctAnswer": "60 phút",
+                "explanation": "Theo đơn vị đo thời gian, cứ 1 giờ bằng 60 phút."
+              },
+              {
+                "id": "b25_e3",
+                "type": "multiple-choice",
+                "question": "Kim ngắn của đồng hồ dùng để chỉ gì?",
+                "options": [
+                  "Chỉ giờ",
+                  "Chỉ phút",
+                  "Chỉ giây",
+                  "Chỉ ngày"
+                ],
+                "correctAnswer": "Chỉ giờ",
+                "explanation": "Kim ngắn chạy chậm nhất dùng để chỉ giờ."
+              },
+              {
+                "id": "b25_e4",
+                "type": "multiple-choice",
+                "question": "Kim dài của đồng hồ dùng để chỉ gì?",
+                "options": [
+                  "Chỉ phút",
+                  "Chỉ giờ",
+                  "Chỉ giây",
+                  "Chỉ năm"
+                ],
+                "correctAnswer": "Chỉ phút",
+                "explanation": "Kim dài chạy nhanh hơn kim ngắn dùng để chỉ phút."
+              },
+              {
+                "id": "b25_e5",
+                "type": "multiple-choice",
+                "question": "Khi kim dài chỉ số 12, kim ngắn chỉ số 3 thì đồng hồ chỉ mấy giờ?",
+                "options": [
+                  "3 giờ đúng",
+                  "12 giờ đúng",
+                  "3 giờ 12 phút",
+                  "12 giờ 3 phút"
+                ],
+                "correctAnswer": "3 giờ đúng",
+                "explanation": "Kim dài chỉ số 12 là giờ đúng, kim ngắn chỉ số 3 là 3 giờ. Vậy đồng hồ chỉ 3 giờ đúng."
+              },
+              {
+                "id": "b25_e6",
+                "type": "multiple-choice",
+                "question": "Một tuần lễ có bao nhiêu ngày?",
+                "options": [
+                  "7 ngày",
+                  "5 ngày",
+                  "10 ngày",
+                  "24 ngày"
+                ],
+                "correctAnswer": "7 ngày",
+                "explanation": "Một tuần lễ gồm 7 ngày: từ thứ Hai đến Chủ nhật."
+              },
+              {
+                "id": "b25_e7",
+                "type": "multiple-choice",
+                "question": "Sau ngày thứ Bảy là ngày nào trong tuần?",
+                "options": [
+                  "Chủ nhật",
+                  "Thứ Hai",
+                  "Thứ Sáu",
+                  "Thứ Năm"
+                ],
+                "correctAnswer": "Chủ nhật",
+                "explanation": "Theo trình tự các ngày trong tuần, sau thứ Bảy là Chủ nhật."
+              },
+              {
+                "id": "b25_e8",
+                "type": "multiple-choice",
+                "question": "Nếu hôm nay là thứ Hai thì ngày mai là thứ mấy?",
+                "options": [
+                  "Thứ Ba",
+                  "Thứ Tư",
+                  "Chủ nhật",
+                  "Thứ Hai tuần sau"
+                ],
+                "correctAnswer": "Thứ Ba",
+                "explanation": "Ngày mai là ngày tiếp theo của thứ Hai, tức là thứ Ba."
+              },
+              {
+                "id": "b25_e9",
+                "type": "multiple-choice",
+                "question": "Nếu hôm nay là thứ Năm thì ngày hôm qua là thứ mấy?",
+                "options": [
+                  "Thứ Tư",
+                  "Thứ Sáu",
+                  "Thứ Ba",
+                  "Thứ Bảy"
+                ],
+                "correctAnswer": "Thứ Tư",
+                "explanation": "Ngày hôm qua là ngày đứng trước thứ Năm, tức là thứ Tư."
+              },
+              {
+                "id": "b25_e10",
+                "type": "multiple-choice",
+                "question": "Thời gian từ 12 giờ trưa đến 1 giờ chiều là bao nhiêu phút?",
+                "options": [
+                  "60 phút",
+                  "30 phút",
+                  "12 phút",
+                  "24 phút"
+                ],
+                "correctAnswer": "60 phút",
+                "explanation": "Khoảng cách giữa hai giờ liên tiếp là 1 tiếng, tương đương 60 phút."
               }
             ],
             "medium": [
@@ -592,13 +3850,130 @@
                 ],
                 "correctAnswer": "9 giờ 30 phút",
                 "explanation": "Kim dài chỉ số 6 tương ứng với 30 phút. Vậy đồng hồ chỉ 9 giờ 30 phút (hay 9 giờ rưỡi)."
+              },
+              {
+                "id": "b25_m2",
+                "type": "multiple-choice",
+                "question": "Khi kim ngắn chỉ số 4, kim dài chỉ số 3 thì đồng hồ chỉ mấy giờ?",
+                "options": [
+                  "4 giờ 15 phút",
+                  "4 giờ 30 phút",
+                  "4 giờ đúng",
+                  "3 giờ 20 phút"
+                ],
+                "correctAnswer": "4 giờ 15 phút",
+                "explanation": "Kim dài chỉ số 3 tương ứng với 15 phút. Vậy đồng hồ chỉ 4 giờ 15 phút."
+              },
+              {
+                "id": "b25_m3",
+                "type": "multiple-choice",
+                "question": "Đồng hồ chỉ 8 giờ rưỡi tức là mấy giờ mấy phút?",
+                "options": [
+                  "8 giờ 30 phút",
+                  "8 giờ 15 phút",
+                  "8 giờ 50 phút",
+                  "8 giờ 6 phút"
+                ],
+                "correctAnswer": "8 giờ 30 phút",
+                "explanation": "Khái niệm 'giờ rưỡi' tương đương với 30 phút. Vậy là 8 giờ 30 phút."
+              },
+              {
+                "id": "b25_m4",
+                "type": "multiple-choice",
+                "question": "Mẹ đi làm lúc 7 giờ sáng và về nhà lúc 5 giờ chiều (tức 17 giờ). Hỏi mẹ vắng nhà bao lâu?",
+                "options": [
+                  "10 tiếng",
+                  "8 tiếng",
+                  "12 tiếng",
+                  "9 tiếng"
+                ],
+                "correctAnswer": "10 tiếng",
+                "explanation": "Từ 7 giờ sáng đến 12 giờ trưa là 5 tiếng. Từ 12 giờ trưa đến 5 giờ chiều là 5 tiếng. Tổng cộng: 5 + 5 = 10 tiếng."
+              },
+              {
+                "id": "b25_m5",
+                "type": "multiple-choice",
+                "question": "Buổi học bắt đầu lúc 8 giờ sáng và kết thúc lúc 11 giờ sáng. Hỏi buổi học kéo dài bao lâu?",
+                "options": [
+                  "3 giờ",
+                  "4 giờ",
+                  "2 giờ",
+                  "11 giờ"
+                ],
+                "correctAnswer": "3 giờ",
+                "explanation": "Thời gian học kéo dài là: 11 - 8 = 3 giờ."
+              },
+              {
+                "id": "b25_m6",
+                "type": "multiple-choice",
+                "question": "Bé xem phim hoạt hình từ 7 giờ tối đến 7 giờ 30 phút tối. Hỏi bé xem phim trong bao lâu?",
+                "options": [
+                  "30 phút",
+                  "15 phút",
+                  "70 phút",
+                  "1 giờ"
+                ],
+                "correctAnswer": "30 phút",
+                "explanation": "Từ 7 giờ đến 7 giờ 30 phút cách nhau đúng 30 phút."
+              },
+              {
+                "id": "b25_m7",
+                "type": "multiple-choice",
+                "question": "Kim dài đồng hồ chạy từ số 12 đến số 3 mất bao nhiêu phút?",
+                "options": [
+                  "15 phút",
+                  "3 phút",
+                  "30 phút",
+                  "5 phút"
+                ],
+                "correctAnswer": "15 phút",
+                "explanation": "Mỗi khoảng số trên mặt đồng hồ ứng với 5 phút. Từ 12 đến 3 có 3 khoảng: 3 x 5 = 15 phút."
+              },
+              {
+                "id": "b25_m8",
+                "type": "multiple-choice",
+                "question": "Kim dài đồng hồ chạy từ số 12 đến số 6 mất bao nhiêu phút?",
+                "options": [
+                  "30 phút",
+                  "6 phút",
+                  "15 phút",
+                  "60 phút"
+                ],
+                "correctAnswer": "30 phút",
+                "explanation": "Từ 12 đến 6 là nửa vòng tròn đồng hồ, tương ứng 30 phút."
+              },
+              {
+                "id": "b25_m9",
+                "type": "multiple-choice",
+                "question": "Đồng hồ điện tử hiển thị 14:00. Đây là mấy giờ chiều?",
+                "options": [
+                  "2 giờ chiều",
+                  "4 giờ chiều",
+                  "12 giờ trưa",
+                  "10 giờ đêm"
+                ],
+                "correctAnswer": "2 giờ chiều",
+                "explanation": "Giờ chiều bằng giờ hiển thị trừ 12: 14 - 12 = 2 giờ chiều."
+              },
+              {
+                "id": "b25_m10",
+                "type": "multiple-choice",
+                "question": "Đồng hồ điện tử hiển thị 20:30. Đây là mấy giờ tối?",
+                "options": [
+                  "8 giờ 30 phút tối",
+                  "10 giờ 30 phút tối",
+                  "7 giờ 30 phút tối",
+                  "9 giờ tối"
+                ],
+                "correctAnswer": "8 giờ 30 phút tối",
+                "explanation": "Giờ tối bằng giờ hiển thị trừ 12: 20 - 12 = 8 giờ tối. Vậy là 8 giờ 30 phút tối."
               }
             ],
             "hard": [
               {
                 "id": "b25_h1",
                 "type": "multiple-choice",
-                "question": "Bé đi ngủ lúc 9 giờ tối. Đến 6 giờ sáng hôm sau bé thức dậy. Hỏi bé đã ngủ mấy tiếng?",
+                "question": "Bé đi ngủ lúc 9 giờ tối (21 giờ) và thức dậy lúc 6 giờ sáng hôm sau. Hỏi bé đã ngủ bao nhiêu tiếng?",
                 "options": [
                   "9 tiếng",
                   "8 tiếng",
@@ -607,16 +3982,127 @@
                 ],
                 "correctAnswer": "9 tiếng",
                 "explanation": "Từ 9 giờ tối đến 12 giờ đêm là 3 tiếng. Từ 12 giờ đêm đến 6 giờ sáng là 6 tiếng. Tổng cộng bé ngủ: 3 + 6 = 9 tiếng."
+              },
+              {
+                "id": "b25_h2",
+                "type": "multiple-choice",
+                "question": "Một trận bóng đá bắt đầu lúc 15 giờ 15 phút và kết thúc lúc 17 giờ. Hỏi trận đấu kéo dài bao lâu?",
+                "options": [
+                  "1 giờ 45 phút",
+                  "1 giờ 15 phút",
+                  "2 giờ",
+                  "1 giờ 30 phút"
+                ],
+                "correctAnswer": "1 giờ 45 phút",
+                "explanation": "Từ 15 giờ 15 phút đến 16 giờ là 45 phút. Từ 16 giờ đến 17 giờ là 1 giờ. Tổng cộng là 1 giờ 45 phút."
+              },
+              {
+                "id": "b25_h3",
+                "type": "multiple-choice",
+                "question": "Xe ô tô khởi hành từ Hà Nội lúc 6 giờ sáng và đến Hải Phòng sau 2 tiếng 30 phút. Hỏi xe đến lúc mấy giờ?",
+                "options": [
+                  "8 giờ 30 phút sáng",
+                  "8 giờ sáng",
+                  "9 giờ sáng",
+                  "7 giờ 30 phút sáng"
+                ],
+                "correctAnswer": "8 giờ 30 phút sáng",
+                "explanation": "Thời điểm đến nơi là: 6 giờ + 2 giờ 30 phút = 8 giờ 30 phút sáng."
+              },
+              {
+                "id": "b25_h4",
+                "type": "multiple-choice",
+                "question": "Mỗi ngày Nam học ở trường 8 giờ. Một tuần Nam học ở trường 5 ngày. Hỏi mỗi tuần Nam học bao nhiêu giờ ở trường?",
+                "options": [
+                  "40 giờ",
+                  "35 giờ",
+                  "30 giờ",
+                  "45 giờ"
+                ],
+                "correctAnswer": "40 giờ",
+                "explanation": "Tổng số giờ học ở trường của Nam trong tuần là: 8 x 5 = 40 giờ."
+              },
+              {
+                "id": "b25_h5",
+                "type": "multiple-choice",
+                "question": "Hôm nay là thứ Ba ngày 15. Hỏi thứ Ba tuần sau là ngày mùng mấy?",
+                "options": [
+                  "Ngày 22",
+                  "Ngày 16",
+                  "Ngày 20",
+                  "Ngày 21"
+                ],
+                "correctAnswer": "Ngày 22",
+                "explanation": "Một tuần có 7 ngày. Ngày thứ Ba tuần sau là: 15 + 7 = ngày 22."
+              },
+              {
+                "id": "b25_h6",
+                "type": "multiple-choice",
+                "question": "Hôm nay là thứ Sáu ngày 20. Hỏi thứ Sáu tuần trước là ngày mùng mấy?",
+                "options": [
+                  "Ngày 13",
+                  "Ngày 14",
+                  "Ngày 12",
+                  "Ngày 27"
+                ],
+                "correctAnswer": "Ngày 13",
+                "explanation": "Thứ Sáu tuần trước cách đây 7 ngày: 20 - 7 = ngày 13."
+              },
+              {
+                "id": "b25_h7",
+                "type": "multiple-choice",
+                "question": "Bố đi công tác 1 tuần và 3 ngày. Hỏi bố đi công tác tất cả bao nhiêu ngày?",
+                "options": [
+                  "10 ngày",
+                  "8 ngày",
+                  "9 ngày",
+                  "11 ngày"
+                ],
+                "correctAnswer": "10 ngày",
+                "explanation": "Một tuần có 7 ngày. Tổng số ngày bố đi công tác là: 7 + 3 = 10 ngày."
+              },
+              {
+                "id": "b25_h8",
+                "type": "multiple-choice",
+                "question": "Hà giúp mẹ quét dọn nhà từ 16 giờ đến 16 giờ 45 phút. Hỏi Hà đã làm trong bao nhiêu phút?",
+                "options": [
+                  "45 phút",
+                  "40 phút",
+                  "50 phút",
+                  "15 phút"
+                ],
+                "correctAnswer": "45 phút",
+                "explanation": "Thời gian Hà làm là: 45 - 0 = 45 phút."
+              },
+              {
+                "id": "b25_h9",
+                "type": "multiple-choice",
+                "question": "Lan làm bài tập về nhà mất 30 phút. Lan bắt đầu làm lúc 19 giờ 15 phút. Hỏi Lan làm xong lúc mấy giờ?",
+                "options": [
+                  "19 giờ 45 phút",
+                  "19 giờ 30 phút",
+                  "20 giờ",
+                  "19 giờ 50 phút"
+                ],
+                "correctAnswer": "19 giờ 45 phút",
+                "explanation": "Thời gian hoàn thành bài tập là: 19 giờ 15 phút + 30 phút = 19 giờ 45 phút."
+              },
+              {
+                "id": "b25_h10",
+                "type": "multiple-choice",
+                "question": "Một ngày có 24 giờ. Hỏi kim giờ quay được bao nhiêu vòng quanh mặt đồng hồ tròn 12 số?",
+                "options": [
+                  "2 vòng",
+                  "1 vòng",
+                  "24 vòng",
+                  "12 vòng"
+                ],
+                "correctAnswer": "2 vòng",
+                "explanation": "Mặt đồng hồ có 12 số. Kim giờ đi hết 1 vòng mất 12 giờ. Trong 24 giờ (một ngày), kim giờ quay: 24 : 12 = 2 vòng."
               }
             ]
           }
-        }
-      ]
-    },
-    {
-      "id": "chapter-6",
-      "title": "Chương VI: Phép nhân và Phép chia",
-      "lessons": [
+        },
         {
           "id": "bai-28-phep-nhan-thua-so-tich",
           "title": "Bài 28: Phép nhân. Thừa số - Tích",
@@ -644,6 +4130,123 @@
                 ],
                 "correctAnswer": "2 x 3",
                 "explanation": "Có 3 số hạng 2 cộng lại với nhau, ta viết thành 2 x 3."
+              },
+              {
+                "id": "b28_e2",
+                "type": "multiple-choice",
+                "question": "Phép cộng 5 + 5 + 5 + 5 được chuyển thành phép nhân nào?",
+                "options": [
+                  "5 x 4",
+                  "5 x 3",
+                  "4 x 5",
+                  "5 + 4"
+                ],
+                "correctAnswer": "5 x 4",
+                "explanation": "Có 4 số hạng 5 cộng lại với nhau, ta viết thành 5 x 4."
+              },
+              {
+                "id": "b28_e3",
+                "type": "multiple-choice",
+                "question": "Phép nhân 2 x 5 có nghĩa là gì?",
+                "options": [
+                  "2 được lấy 5 lần",
+                  "5 được lấy 2 lần",
+                  "2 cộng với 5",
+                  "5 nhân với 5"
+                ],
+                "correctAnswer": "2 được lấy 5 lần",
+                "explanation": "Theo định nghĩa, A x B có nghĩa là số A xuất hiện B lần trong phép cộng."
+              },
+              {
+                "id": "b28_e4",
+                "type": "multiple-choice",
+                "question": "Phép cộng 10 + 10 được viết dưới dạng phép nhân là gì?",
+                "options": [
+                  "10 x 2",
+                  "10 x 10",
+                  "2 x 10",
+                  "10 + 2"
+                ],
+                "correctAnswer": "10 x 2",
+                "explanation": "Có 2 số hạng 10 cộng lại với nhau, viết thành 10 x 2."
+              },
+              {
+                "id": "b28_e5",
+                "type": "multiple-choice",
+                "question": "Phép nhân 5 x 3 bằng bao nhiêu?",
+                "options": [
+                  "15",
+                  "10",
+                  "8",
+                  "20"
+                ],
+                "correctAnswer": "15",
+                "explanation": "5 x 3 = 5 + 5 + 5 = 15."
+              },
+              {
+                "id": "b28_e6",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 2 x 6 = 12, số 2 được gọi là gì?",
+                "options": [
+                  "Thừa số",
+                  "Tích",
+                  "Số hạng",
+                  "Thương"
+                ],
+                "correctAnswer": "Thừa số",
+                "explanation": "Các số tham gia phép nhân đều được gọi là Thừa số."
+              },
+              {
+                "id": "b28_e7",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 2 x 6 = 12, số 12 được gọi là gì?",
+                "options": [
+                  "Tích",
+                  "Thừa số",
+                  "Số bị chia",
+                  "Hiệu"
+                ],
+                "correctAnswer": "Tích",
+                "explanation": "Kết quả của phép nhân được gọi là Tích."
+              },
+              {
+                "id": "b28_e8",
+                "type": "multiple-choice",
+                "question": "Trong phép nhân, kết quả của phép tính gọi là gì?",
+                "options": [
+                  "Tích",
+                  "Hiệu",
+                  "Thừa số",
+                  "Thương"
+                ],
+                "correctAnswer": "Tích",
+                "explanation": "Kết quả của phép nhân được gọi là Tích."
+              },
+              {
+                "id": "b28_e9",
+                "type": "multiple-choice",
+                "question": "Tìm tích của 2 và 7.",
+                "options": [
+                  "14",
+                  "9",
+                  "5",
+                  "16"
+                ],
+                "correctAnswer": "14",
+                "explanation": "Tích của 2 và 7 bằng: 2 x 7 = 14."
+              },
+              {
+                "id": "b28_e10",
+                "type": "multiple-choice",
+                "question": "Tìm tích của 5 và 6.",
+                "options": [
+                  "30",
+                  "11",
+                  "25",
+                  "35"
+                ],
+                "correctAnswer": "30",
+                "explanation": "Tích của 5 và 6 bằng: 5 x 6 = 30."
               }
             ],
             "medium": [
@@ -659,6 +4262,123 @@
                 ],
                 "correctAnswer": "Thừa số",
                 "explanation": "Hai số nhân với nhau được gọi là các Thừa số."
+              },
+              {
+                "id": "b28_m2",
+                "type": "multiple-choice",
+                "question": "Nhẩm nhanh kết quả: 2 x 8 = ?",
+                "options": [
+                  "16",
+                  "14",
+                  "18",
+                  "10"
+                ],
+                "correctAnswer": "16",
+                "explanation": "Ta có: 2 x 8 = 16."
+              },
+              {
+                "id": "b28_m3",
+                "type": "multiple-choice",
+                "question": "Nhẩm nhanh kết quả: 5 x 9 = ?",
+                "options": [
+                  "45",
+                  "40",
+                  "50",
+                  "35"
+                ],
+                "correctAnswer": "45",
+                "explanation": "Ta có: 5 x 9 = 45."
+              },
+              {
+                "id": "b28_m4",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp vào chỗ trống: 2 x ? = 10",
+                "options": [
+                  "5",
+                  "4",
+                  "6",
+                  "3"
+                ],
+                "correctAnswer": "5",
+                "explanation": "Vì 2 x 5 = 10 nên số cần điền là 5."
+              },
+              {
+                "id": "b28_m5",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp vào chỗ trống: 5 x ? = 35",
+                "options": [
+                  "7",
+                  "6",
+                  "8",
+                  "5"
+                ],
+                "correctAnswer": "7",
+                "explanation": "Vì 5 x 7 = 35 nên số cần điền là 7."
+              },
+              {
+                "id": "b28_m6",
+                "type": "multiple-choice",
+                "question": "Tìm X biết: X : 2 = 6",
+                "options": [
+                  "12",
+                  "8",
+                  "3",
+                  "4"
+                ],
+                "correctAnswer": "12",
+                "explanation": "X = 6 x 2 = 12."
+              },
+              {
+                "id": "b28_m7",
+                "type": "multiple-choice",
+                "question": "So sánh: 2 x 5 ... 5 x 2",
+                "options": [
+                  "=",
+                  "<",
+                  ">",
+                  "Không so sánh được"
+                ],
+                "correctAnswer": "=",
+                "explanation": "2 x 5 = 10. 5 x 2 = 10. Phép nhân có tính chất giao hoán nên bằng nhau."
+              },
+              {
+                "id": "b28_m8",
+                "type": "multiple-choice",
+                "question": "So sánh: 2 x 8 ... 5 x 3",
+                "options": [
+                  ">",
+                  "<",
+                  "=",
+                  "Khác nhau"
+                ],
+                "correctAnswer": ">",
+                "explanation": "2 x 8 = 16. 5 x 3 = 15. Vì 16 > 15 nên điền dấu >."
+              },
+              {
+                "id": "b28_m9",
+                "type": "multiple-choice",
+                "question": "Tính: 2 x 3 + 5 = ?",
+                "options": [
+                  "11",
+                  "10",
+                  "16",
+                  "13"
+                ],
+                "correctAnswer": "11",
+                "explanation": "Thực hiện nhân trước: 2 x 3 = 6. Sau đó cộng: 6 + 5 = 11."
+              },
+              {
+                "id": "b28_m10",
+                "type": "multiple-choice",
+                "question": "Tính: 5 x 4 - 10 = ?",
+                "options": [
+                  "10",
+                  "20",
+                  "30",
+                  "15"
+                ],
+                "correctAnswer": "10",
+                "explanation": "Thực hiện nhân trước: 5 x 4 = 20. Sau đó trừ: 20 - 10 = 10."
               }
             ],
             "hard": [
@@ -667,13 +4387,130 @@
                 "type": "multiple-choice",
                 "question": "Mỗi phòng học có 4 cái quạt trần. Hỏi 5 phòng học như vậy có bao nhiêu cái quạt trần?",
                 "options": [
-                  "20 cái quạt",
-                  "18 cái quạt",
-                  "25 cái quạt",
-                  "15 cái quạt"
+                  "20 cái",
+                  "18 cái",
+                  "25 cái",
+                  "15 cái"
                 ],
-                "correctAnswer": "20 cái quạt",
-                "explanation": "Phép tính: 4 x 5 = 20 cái quạt."
+                "correctAnswer": "20 cái",
+                "explanation": "Phép tính nhân số quạt: 4 x 5 = 20 cái quạt trần."
+              },
+              {
+                "id": "b28_h2",
+                "type": "multiple-choice",
+                "question": "Mỗi con thỏ có 4 cái chân. Hỏi 6 con thỏ có bao nhiêu cái chân?",
+                "options": [
+                  "24 cái chân",
+                  "20 cái chân",
+                  "28 cái chân",
+                  "10 cái chân"
+                ],
+                "correctAnswer": "24 cái chân",
+                "explanation": "Phép tính: 4 x 6 = 24 cái chân."
+              },
+              {
+                "id": "b28_h3",
+                "type": "multiple-choice",
+                "question": "Mỗi tuần Lan học 5 tiết Toán. Hỏi trong 4 tuần Lan học bao nhiêu tiết Toán?",
+                "options": [
+                  "20 tiết",
+                  "15 tiết",
+                  "25 tiết",
+                  "9 tiết"
+                ],
+                "correctAnswer": "20 tiết",
+                "explanation": "Tổng số tiết Toán Lan học là: 5 x 4 = 20 tiết."
+              },
+              {
+                "id": "b28_h4",
+                "type": "multiple-choice",
+                "question": "Có 5 học sinh, mỗi học sinh được tặng 3 quyển vở. Hỏi cả nhóm được tặng bao nhiêu quyển vở?",
+                "options": [
+                  "15 quyển",
+                  "12 quyển",
+                  "18 quyển",
+                  "8 quyển"
+                ],
+                "correctAnswer": "15 quyển",
+                "explanation": "Tổng số vở được tặng là: 3 x 5 = 15 quyển."
+              },
+              {
+                "id": "b28_h5",
+                "type": "multiple-choice",
+                "question": "Mỗi xe ô tô có 4 bánh xe. Hỏi 8 xe ô tô như vậy có bao nhiêu bánh xe?",
+                "options": [
+                  "32 bánh xe",
+                  "28 bánh xe",
+                  "36 bánh xe",
+                  "12 bánh xe"
+                ],
+                "correctAnswer": "32 bánh xe",
+                "explanation": "Tổng số bánh xe của 8 ô tô là: 4 x 8 = 32 bánh xe."
+              },
+              {
+                "id": "b28_h6",
+                "type": "multiple-choice",
+                "question": "Nhà Minh có 5 chuồng gà, mỗi chuồng có 8 con gà. Hỏi nhà Minh có tất cả bao nhiêu con gà?",
+                "options": [
+                  "40 con gà",
+                  "35 con gà",
+                  "45 con gà",
+                  "13 con gà"
+                ],
+                "correctAnswer": "40 con gà",
+                "explanation": "Tổng số con gà nhà Minh là: 8 x 5 = 40 con gà."
+              },
+              {
+                "id": "b28_h7",
+                "type": "multiple-choice",
+                "question": "Mỗi lọ hoa cắm 5 bông hoa. Hỏi 7 lọ hoa như vậy cắm được bao nhiêu bông hoa?",
+                "options": [
+                  "35 bông hoa",
+                  "30 bông hoa",
+                  "40 bông hoa",
+                  "12 bông hoa"
+                ],
+                "correctAnswer": "35 bông hoa",
+                "explanation": "Tổng số bông hoa cắm được là: 5 x 7 = 35 bông hoa."
+              },
+              {
+                "id": "b28_h8",
+                "type": "multiple-choice",
+                "question": "Hùng đi bộ mỗi giờ được 5km. Hỏi Hùng đi bộ trong 3 giờ được bao nhiêu ki-lô-mét?",
+                "options": [
+                  "15 km",
+                  "10 km",
+                  "20 km",
+                  "8 km"
+                ],
+                "correctAnswer": "15 km",
+                "explanation": "Quãng đường Hùng đi được là: 5 x 3 = 15 km."
+              },
+              {
+                "id": "b28_h9",
+                "type": "multiple-choice",
+                "question": "Một lớp học xếp thành 4 hàng, mỗi hàng có 5 học sinh. Hỏi lớp học đó có bao nhiêu học sinh?",
+                "options": [
+                  "20 học sinh",
+                  "18 học sinh",
+                  "24 học sinh",
+                  "9 học sinh"
+                ],
+                "correctAnswer": "20 học sinh",
+                "explanation": "Tổng số học sinh lớp đó là: 5 x 4 = 20 học sinh."
+              },
+              {
+                "id": "b28_h10",
+                "type": "multiple-choice",
+                "question": "Mỗi bàn học ngồi được 2 học sinh. Hỏi 10 bàn học như vậy ngồi được bao nhiêu học sinh?",
+                "options": [
+                  "20 học sinh",
+                  "12 học sinh",
+                  "18 học sinh",
+                  "8 học sinh"
+                ],
+                "correctAnswer": "20 học sinh",
+                "explanation": "Tổng số học sinh ngồi bàn học là: 2 x 10 = 20 học sinh."
               }
             ]
           }
@@ -704,6 +4541,123 @@
                 ],
                 "correctAnswer": "Số bị chia",
                 "explanation": "Số đứng trước dấu chia gọi là Số bị chia."
+              },
+              {
+                "id": "b30_e2",
+                "type": "multiple-choice",
+                "question": "Trong phép chia 10 : 2 = 5, số 2 được gọi là gì?",
+                "options": [
+                  "Số chia",
+                  "Số bị chia",
+                  "Thương",
+                  "Tích"
+                ],
+                "correctAnswer": "Số chia",
+                "explanation": "Số đứng sau dấu chia gọi là Số chia."
+              },
+              {
+                "id": "b30_e3",
+                "type": "multiple-choice",
+                "question": "Trong phép chia 10 : 2 = 5, số 5 được gọi là gì?",
+                "options": [
+                  "Thương",
+                  "Số bị chia",
+                  "Số chia",
+                  "Tích"
+                ],
+                "correctAnswer": "Thương",
+                "explanation": "Kết quả của phép chia được gọi là Thương."
+              },
+              {
+                "id": "b30_e4",
+                "type": "multiple-choice",
+                "question": "Trong phép chia, kết quả của phép tính gọi là gì?",
+                "options": [
+                  "Thương",
+                  "Hiệu",
+                  "Thừa số",
+                  "Tích"
+                ],
+                "correctAnswer": "Thương",
+                "explanation": "Kết quả của phép chia được gọi là Thương."
+              },
+              {
+                "id": "b30_e5",
+                "type": "multiple-choice",
+                "question": "Nếu có 6 quả cam chia đều cho 2 bạn, mỗi bạn được mấy quả cam?",
+                "options": [
+                  "3 quả",
+                  "2 quả",
+                  "4 quả",
+                  "1 quả"
+                ],
+                "correctAnswer": "3 quả",
+                "explanation": "Mỗi bạn được: 6 : 2 = 3 quả cam."
+              },
+              {
+                "id": "b30_e6",
+                "type": "multiple-choice",
+                "question": "Chia đều 8 cái kẹo cho 4 bạn, mỗi bạn được mấy cái kẹo?",
+                "options": [
+                  "2 cái kẹo",
+                  "3 cái kẹo",
+                  "4 cái kẹo",
+                  "1 cái kẹo"
+                ],
+                "correctAnswer": "2 cái kẹo",
+                "explanation": "Mỗi bạn được: 8 : 4 = 2 cái kẹo."
+              },
+              {
+                "id": "b30_e7",
+                "type": "multiple-choice",
+                "question": "Từ phép nhân 2 x 5 = 10, ta viết được phép chia 10 : 2 bằng bao nhiêu?",
+                "options": [
+                  "5",
+                  "2",
+                  "10",
+                  "7"
+                ],
+                "correctAnswer": "5",
+                "explanation": "10 chia cho thừa số này bằng thừa số kia: 10 : 2 = 5."
+              },
+              {
+                "id": "b30_e8",
+                "type": "multiple-choice",
+                "question": "Từ phép nhân 5 x 3 = 15, ta viết được phép chia 15 : 5 bằng bao nhiêu?",
+                "options": [
+                  "3",
+                  "5",
+                  "15",
+                  "8"
+                ],
+                "correctAnswer": "3",
+                "explanation": "15 chia cho thừa số này bằng thừa số kia: 15 : 5 = 3."
+              },
+              {
+                "id": "b30_e9",
+                "type": "multiple-choice",
+                "question": "Trong phép chia A : B = C, cả biểu thức 'A : B' cũng được gọi là gì?",
+                "options": [
+                  "Thương",
+                  "Số bị chia",
+                  "Số chia",
+                  "Tổng"
+                ],
+                "correctAnswer": "Thương",
+                "explanation": "Cả biểu thức phép chia 'A : B' cũng gọi là một Thương."
+              },
+              {
+                "id": "b30_e10",
+                "type": "multiple-choice",
+                "question": "Trong phép tính 20 : 5 = 4, số 5 gọi là gì?",
+                "options": [
+                  "Số chia",
+                  "Số bị chia",
+                  "Thương",
+                  "Tích"
+                ],
+                "correctAnswer": "Số chia",
+                "explanation": "Số đứng sau dấu chia là Số chia."
               }
             ],
             "medium": [
@@ -719,13 +4673,130 @@
                 ],
                 "correctAnswer": "4 cái kẹo",
                 "explanation": "Phép tính chia đều: 12 : 3 = 4 cái kẹo."
+              },
+              {
+                "id": "b30_m2",
+                "type": "multiple-choice",
+                "question": "Tính nhẩm: 10 : 2 = ?",
+                "options": [
+                  "5",
+                  "4",
+                  "6",
+                  "2"
+                ],
+                "correctAnswer": "5",
+                "explanation": "Nhẩm bảng chia 2: 10 : 2 = 5."
+              },
+              {
+                "id": "b30_m3",
+                "type": "multiple-choice",
+                "question": "Tính nhẩm: 25 : 5 = ?",
+                "options": [
+                  "5",
+                  "6",
+                  "4",
+                  "7"
+                ],
+                "correctAnswer": "5",
+                "explanation": "Nhẩm bảng chia 5: 25 : 5 = 5."
+              },
+              {
+                "id": "b30_m4",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 14 : ? = 7",
+                "options": [
+                  "2",
+                  "3",
+                  "4",
+                  "5"
+                ],
+                "correctAnswer": "2",
+                "explanation": "Vì 14 : 2 = 7 nên số điền là 2."
+              },
+              {
+                "id": "b30_m5",
+                "type": "multiple-choice",
+                "question": "Điền số thích hợp: 30 : ? = 6",
+                "options": [
+                  "5",
+                  "4",
+                  "6",
+                  "7"
+                ],
+                "correctAnswer": "5",
+                "explanation": "Vì 30 : 5 = 6 nên số điền là 5."
+              },
+              {
+                "id": "b30_m6",
+                "type": "multiple-choice",
+                "question": "Tìm X biết: X x 2 = 18",
+                "options": [
+                  "9",
+                  "8",
+                  "10",
+                  "16"
+                ],
+                "correctAnswer": "9",
+                "explanation": "X = 18 : 2 = 9."
+              },
+              {
+                "id": "b30_m7",
+                "type": "multiple-choice",
+                "question": "So sánh: 20 : 5 ... 10 : 2",
+                "options": [
+                  "<",
+                  ">",
+                  "=",
+                  "Khác nhau"
+                ],
+                "correctAnswer": "<",
+                "explanation": "20 : 5 = 4. 10 : 2 = 5. Vì 4 < 5 nên điền <."
+              },
+              {
+                "id": "b30_m8",
+                "type": "multiple-choice",
+                "question": "So sánh: 15 : 5 ... 12 : 4",
+                "options": [
+                  "=",
+                  "<",
+                  ">",
+                  "Khác nhau"
+                ],
+                "correctAnswer": "=",
+                "explanation": "15 : 5 = 3. 12 : 4 = 3. Cả hai phép chia bằng nhau."
+              },
+              {
+                "id": "b30_m9",
+                "type": "multiple-choice",
+                "question": "Tính: 10 : 2 + 8 = ?",
+                "options": [
+                  "13",
+                  "12",
+                  "14",
+                  "15"
+                ],
+                "correctAnswer": "13",
+                "explanation": "Thực hiện phép chia trước: 10 : 2 = 5. Tiếp tục: 5 + 8 = 13."
+              },
+              {
+                "id": "b30_m10",
+                "type": "multiple-choice",
+                "question": "Tính: 35 : 5 - 3 = ?",
+                "options": [
+                  "4",
+                  "5",
+                  "3",
+                  "7"
+                ],
+                "correctAnswer": "4",
+                "explanation": "Thực hiện phép chia trước: 35 : 5 = 7. Tiếp tục: 7 - 3 = 4."
               }
             ],
             "hard": [
               {
                 "id": "b30_h1",
                 "type": "multiple-choice",
-                "question": "Có 15 quả táo chia vào các rổ, mỗi rổ có 5 quả táo. Hỏi chia được bao nhiêu rổ táo như vậy?",
+                "question": "Có 15 quả táo chia vào các rổ, mỗi rổ có 5 quả táo. Hỏi chia được bao nhiêu rổ táo?",
                 "options": [
                   "3 rổ",
                   "4 rổ",
@@ -733,7 +4804,124 @@
                   "5 rổ"
                 ],
                 "correctAnswer": "3 rổ",
-                "explanation": "Phép tính chia theo nhóm: 15 : 5 = 3 rổ."
+                "explanation": "Phép tính chia theo nhóm: 15 : 5 = 3 rổ táo."
+              },
+              {
+                "id": "b30_h2",
+                "type": "multiple-choice",
+                "question": "Lớp 2A có 20 bạn học sinh xếp đều thành 5 hàng. Hỏi mỗi hàng có bao nhiêu học sinh?",
+                "options": [
+                  "4 học sinh",
+                  "5 học sinh",
+                  "6 học sinh",
+                  "3 học sinh"
+                ],
+                "correctAnswer": "4 học sinh",
+                "explanation": "Số học sinh mỗi hàng là: 20 : 5 = 4 học sinh."
+              },
+              {
+                "id": "b30_h3",
+                "type": "multiple-choice",
+                "question": "Có 30 bông hoa cắm đều vào 5 lọ hoa. Hỏi mỗi lọ hoa có bao nhiêu bông hoa?",
+                "options": [
+                  "6 bông hoa",
+                  "5 bông hoa",
+                  "7 bông hoa",
+                  "4 bông hoa"
+                ],
+                "correctAnswer": "6 bông hoa",
+                "explanation": "Số bông hoa mỗi lọ là: 30 : 5 = 6 bông hoa."
+              },
+              {
+                "id": "b30_h4",
+                "type": "multiple-choice",
+                "question": "Một sợi dây dài 14dm được cắt thành 2 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu đề-xi-mét?",
+                "options": [
+                  "7 dm",
+                  "6 dm",
+                  "8 dm",
+                  "12 dm"
+                ],
+                "correctAnswer": "7 dm",
+                "explanation": "Độ dài mỗi đoạn dây là: 14 : 2 = 7 dm."
+              },
+              {
+                "id": "b30_h5",
+                "type": "multiple-choice",
+                "question": "Có 40 chiếc bánh trung thu chia đều vào các hộp, mỗi hộp 5 chiếc. Hỏi chia được bao nhiêu hộp bánh?",
+                "options": [
+                  "8 hộp",
+                  "7 hộp",
+                  "9 hộp",
+                  "10 hộp"
+                ],
+                "correctAnswer": "8 hộp",
+                "explanation": "Số hộp bánh chia được là: 40 : 5 = 8 hộp."
+              },
+              {
+                "id": "b30_h6",
+                "type": "multiple-choice",
+                "question": "Mẹ chia đều 18 quả cam vào 2 đĩa. Hỏi mỗi đĩa có bao nhiêu quả cam?",
+                "options": [
+                  "9 quả",
+                  "8 quả",
+                  "10 quả",
+                  "7 quả"
+                ],
+                "correctAnswer": "9 quả",
+                "explanation": "Số cam ở mỗi đĩa là: 18 : 2 = 9 quả cam."
+              },
+              {
+                "id": "b30_h7",
+                "type": "multiple-choice",
+                "question": "Có 45 quyển vở chia đều cho 5 bạn học sinh giỏi. Hỏi mỗi bạn được bao nhiêu quyển vở?",
+                "options": [
+                  "9 quyển",
+                  "8 quyển",
+                  "7 quyển",
+                  "10 quyển"
+                ],
+                "correctAnswer": "9 quyển",
+                "explanation": "Số vở mỗi bạn học sinh giỏi nhận được là: 45 : 5 = 9 quyển."
+              },
+              {
+                "id": "b30_h8",
+                "type": "multiple-choice",
+                "question": "Có 16 lít nước ngọt rót đều vào 2 can nước. Hỏi mỗi can đựng bao nhiêu lít nước?",
+                "options": [
+                  "8 lít",
+                  "7 lít",
+                  "9 lít",
+                  "6 lít"
+                ],
+                "correctAnswer": "8 lít",
+                "explanation": "Dung tích mỗi can đựng nước ngọt là: 16 : 2 = 8 lít."
+              },
+              {
+                "id": "b30_h9",
+                "type": "multiple-choice",
+                "question": "Một đoàn khách có 10 người đi xe taxi, mỗi xe taxi chở được tối đa 5 người. Hỏi cần thuê bao nhiêu xe taxi?",
+                "options": [
+                  "2 xe",
+                  "3 xe",
+                  "4 xe",
+                  "1 xe"
+                ],
+                "correctAnswer": "2 xe",
+                "explanation": "Số taxi cần thuê là: 10 : 5 = 2 xe taxi."
+              },
+              {
+                "id": "b30_h10",
+                "type": "multiple-choice",
+                "question": "Có 25kg gạo chia đều vào 5 túi gạo nhỏ. Hỏi mỗi túi đựng bao nhiêu ki-lô-gam gạo?",
+                "options": [
+                  "5 kg",
+                  "4 kg",
+                  "6 kg",
+                  "3 kg"
+                ],
+                "correctAnswer": "5 kg",
+                "explanation": "Khối lượng gạo trong mỗi túi nhỏ là: 25 : 5 = 5 kg gạo."
               }
             ]
           }
