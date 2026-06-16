@@ -70,20 +70,8 @@ export default function App() {
 
   // --- Check if a lesson is unlocked ---
   const isLessonUnlocked = useCallback(
-    (lessonIndex) => {
-      if (lessonIndex === 0) return true;
-      const prevLesson = allLessons[lessonIndex - 1];
-      if (!prevLesson) return false;
-      const prevProgress = progress[prevLesson.id];
-      if (!prevProgress) return false;
-      // Must have completed all 3 levels of the previous lesson
-      return (
-        prevProgress.easy > 0 &&
-        prevProgress.medium > 0 &&
-        prevProgress.hard > 0
-      );
-    },
-    [allLessons, progress]
+    () => true,
+    []
   );
 
   // --- Handlers ---
