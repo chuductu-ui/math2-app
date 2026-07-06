@@ -173,21 +173,24 @@ export default function TenFrames({ config = {} }) {
     for (let i = 0; i < 10; i++) {
       const isInitialFilled = i < filledCount;
       const isExtraFilled = i >= filledCount && i < filledCount + extraDots;
-      const isFilled = isInitialFilled || isExtraFilled;
+      
+      // If a dot has been moved out (for addition), consider it no longer filled
+      const isMovedOut = !isSubtraction && isInitialFilled && i >= (filledCount - removedDots);
+      const isFilled = (isInitialFilled || isExtraFilled) && !isMovedOut;
 
       const isRemoved = isSubtraction && isInitialFilled && i >= (filledCount - removedDots);
 
       const bgColor = isFilled
         ? (isRemoved ? '#FFCDD2' : (isExtraFilled ? DOT_COLOR_2 : color))
-        : EMPTY_COLOR;
+        : (isRemoved ? '#FFCDD2' : EMPTY_COLOR);
 
       const cellContent = isFilled
         ? (isRemoved ? <div style={{ color: '#D32F2F', fontSize: '16px', fontWeight: 'bold' }}>✕</div> : <div style={styles.dot}>●</div>)
-        : null;
+        : (isRemoved ? <div style={{ color: '#D32F2F', fontSize: '16px', fontWeight: 'bold' }}>✕</div> : null);
 
       const cellStyle = isFilled
         ? (isRemoved ? { border: '2px solid #D32F2F', transform: 'scale(0.9)' } : { transform: 'scale(1)' })
-        : { transform: 'scale(0.85)' };
+        : (isRemoved ? { border: '2px solid #D32F2F', transform: 'scale(0.9)' } : { transform: 'scale(0.85)' });
 
       cells.push(
         <div
