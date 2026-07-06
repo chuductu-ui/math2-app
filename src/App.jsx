@@ -77,6 +77,35 @@ export default function App() {
       });
   }, []);
 
+  // --- Load Local Config (if present) ---
+  useEffect(() => {
+    fetch('./config.json')
+      .then((res) => {
+        if (res.ok) return res.json();
+        throw new Error('No local config');
+      })
+      .then((data) => {
+        if (data && data.owner) {
+          const loadedConfig = {
+            owner: data.owner || '',
+            repo: data.repo || '',
+            token: data.token || '',
+            emails: data.emails || 'chu.duc.tu@gmail.com,thanhha.phth@gmail.com',
+            web3formsKey: data.web3formsKey || '72e519e9-d754-47b2-a4e9-6f5dfdb3d1c1'
+          };
+          setConfig(loadedConfig);
+          setFormOwner(loadedConfig.owner);
+          setFormRepo(loadedConfig.repo);
+          setFormToken(loadedConfig.token);
+          setFormEmails(loadedConfig.emails);
+          setFormWeb3FormsKey(loadedConfig.web3formsKey);
+        }
+      })
+      .catch(() => {
+        // Normal fallback, do nothing
+      });
+  }, []);
+
   // --- Fetch Progress from GitHub when config changes or at startup ---
   const syncProgress = useCallback(async (currentConfig) => {
     if (currentConfig.owner && currentConfig.repo && currentConfig.token) {
