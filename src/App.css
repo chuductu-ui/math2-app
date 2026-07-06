@@ -381,15 +381,17 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 14px 0;
+  margin: 16px 0;
   background: white;
-  border: 1px solid var(--color-border);
+  border: 1.5px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: 8px;
+  padding: 16px;
+  width: 100%;
 }
 
 .theory-image {
-  max-width: 100%;
+  width: 95% !important;
+  max-width: 700px;
   height: auto;
   border-radius: var(--radius-sm);
 }
@@ -509,6 +511,36 @@ html {
 }
 
 .submit-btn:disabled {
+  background: var(--color-locked);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.draft-btn {
+  background: var(--color-orange);
+  border: none;
+  color: white;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 12px 28px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.draft-btn:hover {
+  background: var(--color-orange-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.draft-btn:disabled {
   background: var(--color-locked);
   cursor: not-allowed;
   transform: none;

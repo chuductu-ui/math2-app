@@ -129,7 +129,10 @@ export default function App() {
   const handleSelectLesson = (lesson) => {
     setSelectedLesson(lesson);
     setActiveTab('theory');
-    setAnswers({}); // Clear answers input for the new lesson
+    
+    // Load draft answers if they exist
+    const lessonDrafts = progress.drafts?.[lesson.title] || {};
+    setAnswers(lessonDrafts);
     
     // Immediately log the visit and push to GitHub
     const timestamp = new Date().toISOString();
@@ -146,6 +149,33 @@ export default function App() {
       saveProgress(config, updatedProgress).catch((err) => {
         console.error("Failed to save theory visit to GitHub:", err);
       });
+    }
+  };
+
+  // --- Save Draft Handler ---
+  const [draftSaving, setDraftSaving] = useState(false);
+  const handleSaveDraft = async () => {
+    if (!selectedLesson) return;
+    setDraftSaving(true);
+    try {
+      const updatedProgress = {
+        ...progress,
+        drafts: {
+          ...(progress.drafts || {}),
+          [selectedLesson.title]: answers
+        }
+      };
+
+      if (config.owner && config.repo && config.token) {
+        await saveProgress(config, updatedProgress);
+      }
+      setProgress(updatedProgress);
+      alert("Đã lưu tạm bài làm của con lên GitHub! 🐸💚");
+    } catch (err) {
+      console.error("Failed to save draft:", err);
+      alert("Lỗi khi lưu bài tạm. Bố mẹ vui lòng kiểm tra lại cấu hình GitHub.");
+    } finally {
+      setDraftSaving(false);
     }
   };
 
@@ -188,8 +218,14 @@ export default function App() {
         practice_completions: {
           ...progress.practice_completions,
           [selectedLesson.title]: timestamp
+        },
+        drafts: {
+          ...(progress.drafts || {})
         }
       };
+      if (updatedProgress.drafts[selectedLesson.title]) {
+        delete updatedProgress.drafts[selectedLesson.title];
+      }
 
       // 1. Submit answers and send email
       const submitConfig = {
@@ -477,14 +513,22 @@ export default function App() {
                     ))}
 
                     {/* Submit Button */}
-                    <div className="submit-section">
+                    <div className="submit-section" style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
+                      <button
+                        className="draft-btn"
+                        onClick={handleSaveDraft}
+                        disabled={!isConfigured || draftSaving}
+                        title="Lưu tạm câu trả lời của con để hôm sau làm tiếp"
+                      >
+                        💾 {draftSaving ? 'Đang lưu...' : 'Lưu tạm bài làm'}
+                      </button>
                       <button
                         className="submit-btn"
                         onClick={handleSubmit}
                         disabled={!isConfigured}
                         title={!isConfigured ? 'Bố mẹ cần cấu hình GitHub để con gửi bài' : 'Gửi bài làm cho bố mẹ'}
                       >
-                        🚀 Hoàn thành & Gửi bài làm
+                        🚀 Hoàn thành & Gửi bài
                       </button>
                     </div>
                     {!isConfigured && (
@@ -512,7 +556,16 @@ export default function App() {
       {showSettings && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h3 className="modal-title">⚙️ Cấu hình vùng dành cho Bố Mẹ</h3>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '2px solid var(--color-border)', paddingBottom: '8px' }}>
+              <h3 className="modal-title" style={{ border: 'none', padding: 0, margin: 0 }}>⚙️ Cấu hình vùng dành cho Bố Mẹ</h3>
+              <button 
+                style={{ background: 'transparent', border: 'none', fontSize: '1.8rem', cursor: 'pointer', color: 'var(--color-text-light)', padding: '0 4px', lineHeight: 1 }} 
+                onClick={() => setShowSettings(false)}
+                title="Đóng"
+              >
+                &times;
+              </button>
+            </div>
             
             <div className="form-group">
               <label>Tên tài khoản GitHub (Username)</label>
@@ -571,7 +624,7 @@ export default function App() {
             </div>
 
             <div className="modal-buttons">
-              <button className="btn-secondary" onClick={() => setShowSettings(false)}>Hủy</button>
+              <button className="btn-secondary" onClick={() => setShowSettings(false)}>Thoát / Đóng</button>
               <button className="btn-primary" onClick={handleSaveSettings}>Lưu cấu hình</button>
             </div>
           </div>
