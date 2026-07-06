@@ -1,0 +1,3716 @@
+[
+  {
+    "theme": "Chủ đề 1: Ôn tập và Bổ sung",
+    "lessons": [
+      {
+        "title": "Bài 1. Ôn tập các số đến 100",
+        "concept": "Tưởng tượng em có một rổ kẹo màu sắc siêu to. Để đếm thật nhanh và không bị nhầm, cứ đếm được 10 viên kẹo là chúng mình buộc lại thành một dây kẹo (gọi là một Chục). Những viên kẹo lẻ ra chưa đủ 10 viên thì để ở ngoài (gọi là khối Đơn vị). Ví dụ, số 35 gồm 3 dây kẹo chục và 5 viên kẹo lẻ đứng bên cạnh.",
+        "formula": "• Cấu tạo số: Số có hai chữ số gồm chữ số hàng chục đứng trước, đơn vị đứng sau.\n• Phân tích số: Số = Số chục + Số đơn vị (Ví dụ: 35 = 30 + 5).\n• Quy tắc so sánh: Khi so sánh hai số, chúng mình xem số nào có nhiều \"chục\" hơn thì số đó lớn hơn (Ví dụ: 52 > 49 vì 5 chục lớn hơn 4 chục). Nếu số chục bằng nhau, chúng mình mới so sánh tiếp đến số đơn vị nhé (Ví dụ: 38 > 35 vì 8 lớn hơn 5).",
+        "skills": [
+          [
+            "Đọc và viết thành thạo ",
+            "các số từ 0 đến 100."
+          ],
+          [
+            "Tách số ",
+            "thành các chục và đơn vị dễ dàng."
+          ],
+          [
+            "So sánh và xếp thứ tự ",
+            "các số từ bé đến lớn hoặc ngược lại."
+          ]
+        ],
+        "real_world": "Khi đi siêu thị cùng mẹ, em thấy các hộp sữa chua được đóng thành vỉ 4 hộp hoặc vỉ 10 hộp (hàng chục) và các hộp lẻ bên ngoài (hàng đơn vị). Nếu muốn lấy 24 hộp sữa, mẹ sẽ lấy 2 vỉ 10 hộp và 4 hộp lẻ.",
+        "image": [
+          "images/place_value_blocks.png",
+          4.5,
+          "Bạn Cún dùng khối chục (màu xanh) và khối đơn vị (màu đỏ) biểu diễn số 35"
+        ],
+        "questions": [
+          [
+            "Chữ số hàng chục ",
+            "đứng trước hay đứng sau chữ số hàng đơn vị trong số có hai chữ số?"
+          ],
+          [
+            "Số 57 gồm ",
+            "mấy chục và mấy đơn vị?"
+          ],
+          [
+            "Để so sánh hai số có hai chữ số, ",
+            "chúng mình phải so sánh chữ số ở hàng nào trước?"
+          ],
+          [
+            "Số tròn chục ",
+            "có chữ số hàng đơn vị bằng bao nhiêu?"
+          ],
+          [
+            "Số 100 là số có mấy chữ số? ",
+            "Nêu tên các hàng của số 100."
+          ],
+          [
+            "Tại sao số 35 ",
+            "được viết thành 30 + 5? Giải thích bằng ví dụ túi kẹo chục."
+          ],
+          [
+            "Hãy kể tên ",
+            "các số tròn chục bé hơn 60."
+          ],
+          [
+            "Số bé nhất ",
+            "có hai chữ số giống nhau là số nào?"
+          ],
+          [
+            "Số lớn nhất ",
+            "có hai chữ số là số nào?"
+          ],
+          [
+            "Nếu hàng chục bằng nhau, ",
+            "chúng mình so sánh tiếp hàng nào để biết số lớn hơn?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Viết các số sau ",
+            "thành tổng của chục và đơn vị: 45, 78, 92, 16."
+          ],
+          [
+            "Tìm số gồm ",
+            "8 chục và 3 đơn vị; 5 chục và 0 đơn vị; 9 chục và 9 đơn vị."
+          ],
+          [
+            "Điền dấu >, <, = thích hợp: ",
+            "34 ... 43;  67 ... 62;  80 ... 8 chục;  59 ... 50 + 9."
+          ],
+          [
+            "Sắp xếp các số sau ",
+            "theo thứ tự từ bé đến lớn: 35, 12, 89, 47, 50."
+          ],
+          [
+            "Sắp xếp các số sau ",
+            "theo thứ tự từ lớn đến bé: 99, 88, 100, 76, 91."
+          ],
+          [
+            "Viết tất cả các số ",
+            "có hai chữ số từ hai chữ số 2 và 5 (có thể lặp lại)."
+          ],
+          [
+            "Viết các số ",
+            "có hai chữ số khác nhau từ hai chữ số 3 và 7."
+          ],
+          [
+            "Tìm số có hai chữ số, ",
+            "biết chữ số hàng chục là 6 và chữ số hàng đơn vị kém hàng chục 3 đơn vị."
+          ],
+          [
+            "Tìm số tròn chục ",
+            "lớn hơn 50 nhưng bé hơn 80."
+          ],
+          [
+            "Lan có 24 cái kẹo, ",
+            "Bình có 2 chục cái kẹo. Hỏi bạn nào có nhiều kẹo hơn?"
+          ]
+        ],
+        "visualizerType": "BaseTenBlocks",
+        "visualizerConfig": {
+          "defaultValue": 35
+        }
+      },
+      {
+        "title": "Bài 2. Tia số. Số liền trước, số liền sau",
+        "concept": "Tia số giống như chiếc thước kẻ dài hay các bậc thang từ 0 đến 100. Mỗi số là một vạch cách đều nhau. Khi em bước tiến lên phía trước (bên phải), số sẽ lớn lên. Khi em bước lùi lại (bên trái), số sẽ nhỏ đi.\n• Số liền trước chính là số đứng ngay sát bên trái số gốc (kém 1 đơn vị).\n• Số liền sau chính là số đứng ngay sát bên phải số gốc (hơn 1 đơn vị).",
+        "formula": "• Số liền trước = Số gốc - 1 (Ví dụ: Số liền trước của 5 là 4).\n• Số liền sau = Số gốc + 1 (Ví dụ: Số liền sau của 5 là 6).\n• Quy tắc vị trí: Số đứng bên trái luôn bé hơn số đứng bên phải.",
+        "skills": [
+          [
+            "Tìm đúng vị trí ",
+            "của các số còn thiếu trên tia số."
+          ],
+          [
+            "Chỉ ra nhanh số liền trước và liền sau ",
+            "của một số bất kỳ."
+          ]
+        ],
+        "real_world": "Khi xếp hàng vào lớp, bạn đứng ngay phía trước em là \"số liền trước\", còn bạn đứng ngay phía sau em là \"số liền sau\". Hoặc tuổi của em (7 tuổi) thì liền trước là 6 tuổi, liền sau là 8 tuổi.",
+        "image": [
+          "images/number_line.png",
+          5.0,
+          "Tia số giúp em tìm số liền trước và liền sau"
+        ],
+        "questions": [
+          [
+            "Tia số là gì? ",
+            "Số 0 nằm ở vị trí nào trên tia số?"
+          ],
+          [
+            "Trên tia số, ",
+            "các số được xếp theo thứ tự như thế nào?"
+          ],
+          [
+            "Số liền trước ",
+            "của một số gốc hơn hay kém số gốc bao nhiêu đơn vị?"
+          ],
+          [
+            "Số liền sau ",
+            "của một số gốc hơn hay kém số gốc bao nhiêu đơn vị?"
+          ],
+          [
+            "Số nào đứng ngay bên trái ",
+            "số 45 trên tia số?"
+          ],
+          [
+            "Số nào đứng ngay bên phải ",
+            "số 99 trên tia số?"
+          ],
+          [
+            "Nếu em biết một số, ",
+            "làm sao để tìm được số liền trước của nó?"
+          ],
+          [
+            "Nếu em biết một số, ",
+            "làm sao để tìm được số liền sau của nó?"
+          ],
+          [
+            "Tại sao số đứng bên trái ",
+            "trên tia số lại luôn bé hơn số đứng bên phải?"
+          ],
+          [
+            "Số liền trước của 10 ",
+            "là số có mấy chữ số?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tìm số liền trước ",
+            "của các số sau: 19, 50, 85, 100."
+          ],
+          [
+            "Tìm số liền sau ",
+            "của các số sau: 9, 34, 79, 99."
+          ],
+          [
+            "Điền số thích hợp vào chỗ chấm trên tia số: ",
+            "12, 13, 14, ..., 16, 17, ..., 19."
+          ],
+          [
+            "Tìm một số biết số liền sau ",
+            "của nó là số 60."
+          ],
+          [
+            "Tìm một số biết số liền trước ",
+            "của nó là số 88."
+          ],
+          [
+            "Tìm số liền trước của số liền trước ",
+            "số 30."
+          ],
+          [
+            "Tìm số liền sau của số liền sau ",
+            "số 75."
+          ],
+          [
+            "Tìm số nằm giữa ",
+            "hai số 54 và 56."
+          ],
+          [
+            "Tính tổng ",
+            "của số liền trước 10 và số liền sau 10."
+          ],
+          [
+            "Tính hiệu ",
+            "của số liền sau 45 và số liền trước 45."
+          ]
+        ],
+        "visualizerType": "NumberLine",
+        "visualizerConfig": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      {
+        "title": "Bài 3. Các thành phần của phép cộng, phép trừ",
+        "concept": "Mỗi con số trong phép tính đều có một tên gọi dễ thương để biểu thị nhiệm vụ của nó:\n• Phép cộng (gộp lại): Các số đem cộng gọi là Số hạng. Kết quả gộp lại gọi là Tổng.\n• Phép trừ (bớt đi): Số lớn lúc đầu đem đi trừ gọi là Số bị trừ. Số bị bớt đi gọi là Số trừ. Phần còn lại gọi là Hiệu.",
+        "formula": "• Phép cộng: Số hạng + Số hạng = Tổng.\n• Phép trừ: Số bị trừ - Số trừ = Hiệu.\n• Tìm số chưa biết:\n  - Số hạng = Tổng - Số hạng đã biết.\n  - Số bị trừ = Hiệu + Số trừ.\n  - Số trừ = Số bị trừ - Hiệu.",
+        "skills": [
+          [
+            "Gọi đúng tên ",
+            "các số trong phép cộng, phép trừ."
+          ],
+          [
+            "Giải bài toán tìm X ",
+            "dựa trên vai trò của các số."
+          ]
+        ],
+        "real_world": "Em có 5 cái kẹo, mẹ cho thêm 3 cái, tổng cộng em có 8 cái. Phép tính là 5 + 3 = 8. Ở đây, 5 và 3 là hai \"Số hạng\", còn 8 là \"Tổng\".\nNếu em có 8 cái kẹo, em ăn mất 3 cái, còn lại 5 cái. Phép tính là 8 - 3 = 5. Số 8 là \"Số bị trừ\", 3 là \"Số trừ\", và 5 là \"Hiệu\".",
+        "image": [
+          "images/addition_components.png",
+          4.5,
+          "Tên gọi của các thành phần trong phép cộng"
+        ],
+        "questions": [
+          [
+            "Trong phép cộng A + B = C, ",
+            "các số A và B được gọi là gì?"
+          ],
+          [
+            "Kết quả của phép cộng ",
+            "gọi là gì?"
+          ],
+          [
+            "Trong phép trừ A - B = C, ",
+            "số A đứng trước dấu trừ gọi là gì?"
+          ],
+          [
+            "Trong phép trừ A - B = C, ",
+            "số B đứng sau dấu trừ gọi là gì?"
+          ],
+          [
+            "Kết quả của phép trừ ",
+            "gọi là gì?"
+          ],
+          [
+            "Giải thích ý nghĩa từ \"Số bị trừ\" ",
+            "bằng ví dụ hộp kẹo ăn bớt."
+          ],
+          [
+            "Muốn tìm số hạng chưa biết ",
+            "trong phép cộng ta làm thế nào?"
+          ],
+          [
+            "Muốn tìm số bị trừ chưa biết ",
+            "trong phép trừ ta làm thế nào?"
+          ],
+          [
+            "Muốn tìm số trừ chưa biết ",
+            "trong phép trừ ta làm thế nào?"
+          ],
+          [
+            "Cả biểu thức '8 + 5' ",
+            "có được gọi là một tổng không?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Gọi tên các thành phần ",
+            "trong phép tính sau: 23 + 5 = 28."
+          ],
+          [
+            "Gọi tên các thành phần ",
+            "trong phép tính sau: 45 - 12 = 33."
+          ],
+          [
+            "Tính tổng của hai số ",
+            "khi biết các số hạng là 30 và 40."
+          ],
+          [
+            "Tính hiệu của hai số ",
+            "khi biết số bị trừ là 80, số trừ là 30."
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 20 = 50."
+          ],
+          [
+            "Tìm Y biết: ",
+            "Y - 10 = 40."
+          ],
+          [
+            "Tìm Z biết: ",
+            "60 - Z = 20."
+          ],
+          [
+            "Biết số bị trừ là 15, ",
+            "hiệu là 8. Tìm số trừ."
+          ],
+          [
+            "Trong phép cộng, nếu ta tăng một số hạng ",
+            "thêm 5 đơn vị và giữ nguyên số hạng kia thì tổng thay đổi thế nào?"
+          ],
+          [
+            "Trong phép trừ, nếu ta bớt số bị trừ ",
+            "đi 3 đơn vị và giữ nguyên số trừ thì hiệu mới thay đổi thế nào?"
+          ]
+        ],
+        "visualizerType": "InteractiveEquation",
+        "visualizerConfig": {}
+      },
+      {
+        "title": "Bài 4. Hơn, kém nhau bao nhiêu",
+        "concept": "Khi so sánh hai nhóm đồ chơi, ta muốn biết nhóm nào có nhiều đồ chơi hơn và nhiều hơn bao nhiêu cái. Chúng mình chỉ cần đặt hai nhóm thẳng hàng nhau, phần thừa ra ngoài chính là phần chênh lệch (nhiều hơn hoặc kém hơn).",
+        "formula": "• Tìm phần hơn/kém: Phần chênh lệch = Số lớn - Số bé.\n• Bài toán Nhiều hơn: Số của bạn nhiều hơn = Số của bạn ít hơn + Phần nhiều hơn.\n• Bài toán Ít hơn: Số của bạn ít hơn = Số của bạn nhiều hơn - Phần ít hơn.",
+        "skills": [
+          [
+            "Nhận biết bài toán so sánh ",
+            "hơn kém qua hình ảnh hoặc đề văn."
+          ],
+          [
+            "Làm phép tính trừ ",
+            "để tìm phần chênh lệch chính xác."
+          ]
+        ],
+        "real_world": "Bạn Minh có 7 viên kẹo, bạn Nam có 5 viên kẹo. Bạn Minh nhiều hơn bạn Nam số viên kẹo là: 7 - 5 = 2 viên kẹo. Và bạn Nam cũng kém bạn Minh 2 viên kẹo.",
+        "image": null,
+        "questions": [
+          [
+            "Để tìm xem một số lớn hơn số bé bao nhiêu, ",
+            "ta phải dùng phép tính gì?"
+          ],
+          [
+            "Nếu bạn A có nhiều hơn bạn B 3 cái kẹo, ",
+            "thì bạn B kém bạn A mấy cái kẹo?"
+          ],
+          [
+            "Giải thích cách so sánh hơn kém ",
+            "bằng cách đặt thẳng hàng hai nhóm đồ vật."
+          ],
+          [
+            "Nếu biết số bé và phần nhiều hơn, ",
+            "làm sao để tìm được số lớn?"
+          ],
+          [
+            "Nếu biết số lớn và phần ít hơn, ",
+            "làm sao để tìm được số bé?"
+          ],
+          [
+            "Từ \"kém hơn\" trong bài toán ",
+            "thường gợi cho em phép tính nào?"
+          ],
+          [
+            "Từ \"nhiều hơn\" trong bài toán ",
+            "thường gợi cho em phép tính nào?"
+          ],
+          [
+            "Khi so sánh chiều cao của hai bạn, ",
+            "phần chênh lệch được tính bằng cách nào?"
+          ],
+          [
+            "Nếu hiệu của hai số là 5, ",
+            "nghĩa là số lớn hơn số bé bao nhiêu đơn vị?"
+          ],
+          [
+            "Có phải bài toán nhiều hơn lúc nào cũng dùng phép cộng không? ",
+            "Cho ví dụ."
+          ]
+        ],
+        "exercises": [
+          [
+            "Hà có 9 nhãn vở, ",
+            "Mai có 5 nhãn vở. Hỏi Hà có nhiều hơn Mai bao nhiêu nhãn vở?"
+          ],
+          [
+            "Bình có 6 bút chì, ",
+            "An có ít hơn Bình 2 bút chì. Hỏi An có bao nhiêu bút chì?"
+          ],
+          [
+            "Con sên thứ nhất bò được 12 cm, ",
+            "con sên thứ hai bò được 8 cm. Hỏi con sên thứ hai bò kém con thứ nhất bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Lớp 2A có 15 bạn nam, ",
+            "số bạn nữ nhiều hơn số bạn nam là 3 bạn. Hỏi lớp 2A có bao nhiêu bạn nữ?"
+          ],
+          [
+            "Mẹ mua 12 quả táo, ",
+            "bố mua ít hơn mẹ 4 quả. Hỏi bố mua bao nhiêu quả táo?"
+          ],
+          [
+            "Tìm một số biết số đó ",
+            "nhiều hơn số 20 là 5 đơn vị."
+          ],
+          [
+            "Tìm một số biết số đó ",
+            "kém số 45 là 10 đơn vị."
+          ],
+          [
+            "Đoạn thẳng AB dài 10cm, ",
+            "đoạn thẳng CD dài 7cm. Hỏi đoạn thẳng AB dài hơn đoạn thẳng CD bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Anh 10 tuổi, ",
+            "em kém anh 4 tuổi. Hỏi em bao nhiêu tuổi?"
+          ],
+          [
+            "Túi gạo thứ nhất nặng 15kg, ",
+            "túi gạo thứ hai nặng hơn túi thứ nhất 5kg. Hỏi túi thứ hai nặng bao nhiêu ki-lô-gam?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+        "concept": "Cộng hoặc trừ các số lớn bằng cách xếp chúng thẳng hàng với nhau như các khối lego xếp chồng lên nhau: hàng đơn vị thẳng cột đơn vị, hàng chục thẳng cột chục. Chúng mình tính từ hàng đơn vị trước rồi mới đến hàng chục nhé!",
+        "formula": "• Cách đặt tính thẳng hàng:\n  1. Viết số thứ hai dưới số thứ nhất (đơn vị thẳng đơn vị, chục thẳng chục).\n  2. Viết dấu phép tính (+ hoặc -) ở giữa, kẻ một vạch ngang ở dưới.\n  3. Thực hiện tính từ phải sang trái (hàng đơn vị trước, hàng chục sau).",
+        "skills": [
+          [
+            "Đặt tính dọc thẳng hàng, thẳng cột ",
+            "các số hàng chục và hàng đơn vị."
+          ],
+          [
+            "Tính toán nhanh ",
+            "các phép tính cộng trừ không nhớ."
+          ]
+        ],
+        "real_world": "Em có 45 chiếc bút chì màu, bạn cho thêm 23 chiếc. Em đặt tính dọc và tính nhẩm hàng đơn vị (5 + 3 = 8) và hàng chục (4 + 2 = 6) để tìm ra tổng số bút là 68 chiếc.",
+        "image": null,
+        "questions": [
+          [
+            "Khi đặt tính dọc, ",
+            "hàng đơn vị phải thẳng cột với hàng nào?"
+          ],
+          [
+            "Khi thực hiện tính toán phép tính dọc, ",
+            "ta tính từ hàng nào trước?"
+          ],
+          [
+            "Phép cộng không nhớ ",
+            "có nghĩa là gì?"
+          ],
+          [
+            "Hãy nêu các bước đặt tính ",
+            "cho phép trừ 65 - 23."
+          ],
+          [
+            "Tính nhẩm 40 + 30 ",
+            "bằng cách đếm chục như thế nào?"
+          ],
+          [
+            "Tính nhẩm 70 - 20 ",
+            "bằng cách đếm chục như thế nào?"
+          ],
+          [
+            "Tại sao chúng ta phải viết ",
+            "các số thẳng cột hàng chục và hàng đơn vị với nhau?"
+          ],
+          [
+            "Nếu đặt tính bị lệch cột ",
+            "thì kết quả sẽ bị sai như thế nào?"
+          ],
+          [
+            "Số 0 cộng với bất kỳ số nào ",
+            "thì bằng bao nhiêu?"
+          ],
+          [
+            "Một số trừ đi chính nó ",
+            "thì bằng bao nhiêu?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đặt tính rồi tính: ",
+            "34 + 15;  52 + 27;  86 - 32;  99 - 45."
+          ],
+          [
+            "Tính nhẩm: ",
+            "50 + 30;  80 - 40;  20 + 70;  90 - 50."
+          ],
+          [
+            "Tìm số thích hợp điền vào chỗ chấm: ",
+            "42 + ... = 47;  ... - 10 = 50;  68 - ... = 62."
+          ],
+          [
+            "Mẹ hái được 35 quả cam, ",
+            "chị hái được 24 quả cam. Hỏi cả hai mẹ con hái được bao nhiêu quả cam?"
+          ],
+          [
+            "Đàn gà có 48 con, ",
+            "trong đó có 20 con gà trống. Hỏi có bao nhiêu con gà mái?"
+          ],
+          [
+            "Một sợi dây dài 85 cm, ",
+            "bé cắt đi một đoạn dài 30 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "45 + 12 - 7;  89 - 34 + 10."
+          ],
+          [
+            "Điền dấu >, <, = thích hợp: ",
+            "23 + 12 ... 30;  87 - 20 ... 67;  45 + 4 ... 50 - 1."
+          ],
+          [
+            "Tìm một số biết rằng lấy số đó cộng với 12 ",
+            "thì được 57."
+          ],
+          [
+            "Nhà Nam nuôi 36 con vịt, ",
+            "nhà Bình nuôi nhiều hơn nhà Nam 12 con vịt. Hỏi nhà Bình nuôi bao nhiêu con vịt?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 6. Luyện tập chung",
+        "concept": "Bài học này giúp chúng mình cùng nhau ôn luyện lại toàn bộ kiến thức số học đã học từ đầu năm: từ cách đếm số, tìm số liền trước/sau trên tia số cho đến đặt tính thẳng hàng.",
+        "formula": "",
+        "skills": [
+          [
+            "Giải quyết các trò chơi đố vui ",
+            "về số học và làm toán nhanh."
+          ]
+        ],
+        "real_world": "Tham gia trò chơi tìm kho báu ở trường, mỗi mật mã mở khóa là một câu đố về số chục, số đơn vị hay so sánh số lớn bé.",
+        "image": null,
+        "questions": [
+          [
+            "Số liền trước của 100 ",
+            "là số tròn chục hay số thường?"
+          ],
+          [
+            "Làm sao để biết số 67 ",
+            "lớn hơn số 58 mà không cần vẽ ra tia số?"
+          ],
+          [
+            "Trong phép tính 30 + 50 = 80, ",
+            "em hãy chỉ ra Số hạng và Tổng."
+          ],
+          [
+            "Hiệu của số lớn nhất có hai chữ số ",
+            "và số tròn chục lớn nhất có hai chữ số là bao nhiêu?"
+          ],
+          [
+            "Tìm số liền sau ",
+            "của số bé nhất có hai chữ số."
+          ],
+          [
+            "Nếu tăng một số hạng thêm 10 đơn vị ",
+            "thì tổng mới sẽ thay đổi như thế nào?"
+          ],
+          [
+            "Làm sao để đếm nhanh số lượng sách ",
+            "nếu chúng được xếp thành các chồng 10 quyển?"
+          ],
+          [
+            "Để làm phép tính 42 + 5, ",
+            "em đặt chữ số 5 thẳng cột với chữ số nào?"
+          ],
+          [
+            "Số 80 gồm ",
+            "mấy chục và mấy đơn vị?"
+          ],
+          [
+            "Số liền trước của số bé nhất có hai chữ số ",
+            "là số có mấy chữ số?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Điền số thích hợp: ",
+            "Số liền trước của 50 là ...; Số liền sau của 99 là ..."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "45 + 23;  89 - 56;  70 + 28;  64 - 4."
+          ],
+          [
+            "Giải bài toán: ",
+            "Một bến xe có 45 ô tô. Lúc sau có thêm 12 ô tô vào bến. Hỏi có tất cả bao nhiêu ô tô trong bến?"
+          ],
+          [
+            "Giải bài toán: ",
+            "Lan gấp được 38 ngôi sao, Lan cho Bình 15 ngôi sao. Hỏi Lan còn lại bao nhiêu ngôi sao?"
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "45 + 4 ... 50;  88 - 8 ... 80;  34 + 12 ... 12 + 34."
+          ],
+          [
+            "Tìm X biết: ",
+            "X - 15 = 40."
+          ],
+          [
+            "Viết các số ",
+            "56, 32, 89, 74 theo thứ tự từ bé đến lớn."
+          ],
+          [
+            "Tìm số có hai chữ số, ",
+            "biết chữ số hàng chục gấp đôi chữ số hàng đơn vị và hàng đơn vị là 3."
+          ],
+          [
+            "Đoạn thẳng AB dài 15cm, ",
+            "đoạn thẳng CD ngắn hơn đoạn thẳng AB là 5cm. Hỏi đoạn thẳng CD dài bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Tính nhanh: ",
+            "20 + 30 + 40 = ...;  90 - 50 - 10 = ..."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "Chủ đề 2: Phép cộng, phép trừ trong phạm vi 20",
+    "lessons": [
+      {
+        "title": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+        "concept": "Khi cộng hai số mà kết quả lớn hơn 10 (như 9 + 5), chúng mình hãy \"tách số\" ở phía sau để bù cho số đứng trước tròn 10, rồi cộng tiếp số còn lại nhé. Giống như xếp trứng vào khay 10 quả: làm cho đầy khay thứ nhất rồi xếp phần còn thừa sang khay thứ hai.",
+        "formula": "• Quy tắc tách số:\n  - Cộng với 9: Tách 1 ở số sau. (Ví dụ: 9 + 5 = 9 + 1 + 4 = 10 + 4 = 14).\n  - Cộng với 8: Tách 2 ở số sau. (Ví dụ: 8 + 5 = 8 + 2 + 3 = 10 + 3 = 13).\n  - Cộng với 7: Tách 3 ở số sau. (Ví dụ: 7 + 4 = 7 + 3 + 1 = 10 + 1 = 11).",
+        "skills": [
+          [
+            "Tách số nhanh nhẹn ",
+            "để tạo nhóm tròn 10."
+          ],
+          [
+            "Tính nhẩm nhanh ",
+            "các phép cộng trong phạm vi 20."
+          ]
+        ],
+        "real_world": "Em có một chiếc hộp đựng bánh có 10 ngăn. Trong hộp đang có 9 chiếc bánh (còn trống 1 ngăn). Bên ngoài có một đĩa bánh có 5 chiếc. Em lấy 1 chiếc bánh ở đĩa đặt vào hộp cho đầy hộp (được 10 chiếc). Ngoài đĩa lúc này còn 4 chiếc. Vậy tổng cộng em có 10 + 4 = 14 chiếc bánh.",
+        "image": [
+          "images/ten_frames_add.png",
+          5.0,
+          "Chúng mình gom hạt tròn đỏ và xanh vào khung 10 ô để tính 9 + 5 = 14"
+        ],
+        "questions": [
+          [
+            "Tại sao khi tính 9 + 5 ",
+            "ta lại tách số 5 thành 1 và 4?"
+          ],
+          [
+            "Mục đích của việc tách số ",
+            "trong phép cộng qua 10 là gì?"
+          ],
+          [
+            "Để cộng qua 10 với số 8, ",
+            "ta cần tách từ số sau mấy đơn vị?"
+          ],
+          [
+            "Để cộng qua 10 với số 7, ",
+            "ta cần tách từ số sau mấy đơn vị?"
+          ],
+          [
+            "Khung 10 ô (Ten Frame) giúp em ",
+            "nhìn thấy phép cộng qua 10 trực quan như thế nào?"
+          ],
+          [
+            "Kết quả của 9 + 2 ",
+            "bằng 10 cộng với mấy?"
+          ],
+          [
+            "Kết quả của 8 + 4 ",
+            "bằng 10 cộng với mấy?"
+          ],
+          [
+            "Tại sao 9 + 5 ",
+            "lại bằng 14? Giải thích bằng cách xếp trứng."
+          ],
+          [
+            "Phép cộng qua 10 ",
+            "luôn có kết quả lớn hơn bao nhiêu?"
+          ],
+          [
+            "Nếu cộng 6 với một số, ",
+            "em cần tách từ số sau mấy đơn vị để tròn 10?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm bằng cách tách số: ",
+            "9 + 3;  9 + 6;  9 + 8."
+          ],
+          [
+            "Tính nhẩm bằng cách tách số: ",
+            "8 + 4;  8 + 6;  8 + 7."
+          ],
+          [
+            "Tính nhẩm bằng cách tách số: ",
+            "7 + 5;  7 + 6;  7 + 8."
+          ],
+          [
+            "Tính nhẩm bằng cách tách số: ",
+            "6 + 5;  6 + 6;  6 + 8."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "9 + ... = 12;  8 + ... = 15;  7 + ... = 14."
+          ],
+          [
+            "So sánh: ",
+            "9 + 4 ... 8 + 5;  9 + 7 ... 8 + 8."
+          ],
+          [
+            "Mẹ mua 9 bông hoa hồng ",
+            "và 6 bông hoa cúc. Hỏi mẹ mua tất cả bao nhiêu bông hoa?"
+          ],
+          [
+            "Lan có 8 cái nhãn vở, ",
+            "Mai có nhiều hơn Lan 5 cái. Hỏi Mai có bao nhiêu cái nhãn vở?"
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "9 + 1 + 5 = ...;  8 + 2 + 7 = ..."
+          ],
+          [
+            "Trong vườn có 7 cây cam ",
+            "và 8 cây bưởi. Hỏi có tất cả bao nhiêu cây cam và bưởi?"
+          ]
+        ],
+        "visualizerType": "TenFrames",
+        "visualizerConfig": {
+          "mode": "add",
+          "defaultA": 9,
+          "defaultB": 5
+        }
+      },
+      {
+        "title": "Bài 8. Bảng cộng (qua 10)",
+        "concept": "Một bảng tổng hợp các phép cộng qua 10 thường gặp (như bảng cộng 9, bảng cộng 8, bảng cộng 7...) giúp chúng mình ghi nhớ kết quả ngay lập tức để tính nhẩm nhanh như chớp.",
+        "formula": "Bảng cộng chính cần nhớ:\n• 9 + 2 = 11, 9 + 3 = 12, 9 + 4 = 13, 9 + 5 = 14, 9 + 6 = 15, 9 + 7 = 16, 9 + 8 = 17, 9 + 9 = 18.\n• 8 + 3 = 11, 8 + 4 = 12, 8 + 5 = 13, 8 + 6 = 14, 8 + 7 = 15, 8 + 8 = 16, 8 + 9 = 17.\n• 7 + 4 = 11, 7 + 5 = 12, 7 + 6 = 13, 7 + 7 = 14, 7 + 8 = 15, 7 + 9 = 16.",
+        "skills": [
+          [
+            "Phản xạ nhanh ",
+            "khi đố vui phép cộng qua 10."
+          ],
+          [
+            "So sánh nhanh kết quả ",
+            "của hai phép tính cộng khác nhau."
+          ]
+        ],
+        "real_world": "Khi chơi cá ngựa cùng anh chị, em gieo xúc xắc được 8 nút và 5 nút. Em tính nhẩm ngay được đi 13 bước mà không cần đếm chấm lẻ trên xúc xắc.",
+        "image": null,
+        "questions": [
+          [
+            "Bảng cộng qua 10 ",
+            "gồm những bảng nào?"
+          ],
+          [
+            "Trong bảng cộng 9, ",
+            "phép tính nào có kết quả lớn nhất?"
+          ],
+          [
+            "Trong bảng cộng 8, ",
+            "phép tính nào có kết quả bé nhất?"
+          ],
+          [
+            "Nêu các phép tính ",
+            "trong bảng cộng có kết quả bằng 11."
+          ],
+          [
+            "Nêu các phép tính ",
+            "trong bảng cộng có kết quả bằng 15."
+          ],
+          [
+            "Tại sao học thuộc bảng cộng ",
+            "lại giúp em tính nhẩm nhanh hơn?"
+          ],
+          [
+            "Kết quả của 7 + 8 ",
+            "và 8 + 7 có giống nhau không? Tại sao?"
+          ],
+          [
+            "Điền số thích hợp: ",
+            "9 + 3 = 8 + ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "7 + 5 = 6 + ..."
+          ],
+          [
+            "Phép tính nào trong bảng cộng 6 ",
+            "có kết quả bằng 12?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "9 + 4;  8 + 5;  7 + 6;  6 + 7."
+          ],
+          [
+            "Tính nhẩm nhanh: ",
+            "9 + 8;  8 + 9;  7 + 8;  6 + 9."
+          ],
+          [
+            "Tìm các số thích hợp điền vào bảng cộng chéo.",
+            ""
+          ],
+          [
+            "So sánh: ",
+            "9 + 5 ... 8 + 6;  7 + 5 ... 9 + 3;  6 + 8 ... 7 + 7."
+          ],
+          [
+            "Điền số thích hợp vào ô trống: ",
+            "9 + [ ] = 11;  8 + [ ] = 12;  7 + [ ] = 13."
+          ],
+          [
+            "Bé gieo xúc xắc được 7 nút ",
+            "và 6 nút. Hỏi tổng số nút bé gieo được là bao nhiêu?"
+          ],
+          [
+            "Tính chuỗi tính: ",
+            "9 + 2 + 3 = ...;  8 + 4 + 2 = ..."
+          ],
+          [
+            "Một xe chở khách có 9 người, ",
+            "đến trạm có thêm 5 người lên. Hỏi trên xe có bao nhiêu người?"
+          ],
+          [
+            "Nam có 8 viên bi, ",
+            "Hùng có 7 viên bi. Hỏi cả hai bạn có bao nhiêu viên bi?"
+          ],
+          [
+            "Mẹ cắm 7 bông hoa vào bình thứ nhất, ",
+            "8 bông hoa vào bình thứ hai. Hỏi mẹ cắm tất cả bao nhiêu bông hoa?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 9. Bài toán về thêm, bớt một số đơn vị",
+        "concept": "• **Thêm vào**: Có bạn chạy đến chơi cùng, mẹ mua thêm bánh... làm số lượng nhiều lên, chúng mình dùng phép tính cộng (+).\n• **Bớt đi**: Bạn đi về nhà, em ăn mất kẹo... làm số lượng ít đi, chúng mình dùng phép tính trừ (-).",
+        "formula": "• Thêm vào -> dùng phép tính cộng (+).\n• Bớt đi -> dùng phép tính trừ (-).\n• Trình bày bài giải: Tóm tắt bài toán ngắn gọn, viết câu trả lời, phép tính và đáp số rõ ràng.",
+        "skills": [
+          [
+            "Nhận diện từ khóa ",
+            "\"thêm\", \"bớt\" trong bài toán đố."
+          ],
+          [
+            "Trình bày bài giải ",
+            "đầy đủ, sạch đẹp."
+          ]
+        ],
+        "real_world": "Một cành cây có 8 chú chim đang đậu, có 3 chú bay đi (hành động bớt). Số chim còn lại trên cành cây là: 8 - 3 = 5 con chim.",
+        "image": null,
+        "questions": [
+          [
+            "Khi đọc đề bài, từ khóa nào ",
+            "cho em biết cần làm phép tính cộng?"
+          ],
+          [
+            "Khi đọc đề bài, từ khóa nào ",
+            "cho em biết cần làm phép tính trừ?"
+          ],
+          [
+            "Hành động \"bay đi\" của chim ",
+            "tương ứng với thêm hay bớt?"
+          ],
+          [
+            "Hành động \"mua thêm\" bánh ",
+            "tương ứng với thêm hay bớt?"
+          ],
+          [
+            "Bài giải toán có lời văn ",
+            "gồm có những phần nào?"
+          ],
+          [
+            "Lời giải của bài toán ",
+            "được viết dựa vào câu hỏi của đề bài như thế nào?"
+          ],
+          [
+            "Tại sao phép tính trong bài giải ",
+            "phải viết kèm đơn vị trong ngoặc?"
+          ],
+          [
+            "Đáp số là gì? ",
+            "Có cần viết dấu ngoặc ở đáp số không?"
+          ],
+          [
+            "Cho ví dụ về một tình huống thêm ",
+            "trong thực tế của em."
+          ],
+          [
+            "Cho ví dụ về một tình huống bớt ",
+            "trong thực tế của em."
+          ]
+        ],
+        "exercises": [
+          [
+            "Một bến xe có 12 ô tô, ",
+            "có thêm 5 ô tô chạy vào bến. Hỏi bến xe có tất cả bao nhiêu ô tô?"
+          ],
+          [
+            "Trên cây có 15 quả táo, ",
+            "gió thổi rụng mất 4 quả. Hỏi trên cây còn lại bao nhiêu quả táo?"
+          ],
+          [
+            "Đàn vịt dưới ao có 9 con, ",
+            "sau đó có thêm 6 con vịt khác nhảy xuống ao. Hỏi dưới ao có tất cả bao nhiêu con vịt?"
+          ],
+          [
+            "Hộp bút có 12 cây bút màu, ",
+            "Hà lấy ra dùng 3 cây. Hỏi trong hộp còn lại bao nhiêu cây bút màu?"
+          ],
+          [
+            "Lớp học có 14 bạn đang ngồi đọc sách, ",
+            "có 5 bạn đi ra ngoài chơi. Hỏi trong lớp còn lại bao nhiêu bạn?"
+          ],
+          [
+            "Mẹ mua 8 quả trứng, ",
+            "bố mua thêm 6 quả trứng nữa. Hỏi mẹ và bố mua tất cả bao nhiêu quả trứng?"
+          ],
+          [
+            "Cửa hàng có 18 chiếc xe đạp, ",
+            "đã bán được 9 chiếc. Hỏi cửa hàng còn lại bao nhiêu chiếc xe đạp?"
+          ],
+          [
+            "Một cành cây có 11 chú chim, ",
+            "có thêm 4 chú chim bay đến đậu cùng. Hỏi trên cành cây có bao nhiêu con chim?"
+          ],
+          [
+            "Bình có 16 tờ giấy màu, ",
+            "Bình dùng hết 7 tờ để gấp thuyền. Hỏi Bình còn lại bao nhiêu tờ giấy màu?"
+          ],
+          [
+            "Tàu điện có 15 hành khách, ",
+            "đến ga có 5 hành khách xuống tàu. Hỏi trên tàu còn lại bao nhiêu hành khách?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 10. Luyện tập",
+        "concept": "Chúng mình cùng luyện tập giải toán có lời văn và thực hành các phép cộng trong phạm vi 20 để rèn luyện sự cẩn thận và tính toán chính xác hơn.",
+        "formula": "",
+        "skills": [
+          [
+            "Tính toán chính xác biểu thức chứa hai dấu phép tính ",
+            "(Ví dụ: 9 + 3 + 2 = 12 + 2 = 14)."
+          ],
+          "Giải bài toán đố trôi chảy."
+        ],
+        "real_world": "Chuẩn bị đi dã ngoại, em xếp vào balo 8 cái bánh ngọt, mẹ cho thêm 4 cái nữa, sau đó em ăn mất 2 cái. Số bánh còn lại trong balo là: 8 + 4 - 2 = 10 cái.",
+        "image": null,
+        "questions": [
+          [
+            "Tính nhẩm 9 + 5 - 2 ",
+            "ta thực hiện từ trái sang phải như thế nào?"
+          ],
+          [
+            "Tại sao bài toán thêm bớt liên tiếp ",
+            "lại giúp em luyện tập cả phép cộng và phép trừ?"
+          ],
+          [
+            "Khi gặp phép tính 8 + 6 + 3, ",
+            "em gộp 8 + 6 trước được bao nhiêu rồi cộng tiếp với mấy?"
+          ],
+          [
+            "Làm thế nào để kiểm tra kết quả ",
+            "của một bài giải toán đố?"
+          ],
+          [
+            "Nếu một bài toán có cả \"thêm\" và \"bớt\", ",
+            "ta phải làm mấy phép tính?"
+          ],
+          [
+            "Có phải lúc nào từ \"thêm\" ",
+            "cũng đi kèm phép cộng không?"
+          ],
+          [
+            "Giải thích ý nghĩa phép tính 12 - 4 + 3 ",
+            "bằng câu chuyện xe buýt."
+          ],
+          [
+            "Trong bài toán đố, ",
+            "đơn vị của bài toán nằm ở đâu trong đề bài?"
+          ],
+          [
+            "Để tính nhanh 9 + 3 + 1, ",
+            "em có thể gộp 9 + 1 trước được không? Tại sao?"
+          ],
+          [
+            "Nếu kết quả tính toán ra số lớn hơn 20 ",
+            "ở chủ đề này thì có đúng không? Vì sao?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính: ",
+            "9 + 3 + 2 = ...;  8 + 5 + 3 = ...;  7 + 6 + 4 = ..."
+          ],
+          [
+            "Tính: ",
+            "15 - 5 - 3 = ...;  12 - 2 - 4 = ...;  16 - 6 - 5 = ..."
+          ],
+          [
+            "Tính: ",
+            "9 + 4 - 3 = ...;  8 + 7 - 5 = ...;  12 - 4 + 6 = ..."
+          ],
+          [
+            "Lan có 8 cái bánh, ",
+            "mẹ cho thêm 5 cái, Lan ăn mất 3 cái. Hỏi Lan còn lại bao nhiêu cái bánh?"
+          ],
+          [
+            "Xe buýt có 14 người, ",
+            "đến trạm có 4 người xuống và 3 người lên. Hỏi trên xe lúc này có bao nhiêu người?"
+          ],
+          [
+            "Điền số thích hợp: ",
+            "9 + 5 - ... = 10;  8 + ... - 4 = 8;  12 - 2 + ... = 15."
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "9 + 4 - 2 ... 10;  8 + 6 - 3 ... 12;  15 - 5 + 4 ... 14."
+          ],
+          [
+            "Trong rổ có 7 quả cam, ",
+            "mẹ bỏ thêm 6 quả, sau đó mẹ lấy ra 4 quả để vắt nước. Hỏi trong rổ còn bao nhiêu quả cam?"
+          ],
+          [
+            "Một cửa hàng có 9 cái xe đạp, ",
+            "nhập thêm 8 cái, đã bán đi 5 cái. Hỏi cửa hàng còn bao nhiêu cái xe đạp?"
+          ],
+          [
+            "Tính chuỗi tính dài: ",
+            "7 + 3 + 5 - 2 = ...;  9 + 1 + 8 - 4 = ..."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+        "concept": "Khi trừ một số từ số lớn hơn 10 (như 12 - 5), chúng mình bớt đi một phần lẻ ở số bị trừ để lùi về đúng 10, rồi lấy 10 trừ tiếp số còn lại. Giống như đi lùi qua bậc thang số 10.",
+        "formula": "• Quy tắc trừ lùi về 10:\n  - Tách số trừ thành: phần_lẻ + phần_còn_lại.\n  - Lấy số bị trừ bớt đi phần lẻ để được 10.\n  - Lấy 10 trừ tiếp phần còn lại.\n  - Ví dụ với 12 - 5: tách 5 = 2 + 3. Tính: 12 - 2 = 10, rồi lấy 10 - 3 = 7.",
+        "skills": [
+          [
+            "Tách số trừ thông minh ",
+            "để lùi về 10."
+          ],
+          [
+            "Tính nhẩm nhanh phép trừ có nhớ ",
+            "trong phạm vi 20."
+          ]
+        ],
+        "real_world": "Em có 12 viên bi (1 túi 10 viên và 2 viên lẻ). Em muốn cho bạn 5 viên bi. Đầu tiên em đưa cho bạn 2 viên lẻ. Bạn vẫn cần thêm 3 viên nữa. Em bóc túi 10 viên ra, lấy 3 viên đưa cho bạn. Số bi em còn lại là: 10 - 3 = 7 viên.",
+        "image": [
+          "images/ten_frames_sub.png",
+          5.0,
+          "Chúng mình bớt hạt tròn đỏ ở ngoài trước rồi bớt trong khung để tính 12 - 5 = 7"
+        ],
+        "questions": [
+          [
+            "Tại sao khi tính 12 - 5 ",
+            "ta lại tách số 5 thành 2 và 3?"
+          ],
+          [
+            "Ý nghĩa của việc trừ lùi về 10 ",
+            "là gì?"
+          ],
+          [
+            "Để thực hiện phép trừ qua 10 với số bị trừ là 11, ",
+            "ta cần tách từ số trừ mấy đơn vị trước?"
+          ],
+          [
+            "Để thực hiện phép trừ qua 10 với số bị trừ là 13, ",
+            "ta cần tách từ số trừ mấy đơn vị trước?"
+          ],
+          [
+            "Giải thích phép tính 12 - 5 = 7 ",
+            "bằng hình ảnh bóc túi kẹo 10 cái."
+          ],
+          [
+            "Sau khi lùi số bị trừ về 10, ",
+            "ta lấy 10 trừ đi phần nào của số trừ?"
+          ],
+          [
+            "Kết quả của 11 - 3 ",
+            "bằng 10 trừ đi mấy?"
+          ],
+          [
+            "Kết quả của 14 - 6 ",
+            "bằng 10 trừ đi mấy?"
+          ],
+          [
+            "Tại sao 13 - 5 lại bằng 8? ",
+            "Giải thích bằng cách đếm lùi."
+          ],
+          [
+            "Tách số trừ trong phép trừ qua 10 ",
+            "khác gì so với tách số cộng ở bài 7?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm bằng cách lùi về 10: ",
+            "11 - 3;  11 - 5;  11 - 7."
+          ],
+          [
+            "Tính nhẩm bằng cách lùi về 10: ",
+            "12 - 4;  12 - 6;  12 - 8."
+          ],
+          [
+            "Tính nhẩm bằng cách lùi về 10: ",
+            "13 - 5;  13 - 7;  13 - 8."
+          ],
+          [
+            "Tính nhẩm bằng cách lùi về 10: ",
+            "14 - 6;  14 - 8;  14 - 9."
+          ],
+          [
+            "Tính nhẩm: ",
+            "15 - 7;  16 - 8;  17 - 9;  18 - 9."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "11 - ... = 8;  13 - ... = 7;  15 - ... = 9."
+          ],
+          [
+            "So sánh: ",
+            "12 - 4 ... 11 - 3;  14 - 6 ... 15 - 7;  13 - 5 ... 12 - 5."
+          ],
+          [
+            "Lan có 13 viên kẹo, ",
+            "Lan cho Bình 6 viên kẹo. Hỏi Lan còn lại bao nhiêu viên kẹo?"
+          ],
+          [
+            "Lớp 2A có 14 học sinh vẽ tranh, ",
+            "trong đó có 8 bạn nữ. Hỏi có bao nhiêu bạn nam vẽ tranh?"
+          ],
+          [
+            "Đoạn dây dài 15 cm, ",
+            "bé cắt đi một đoạn dài 6 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?"
+          ]
+        ],
+        "visualizerType": "TenFrames",
+        "visualizerConfig": {
+          "mode": "subtract",
+          "defaultA": 12,
+          "defaultB": 5
+        }
+      },
+      {
+        "title": "Bài 12. Bảng trừ (qua 10)",
+        "concept": "Bảng tổng hợp các phép tính trừ qua 10 (Bảng 11 trừ đi một số, 12 trừ đi một số...) giúp em tính nhẩm nhanh mà không cần đếm lùi từng đơn vị bằng ngón tay.",
+        "formula": "Bảng trừ chính cần nhớ:\n• 11 - 2 = 9, 11 - 3 = 8, 11 - 4 = 7, 11 - 5 = 6, 11 - 6 = 5, 11 - 7 = 4, 11 - 8 = 3, 11 - 9 = 2.\n• 12 - 3 = 9, 12 - 4 = 8, 12 - 5 = 7, 12 - 6 = 6, 12 - 7 = 5, 12 - 8 = 4, 12 - 9 = 3.\n• 13 - 4 = 9, 13 - 5 = 8, 13 - 6 = 7, 13 - 7 = 6, 13 - 8 = 5, 13 - 9 = 4.",
+        "skills": [
+          [
+            "Nhớ bảng trừ và tính toán nhanh nhẹn.",
+            ""
+          ],
+          "So sánh và điền đúng các dấu lớn, bé, bằng."
+        ],
+        "real_world": "Hộp bút chì màu của em có 15 cây. Em cho bạn mượn 7 cây. Em tính ngay được trong hộp còn lại 8 cây bút mà không cần bỏ ra đếm lẻ.",
+        "image": null,
+        "questions": [
+          [
+            "Bảng trừ qua 10 gồm ",
+            "những bảng trừ nào?"
+          ],
+          [
+            "Trong bảng 11 trừ đi một số, ",
+            "phép tính nào có kết quả lớn nhất?"
+          ],
+          [
+            "Trong bảng 12 trừ đi một số, ",
+            "phép tính nào có kết quả bé nhất?"
+          ],
+          [
+            "Nêu các phép tính trong bảng trừ ",
+            "có kết quả bằng 8."
+          ],
+          [
+            "Nêu các phép tính trong bảng trừ ",
+            "có kết quả bằng 5."
+          ],
+          [
+            "Tại sao thuộc bảng trừ ",
+            "giúp em tính nhẩm hiệu quả?"
+          ],
+          [
+            "Phép tính 15 - 8 và 15 - 7 ",
+            "có liên quan gì nhau? Giải thích."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "12 - 4 = 15 - ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "14 - 6 = 11 - ..."
+          ],
+          [
+            "Phép tính nào trong bảng 13 trừ đi một số ",
+            "có kết quả bằng 9?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "11 - 4;  12 - 5;  13 - 6;  14 - 7."
+          ],
+          [
+            "Tính nhẩm nhanh: ",
+            "15 - 8;  16 - 9;  17 - 8;  18 - 9."
+          ],
+          [
+            "Điền số thích hợp vào chỗ chấm: ",
+            "11 - [ ] = 9;  13 - [ ] = 8;  16 - [ ] = 7."
+          ],
+          [
+            "So sánh: ",
+            "11 - 3 ... 12 - 4;  13 - 5 ... 14 - 7;  15 - 8 ... 16 - 9."
+          ],
+          [
+            "Tính chuỗi tính: ",
+            "12 - 3 - 4 = ...;  15 - 7 - 2 = ...;  17 - 8 - 1 = ..."
+          ],
+          [
+            "Hộp bút có 13 bút chì màu, ",
+            "Hà lấy ra dùng 5 cây. Hỏi trong hộp còn bao nhiêu cây?"
+          ],
+          [
+            "Một cửa hàng có 16 xe đạp, ",
+            "đã bán 8 cái. Hỏi cửa hàng còn bao nhiêu cái?"
+          ],
+          [
+            "Tìm Y biết: ",
+            "14 - Y = 6;  Y + 7 = 15;  Y - 8 = 7."
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "11 - 5 + 8 = ...;  14 - 6 + 5 = ..."
+          ],
+          [
+            "Cuốn truyện tranh có 18 trang, ",
+            "Nam đã đọc được 9 trang. Hỏi Nam còn phải đọc bao nhiêu trang nữa?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị",
+        "concept": "• Khi cần tìm số của bạn có **nhiều hơn**, chúng mình làm phép tính cộng (+).\n• Khi cần tìm số của bạn có **ít hơn**, chúng mình làm phép tính trừ (-).",
+        "formula": "• Tìm đối tượng lớn hơn: Số lớn = Số bé + Phần nhiều hơn.\n• Tìm đối tượng bé hơn: Số bé = Số lớn - Phần ít hơn.",
+        "skills": [
+          [
+            "Phân biệt đúng ",
+            "bài toán \"nhiều hơn\" và bài toán \"ít hơn\"."
+          ],
+          [
+            "Giải bài toán đố trôi chảy ",
+            "và chính xác."
+          ]
+        ],
+        "real_world": "Lan gấp được 8 ngôi sao giấy. Bình gấp được ít hơn Lan 3 ngôi sao. Số ngôi sao của Bình gấp được là: 8 - 3 = 5 ngôi sao giấy.",
+        "image": null,
+        "questions": [
+          [
+            "Để tìm số của đối tượng \"nhiều hơn\" đối tượng đã biết, ",
+            "ta làm phép tính gì?"
+          ],
+          [
+            "Để tìm số của đối tượng \"ít hơn\" đối tượng đã biết, ",
+            "ta làm phép tính gì?"
+          ],
+          [
+            "Tại sao bài toán nhiều hơn lại dùng phép cộng? ",
+            "Giải thích bằng ví dụ cột gạch."
+          ],
+          [
+            "Tại sao bài toán ít hơn lại dùng phép trừ? ",
+            "Giải thích bằng ví dụ cột gạch."
+          ],
+          [
+            "Làm thế nào để phân biệt bài toán ",
+            "\"hơn kém nhau bao nhiêu\" với bài toán \"nhiều hơn, ít hơn\"?"
+          ],
+          [
+            "Nếu Mai có ít hơn Lan 3 cái kẹo, ",
+            "nghĩa là số kẹo của Mai bằng số kẹo của Lan thế nào?"
+          ],
+          [
+            "Nếu Nam có nhiều hơn Bình 4 viên bi, ",
+            "nghĩa là số bi của Nam bằng số bi của Bình thế nào?"
+          ],
+          [
+            "Đơn vị của bài toán tìm số tuổi ",
+            "là gì?"
+          ],
+          [
+            "Đơn vị của bài toán tìm số lít nước ",
+            "là gì?"
+          ],
+          [
+            "Nếu bài toán hỏi \"Bạn Hoa có bao nhiêu cái nhãn vở?\", ",
+            "lời giải của em sẽ viết thế nào?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Bạn Hoa gấp được 8 ngôi sao, ",
+            "bạn Bình gấp được nhiều hơn bạn Hoa 5 ngôi sao. Hỏi bạn Bình gấp được bao nhiêu ngôi sao?"
+          ],
+          [
+            "Bạn Lan có 12 cái kẹo, ",
+            "bạn Mai có ít hơn bạn Lan 4 cái. Hỏi bạn Mai có bao nhiêu cái kẹo?"
+          ],
+          [
+            "Bể thứ nhất có 8 con cá, ",
+            "bể thứ hai có nhiều hơn bể thứ nhất 6 con. Hỏi bể thứ hai có bao nhiêu con cá?"
+          ],
+          [
+            "Hùng cân nặng 15 kg, ",
+            "Minh nhẹ hơn Hùng 3 kg. Hỏi Minh cân nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Thùng thứ nhất đựng 12 lít nước, ",
+            "thùng thứ hai đựng ít hơn thùng thứ nhất 4 lít. Hỏi thùng thứ hai đựng bao nhiêu lít nước?"
+          ],
+          [
+            "Mẹ mua 9 quả táo, ",
+            "chị mua nhiều hơn mẹ 5 quả. Hỏi chị mua bao nhiêu quả táo?"
+          ],
+          [
+            "Lan có 11 quyển truyện, ",
+            "Mai có ít hơn Lan 4 quyển. Hỏi Mai có bao nhiêu quyển truyện?"
+          ],
+          [
+            "Bố trồng được 9 cây cam, ",
+            "ông trồng được nhiều hơn bố 3 cây. Hỏi ông trồng được bao nhiêu cây cam?"
+          ],
+          [
+            "Bình có 14 tờ giấy màu, ",
+            "Hà có ít hơn Bình 6 tờ. Hỏi Hà có bao nhiêu tờ giấy màu?"
+          ],
+          [
+            "Một cửa hàng buổi sáng bán được 15 cái bánh, ",
+            "buổi chiều bán được nhiều hơn buổi sáng 5 cái. Hỏi buổi chiều bán được bao nhiêu cái bánh?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 14. Luyện tập chung",
+        "concept": "Chúng mình cùng ôn luyện tổng kết lại toàn bộ phép cộng, phép trừ trong phạm vi 20 và các bài toán giải toán đố nhé.",
+        "formula": "",
+        "skills": [
+          [
+            "Làm toán nhanh nhẹn ",
+            "và chính xác các chuỗi phép tính."
+          ]
+        ],
+        "real_world": "Đội đỏ chơi kéo co ghi được 12 điểm, đội xanh ghi kém đội đỏ 4 điểm. Tính số điểm đội xanh: 12 - 4 = 8 điểm.",
+        "image": null,
+        "questions": [
+          [
+            "Nếu hiệu là 9, số trừ là 5 ",
+            "thì số bị trừ là bao nhiêu?"
+          ],
+          [
+            "Nếu tổng là 15, một số hạng là 8 ",
+            "thì số hạng còn lại là bao nhiêu?"
+          ],
+          [
+            "Làm thế nào để tính nhanh ",
+            "biểu thức 9 + 5 - 4?"
+          ],
+          [
+            "Làm thế nào để tính nhanh ",
+            "biểu thức 12 - 6 + 5?"
+          ],
+          [
+            "Tìm số liền sau của số liền sau ",
+            "số 10."
+          ],
+          [
+            "Tìm số liền trước của số liền trước ",
+            "số 15."
+          ],
+          [
+            "Khi giải bài toán đố, ",
+            "việc viết tóm tắt có ích lợi gì cho em?"
+          ],
+          [
+            "Làm sao để biết phép tính 8 + 7 ",
+            "và 18 - 3 cái nào có kết quả lớn hơn?"
+          ],
+          [
+            "Đọc to tên các ngày trong tuần ",
+            "từ thứ Hai đến Chủ nhật."
+          ],
+          [
+            "Số liền trước của 20 ",
+            "là số có mấy chữ số?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "9 + 5;  8 + 6;  12 - 4;  15 - 7."
+          ],
+          [
+            "Tính: ",
+            "9 + 4 + 3 = ...;  15 - 6 - 2 = ...;  12 - 5 + 8 = ..."
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 8 = 15;  X - 6 = 7;  14 - X = 8."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "9 + ... = 14;  13 - ... = 5;  ... + 7 = 11."
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "9 + 5 ... 15 - 1;  12 - 4 ... 11 - 3;  8 + 7 ... 9 + 6."
+          ],
+          [
+            "Giải toán: ",
+            "Đội A kéo co được 12 điểm, đội B được ít hơn đội A 4 điểm. Hỏi đội B được bao nhiêu điểm?"
+          ],
+          [
+            "Giải toán: ",
+            "Bác An nuôi 9 con gà trống, số gà mái nhiều hơn gà trống là 8 con. Hỏi nhà bác An nuôi bao nhiêu con gà mái?"
+          ],
+          [
+            "Viết các số ",
+            "12, 8, 15, 9 theo thứ tự từ bé đến lớn."
+          ],
+          [
+            "Tìm số có hai chữ số, ",
+            "biết chữ số hàng chục là 1 và chữ số hàng đơn vị là số liền sau của 4."
+          ],
+          [
+            "Tính nhanh: ",
+            "9 + 1 + 5 - 3 = ...;  8 + 2 + 7 - 4 = ..."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "Chủ đề 3: Làm quen với khối lượng, dung tích",
+    "lessons": [
+      {
+        "title": "Bài 15. Ki-lô-gam (kg)",
+        "concept": "Ki-lô-gam (kg) là đơn vị đo xem một vật nặng hay nhẹ. Khi em cầm một quả dưa hấu thấy nặng tay hơn quả táo, nghĩa là quả dưa hấu nặng hơn quả táo.\nĐể biết chính xác vật nặng bao nhiêu, người ta dùng chiếc cân. Cân đĩa hoạt động giống như một chiếc bập bênh: khi hai đĩa cân thăng bằng (kim chỉ thẳng ở giữa), vật ở đĩa bên trái nặng bằng tổng quả cân ở đĩa bên phải.",
+        "formula": "• Ký hiệu đơn vị: kg (đọc là ki-lô-gam).\n• Quy tắc tính toán: Cộng hoặc trừ các con số kèm đơn vị kg bình thường rồi viết chữ kg ở sau kết quả (Ví dụ: 5kg + 3kg = 8kg; 10kg - 4kg = 6kg).",
+        "skills": [
+          [
+            "Đọc đúng số cân nặng ",
+            "trên cân đồng hồ và quả cân."
+          ],
+          [
+            "Làm toán cộng, trừ ",
+            "các số đo kèm đơn vị kg."
+          ]
+        ],
+        "real_world": "Khi mẹ đi mua gạo, mẹ bảo người bán hàng lấy \"bao gạo nặng 5kg\". Khi em đứng lên chiếc cân sức khỏe ở trường, kim chỉ số 22, nghĩa là em nặng 22 ki-lô-gam (22kg).",
+        "image": [
+          "images/balance_scale.png",
+          4.5,
+          "Bạn Mèo dùng chiếc cân đĩa thăng bằng để cân quả bí ngô nặng 3kg"
+        ],
+        "questions": [
+          [
+            "Đơn vị ki-lô-gam dùng để đo gì? ",
+            "Viết tắt là gì?"
+          ],
+          [
+            "Quả cân ghi '1 kg' nặng bao nhiêu? ",
+            "Dùng để làm gì?"
+          ],
+          [
+            "Làm sao em biết vật nào nặng hơn ",
+            "khi cầm trên tay?"
+          ],
+          [
+            "Thế nào là đĩa cân thăng bằng? ",
+            "Khi đó khối lượng hai bên thế nào?"
+          ],
+          [
+            "Nếu đĩa cân bên trái đựng quả bí, ",
+            "đĩa bên phải đựng 2 quả cân 1kg thì quả bí nặng bao nhiêu?"
+          ],
+          [
+            "Khi kim cân đồng hồ chỉ đúng số 3, ",
+            "vật trên cân nặng bao nhiêu?"
+          ],
+          [
+            "Vật nào nặng hơn: ",
+            "1kg bông hay 1kg sắt? Vì sao?"
+          ],
+          [
+            "Hãy kể tên 3 vật trong nhà ",
+            "nặng hơn 1kg."
+          ],
+          [
+            "Hãy kể tên 3 vật trong nhà ",
+            "nhẹ hơn 1kg."
+          ],
+          [
+            "Nếu em mua 2kg táo và 3kg ổi, ",
+            "tổng khối lượng hoa quả mua là bao nhiêu?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đọc khối lượng của các vật ",
+            "được đặt trên cân đồng hồ (vẽ hình hoặc mô tả: kim chỉ số 2, số 5)."
+          ],
+          [
+            "Tính nhẩm: ",
+            "5kg + 8kg = ...;  12kg - 7kg = ...;  20kg + 15kg = ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "8kg + ... kg = 15kg;  16kg - ... kg = 9kg."
+          ],
+          [
+            "So sánh: ",
+            "9kg + 4kg ... 15kg - 2kg;  8kg + 7kg ... 12kg + 4kg."
+          ],
+          [
+            "Quả bí ngô nặng 3kg, ",
+            "quả dưa hấu nặng hơn quả bí ngô 2kg. Hỏi quả dưa hấu nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Con ngỗng nặng 6kg, ",
+            "con gà nhẹ hơn con ngỗng 4kg. Hỏi con gà nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Đĩa cân bên trái có quả đu đủ. ",
+            "Đĩa cân bên phải có quả cân 2kg và quả cân 1kg. Khi cân thăng bằng, quả đu đủ nặng bao nhiêu?"
+          ],
+          [
+            "Mẹ mua 5kg gạo tẻ ",
+            "và 3kg gạo nếp. Hỏi mẹ mua tất cả bao nhiêu ki-lô-gam gạo? (Trình bày bài giải)"
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 5kg = 12kg;  X - 6kg = 8kg."
+          ],
+          [
+            "Bé Nam nặng 22kg, ",
+            "bé Bình nặng hơn bé Nam 3kg. Hỏi bé Bình nặng bao nhiêu ki-lô-gam?"
+          ]
+        ],
+        "visualizerType": "BalanceScale",
+        "visualizerConfig": {}
+      },
+      {
+        "title": "Bài 16. Lít (l)",
+        "concept": "Nước, sữa, nước ngọt là chất lỏng nên chúng mình không thể đặt lên bàn để cân trực tiếp. Thay vào đó, ta đo xem chúng chứa được đầy hay vơi trong các bình, chai nước. Lít là đơn vị đo sức chứa chất lỏng. Một chiếc ca đong 1 lít sẽ chứa được lượng nước bằng đúng 1 lít.",
+        "formula": "• Ký hiệu đơn vị: l (đọc là lít).\n• Quy tắc tính toán: Cộng hoặc trừ các số đo dung tích lít bình thường rồi viết chữ l vào sau kết quả (Ví dụ: 2l + 5l = 7l; 10l - 4l = 6l).",
+        "skills": [
+          [
+            "Đọc đúng vạch chia dung tích lít ",
+            "trên ca đong, chai nước."
+          ],
+          [
+            "Thực hiện phép tính cộng, trừ ",
+            "các số đo dung tích lít."
+          ]
+        ],
+        "real_world": "Hộp sữa giấy học đường em uống có dung tích rất nhỏ. Chai nước ngọt lớn ở bàn tiệc thường chứa 1.5 lít hoặc 2 lít. Bình nước lọc lớn dùng chung ở lớp học chứa 19 lít nước.",
+        "image": [
+          "images/litre_cups.png",
+          5.0,
+          "Đổ gộp nước từ ca 1 lít và ca 2 lít để được 3 lít nước trong xô"
+        ],
+        "questions": [
+          [
+            "Đơn vị lít dùng để đo gì? ",
+            "Viết tắt là gì?"
+          ],
+          [
+            "Làm thế nào để đong được đúng 1 lít nước? ",
+            "Dùng dụng cụ nào?"
+          ],
+          [
+            "Hãy kể tên 3 loại chất lỏng ",
+            "thường được đo bằng lít."
+          ],
+          [
+            "Chai nước lọc nhỏ em uống hàng ngày ",
+            "thường chứa nhiều hơn hay ít hơn 1 lít?"
+          ],
+          [
+            "Bình nước lọc to ở văn phòng lớp học ",
+            "chứa được khoảng bao nhiêu lít nước?"
+          ],
+          [
+            "Can nước 5 lít chứa được lượng nước ",
+            "gấp mấy lần ca đong 1 lít?"
+          ],
+          [
+            "Nếu đổ đầy nước vào ca 2 lít ",
+            "và ca 3 lít rồi đổ chung vào xô, trong xô có mấy lít nước?"
+          ],
+          [
+            "Vật chứa nào đựng được nhiều nước hơn: ",
+            "cái bể cá hay cái can 10 lít?"
+          ],
+          [
+            "Để đo thể tích xăng đổ vào xe máy, ",
+            "người ta dùng đơn vị nào?"
+          ],
+          [
+            "Tại sao chúng ta không dùng đơn vị ki-lô-gam ",
+            "để đo lượng nước ngọt trong chai?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm: ",
+            "5l + 8l = ...;  15l - 7l = ...;  20l + 10l = ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "9l + ... l = 13l;  12l - ... l = 6l;  ... l + 5l = 11l."
+          ],
+          [
+            "So sánh: ",
+            "9l + 4l ... 15l - 2l;  8l + 7l ... 12l + 4l."
+          ],
+          [
+            "Rót đầy 1 ca 5 lít ",
+            "và 1 ca 2 lít nước rồi đổ chung vào một xô. Hỏi trong xô có tất cả bao nhiêu lít nước?"
+          ],
+          [
+            "Một can chứa 10 lít nước ngọt, ",
+            "người ta rót ra các chai nhỏ mất 4 lít. Hỏi trong can còn lại bao nhiêu lít nước ngọt?"
+          ],
+          [
+            "Thùng thứ nhất đựng 18 lít dầu, ",
+            "thùng thứ hai đựng ít hơn thùng thứ nhất 5 lít. Hỏi thùng thứ hai đựng bao nhiêu lít dầu?"
+          ],
+          [
+            "Tìm Y biết: ",
+            "Y + 5l = 12l;  Y - 6l = 8l."
+          ],
+          [
+            "Bể nước có 50 lít nước, ",
+            "bố bơm thêm vào bể 30 lít nữa. Hỏi lúc này bể có bao nhiêu lít nước?"
+          ],
+          [
+            "Có hai chiếc can, ",
+            "can thứ nhất đựng 9 lít nước, can thứ hai đựng 6 lít. Hỏi can thứ nhất nhiều hơn can thứ hai mấy lít?"
+          ],
+          [
+            "Một thùng đựng dầu có 45 lít dầu, ",
+            "người ta đã bán đi 20 lít. Hỏi trong thùng còn lại bao nhiêu lít dầu? (Trình bày bài giải)"
+          ]
+        ],
+        "visualizerType": "LitreCup",
+        "visualizerConfig": {}
+      },
+      {
+        "title": "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+        "concept": "Toán học nằm ngay dưới đôi bàn tay của em! Bài học thực hành này giúp em tự tay cầm nắm, ước lượng và đong đo. Em sẽ được xách thử túi gạo 2kg, tự tay dùng ca đong nước 1 lít để cảm nhận thực tế.",
+        "formula": "",
+        "skills": [
+          [
+            "Ước lượng tương đối khối lượng ",
+            "và sức chứa chất lỏng của một số đồ vật quen thuộc."
+          ],
+          [
+            "Biết cách cân đo thực tế ",
+            "an toàn, chính xác."
+          ]
+        ],
+        "real_world": "Em đong đúng 2 ca 1 lít nước vào nồi để bố mẹ nấu canh ngon ngọt.",
+        "image": null,
+        "questions": [
+          [
+            "Ước lượng xem một chiếc balo đi học ",
+            "nặng khoảng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Ước lượng xem một xô lau nhà đầy nước ",
+            "chứa được khoảng bao nhiêu lít?"
+          ],
+          [
+            "Làm sao em biết một quả dưa hấu nặng khoảng 3kg ",
+            "chứ không phải 30kg?"
+          ],
+          [
+            "Khi đong nước pha nước cam cho gia đình, ",
+            "em dùng dụng cụ nào để đo lượng nước?"
+          ],
+          [
+            "Nếu không có ca 3 lít, ",
+            "làm sao để đong được 3 lít nước bằng ca 1 lít?"
+          ],
+          [
+            "Mô tả cách em cân cân nặng ",
+            "của chính mình ở trường."
+          ],
+          [
+            "Một cốc nước uống hàng ngày ",
+            "chứa được nhiều hơn hay ít hơn 1 lít nước?"
+          ],
+          [
+            "Có thể dùng cân đồng hồ ",
+            "để biết chiếc bút chì nặng bao nhiêu kg không? Vì sao?"
+          ],
+          [
+            "Một muỗng nước canh nhỏ ",
+            "chứa được nhiều hay ít hơn 1 lít nước?"
+          ],
+          [
+            "Tại sao việc biết ước lượng cân nặng và sức chứa ",
+            "lại giúp ích cho em trong cuộc sống?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Em hãy xách thử các túi sách của mình ",
+            "và ước lượng xem túi nào nặng khoảng 1kg, 2kg, hay 3kg."
+          ],
+          [
+            "Thực hành đong nước bằng ca chia vạch: ",
+            "Đong 2 ca 1 lít đổ vào ấm đun nước. Hỏi ấm có bao nhiêu lít nước?"
+          ],
+          [
+            "Cân một số đồ dùng học tập: ",
+            "Đặt hộp bút lên cân tiểu ly và ghi lại số chỉ gram/kg nếu có."
+          ],
+          [
+            "Ước lượng rồi điền đơn vị kg hoặc l thích hợp vào chỗ chấm: ",
+            "Chai nước khoáng lớn chứa 1...; Quả mít nặng 5..."
+          ],
+          [
+            "Ước lượng rồi điền đơn vị kg hoặc l thích hợp vào chỗ chấm: ",
+            "Nồi nấu canh chứa được 3...; Bé Mai cân nặng 18..."
+          ],
+          [
+            "Giải bài toán: ",
+            "Mẹ đong 3 lít mật ong đổ vào can A và 2 lít mật ong vào can B. Hỏi cả hai can có bao nhiêu lít mật ong?"
+          ],
+          [
+            "Giải bài toán: ",
+            "Túi muối nặng 1kg, túi đường nặng hơn túi muối 2kg. Hỏi túi đường nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Một bình trà chứa được 2 lít nước. ",
+            "Người ta đã rót ra uống hết 1 lít. Hỏi trong bình còn lại bao nhiêu lít nước trà?"
+          ],
+          [
+            "Mẹ mua quả đu đủ nặng 2kg ",
+            "và quả dưa hấu nặng 4kg. Hỏi cả hai quả nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Bình nước nhà Nam đựng được 19 lít nước. ",
+            "Cả nhà đã uống hết 9 lít nước. Hỏi trong bình còn lại bao nhiêu lít nước?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 18. Luyện tập chung",
+        "concept": "Chúng mình cùng ôn luyện các bài toán đố liên quan đến Ki-lô-gam (kg) và Lít (l) để không bị nhầm lẫn giữa đơn vị đo cân nặng và sức chứa chất lỏng.",
+        "formula": "",
+        "skills": [
+          [
+            "Giải bài toán đố ",
+            "liên quan đến kg và lít chính xác."
+          ]
+        ],
+        "real_world": "Bố mua can xăng 5 lít, sau đó mua thêm can 2 lít nữa. Tổng số lít xăng bố mua là: 5 + 2 = 7 lít xăng.",
+        "image": null,
+        "questions": [
+          [
+            "So sánh: ",
+            "5kg và 5 lít có thể so sánh lớn bé với nhau được không? Vì sao?"
+          ],
+          [
+            "Nếu đĩa cân bên trái đựng quả mít nặng 5kg, ",
+            "đĩa bên phải đựng 2 quả cân loại 2kg thì cân có thăng bằng không? Vì sao?"
+          ],
+          [
+            "Làm thế nào để đĩa cân thăng bằng ",
+            "ở câu hỏi trên?"
+          ],
+          [
+            "Đọc vạch ca đong: ",
+            "Nếu nước chỉ đến nửa vạch 2 lít thì thể tích khoảng bao nhiêu?"
+          ],
+          [
+            "Nếu đổ 10 lít nước ngọt ",
+            "vào can 5 lít thì điều gì sẽ xảy ra?"
+          ],
+          [
+            "Đơn vị kg dùng để đo đại lượng nào? ",
+            "Đơn vị lít dùng để đo đại lượng nào?"
+          ],
+          [
+            "Tìm số liền sau của số đo: ",
+            "Số liền sau của số đo 12kg là bao nhiêu?"
+          ],
+          [
+            "Tìm số liền trước của số đo: ",
+            "Số liền trước của số đo 8l là bao nhiêu?"
+          ],
+          [
+            "Làm sao để đong được đúng 4 lít nước ",
+            "nếu em chỉ có ca 2 lít?"
+          ],
+          [
+            "Nếu có 3 quả cân: 1kg, 2kg, 5kg. ",
+            "Em có thể cân được vật nặng tối đa bao nhiêu ki-lô-gam?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính: ",
+            "15kg + 7kg - 8kg = ...;  20l - 8l + 5l = ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "12kg + [ ] kg = 18kg;  15l - [ ] l = 9l."
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "8kg + 6kg ... 15kg;  12l - 4l ... 8l;  5kg + 3kg ... 10kg - 2kg."
+          ],
+          [
+            "Bao ngô nặng 25kg, ",
+            "bao thóc nặng hơn bao ngô 5kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Thùng thứ nhất đựng 15 lít sơn, ",
+            "thùng thứ hai đựng nhiều hơn thùng thứ nhất 4 lít sơn. Hỏi thùng thứ hai đựng bao nhiêu lít sơn?"
+          ],
+          [
+            "Con lợn nặng 50kg, ",
+            "con chó nhẹ hơn con lợn 38kg. Hỏi con chó nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Can A đựng 8 lít nước ngọt, ",
+            "can B đựng 12 lít nước ngọt. Người ta đổ chung cả hai can vào một thùng. Hỏi thùng có bao nhiêu lít nước ngọt?"
+          ],
+          [
+            "Có 3 quả cân loại 2kg, 5kg và 1kg. ",
+            "Tổng khối lượng của cả 3 quả cân này là bao nhiêu?"
+          ],
+          [
+            "Cửa hàng có 35kg đường, ",
+            "đã bán đi 15kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam đường? (Trình bày bài giải)"
+          ],
+          [
+            "Một can chứa đầy 20 lít dầu ăn. ",
+            "Mẹ đã dùng hết 8 lít để chiên bánh. Hỏi trong can còn lại bao nhiêu lít dầu ăn?"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "Chủ đề 4: Phép cộng, phép trừ (có nhớ) trong phạm vi 100",
+    "lessons": [
+      {
+        "title": "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+        "concept": "Khi chúng mình cộng hai số (ví dụ 38 + 7), ở hàng đơn vị ta có 8 + 7 = 15 đơn vị. Vì số 15 lớn hơn 9, ta không thể viết số 15 vào một cột đơn vị được. Chúng mình viết số đơn vị (5) và gửi (nhớ) 1 chục sang cột hàng chục bên cạnh. Giống như em đổi 10 đồng lẻ thành 1 tờ tiền chục bỏ vào ví chục.",
+        "formula": "• Quy tắc cộng có nhớ hàng dọc:\n  - Đặt tính thẳng cột đơn vị thẳng đơn vị, chục thẳng chục.\n  - Cộng hàng đơn vị trước: 8 + 7 = 15. Viết 5 nhớ 1 chục sang hàng chục.\n  - Cộng hàng chục: 3 chục thêm 1 chục nhớ là 4 chục. Viết 4.\n  - Kết quả: 38 + 7 = 45.",
+        "skills": [
+          [
+            "Đặt tính dọc thẳng cột ",
+            "các số đơn vị."
+          ],
+          [
+            "Cộng hàng chục ",
+            "luôn nhớ cộng thêm 1 chục đã gửi."
+          ]
+        ],
+        "real_world": "Em có 28 viên bi. Bạn cho em thêm 6 viên nữa. Em cộng hàng đơn vị: 8 + 6 = 14 (viết 4 nhớ 1). Hàng chục có 2 chục, thêm 1 chục nhớ là 3 chục. Vậy em có 34 viên bi.",
+        "image": null,
+        "questions": [
+          [
+            "Tại sao khi cộng 8 + 7 = 15 ",
+            "ta lại phải \"nhớ\" 1 chục sang cột hàng chục?"
+          ],
+          [
+            "Chữ số hàng đơn vị của kết quả ",
+            "phép cộng 28 + 5 được ghi ở đâu?"
+          ],
+          [
+            "Khi cộng hàng chục ở phép tính 38 + 7, ",
+            "ta lấy 3 chục cộng thêm mấy chục đã nhớ?"
+          ],
+          [
+            "Khi nào thì phép cộng có nhớ xảy ra? ",
+            "(Tổng hàng đơn vị từ bao nhiêu trở lên?)"
+          ],
+          [
+            "Nêu cách đặt tính hàng dọc ",
+            "cho phép tính 46 + 8."
+          ],
+          [
+            "Tại sao chữ số 8 ",
+            "trong phép tính 46 + 8 phải đặt thẳng cột với chữ số 6?"
+          ],
+          [
+            "Nếu quên cộng thêm 1 chục nhớ, ",
+            "kết quả phép tính sẽ bị làm sao?"
+          ],
+          [
+            "Kết quả hàng chục của phép tính 29 + 3 ",
+            "là bao nhiêu?"
+          ],
+          [
+            "Số nhớ 1 chục ",
+            "được lấy từ đâu ra?"
+          ],
+          [
+            "Phép cộng 35 + 3 ",
+            "có phải là phép cộng có nhớ không? Vì sao?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đặt tính rồi tính: ",
+            "28 + 5;  37 + 6;  49 + 4;  56 + 7."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "65 + 8;  74 + 9;  83 + 9;  19 + 5."
+          ],
+          [
+            "Tính nhẩm nhanh: ",
+            "29 + 2;  38 + 3;  47 + 4;  56 + 5."
+          ],
+          [
+            "Tìm số thích hợp điền vào ô trống: ",
+            "28 + [ ] = 33;  47 + [ ] = 52;  79 + [ ] = 84."
+          ],
+          [
+            "So sánh: ",
+            "38 + 5 ... 40;  29 + 6 ... 35;  47 + 8 ... 55."
+          ],
+          [
+            "Tìm X biết: ",
+            "X - 7 = 28;  X - 8 = 45."
+          ],
+          [
+            "Dũng có 29 viên bi, ",
+            "Hùng cho Dũng thêm 6 viên bi nữa. Hỏi Dũng có tất cả bao nhiêu viên bi?"
+          ],
+          [
+            "Một sợi dây đồng uốn thành hình tam giác ",
+            "có độ dài các cạnh lần lượt là 15cm, 15cm và 8cm. Tính chu vi hình tam giác đó."
+          ],
+          [
+            "Mẹ mua 27 quả cam, ",
+            "chị hái thêm 9 quả cam nữa. Hỏi cả hai mẹ con có bao nhiêu quả cam?"
+          ],
+          [
+            "Tìm số có hai chữ số, ",
+            "biết chữ số hàng chục là 3 và chữ số hàng đơn vị là kết quả của 8 + 7."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+        "concept": "Bài tính này tương tự bài trước nhưng cả hai số đều có hàng chục. Chúng mình vẫn cộng hàng đơn vị trước, nhớ 1 chục qua cột hàng chục, rồi cộng ba số ở cột chục lại với nhau (chục số thứ nhất + chục số thứ hai + 1 chục nhớ).",
+        "formula": "• Quy tắc tính dọc:\n  - Viết số thứ hai dưới số thứ nhất (chục thẳng chục, đơn vị thẳng đơn vị).\n  - Cộng hàng đơn vị: Nếu kết quả >= 10, viết hàng đơn vị và nhớ 1 chục.\n  - Cộng hàng chục: A_chục + B_chục + 1 chục nhớ = Kết quả hàng chục.\n  - Ví dụ: 36 + 25. Đơn vị: 6 + 5 = 11, viết 1 nhớ 1. Chục: 3 + 2 + 1 (nhớ) = 6. Kết quả: 61.",
+        "skills": [
+          [
+            "Thực hiện tính dọc trôi chảy ",
+            "các phép tính cộng có nhớ phạm vi 100."
+          ],
+          "Giải bài toán thực tế chứa phép cộng có nhớ."
+        ],
+        "real_world": "Mẹ đi siêu thị mua một con gà giá 45 nghìn đồng và một bó rau giá 18 nghìn đồng. Tổng số tiền mẹ phải trả là: 45 + 18 = 63 nghìn đồng.",
+        "image": null,
+        "questions": [
+          [
+            "Các bước thực hiện phép cộng ",
+            "hai số có hai chữ số có nhớ là gì?"
+          ],
+          [
+            "Khi đặt tính 36 + 25, ",
+            "chữ số nào thẳng hàng với chữ số nào?"
+          ],
+          [
+            "Hàng đơn vị của 36 + 25 cộng lại được bao nhiêu? ",
+            "Viết chữ số nào và nhớ mấy?"
+          ],
+          [
+            "Khi cộng hàng chục của 36 + 25, ",
+            "ta lấy 3 chục cộng 2 chục cộng thêm mấy chục nhớ?"
+          ],
+          [
+            "Tại sao số chục kết quả ",
+            "lại là 6 chục?"
+          ],
+          [
+            "Nếu tổng hàng đơn vị bằng đúng 10, ",
+            "ta viết số mấy ở cột đơn vị kết quả? Nhớ mấy?"
+          ],
+          [
+            "Cho ví dụ phép cộng hai số có hai chữ số ",
+            "có nhớ."
+          ],
+          [
+            "Phép cộng 42 + 23 ",
+            "có nhớ không? Tại sao?"
+          ],
+          [
+            "Phép cộng 57 + 28 ",
+            "có nhớ không? Tại sao?"
+          ],
+          [
+            "Khi cộng có nhớ, ",
+            "ta luôn nhớ thêm mấy chục sang hàng chục?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đặt tính rồi tính: ",
+            "36 + 25;  47 + 18;  59 + 24;  68 + 15."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "27 + 27;  39 + 39;  48 + 48;  19 + 29."
+          ],
+          [
+            "Tính nhẩm nhanh các tổng tròn chục: ",
+            "35 + 25;  44 + 16;  58 + 22;  67 + 13."
+          ],
+          [
+            "Điền số thích hợp vào chỗ chấm: ",
+            "28 + 15 = ...;  36 + 27 = ...;  49 + 18 = ..."
+          ],
+          [
+            "So sánh: ",
+            "36 + 15 ... 50;  47 + 28 ... 75;  59 + 13 ... 60 + 12."
+          ],
+          [
+            "Mẹ đi chợ mua một con gà giá 45 nghìn đồng ",
+            "và một bó rau giá 18 nghìn đồng. Hỏi mẹ phải trả tất cả bao nhiêu nghìn đồng?"
+          ],
+          [
+            "Lớp 2A có 18 bạn nam ",
+            "và 17 bạn nữ. Hỏi lớp 2A có tất cả bao nhiêu học sinh? (Trình bày bài giải)"
+          ],
+          [
+            "Tìm Y biết: ",
+            "Y - 25 = 36;  Y - 18 = 47."
+          ],
+          [
+            "Một thanh gỗ dài 35 cm, ",
+            "người ta ghép thêm một thanh gỗ dài 28 cm nữa. Hỏi thanh gỗ mới dài bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "25 + 18 + 17 = ...;  36 + 24 + 15 = ..."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 21. Luyện tập",
+        "concept": "Chúng mình cùng luyện làm nhiều bài tập tính toán cộng có nhớ trong phạm vi 100 để giúp bộ não tính nhẩm nhanh và chính xác hơn.",
+        "formula": "",
+        "skills": [
+          [
+            "Tính toán nhanh ",
+            "phép cộng có nhớ không cần nhẩm từng bước lẻ."
+          ]
+        ],
+        "real_world": "Ngăn sách trên có 36 quyển truyện tranh, ngăn dưới có 28 quyển. Tính tổng số sách: 36 + 28 = 64 quyển.",
+        "image": null,
+        "questions": [
+          [
+            "Làm sao để nhẩm nhanh phép tính 38 + 25 ",
+            "bằng cách tách gộp tròn chục?"
+          ],
+          [
+            "Khi gặp bài toán tìm X có dạng X - 18 = 45, ",
+            "em tìm X bằng cách nào? Gọi tên thành phần."
+          ],
+          [
+            "Độ dài đoạn thẳng AB = 28cm, BC = 15cm. ",
+            "Tính độ dài đoạn thẳng AC ghép từ hai đoạn đó."
+          ],
+          [
+            "Trong bài toán đố, ",
+            "làm thế nào để chọn lời giải hay và ngắn gọn?"
+          ],
+          [
+            "Khi nào ta viết đơn vị ",
+            "là 'bạn', khi nào viết là 'học sinh'?"
+          ],
+          [
+            "Có phải kết quả của phép cộng có nhớ ",
+            "luôn lớn hơn số bị cộng lúc đầu không? Vì sao?"
+          ],
+          [
+            "Hãy nêu một bài toán thực tế ",
+            "cần dùng phép cộng có nhớ trong phạm vi 100."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "28 + 17 = 30 + ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "45 + 18 = 50 + ..."
+          ],
+          [
+            "Nếu tổng là 70, một số hạng là 25 ",
+            "thì số hạng kia là bao nhiêu?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "28 + 15;  36 + 18;  49 + 25;  57 + 16."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "45 + 38;  57 + 26;  68 + 27;  19 + 79."
+          ],
+          [
+            "Tìm X biết: ",
+            "X - 28 = 45;  X - 17 = 58;  X - 39 = 24."
+          ],
+          [
+            "Điền số vào ô trống: ",
+            "28 + [ ] = 63;  36 + [ ] = 54;  47 + [ ] = 72."
+          ],
+          [
+            "So sánh: ",
+            "38 + 25 ... 60;  45 + 18 ... 92 - 27;  19 + 29 ... 50 - 2."
+          ],
+          [
+            "Hộp thứ nhất có 36 viên bi, ",
+            "hộp thứ hai có nhiều hơn hộp thứ nhất 18 viên bi. Hỏi hộp thứ hai có bao nhiêu viên bi?"
+          ],
+          [
+            "Quãng đường từ nhà Nam đến trường dài 45 m, ",
+            "quãng đường từ trường đến thư viện dài 28 m. Hỏi quãng đường từ nhà Nam đến thư viện dài bao nhiêu mét?"
+          ],
+          [
+            "Mẹ mua 25 quả trứng gà ",
+            "và 18 quả trứng vịt. Hỏi mẹ mua tất cả bao nhiêu quả trứng? (Trình bày bài giải)"
+          ],
+          [
+            "Tìm một số biết rằng lấy số đó trừ đi 18 ",
+            "thì được 36."
+          ],
+          [
+            "Tính nhanh chuỗi cộng: ",
+            "28 + 15 + 12 = ...;  36 + 17 + 14 = ..."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+        "concept": "Khi thực hiện phép trừ thẳng cột (ví dụ 42 - 5), ở cột đơn vị ta có 2 - 5. Vì 2 bé hơn 5 nên ta không trừ được. Chúng mình phải sang cột hàng chục bên cạnh (số 4) để \"mượn\" 1 chục. Gộp 1 chục mượn với 2 đơn vị ta được 12. Lấy 12 - 5 = 7. Vì đã cho mượn 1 chục nên số 4 chục chỉ còn 3 chục.",
+        "formula": "• Quy tắc mượn chục ở phép trừ:\n  - Đặt tính thẳng cột.\n  - Trừ hàng đơn vị: Mượn 1 chục gộp thành 12 để trừ: 12 - 5 = 7. Viết 7 ở đơn vị.\n  - Trừ hàng chục: 4 chục cho mượn 1 chục còn 3 chục. Viết 3 ở chục.\n  - Kết quả: 42 - 5 = 37.",
+        "skills": [
+          [
+            "Mượn chục khéo léo ",
+            "khi hàng đơn vị không đủ để trừ."
+          ],
+          [
+            "Nhớ bớt đi 1 chục ",
+            "ở số bị trừ khi ghi kết quả hàng chục."
+          ]
+        ],
+        "real_world": "Em có 32 nghìn đồng (gồm 3 tờ 10k và 2 tờ 1k). Em muốn mua chiếc bút chì giá 5 nghìn. Vì không đủ tiền lẻ 1k, em phải dùng 1 tờ 10k (mượn 1 chục) để thanh toán. Người bán thối lại cho em 5k. Em còn lại 2 tờ 10k và 7 tờ 1k (tức là 27 nghìn).",
+        "image": null,
+        "questions": [
+          [
+            "Khi trừ thẳng cột 42 - 5, ",
+            "hàng đơn vị 2 có trừ được 5 không? Ta làm thế nào?"
+          ],
+          [
+            "Khi \"mượn 1 chục\" ở hàng chục, ",
+            "chúng ta gộp với chữ số hàng đơn vị thành số bao nhiêu để trừ?"
+          ],
+          [
+            "Tại sao chữ số hàng chục của số bị trừ ",
+            "lại phải bớt đi 1 chục?"
+          ],
+          [
+            "Giải thích thao tác mượn chục ",
+            "ở phép tính 32 - 5 bằng ví dụ đổi tiền lẻ."
+          ],
+          [
+            "Nêu các bước đặt tính dọc ",
+            "cho phép tính 54 - 8."
+          ],
+          [
+            "Nếu mượn chục ở hàng đơn vị mà quên bớt ",
+            "ở hàng chục thì kết quả sẽ bị làm sao?"
+          ],
+          [
+            "Kết quả hàng chục của phép tính 71 - 4 ",
+            "là bao nhiêu?"
+          ],
+          [
+            "Phép trừ 85 - 3 ",
+            "có phải là phép trừ có nhớ không? Vì sao?"
+          ],
+          [
+            "Số 10 trừ đi một số ",
+            "có nhớ không?"
+          ],
+          [
+            "Nếu hàng đơn vị của số bị trừ bằng số trừ ",
+            "(ví dụ 5 - 5), có cần mượn chục không?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đặt tính rồi tính: ",
+            "32 - 5;  45 - 8;  51 - 4;  63 - 7."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "74 - 9;  82 - 6;  91 - 5;  20 - 3."
+          ],
+          [
+            "Tính nhẩm nhanh: ",
+            "31 - 2;  42 - 4;  53 - 5;  64 - 6."
+          ],
+          [
+            "Tìm số thích hợp điền vào ô trống: ",
+            "32 - [ ] = 27;  45 - [ ] = 37;  71 - [ ] = 67."
+          ],
+          [
+            "So sánh: ",
+            "32 - 5 ... 25;  45 - 8 ... 38;  51 - 4 ... 47."
+          ],
+          [
+            "Tìm Y biết: ",
+            "Y + 6 = 32;  Y + 8 = 45."
+          ],
+          [
+            "Bình có 32 nghìn đồng, ",
+            "Bình mua kẹo hết 5 nghìn đồng. Hỏi Bình còn lại bao nhiêu nghìn đồng?"
+          ],
+          [
+            "Một đoạn dây dài 42 cm, ",
+            "bé cắt đi một đoạn dài 7 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Hộp bút có 31 cây bút, ",
+            "Hà lấy ra dùng 4 cây. Hỏi trong hộp còn lại bao nhiêu cây bút? (Trình bày bài giải)"
+          ],
+          [
+            "Tìm số có hai chữ số, ",
+            "biết chữ số hàng chục là 5 và chữ số hàng đơn vị kém chữ số hàng chục 6 đơn vị."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số",
+        "concept": "Đây là phép tính trừ đầy đủ. Hàng đơn vị không đủ trừ thì mượn 1 chục từ hàng chục của số bị trừ. Khi trừ hàng chục, ta lấy số chục của số bị trừ bớt đi 1 rồi mới trừ đi số chục của số trừ.",
+        "formula": "• Quy tắc tính dọc:\n  - Đặt tính thẳng cột chục và đơn vị.\n  - Hàng đơn vị: Không đủ trừ thì mượn 1 chục để trừ.\n  - Hàng chục: Lấy số chục ban đầu bớt đi 1 rồi trừ đi số chục của số trừ.\n  - Ví dụ: 62 - 27. Đơn vị: 12 - 7 = 5 (viết 5 nhớ 1). Chục: 6 bớt 1 còn 5; 5 - 2 = 3. Kết quả: 35.",
+        "skills": [
+          [
+            "Đặt tính dọc và tính chính xác ",
+            "các phép trừ có nhớ giữa các số lớn có hai chữ số."
+          ],
+          "Giải bài toán thực tế hiệu chênh lệch số học."
+        ],
+        "real_world": "Một cửa hàng có 84 quả dưa hấu, đã bán đi 38 quả. Số dưa hấu còn lại là: 84 - 38 = 46 quả dưa hấu.",
+        "image": null,
+        "questions": [
+          [
+            "Nêu các bước thực hiện phép trừ ",
+            "hai số có hai chữ số có nhớ."
+          ],
+          [
+            "Khi đặt tính 62 - 27, ",
+            "chữ số nào thẳng hàng với chữ số nào?"
+          ],
+          [
+            "Hàng đơn vị của 62 - 27 mượn chục thế nào ",
+            "và kết quả được bao nhiêu?"
+          ],
+          [
+            "Khi trừ hàng chục của 62 - 27, ",
+            "ta lấy mấy chục trừ đi 2 chục?"
+          ],
+          [
+            "Tại sao số chục kết quả lại là 3 chục ",
+            "chứ không phải 4 chục?"
+          ],
+          [
+            "Giải thích ý nghĩa phép trừ có nhớ ",
+            "giữa hai số lớn bằng ví dụ mua hàng."
+          ],
+          [
+            "Phép trừ 78 - 34 ",
+            "có nhớ không? Tại sao?"
+          ],
+          [
+            "Phép trừ 91 - 45 ",
+            "có nhớ không? Tại sao?"
+          ],
+          [
+            "Khi mượn chục, ",
+            "ta luôn mượn mấy chục ở hàng chục của số bị trừ?"
+          ],
+          [
+            "Nếu kết quả hàng chục bằng 0 ",
+            "(ví dụ 32 - 25), ta có cần viết chữ số 0 ở hàng chục kết quả không?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đặt tính rồi tính: ",
+            "62 - 27;  73 - 38;  81 - 45;  94 - 56."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "45 - 28;  53 - 19;  32 - 15;  80 - 37."
+          ],
+          [
+            "Tính nhẩm nhanh các hiệu tròn chục: ",
+            "50 - 25;  60 - 35;  80 - 45;  90 - 55."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "62 - 27 = ...;  73 - 38 = ...;  81 - 45 = ..."
+          ],
+          [
+            "So sánh: ",
+            "62 - 27 ... 35;  73 - 38 ... 30;  81 - 45 ... 40."
+          ],
+          [
+            "Một cửa hàng có 84 quả dưa hấu, ",
+            "đã bán đi 38 quả. Hỏi cửa hàng còn lại bao nhiêu quả dưa hấu?"
+          ],
+          [
+            "Lan có 52 tờ giấy màu, ",
+            "Lan dùng hết 25 tờ để gấp thuyền. Hỏi Lan còn lại bao nhiêu tờ giấy màu? (Trình bày bài giải)"
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 27 = 62;  X + 38 = 73."
+          ],
+          [
+            "Một thanh gỗ dài 81 cm, ",
+            "người ta cưa bớt một đoạn dài 45 cm. Hỏi đoạn gỗ còn lại dài bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "84 - 38 - 15 = ...;  92 - 45 - 20 = ..."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 24. Luyện tập chung",
+        "concept": "Chúng mình cùng ôn luyện phép cộng và phép trừ có nhớ trong phạm vi 100 thông qua các bài tập đố vui thú vị.",
+        "formula": "",
+        "skills": [
+          [
+            "Giải nhanh các bài toán tìm x và so sánh.",
+            ""
+          ]
+        ],
+        "real_world": "Tính tiền thối lại khi đi siêu thị cùng mẹ: mẹ đưa 100 nghìn mua hàng hết 75 nghìn, em tính thối lại 25 nghìn.",
+        "image": null,
+        "questions": [
+          [
+            "Nếu hiệu là 35, số trừ là 27 ",
+            "thì số bị trừ là bao nhiêu?"
+          ],
+          [
+            "Nếu tổng là 61, một số hạng là 25 ",
+            "thì số hạng còn lại là bao nhiêu?"
+          ],
+          [
+            "Làm thế nào để tính nhẩm nhanh ",
+            "biểu thức 62 - 27 + 15?"
+          ],
+          [
+            "Làm thế nào để so sánh hai biểu thức ",
+            "45 + 18 và 92 - 27?"
+          ],
+          [
+            "Tìm số liền sau của số đo: ",
+            "Số liền sau của 45cm là bao nhiêu?"
+          ],
+          [
+            "Tìm số liền trước của số đo: ",
+            "Số liền trước của 92m là bao nhiêu?"
+          ],
+          [
+            "Nêu quy tắc tìm Số bị trừ ",
+            "chưa biết."
+          ],
+          [
+            "Nêu quy tắc tìm Số trừ ",
+            "chưa biết."
+          ],
+          [
+            "Khi thực hiện chuỗi phép tính có cả cộng và trừ, ",
+            "ta tính theo chiều nào?"
+          ],
+          [
+            "Tại sao cần viết tóm tắt ",
+            "cho bài toán đố phức tạp?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "36 + 25;  62 - 27;  45 + 18;  92 - 27."
+          ],
+          [
+            "Tính: ",
+            "45 + 18 - 27 = ...;  92 - 27 + 15 = ...;  36 + 25 - 18 = ..."
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 25 = 61;  X - 27 = 35;  62 - X = 35."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "36 + ... = 61;  62 - ... = 35;  ... + 27 = 62."
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "36 + 25 ... 62 - 1;  62 - 27 ... 35;  45 + 18 ... 92 - 27."
+          ],
+          [
+            "Giải toán: ",
+            "Cửa hàng có 92 lít dầu ăn, đã bán đi 27 lít. Hỏi cửa hàng còn lại bao nhiêu lít dầu ăn?"
+          ],
+          [
+            "Giải toán: ",
+            "Bao ngô nặng 45kg, bao thóc nặng hơn bao ngô 18kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Viết các số ",
+            "61, 35, 62, 45 theo thứ tự từ bé đến lớn."
+          ],
+          [
+            "Tìm số có hai chữ số, ",
+            "biết chữ số hàng chục là số liền sau của 5 và chữ số hàng đơn vị là kết quả của 12 - 7."
+          ],
+          [
+            "Tính nhanh: ",
+            "28 + 15 + 12 - 5 = ...;  36 + 24 - 15 + 5 = ..."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "Chủ đề 5: Làm quen với hình phẳng",
+    "lessons": [
+      {
+        "title": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+        "concept": "Chúng mình cùng làm quen với thế giới hình học phẳng - thế giới được xây dựng từ những viên gạch cơ bản nhất:\n• Điểm: Là một dấu chấm nhỏ xíu trên giấy, ký hiệu bằng chữ in hoa (điểm A, B, C).\n• Đoạn thẳng: Là con đường ngắn nhất nối hai điểm A và B, bị chặn ở hai đầu.\n• Đường thẳng: Là đường kéo dài mãi mãi về hai phía không bị chặn.\n• Đường cong: Đường uốn lượn, mềm mại như con giun bò hay chiếc cầu vồng.\n• Ba điểm thẳng hàng: Khi cả ba điểm cùng nằm trên mép của một chiếc thước kẻ thẳng.",
+        "formula": "• Đoạn thẳng AB nối hai đầu điểm A và B.\n• Ba điểm A, B, C thẳng hàng khi chúng cùng nằm trên một đường thẳng.",
+        "skills": [
+          [
+            "Nhận biết đúng ",
+            "điểm, đoạn thẳng, đường thẳng, đường cong."
+          ],
+          [
+            "Dùng thước kẻ ",
+            "để kiểm tra xem ba điểm có thẳng hàng hay không."
+          ],
+          [
+            "Đặt tên ",
+            "cho điểm và đoạn thẳng."
+          ]
+        ],
+        "real_world": "• Sợi dây phơi quần áo căng thẳng là đoạn thẳng. Con đường dài tít tắp là đường thẳng.\n• Cầu vồng trên trời là đường cong. Cột điện bên đường trồng thẳng hàng nhau là ba điểm thẳng hàng.",
+        "image": [
+          "images/lines.png",
+          5.5,
+          "Thế giới hình học: Điểm, Đoạn thẳng, Đường thẳng, Đường cong và Đường gấp khúc"
+        ],
+        "questions": [
+          [
+            "Điểm là gì? ",
+            "Nó được ký hiệu bằng chữ gì?"
+          ],
+          [
+            "Đoạn thẳng AB nối hai điểm nào? ",
+            "Nó có bị giới hạn ở hai đầu không?"
+          ],
+          [
+            "Đường thẳng khác đoạn thẳng ",
+            "ở điểm nào? (Kéo dài như thế nào?)"
+          ],
+          [
+            "Đường cong là gì? ",
+            "Nêu ví dụ đường cong ngoài đời."
+          ],
+          [
+            "Thế nào là ba điểm thẳng hàng? ",
+            "Làm sao dùng thước kẻ để kiểm tra?"
+          ],
+          [
+            "Nếu ba điểm không cùng nằm trên mép thước kẻ ",
+            "thì có thẳng hàng không?"
+          ],
+          [
+            "Đường thẳng đi qua hai điểm ",
+            "thì vẽ được tất cả bao nhiêu đường thẳng?"
+          ],
+          [
+            "Một đoạn thẳng có mấy đầu điểm? ",
+            "Có đo được chiều dài không?"
+          ],
+          [
+            "Có đo được chiều dài của một đường thẳng không? ",
+            "Vì sao?"
+          ],
+          [
+            "Kể tên 3 hình ảnh thẳng hàng ",
+            "xung quanh lớp học của em."
+          ]
+        ],
+        "exercises": [
+          [
+            "Vẽ ba điểm A, B, C ",
+            "không thẳng hàng trên giấy."
+          ],
+          [
+            "Vẽ đoạn thẳng MN dài 6cm ",
+            "bằng thước kẻ."
+          ],
+          [
+            "Vẽ đường thẳng đi qua ",
+            "hai điểm P và Q."
+          ],
+          [
+            "Nhận diện các đường sau: ",
+            "đoạn thẳng AB, đường thẳng CD, đường cong xy."
+          ],
+          [
+            "Cho hình vẽ 3 điểm D, E, F. ",
+            "Dùng thước kẻ kiểm tra và trả lời xem chúng có thẳng hàng không."
+          ],
+          [
+            "Đo và ghi lại độ dài ",
+            "của đoạn thẳng AB cho sẵn trên giấy."
+          ],
+          [
+            "Vẽ ba điểm thẳng hàng X, Y, Z ",
+            "sao cho Y nằm giữa X và Z."
+          ],
+          [
+            "Kể tên tất cả các đoạn thẳng ",
+            "có trong hình vẽ tam giác ABC (nối A, B, C)."
+          ],
+          [
+            "Đoạn thẳng AB dài 5cm, đoạn thẳng BC dài 3cm. ",
+            "Nếu ghép thẳng hàng thành đoạn AC thì đoạn AC dài bao nhiêu cm?"
+          ],
+          [
+            "Vẽ một đường cong đi qua ",
+            "hai điểm A và B cho trước."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 26. Đường gấp khúc. Hình tứ giác",
+        "concept": "Khi em ghép nhiều đoạn thẳng liên tiếp nối đuôi nhau, em được một Đường gấp khúc. Để tìm độ dài đường gấp khúc, em chỉ cần cộng độ dài của các đoạn thẳng đó lại với nhau.\nNếu em ghép 3 đoạn thẳng khép kín, em được một Hình tam giác (có 3 cạnh, 3 đỉnh). Nếu em ghép 4 đoạn thẳng khép kín, em được một Hình tứ giác (có 4 cạnh, 4 đỉnh).",
+        "formula": "• Độ dài đường gấp khúc AB-BC-CD = AB + BC + CD.\n• Hình tam giác: có 3 cạnh, 3 đỉnh.\n• Hình tứ giác: có 4 cạnh, 4 đỉnh.",
+        "skills": [
+          [
+            "Tính độ dài đường gấp khúc chính xác.",
+            ""
+          ],
+          [
+            "Nhận diện và đếm hình tam giác, hình tứ giác ",
+            "trong các hình vẽ phức tạp."
+          ]
+        ],
+        "real_world": "Mái nhà hình tam giác, khung cửa sổ hình tứ giác; đường đi ngoằn ngoèo của kiến bò là đường gấp khúc.",
+        "image": [
+          "images/shapes.png",
+          5.0,
+          "Đặc điểm của Hình Tam Giác (3 đỉnh) và Hình Tứ Giác (4 đỉnh)"
+        ],
+        "questions": [
+          [
+            "Đường gấp khúc gồm những gì ghép lại? ",
+            "Nêu tên một đường gấp khúc."
+          ],
+          [
+            "Độ dài đường gấp khúc được tính bằng cách nào? ",
+            "Phép tính gì?"
+          ],
+          [
+            "Hình tam giác có mấy cạnh ",
+            "và mấy đỉnh?"
+          ],
+          [
+            "Hình tứ giác có mấy cạnh ",
+            "và mấy đỉnh?"
+          ],
+          [
+            "Chữ \"tứ\" trong tứ giác ",
+            "nghĩa là gì?"
+          ],
+          [
+            "Hình vuông có phải là một hình tứ giác không? ",
+            "Vì sao?"
+          ],
+          [
+            "Hình chữ nhật có phải là một hình tứ giác không? ",
+            "Vì sao?"
+          ],
+          [
+            "Chu vi của hình tam giác ",
+            "được tính bằng cách nào?"
+          ],
+          [
+            "Chu vi của hình tứ giác ",
+            "được tính bằng cách nào?"
+          ],
+          [
+            "Kể tên các đồ vật xung quanh em ",
+            "có hình tam giác và hình tứ giác."
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính độ dài đường gấp khúc AB-BC-CD ",
+            "biết AB = 4cm, BC = 5cm, CD = 6cm."
+          ],
+          [
+            "Tính độ dài đường gấp khúc MN-NP ",
+            "biết MN = 8cm, NP = 7cm. (Trình bày bài giải)"
+          ],
+          [
+            "Tính chu vi hình tam giác ABC ",
+            "có độ dài các cạnh là AB = 3cm, BC = 4cm, CA = 5cm."
+          ],
+          [
+            "Tính chu vi hình tứ giác MNPQ ",
+            "có độ dài các cạnh lần lượt là 2cm, 3cm, 4cm, 5cm."
+          ],
+          [
+            "Một hình vuông có cạnh dài 3cm. ",
+            "Tính chu vi hình vuông đó."
+          ],
+          [
+            "Một hình tam giác có 3 cạnh bằng nhau, ",
+            "mỗi cạnh dài 4cm. Tính chu vi hình tam giác đó."
+          ],
+          [
+            "Đếm số hình tam giác ",
+            "trong hình vẽ gồm 2 hình tam giác nhỏ ghép lại."
+          ],
+          [
+            "Đếm số hình tứ giác ",
+            "trong hình vẽ gồm 2 hình chữ nhật nhỏ ghép sát nhau."
+          ],
+          [
+            "Đoạn dây đồng dài 20cm được uốn thành hình vuông. ",
+            "Hỏi cạnh hình vuông dài bao nhiêu xăng-ti-mét?"
+          ],
+          [
+            "Đường gấp khúc M-N-P-Q dài 15cm. ",
+            "Biết MN = 5cm, NP = 4cm. Tính độ dài đoạn PQ."
+          ]
+        ],
+        "visualizerType": "ShapeExplorer",
+        "visualizerConfig": {}
+      },
+      {
+        "title": "Bài 27. Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+        "concept": "Thử làm nhà thiết kế tí hon nào! Em dùng giấy thủ công, kéo cắt ghép các hình tam giác nhỏ để xếp thành chú cá, ngôi nhà xinh xắn. Em cũng sẽ thực hành vẽ những đoạn thẳng có độ dài chính xác bằng chiếc thước kẻ chia vạch.",
+        "formula": "",
+        "skills": [
+          [
+            "Vẽ đoạn thẳng ",
+            "có độ dài cho trước (ví dụ 5cm) bằng thước kẻ."
+          ],
+          [
+            "Rèn luyện sự khéo tay ",
+            "khi cắt dán, xếp hình sáng tạo."
+          ]
+        ],
+        "real_world": "Xếp hình Tangram sáng tạo; gấp máy bay giấy; dùng thước kẻ lề tập vở.",
+        "image": null,
+        "questions": [
+          [
+            "Nêu các bước vẽ đoạn thẳng AB dài 5cm ",
+            "bằng thước kẻ chia vạch."
+          ],
+          [
+            "Để gấp một tờ giấy hình chữ nhật thành hình tam giác, ",
+            "em làm thế nào?"
+          ],
+          [
+            "Trò chơi xếp hình Tangram gồm bao nhiêu mảnh ghép? ",
+            "Có những hình nào?"
+          ],
+          [
+            "Khi dùng kéo cắt giấy thủ công, ",
+            "em cần chú ý điều gì để an toàn?"
+          ],
+          [
+            "Làm sao ghép 4 hình tam giác nhỏ ",
+            "thành 1 hình vuông to?"
+          ],
+          [
+            "Làm sao ghép 2 hình tam giác nhỏ ",
+            "thành 1 hình chữ nhật?"
+          ],
+          [
+            "Khi vẽ đoạn thẳng, ",
+            "tại sao phải giữ chặt thước kẻ?"
+          ],
+          [
+            "Vạch số 0 trên thước ",
+            "có vai trò gì khi bắt đầu vẽ đoạn thẳng?"
+          ],
+          [
+            "Mô tả cách gấp một chiếc thuyền giấy đơn giản ",
+            "mà em biết."
+          ],
+          [
+            "Tại sao thực hành cắt ghép hình ",
+            "giúp em thông minh hơn?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Dùng thước và bút chì ",
+            "vẽ đoạn thẳng AB dài đúng 5cm."
+          ],
+          [
+            "Dùng thước và bút chì ",
+            "vẽ đoạn thẳng CD dài đúng 8cm."
+          ],
+          [
+            "Cắt 2 hình tam giác giống nhau bằng giấy màu ",
+            "và ghép chúng thành một hình chữ nhật."
+          ],
+          [
+            "Cắt 4 hình tam giác giống nhau ",
+            "và xếp chúng thành một hình tam giác lớn hơn."
+          ],
+          [
+            "Vẽ đoạn thẳng AB dài 4cm, ",
+            "tiếp tục vẽ đoạn BC thẳng hàng dài 3cm. Đoạn AC dài mấy cm?"
+          ],
+          [
+            "Thực hành gấp tờ giấy hình vuông ",
+            "theo đường chéo và cho biết em được hình gì."
+          ],
+          [
+            "Dùng các que tính ",
+            "xếp thành một hình tam giác và một hình tứ giác."
+          ],
+          [
+            "Xếp các que tính ",
+            "thành một hình chữ nhật có cạnh dài, cạnh ngắn."
+          ],
+          [
+            "Dùng giấy thủ công xếp hình chú cá bơi lội ",
+            "và dán vào vở."
+          ],
+          [
+            "Dùng giấy thủ công xếp hình ngôi nhà đơn giản ",
+            "gồm mái tam giác và tường tứ giác."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 28. Luyện tập chung",
+        "concept": "Chúng mình cùng ôn luyện nhận dạng hình học, đo độ dài đoạn thẳng và đếm hình tam giác, tứ giác.",
+        "formula": "",
+        "skills": [
+          [
+            "Đếm hình thông minh ",
+            "không bỏ sót."
+          ],
+          [
+            "Giải bài toán hình học thực tế.",
+            ""
+          ]
+        ],
+        "real_world": "Đo chiều dài và vẽ lại sơ đồ chiếc bàn học xinh xắn của em.",
+        "image": null,
+        "questions": [
+          [
+            "Đoạn thẳng MN dài hơn đoạn thẳng PQ 3cm. ",
+            "PQ dài 5cm. Hỏi MN dài bao nhiêu cm?"
+          ],
+          [
+            "Một hình tam giác và một hình tứ giác, ",
+            "hình nào có nhiều góc hơn? Nhiều hơn mấy góc?"
+          ],
+          [
+            "Làm thế nào để đếm hình tam giác ",
+            "bằng phương pháp đánh số?"
+          ],
+          [
+            "Tính độ dài đường gấp khúc AB-BC-CD ",
+            "nếu cả 3 đoạn thẳng đều dài 5cm."
+          ],
+          [
+            "Một hình tứ giác có các cạnh dài bằng nhau ",
+            "được gọi là hình gì?"
+          ],
+          [
+            "Chu vi hình tam giác ABC ",
+            "có phụ thuộc vào thứ tự cộng các cạnh không? Vì sao?"
+          ],
+          [
+            "Nêu tên các đoạn thẳng trong hình chữ nhật ABCD ",
+            "gồm các đỉnh A, B, C, D."
+          ],
+          [
+            "Làm sao dùng thước kẻ để kiểm tra ",
+            "ba điểm có thẳng hàng hay không?"
+          ],
+          [
+            "Ba điểm thẳng hàng có thể tạo thành hình tam giác được không? ",
+            "Vì sao?"
+          ],
+          [
+            "Kể tên các đường gấp khúc em nhìn thấy ",
+            "trên khung cửa sổ lớp học."
+          ]
+        ],
+        "exercises": [
+          [
+            "Đo và ghi lại độ dài các cạnh ",
+            "của hình tam giác ABC cho sẵn trên giấy, sau đó tính chu vi của nó."
+          ],
+          [
+            "Tính độ dài đường gấp khúc gồm 4 đoạn thẳng, ",
+            "mỗi đoạn dài 3cm. (Trình bày bài giải)"
+          ],
+          [
+            "Đếm số hình tam giác ",
+            "có trong hình vuông được chia đôi bởi một đường chéo."
+          ],
+          [
+            "Đếm số hình tứ giác ",
+            "có trong hình vẽ gồm 3 hình chữ nhật nhỏ xếp chồng lên nhau."
+          ],
+          [
+            "Vẽ đoạn thẳng AB dài 7cm. ",
+            "Dùng thước đánh dấu điểm C nằm giữa A và B sao cho AC dài 3cm. Tính độ dài BC."
+          ],
+          [
+            "Tính chu vi hình tam giác ",
+            "có các cạnh dài 6cm, 8cm, 10cm."
+          ],
+          [
+            "Tính chu vi hình tứ giác ",
+            "có các cạnh dài 5cm, 6cm, 7cm, 8cm."
+          ],
+          [
+            "Một hình chữ nhật có chiều dài 6cm, chiều rộng 4cm. ",
+            "Tính chu vi hình chữ nhật đó (bằng tổng 4 cạnh)."
+          ],
+          [
+            "Đoạn dây dài 24cm được uốn thành hình tam giác ",
+            "có 3 cạnh bằng nhau. Hỏi mỗi cạnh dài mấy xăng-ti-mét?"
+          ],
+          [
+            "Vẽ ba điểm thẳng hàng D, E, F ",
+            "sao cho DE = 3cm, EF = 4cm. Đo và tính độ dài DF."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "Chủ đề 6: Ngày - giờ, giờ - phút, ngày - tháng",
+    "lessons": [
+      {
+        "title": "Bài 29. Ngày - giờ, giờ - phút",
+        "concept": "Một ngày đêm kéo dài 24 tiếng. Chiếc đồng hồ tròn giúp chúng mình xem giờ:\n• Kim ngắn chạy chậm dùng để chỉ **Giờ**.\n• Kim dài chạy nhanh dùng để chỉ **Phút**.\n• Khi kim dài chỉ số 12, đó là **giờ đúng**. Chỉ số 3 là **15 phút**. Chỉ số 6 là **30 phút** (còn gọi là giờ rưỡi).",
+        "formula": "• 1 ngày = 24 giờ.\n• 1 giờ = 60 phút.\n• Xem giờ hơn:\n  - Kim dài chỉ số 3 -> đọc là \"... giờ 15 phút\".\n  - Kim dài chỉ số 6 -> đọc là \"... giờ 30 phút\" hoặc \"... giờ rưỡi\".",
+        "skills": [
+          [
+            "Xem đúng giờ đúng, giờ 15 phút, giờ rưỡi ",
+            "trên đồng hồ kim."
+          ],
+          [
+            "Phân biệt ",
+            "giờ sáng, chiều, tối."
+          ]
+        ],
+        "real_world": "Em thức dậy lúc 6 giờ sáng để đi học. Em ăn trưa lúc 11 giờ rưỡi. Em đi ngủ lúc 9 giờ tối (21 giờ).",
+        "image": [
+          "images/clock_face.png",
+          5.5,
+          "Đồng hồ chỉ 8 giờ 15 phút và 8 giờ 30 phút (8 giờ rưỡi)"
+        ],
+        "questions": [
+          [
+            "Một ngày đêm có bao nhiêu giờ? ",
+            "Bắt đầu từ lúc nào?"
+          ],
+          [
+            "Kim ngắn của đồng hồ dùng để chỉ gì? ",
+            "Kim dài dùng để chỉ gì?"
+          ],
+          [
+            "Khi kim dài chỉ đúng số 12, ",
+            "đồng hồ chỉ giờ gì?"
+          ],
+          [
+            "Khi kim dài chỉ đúng số 3, ",
+            "đồng hồ chỉ bao nhiêu phút?"
+          ],
+          [
+            "Khi kim dài chỉ đúng số 6, ",
+            "đồng hồ chỉ bao nhiêu phút? Có tên gọi nào khác?"
+          ],
+          [
+            "Một giờ có bao nhiêu phút? ",
+            "Kim dài đi được mấy vòng thì hết 1 giờ?"
+          ],
+          [
+            "Phân biệt giờ sáng và giờ chiều. ",
+            "14 giờ là mấy giờ chiều?"
+          ],
+          [
+            "Phân biệt giờ tối và giờ đêm. ",
+            "20 giờ là mấy giờ tối?"
+          ],
+          [
+            "Tại sao một ngày kim giờ lại quay được 2 vòng ",
+            "quanh mặt đồng hồ 12 số?"
+          ],
+          [
+            "Nếu kim giờ chỉ giữa số 8 và 9, kim phút chỉ số 6, ",
+            "đây là mấy giờ?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đọc giờ trên các đồng hồ kim sau: ",
+            "Đồng hồ A: kim ngắn chỉ số 7, kim dài chỉ số 12; Đồng hồ B: kim ngắn chỉ số 9, kim dài chỉ số 3."
+          ],
+          [
+            "Đọc giờ trên các đồng hồ sau: ",
+            "Đồng hồ C: kim ngắn chỉ số 4, kim dài chỉ số 6; Đồng hồ D: kim ngắn chỉ số 12, kim dài chỉ số 6."
+          ],
+          [
+            "Quy đổi giờ: ",
+            "13 giờ = ... giờ chiều;  17 giờ = ... giờ chiều;  21 giờ = ... giờ tối."
+          ],
+          [
+            "Quy đổi giờ: ",
+            "3 giờ chiều = ... giờ;  8 giờ tối = ... giờ;  12 giờ đêm = ... giờ."
+          ],
+          [
+            "Bé học bài lúc 8 giờ tối. ",
+            "Đồng hồ điện tử của bé sẽ hiển thị số mấy?"
+          ],
+          [
+            "Mẹ đi làm lúc 7 giờ sáng và về nhà lúc 5 giờ chiều. ",
+            "Hỏi mẹ vắng nhà bao nhiêu giờ?"
+          ],
+          [
+            "Buổi học bắt đầu lúc 8 giờ sáng và kết thúc lúc 11 giờ sáng. ",
+            "Hỏi buổi học kéo dài bao nhiêu giờ? (Trình bày bài giải)"
+          ],
+          [
+            "Bé xem phim hoạt hình từ 7 giờ tối đến 7 giờ 30 phút tối. ",
+            "Hỏi bé xem phim trong bao nhiêu phút?"
+          ],
+          [
+            "Xe khởi hành từ Hà Nội lúc 6 giờ sáng và đến Hải Phòng lúc 8 giờ 30 phút sáng. ",
+            "Hỏi xe đi mất bao nhiêu giờ và phút?"
+          ],
+          [
+            "Kim dài đồng hồ chạy từ số 12 đến số 3 mất bao nhiêu phút? ",
+            "Chạy từ số 12 đến số 6 mất bao nhiêu phút?"
+          ]
+        ],
+        "visualizerType": "InteractiveClock",
+        "visualizerConfig": {}
+      },
+      {
+        "title": "Bài 30. Ngày - tháng",
+        "concept": "Thời gian dài hơn được đo bằng ngày và tháng. Một năm có 12 tháng. Quyển lịch giúp em biết hôm nay là thứ mấy, ngày mấy. Một tuần lễ có 7 ngày quay vòng liên tục từ Thứ Hai đến Chủ nhật.",
+        "formula": "• 1 tuần = 7 ngày.\n• Cách tìm ngày tuần sau: Ngày tuần sau = Ngày tuần này + 7 (Ví dụ: Thứ Ba ngày 1 thì Thứ Ba tuần sau là ngày 8).",
+        "skills": [
+          [
+            "Đọc thông thạo tờ lịch ngày và tờ lịch tháng.",
+            ""
+          ],
+          [
+            "Tính toán khoảng cách ngày đơn giản ",
+            "trong tháng."
+          ]
+        ],
+        "real_world": "Xem lịch biết hôm nay thứ Sáu ngày 20. Ngày mai thứ Bảy sẽ là ngày 21 được nghỉ học đi chơi công viên.",
+        "image": null,
+        "questions": [
+          [
+            "Một tuần lễ có bao nhiêu ngày? ",
+            "Kể tên các ngày theo thứ tự."
+          ],
+          [
+            "Một năm có bao nhiêu tháng? ",
+            "Kể tên tháng đầu tiên và tháng cuối cùng."
+          ],
+          [
+            "Tờ lịch tháng giúp em biết ",
+            "những thông tin gì?"
+          ],
+          [
+            "Nếu hôm nay là thứ Hai thì ngày mai ",
+            "là thứ mấy?"
+          ],
+          [
+            "Nếu hôm nay là thứ Năm thì ngày hôm qua ",
+            "là thứ mấy?"
+          ],
+          [
+            "Một tháng thường có bao nhiêu ngày? ",
+            "(Kể các số ngày phổ biến)."
+          ],
+          [
+            "Tháng nào trong năm có ít ngày nhất? ",
+            "Có bao nhiêu ngày?"
+          ],
+          [
+            "Làm sao để tìm ngày thứ Ba tuần sau ",
+            "khi biết thứ Ba tuần này? (Cộng thêm mấy?)"
+          ],
+          [
+            "Làm sao để tìm ngày thứ Sáu tuần trước ",
+            "khi biết thứ Sáu tuần này? (Bớt đi mấy?)"
+          ],
+          [
+            "Cách đọc ngày tháng: ",
+            "ngày đọc trước hay tháng đọc trước?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Hôm nay là thứ Ba ngày 15. ",
+            "Hỏi thứ Ba tuần sau là ngày mùng mấy?"
+          ],
+          [
+            "Hôm nay là thứ Sáu ngày 20. ",
+            "Hỏi thứ Sáu tuần trước là ngày mùng mấy?"
+          ],
+          [
+            "Xem tờ lịch tháng 10 và cho biết: ",
+            "Ngày 20 tháng 10 là thứ mấy?"
+          ],
+          [
+            "Nếu thứ Bảy tuần này là ngày 5 ",
+            "thì thứ Bảy tuần sau là ngày mấy?"
+          ],
+          [
+            "Bố đi công tác 1 tuần và 3 ngày. ",
+            "Hỏi bố đi công tác tất cả bao nhiêu ngày? (Trình bày bài giải)"
+          ],
+          [
+            "Lớp học vẽ bắt đầu vào ngày 8 tháng 9 ",
+            "và kéo dài đúng 2 tuần. Hỏi lớp kết thúc vào ngày mùng mấy tháng 9?"
+          ],
+          [
+            "Điền vào chỗ trống các ngày còn thiếu trong tuần: ",
+            "Thứ Hai, Thứ Ba, ..., Thứ Năm, ..., Thứ Bảy, ..."
+          ],
+          [
+            "Kể tên 3 tháng có 31 ngày ",
+            "và 3 tháng có 30 ngày (nếu em biết)."
+          ],
+          [
+            "Nếu hôm qua là thứ Sáu ngày 12 ",
+            "thì ngày mai là thứ mấy ngày mùng mấy?"
+          ],
+          [
+            "Tờ lịch tháng 11 có 5 ngày Chủ nhật. ",
+            "Nếu Chủ nhật đầu tiên là ngày 1 thì Chủ nhật tiếp theo là ngày mấy?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+        "concept": "Thực hành tự xem đồng hồ kim và xem lịch tháng để lập thời gian biểu khoa học cho bản thân: giờ nào việc nấy, từ lúc thức dậy, học tập, vui chơi cho đến khi đi ngủ đúng giờ.",
+        "formula": "",
+        "skills": [
+          [
+            "Tự xem giờ và lịch cá nhân ",
+            "để tự giác học tập đúng giờ."
+          ],
+          [
+            "Thiết lập thời gian biểu ",
+            "hoạt động hàng ngày."
+          ]
+        ],
+        "real_world": "Lập thời gian biểu ngày Chủ nhật: 8 giờ sáng tập thể dục, 9 giờ học bài, 15 giờ chiều đi đá bóng, 20 giờ tối xem phim.",
+        "image": null,
+        "questions": [
+          [
+            "Thời gian biểu là gì? ",
+            "Nó giúp ích gì cho cuộc sống của em?"
+          ],
+          [
+            "Mô tả hoạt động em thường làm lúc 7 giờ sáng ",
+            "và lúc 9 giờ tối."
+          ],
+          [
+            "Khi lập thời gian biểu, ",
+            "em viết giờ sáng, chiều, tối như thế nào cho rõ ràng?"
+          ],
+          [
+            "Làm thế nào để biết thời gian em làm bài tập ",
+            "kéo dài bao nhiêu phút?"
+          ],
+          [
+            "Tại sao xem lịch giúp em ",
+            "chuẩn bị bài học tốt hơn?"
+          ],
+          [
+            "Nếu em muốn lên kế hoạch đi dã ngoại vào Chủ nhật, ",
+            "em cần xem đồng hồ hay xem lịch trước? Vì sao?"
+          ],
+          [
+            "Em thường thức dậy lúc mấy giờ? ",
+            "Đồng hồ chỉ kim ngắn và kim dài ở số mấy khi đó?"
+          ],
+          [
+            "Em đi ngủ lúc mấy giờ? ",
+            "Đồng hồ kim ngắn và kim dài ở số mấy khi đó?"
+          ],
+          [
+            "Làm sao em biết thời gian trôi qua nhanh hay chậm ",
+            "khi em học bài và chơi game?"
+          ],
+          [
+            "Tại sao việc đi ngủ đúng giờ ",
+            "lại giúp cơ thể em khỏe mạnh?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tự lập thời gian biểu buổi sáng Chủ nhật của em: ",
+            "tập thể dục, ăn sáng, học bài."
+          ],
+          [
+            "Tự lập thời gian biểu buổi chiều Chủ nhật của em: ",
+            "đi đá bóng, giúp mẹ quét nhà."
+          ],
+          [
+            "Tính thời gian: ",
+            "Lan làm bài tập bắt đầu lúc 19 giờ 15 phút và xong lúc 19 giờ 45 phút. Hỏi Lan làm bài mất bao nhiêu phút?"
+          ],
+          [
+            "Tính thời gian: ",
+            "Hà quét dọn nhà cửa từ 16 giờ đến 16 giờ 45 phút. Hỏi Hà quét dọn trong bao nhiêu phút? (Trình bày bài giải)"
+          ],
+          [
+            "Xem lịch và ghi lại ngày sinh nhật ",
+            "của tất cả các thành viên trong gia đình em."
+          ],
+          [
+            "Lên kế hoạch đếm ngược: ",
+            "Nếu hôm nay là ngày 20, chuyến dã ngoại diễn ra ngày 25. Hỏi còn bao nhiêu ngày nữa?"
+          ],
+          [
+            "Bé tập vẽ tranh mất 30 phút. ",
+            "Bé bắt đầu vẽ lúc 9 giờ sáng. Hỏi bé vẽ xong lúc mấy giờ?"
+          ],
+          [
+            "Bố đi làm lúc 8 giờ sáng và về nhà lúc 17 giờ. ",
+            "Ghi lại thời gian bố vắng nhà theo đồng hồ điện tử và đồng hồ kim."
+          ],
+          [
+            "Mỗi ngày bé tự học ở nhà 1 giờ. ",
+            "Hỏi một tuần 7 ngày bé tự học bao nhiêu giờ ở nhà?"
+          ],
+          [
+            "Đồng hồ điện tử chỉ 19:30. ",
+            "Đồng hồ kim tương ứng sẽ chỉ kim ngắn và kim dài ở vị trí nào?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 32. Luyện tập chung",
+        "concept": "Chúng mình cùng giải các câu hỏi đố vui thực tế về thời gian, xem đồng hồ chỉ giờ khác nhau và giải bài toán liên quan đến lịch tháng.",
+        "formula": "",
+        "skills": [
+          [
+            "Tính khoảng thời gian trôi qua ",
+            "giữa hai thời điểm đơn giản."
+          ],
+          [
+            "Giải bài toán đố về thứ ngày tháng.",
+            ""
+          ]
+        ],
+        "real_world": "Bố đi công tác 1 tuần và 3 ngày. Bố đi công tác số ngày là: 7 + 3 = 10 ngày.",
+        "image": null,
+        "questions": [
+          [
+            "Nếu hôm nay là thứ Tư ngày 10, ",
+            "hôm qua là thứ mấy ngày mùng mấy?"
+          ],
+          [
+            "1 ngày có bao nhiêu giờ? ",
+            "1 tuần có bao nhiêu ngày?"
+          ],
+          [
+            "Đồng hồ chỉ 10 giờ rưỡi, ",
+            "đây là mấy giờ mấy phút?"
+          ],
+          [
+            "Đồng hồ chỉ 3 giờ 15 phút, ",
+            "kim dài đang chỉ đúng số mấy?"
+          ],
+          [
+            "Đồng hồ chỉ 6 giờ đúng, ",
+            "hai kim ngắn và kim dài tạo thành đường gì thẳng hàng?"
+          ],
+          [
+            "Xem lịch để chuẩn bị khai giảng: ",
+            "Khai giảng ngày 5 tháng 9, nếu là thứ Hai thì ngày 4 tháng 9 là thứ mấy?"
+          ],
+          [
+            "Phép tính thời gian: ",
+            "2 giờ + 3 giờ = 5 giờ. Phép tính này đúng hay sai?"
+          ],
+          [
+            "Phép tính thời gian: ",
+            "30 phút + 15 phút = ... phút."
+          ],
+          [
+            "Kim giờ đi hết 1 vòng mặt đồng hồ mất mấy giờ? ",
+            "Quay được mấy vòng trong một ngày?"
+          ],
+          [
+            "Tại sao đồng hồ kim chỉ có 12 số ",
+            "nhưng một ngày lại có 24 giờ?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính: ",
+            "2 giờ + 3 giờ = ...;  8 giờ - 5 giờ = ...;  12 giờ - 6 giờ = ..."
+          ],
+          [
+            "Tính: ",
+            "15 phút + 15 phút = ...;  30 phút - 15 phút = ...;  45 phút + 15 phút = ..."
+          ],
+          [
+            "Điền số: ",
+            "1 ngày = ... giờ;  1 tuần = ... ngày;  1 giờ = ... phút."
+          ],
+          [
+            "Hôm nay thứ Ba ngày 15. ",
+            "Thứ Ba tuần trước là ngày mấy? Thứ Ba tuần sau là ngày mấy?"
+          ],
+          [
+            "Tính: ",
+            "Một trận bóng đá bắt đầu lúc 15 giờ 15 phút và kết thúc lúc 17 giờ. Hỏi trận đấu kéo dài bao lâu?"
+          ],
+          [
+            "Nam giúp mẹ làm việc nhà trong 45 phút. ",
+            "Nam bắt đầu làm lúc 16 giờ. Hỏi Nam làm xong lúc mấy giờ mấy phút? (Trình bày bài giải)"
+          ],
+          [
+            "Bố đi công tác từ ngày 5 đến ngày 12 của tháng. ",
+            "Hỏi bố đi công tác bao nhiêu ngày?"
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "1 giờ ... 60 phút;  1 ngày ... 20 giờ;  1 giờ 15 phút ... 75 phút."
+          ],
+          [
+            "Đồng hồ điện tử chỉ 22:00. ",
+            "Đây là mấy giờ đêm?"
+          ],
+          [
+            "Tính thời gian học: ",
+            "Mỗi ngày Nam học ở trường 8 giờ, một tuần Nam học 5 ngày. Hỏi mỗi tuần Nam học bao nhiêu giờ ở trường?"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "theme": "Chủ đề 7: Ôn tập học kì I",
+    "lessons": [
+      {
+        "title": "Bài 33. Ôn tập phép cộng, phép trừ trong phạm vi 20, 100",
+        "concept": "Chúng mình cùng ôn tập lại toàn bộ các phép tính toán đã học: từ tính nhẩm nhanh không nhớ, cộng trừ qua 10, cho đến đặt tính dọc có nhớ trong phạm vi 100 để làm toán thật nhanh và chính xác nhé.",
+        "formula": "",
+        "skills": [
+          [
+            "Thực hiện tính nhẩm và tính dọc ",
+            "nhanh, chính xác."
+          ],
+          [
+            "Giải bài toán đố nhiều bước tính ",
+            "liên quan đến cộng trừ số học."
+          ]
+        ],
+        "real_world": "Tính tiền thối lại khi đi mua bánh kẹo giúp bố mẹ.",
+        "image": null,
+        "questions": [
+          [
+            "Nêu các phương pháp tính nhẩm nhanh ",
+            "trong phạm vi 20."
+          ],
+          [
+            "Nêu các quy tắc đặt tính có nhớ ",
+            "trong phạm vi 100."
+          ],
+          [
+            "Khi nào em thực hiện phép trừ có nhớ? ",
+            "Giải thích bằng ví dụ cột đơn vị."
+          ],
+          [
+            "Muốn tìm số hạng chưa biết, ",
+            "ta lấy tổng trừ đi số hạng đã biết. Đúng hay sai?"
+          ],
+          [
+            "Muốn tìm số trừ chưa biết, ",
+            "ta lấy hiệu cộng với số bị trừ. Đúng hay sai?"
+          ],
+          [
+            "Tính nhẩm nhanh 80 - 30 ",
+            "và giải thích cách tính nhẩm chục."
+          ],
+          [
+            "Tại sao việc cộng trừ thẳng cột ",
+            "lại rất quan trọng trong toán học dọc?"
+          ],
+          [
+            "Số 0 trong phép trừ ",
+            "có tính chất gì đặc biệt?"
+          ],
+          [
+            "Hãy nêu một phép cộng có tổng là 100 ",
+            "từ hai số có hai chữ số."
+          ],
+          [
+            "Phép tính 62 - 27 ",
+            "có nhớ hay không? Nhớ bớt đi mấy chục?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "9 + 5;  8 + 7;  12 - 5;  14 - 6;  15 - 8."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "45 + 28;  62 - 27;  36 + 19;  81 - 45."
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 18 = 45;  X - 27 = 35;  62 - X = 35."
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "45 + 18 - 27 = ...;  92 - 27 + 15 = ...;  36 + 24 - 18 = ..."
+          ],
+          [
+            "Điền số thích hợp vào ô trống: ",
+            "28 + [ ] = 61;  62 - [ ] = 35;  [ ] + 27 = 62."
+          ],
+          [
+            "Giải bài toán: ",
+            "Một cửa hàng có 92 lít dầu ăn, đã bán đi 27 lít. Hỏi cửa hàng còn lại bao nhiêu lít dầu ăn?"
+          ],
+          [
+            "Giải bài toán: ",
+            "Lan gấp được 38 ngôi sao, Bình gấp được nhiều hơn Lan 15 ngôi sao. Hỏi Bình gấp được bao nhiêu ngôi sao? (Trình bày bài giải)"
+          ],
+          [
+            "So sánh: ",
+            "36 + 25 ... 62 - 1;  62 - 27 ... 35;  45 + 18 ... 92 - 27."
+          ],
+          [
+            "Viết các số ",
+            "61, 35, 62, 45 theo thứ tự từ bé đến lớn."
+          ],
+          [
+            "Tính nhanh: ",
+            "28 + 15 + 12 - 5 = ...;  36 + 24 - 15 + 5 = ..."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 34. Ôn tập hình phẳng",
+        "concept": "Cùng ôn tập và kiểm tra lại khả năng nhận diện hình phẳng: điểm, đoạn thẳng, đường thẳng, đường cong, đường gấp khúc, ba điểm thẳng hàng, hình tam giác, hình tứ giác.",
+        "formula": "",
+        "skills": [
+          [
+            "Đo độ dài đoạn thẳng chính xác ",
+            "bằng thước kẻ."
+          ],
+          [
+            "Tính độ dài đường gấp khúc ",
+            "và chu vi các hình phẳng."
+          ]
+        ],
+        "real_world": "Đo chiều dài mép bàn học hoặc mép cuốn sách truyện tranh.",
+        "image": null,
+        "questions": [
+          [
+            "Kể tên tất cả các loại hình phẳng ",
+            "em đã học học kỳ I."
+          ],
+          [
+            "Điểm khác biệt chính giữa đoạn thẳng và đường thẳng ",
+            "là gì?"
+          ],
+          [
+            "Thế nào là ba điểm thẳng hàng? ",
+            "Làm sao dùng thước kẻ để kiểm tra?"
+          ],
+          [
+            "Đường gấp khúc gồm những gì ghép lại? ",
+            "Nêu công thức tính độ dài."
+          ],
+          [
+            "Hình tam giác có mấy cạnh, mấy đỉnh? ",
+            "Hình tứ giác có mấy cạnh, mấy đỉnh?"
+          ],
+          [
+            "Có thể uốn đoạn dây đồng thẳng thành hình tam giác được không? ",
+            "Chu vi hình tam giác khi đó thế nào?"
+          ],
+          [
+            "Khi đếm hình tam giác, ",
+            "làm sao để không bị đếm thiếu hình ghép lớn?"
+          ],
+          [
+            "Một hình vuông có cạnh dài 5cm. ",
+            "Tính chu vi hình vuông đó."
+          ],
+          [
+            "Một hình chữ nhật có cạnh dài 6cm, cạnh ngắn 4cm. ",
+            "Tính chu vi hình chữ nhật đó."
+          ],
+          [
+            "Tại sao mép thước kẻ thẳng ",
+            "lại giúp em vẽ đoạn thẳng đẹp?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Đo và ghi lại độ dài các cạnh ",
+            "của hình tam giác ABC cho sẵn trên giấy, sau đó tính chu vi của nó."
+          ],
+          [
+            "Tính độ dài đường gấp khúc gồm 4 đoạn thẳng, ",
+            "mỗi đoạn dài 4cm. (Trình bày bài giải)"
+          ],
+          [
+            "Đếm số hình tam giác ",
+            "có trong hình vẽ cho sẵn gồm 3 hình tam giác nhỏ ghép lại."
+          ],
+          [
+            "Đếm số hình tứ giác ",
+            "có trong hình vẽ cho sẵn gồm 2 hình vuông nhỏ ghép sát nhau."
+          ],
+          [
+            "Vẽ đoạn thẳng AB dài 6cm. ",
+            "Đánh dấu điểm C nằm giữa A và B sao cho AC dài 2cm. Tính độ dài BC."
+          ],
+          [
+            "Tính chu vi hình tam giác ",
+            "có các cạnh dài 5cm, 7cm, 9cm."
+          ],
+          [
+            "Tính chu vi hình tứ giác ",
+            "có các cạnh dài 4cm, 5cm, 6cm, 7cm."
+          ],
+          [
+            "Đoạn dây dài 30cm được uốn thành hình tam giác ",
+            "có 3 cạnh bằng nhau. Hỏi mỗi cạnh dài mấy xăng-ti-mét?"
+          ],
+          [
+            "Vẽ ba điểm thẳng hàng D, E, F ",
+            "sao cho DE = 2cm, EF = 5cm. Đo và tính độ dài DF."
+          ],
+          [
+            "Dùng thước và bút chì vẽ một đường gấp khúc ",
+            "gồm 3 đoạn thẳng có độ dài lần lượt là 3cm, 4cm, 5cm."
+          ]
+        ]
+      },
+      {
+        "title": "Bài 35. Ôn tập đo lường",
+        "concept": "Ôn tập lại các kiến thức đo lường thực tế: khối lượng (kg), dung tích (lít), và thời gian (ngày, giờ, phút, tháng).",
+        "formula": "",
+        "skills": [
+          [
+            "Giải bài toán đo lường ",
+            "có kèm đơn vị đo."
+          ],
+          [
+            "Đọc đúng chỉ số đo lường trong cuộc sống.",
+            ""
+          ]
+        ],
+        "real_world": "Ước lượng cân nặng balo đi học hoặc tính lượng nước uống tốt cho cơ thể.",
+        "image": null,
+        "questions": [
+          [
+            "Nêu các đơn vị đo lường em đã học ",
+            "ở học kỳ I."
+          ],
+          [
+            "Đơn vị kg dùng để đo đại lượng nào? ",
+            "Kể tên 3 vật nặng khoảng 1kg."
+          ],
+          [
+            "Đơn vị lít dùng để đo đại lượng nào? ",
+            "Kể tên 3 vật chứa được khoảng 1 lít chất lỏng."
+          ],
+          [
+            "1 ngày có bao nhiêu giờ? ",
+            "Một tuần có bao nhiêu ngày?"
+          ],
+          [
+            "Kim ngắn và kim dài chỉ số mấy ",
+            "khi đồng hồ chỉ 10 giờ rưỡi?"
+          ],
+          [
+            "Kim dài chỉ số 3 tương ứng với bao nhiêu phút? ",
+            "Chỉ số 6 tương ứng bao nhiêu phút?"
+          ],
+          [
+            "Nếu hôm nay thứ Ba ngày 15, ",
+            "thứ Ba tuần sau là ngày mấy?"
+          ],
+          [
+            "Bố đi công tác 1 tuần và 3 ngày, ",
+            "tổng số ngày bố đi công tác là bao nhiêu?"
+          ],
+          [
+            "Làm sao em đong được 5 lít nước ",
+            "nếu em chỉ có ca 1 lít và ca 2 lít?"
+          ],
+          [
+            "Tại sao đo lường giúp chúng ta ",
+            "mua sắm và sinh hoạt khoa học hơn?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính: ",
+            "15kg + 7kg - 8kg = ...;  20l - 8l + 5l = ...;  2 giờ + 3 giờ = ..."
+          ],
+          [
+            "Tính: ",
+            "15 phút + 30 phút = ...;  1 giờ - 20 phút = ...;  30 phút - 15 phút = ..."
+          ],
+          [
+            "Điền số: ",
+            "1 ngày = ... giờ;  1 tuần = ... ngày;  1 giờ = ... phút."
+          ],
+          [
+            "Hôm nay thứ Sáu ngày 20. ",
+            "Thứ Sáu tuần trước là ngày mấy? Thứ Sáu tuần sau là ngày mấy?"
+          ],
+          [
+            "Bao ngô nặng 25kg, ",
+            "bao thóc nặng hơn bao ngô 5kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam?"
+          ],
+          [
+            "Thùng thứ nhất đựng 15 lít sơn, ",
+            "thùng thứ hai đựng nhiều hơn thùng thứ nhất 4 lít. Hỏi thùng thứ hai đựng bao nhiêu lít sơn?"
+          ],
+          [
+            "Con lợn nặng 50kg, ",
+            "con chó nhẹ hơn con lợn 38kg. Hỏi con chó nặng bao nhiêu ki-lô-gam? (Trình bày bài giải)"
+          ],
+          [
+            "Can A đựng 8 lít nước ngọt, ",
+            "can B đựng 12 lít. Người ta đổ chung cả hai can vào một thùng. Hỏi thùng có bao nhiêu lít?"
+          ],
+          [
+            "Đồng hồ điện tử chỉ 20:30. ",
+            "Đây là mấy giờ tối? Đồng hồ kim tương ứng chỉ kim ngắn, kim dài thế nào?"
+          ],
+          [
+            "Mỗi ngày bé tự học ở nhà 1 giờ. ",
+            "Hỏi một tuần 7 ngày bé tự học bao nhiêu giờ ở nhà?"
+          ]
+        ]
+      },
+      {
+        "title": "Bài 36. Ôn tập chung",
+        "concept": "Đây là bài kiểm tra tổng hợp cuối học kỳ I giúp em tự tin chuẩn bị bước sang học kỳ II với nhiều bài toán mới cực kỳ thú vị nhé.",
+        "formula": "",
+        "skills": [
+          [
+            "Giải quyết trọn vẹn và tự tin ",
+            "các đề kiểm tra toán tổng hợp cuối học kỳ I."
+          ]
+        ],
+        "real_world": "Rèn luyện tính cẩn thận, tỉ mỉ khi làm bài thi và giải quyết vấn đề thực tế.",
+        "image": null,
+        "questions": [
+          [
+            "Số lớn nhất có hai chữ số tròn chục ",
+            "là số nào?"
+          ],
+          [
+            "Hiệu của số liền sau 50 và số liền trước 20 ",
+            "là bao nhiêu?"
+          ],
+          [
+            "Trong phép cộng, khi đổi chỗ hai số hạng ",
+            "thì tổng thay đổi như thế nào?"
+          ],
+          [
+            "Trong phép trừ, nếu tăng số trừ thêm 3 đơn vị ",
+            "thì hiệu mới thay đổi thế nào?"
+          ],
+          [
+            "Hình tam giác và hình tứ giác ghép sát nhau ",
+            "có thể tạo thành một hình tứ giác lớn không?"
+          ],
+          [
+            "Một ngày kim phút đồng hồ quay được ",
+            "bao nhiêu vòng quanh mặt đồng hồ?"
+          ],
+          [
+            "Nếu ngày 30 tháng 10 là thứ Bảy, ",
+            "ngày 1 tháng 11 của tháng sau là thứ mấy?"
+          ],
+          [
+            "Để cân quả mít nặng 7kg bằng cân đĩa, ",
+            "em cần xếp những quả cân nào ở đĩa bên kia?"
+          ],
+          [
+            "Nêu cách tính nhanh chuỗi tính: ",
+            "28 + 15 + 12 - 5."
+          ],
+          [
+            "Tại sao việc ôn tập lại toàn bộ kiến thức ",
+            "giúp em tự tin hơn khi làm bài thi học kỳ?"
+          ]
+        ],
+        "exercises": [
+          [
+            "Tính nhẩm nhanh: ",
+            "36 + 25;  62 - 27;  45 + 18;  92 - 27;  15 - 7;  8 + 6."
+          ],
+          [
+            "Đặt tính rồi tính: ",
+            "45 + 38;  81 - 45;  28 + 17;  62 - 27."
+          ],
+          [
+            "Tìm X biết: ",
+            "X + 18 = 45;  X - 27 = 35;  62 - X = 35."
+          ],
+          [
+            "Tính giá trị biểu thức: ",
+            "45 + 18 - 27 = ...;  92 - 27 + 15 = ...;  36 + 24 - 18 = ..."
+          ],
+          [
+            "Điền số thích hợp: ",
+            "28 + [ ] = 61;  62 - [ ] = 35;  [ ] + 27 = 62."
+          ],
+          [
+            "Giải toán: ",
+            "Cửa hàng có 92 lít dầu ăn, đã bán đi 27 lít. Hỏi cửa hàng còn lại bao nhiêu lít dầu ăn?"
+          ],
+          [
+            "Giải toán: ",
+            "Bao ngô nặng 45kg, bao thóc nặng hơn bao ngô 18kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam? (Trình bày bài giải)"
+          ],
+          [
+            "Điền dấu >, <, =: ",
+            "36 + 25 ... 62 - 1;  62 - 27 ... 35;  45 + 18 ... 92 - 27."
+          ],
+          [
+            "Viết các số ",
+            "61, 35, 62, 45 theo thứ tự từ bé đến lớn."
+          ],
+          [
+            "Tính nhanh: ",
+            "28 + 15 + 12 - 5 = ...;  36 + 24 - 15 + 5 = ..."
+          ]
+        ]
+      }
+    ]
+  }
+]

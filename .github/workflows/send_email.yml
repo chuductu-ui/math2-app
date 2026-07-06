@@ -1,0 +1,45 @@
+name: Send Submission Email
+
+on:
+  push:
+    paths:
+      - 'submissions/**'
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Get modified files
+        id: files
+        run: |
+          # Get list of added files in submissions directory
+          ADDED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '^submissions/' || true)
+          echo "files=$ADDED_FILES" >> $GITHUB_OUTPUT
+
+      - name: Send email
+        if: steps.files.outputs.files != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          # Bố mẹ có thể cấu hình các secrets này trong phần cài đặt repository trên GitHub
+          # Settings -> Secrets and variables -> Actions
+          server_address: ${{ secrets.SMTP_SERVER || 'smtp.gmail.com' }}
+          server_port: ${{ secrets.SMTP_PORT || 465 }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "[Toán 2] Bài làm mới của con trên GitHub"
+          to: "chu.duc.tu@gmail.com, thanhha.phth@gmail.com"
+          from: "Toán 2 Phiêu Lưu Ký <${{ secrets.SMTP_USERNAME }}>"
+          body: |
+            Chào bố mẹ,
+            Con đã hoàn thành xong một bài học mới và nộp bài làm lên GitHub!
+            
+            Các file bài làm mới được thêm vào:
+            ${{ steps.files.outputs.files }}
+            
+            Bố mẹ có thể kiểm tra trực tiếp các file JSON này trong thư mục submissions/ trên kho lưu trữ để xem câu trả lời của con và tiến hành chấm điểm nhé.
+            
+            Chúc con học tập vui vẻ!
+          convert_markdown: true

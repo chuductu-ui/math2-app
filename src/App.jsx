@@ -1,45 +1,70 @@
-import { useState, useEffect, useCallback } from 'react';
-import QuestMap from './components/QuestMap';
-import LessonDrawer from './components/LessonDrawer';
-import TheorySection from './components/TheorySection';
-import QuizSection from './components/QuizSection';
-import HistoryModal from './components/HistoryModal';
-import TableOfContentsModal from './components/TableOfContentsModal';
-import { getHistory, saveAttempt } from './utils/storage';
+import { useState, useEffect, useCallback, lazy, Suspense } from 'react';
+import { fetchProgress, saveProgress, submitAnswers } from './utils/githubSync';
 
-const MAX_HEARTS = 5;
+// Lazy-load visualizers to keep initial bundle small
+const visualizerMap = {
+  BaseTenBlocks: lazy(() => import('./components/visualizers/BaseTenBlocks')),
+  NumberLine: lazy(() => import('./components/visualizers/NumberLine')),
+  InteractiveEquation: lazy(() => import('./components/visualizers/InteractiveEquation')),
+  TenFrames: lazy(() => import('./components/visualizers/TenFrames')),
+  BalanceScale: lazy(() => import('./components/visualizers/BalanceScale')),
+  LitreCup: lazy(() => import('./components/visualizers/LitreCup')),
+  ShapeExplorer: lazy(() => import('./components/visualizers/ShapeExplorer')),
+  ShapeClassifier: lazy(() => import('./components/visualizers/ShapeClassifier')),
+  InteractiveClock: lazy(() => import('./components/visualizers/InteractiveClock')),
+  ItemDistributor: lazy(() => import('./components/visualizers/ItemDistributor')),
+};
 
 export default function App() {
-  // --- Data & loading ---
+  // --- States ---
   const [curriculum, setCurriculum] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
-  // --- Game state ---
-  const [hearts, setHearts] = useState(MAX_HEARTS);
+  
   const [selectedLesson, setSelectedLesson] = useState(null);
-  const [currentView, setCurrentView] = useState('map'); // map | theory | quiz
-  const [quizLevel, setQuizLevel] = useState(null); // easy | medium | hard
+  const [activeTab, setActiveTab] = useState('theory'); // 'theory' | 'practice'
+  const [answers, setAnswers] = useState({}); // { q_0: 'ans', e_0: 'ans' }
 
-  // progress: { [lessonId]: { easy: bestScore, medium: bestScore, hard: bestScore } }
-  const [progress, setProgress] = useState(() => {
+  // GitHub configuration (loaded from sessionStorage to satisfy "no local storage on machine")
+  const [config, setConfig] = useState(() => {
     try {
-      const saved = localStorage.getItem('math2_progress');
-      return saved ? JSON.parse(saved) : {};
+      const saved = sessionStorage.getItem('math2_github_config');
+      return saved ? JSON.parse(saved) : {
+        owner: '',
+        repo: '',
+        token: '',
+        emails: 'chu.duc.tu@gmail.com,thanhha.phth@gmail.com',
+        web3formsKey: '72e519e9-d754-47b2-a4e9-6f5dfdb3d1c1' // Default backup key
+      };
     } catch {
-      return {};
+      return {
+        owner: '',
+        repo: '',
+        token: '',
+        emails: 'chu.duc.tu@gmail.com,thanhha.phth@gmail.com',
+        web3formsKey: '72e519e9-d754-47b2-a4e9-6f5dfdb3d1c1'
+      };
     }
   });
 
-  const [historyList, setHistoryList] = useState([]);
-  const [showHistory, setShowHistory] = useState(false);
-  const [showToc, setShowToc] = useState(false);
+  // Learning progress: { theory_visits: { lessonTitle: dateString }, practice_completions: { lessonTitle: dateString } }
+  const [progress, setProgress] = useState({ theory_visits: {}, practice_completions: {} });
+  const [isSyncing, setIsSyncing] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null); // null | 'submitting' | 'success' | 'error'
 
-  // --- Fetch lessons ---
+  // Settings form states
+  const [formOwner, setFormOwner] = useState(config.owner);
+  const [formRepo, setFormRepo] = useState(config.repo);
+  const [formToken, setFormToken] = useState(config.token);
+  const [formEmails, setFormEmails] = useState(config.emails);
+  const [formWeb3FormsKey, setFormWeb3FormsKey] = useState(config.web3formsKey);
+
+  // --- Load Curriculum ---
   useEffect(() => {
-    fetch('./lessons.json')
+    fetch('./lessons_grade2.json')
       .then((res) => {
-        if (!res.ok) throw new Error('Không tải được dữ liệu bài học');
+        if (!res.ok) throw new Error('Không tải được dữ liệu bài học. Hãy chạy script merge_curriculum trước.');
         return res.json();
       })
       .then((data) => {
@@ -52,122 +77,178 @@ export default function App() {
       });
   }, []);
 
-  // --- Persist progress ---
+  // --- Fetch Progress from GitHub when config changes or at startup ---
+  const syncProgress = useCallback(async (currentConfig) => {
+    if (currentConfig.owner && currentConfig.repo && currentConfig.token) {
+      setIsSyncing(true);
+      try {
+        const prg = await fetchProgress(currentConfig);
+        setProgress(prg);
+      } catch (err) {
+        console.error("Failed to load progress from GitHub:", err);
+      } finally {
+        setIsSyncing(false);
+      }
+    }
+  }, []);
+
   useEffect(() => {
-    localStorage.setItem('math2_progress', JSON.stringify(progress));
-  }, [progress]);
+    syncProgress(config);
+  }, [config, syncProgress]);
 
-  // --- Load history ---
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setHistoryList(getHistory());
-  }, [showHistory]);
-
-  // --- Flatten lessons for quest map ---
-  const allLessons = curriculum
-    ? curriculum.chapters.flatMap((ch) => ch.lessons)
-    : [];
-
-  // --- Check if a lesson is unlocked ---
-  const isLessonUnlocked = useCallback(
-    () => true,
-    []
-  );
-
-  // --- Handlers ---
+  // --- Select Lesson Handler ---
   const handleSelectLesson = (lesson) => {
     setSelectedLesson(lesson);
-  };
-
-  const handleCloseDrawer = () => {
-    setSelectedLesson(null);
-  };
-
-  const handleStartTheory = () => {
-    setCurrentView('theory');
-  };
-
-  const handleStartQuiz = (level) => {
-    setQuizLevel(level);
-    setCurrentView('quiz');
-  };
-
-  const handleBackToMap = () => {
-    setCurrentView('map');
-    setSelectedLesson(null);
-    setQuizLevel(null);
-  };
-
-  const recoverHearts = () => {
-    setHearts((prev) => Math.min(prev + 2, MAX_HEARTS));
-  };
-
-  const handleLevelCompleted = (lessonId, level, score, total) => {
-    const starsEarned = score === total ? 3 : score > 0 ? 1 : 0;
-
-    // Update progress (keep best score)
-    setProgress((prev) => {
-      const lessonProgress = prev[lessonId] || { easy: 0, medium: 0, hard: 0 };
-      const currentBest = lessonProgress[level] || 0;
-      if (starsEarned > currentBest) {
-        return {
-          ...prev,
-          [lessonId]: {
-            ...lessonProgress,
-            [level]: starsEarned,
-          },
-        };
+    setActiveTab('theory');
+    setAnswers({}); // Clear answers input for the new lesson
+    
+    // Immediately log the visit and push to GitHub
+    const timestamp = new Date().toISOString();
+    const updatedProgress = {
+      ...progress,
+      theory_visits: {
+        ...progress.theory_visits,
+        [lesson.title]: timestamp
       }
-      return prev;
+    };
+    setProgress(updatedProgress);
+
+    if (config.owner && config.repo && config.token) {
+      saveProgress(config, updatedProgress).catch((err) => {
+        console.error("Failed to save theory visit to GitHub:", err);
+      });
+    }
+  };
+
+  // --- Answer Change Handler ---
+  const handleAnswerChange = (key, value) => {
+    setAnswers((prev) => ({
+      ...prev,
+      [key]: value
+    }));
+  };
+
+  // --- Practice/Questions Submit Handler ---
+  const handleSubmit = async () => {
+    if (!selectedLesson) return;
+    setSubmitStatus('submitting');
+
+    // Structure Q&A data
+    const qaPairs = [];
+    selectedLesson.questions.forEach((q, idx) => {
+      qaPairs.push({
+        type: 'question',
+        num: idx + 1,
+        prompt: (q[0] + q[1]).trim(),
+        answer: answers[`q_${idx}`] || ''
+      });
+    });
+    selectedLesson.exercises.forEach((e, idx) => {
+      qaPairs.push({
+        type: 'exercise',
+        num: idx + 1,
+        prompt: (e[0] + e[1]).trim(),
+        answer: answers[`e_${idx}`] || ''
+      });
     });
 
-    // Save attempt to history
-    saveAttempt({
-      lessonId,
-      level,
-      score,
-      total,
-      date: new Date().toISOString(),
+    try {
+      const timestamp = new Date().toISOString();
+      const updatedProgress = {
+        ...progress,
+        practice_completions: {
+          ...progress.practice_completions,
+          [selectedLesson.title]: timestamp
+        }
+      };
+
+      // 1. Submit answers and send email
+      const submitConfig = {
+        ...config,
+        emails: config.emails.split(',').map(e => e.trim()).filter(Boolean)
+      };
+      
+      // Submit answers to GitHub repo & send parent emails via Web3Forms
+      await submitAnswers(submitConfig, selectedLesson.title, selectedLesson.title, qaPairs);
+
+      // 2. Commit updated progress file to GitHub
+      if (config.owner && config.repo && config.token) {
+        await saveProgress(config, updatedProgress);
+      }
+
+      // Update state
+      setProgress(updatedProgress);
+      setSubmitStatus('success');
+      setAnswers({}); // Clear answers
+    } catch (err) {
+      console.error("Submission failed:", err);
+      setSubmitStatus('error');
+    }
+  };
+
+  // --- Settings Handlers ---
+  const handleOpenSettings = () => {
+    setFormOwner(config.owner);
+    setFormRepo(config.repo);
+    setFormToken(config.token);
+    setFormEmails(config.emails);
+    setFormWeb3FormsKey(config.web3formsKey);
+    setShowSettings(true);
+  };
+
+  const handleSaveSettings = () => {
+    const newConfig = {
+      owner: formOwner.trim(),
+      repo: formRepo.trim(),
+      token: formToken.trim(),
+      emails: formEmails.trim(),
+      web3formsKey: formWeb3FormsKey.trim()
+    };
+    setConfig(newConfig);
+    sessionStorage.setItem('math2_github_config', JSON.stringify(newConfig));
+    setShowSettings(false);
+  };
+
+  // --- Formatting Helpers ---
+  const formatDate = (isoString) => {
+    if (!isoString) return '';
+    const date = new Date(isoString);
+    return date.toLocaleDateString('vi-VN', {
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit'
     });
   };
 
-  const handleSelectLessonFromToc = (lesson) => {
-    setShowToc(false);
-    setSelectedLesson(lesson);
-    // Scroll to the node
-    setTimeout(() => {
-      const node = document.getElementById(`node-${lesson.id}`);
-      if (node) {
-        node.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-    }, 100);
-  };
-
-  // --- Compute total stars from progress ---
-  const totalStars = Object.values(progress).reduce((sum, lp) => {
-    return sum + (lp.easy || 0) + (lp.medium || 0) + (lp.hard || 0);
-  }, 0);
-
-  // --- Render ---
+  // --- Render loading / error ---
   if (loading) {
     return (
-      <div className="app-loading">
-        <div className="loading-spinner">🐸</div>
-        <p>Đang tải bài học...</p>
+      <div className="loader-overlay">
+        <div className="loader-emoji">🐸</div>
+        <h2 className="loader-title">Đang chuẩn bị hành trình...</h2>
+        <p className="loader-desc">Tải dữ liệu toán học vui nhộn cho con...</p>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="app-error">
-        <div className="error-icon">😢</div>
-        <h2>Ôi không!</h2>
+      <div className="app-error" style={{ textAlign: 'center', padding: '100px 20px' }}>
+        <h1 style={{ fontSize: '4rem', margin: 0 }}>😢</h1>
+        <h2 style={{ color: 'red' }}>Lỗi Tải Bài Học</h2>
         <p>{error}</p>
-        <button onClick={() => window.location.reload()}>Thử lại</button>
+        <button onClick={() => window.location.reload()} style={{ padding: '12px 24px', fontSize: '1.2rem', cursor: 'pointer' }}>Tải lại trang</button>
       </div>
     );
   }
+
+  // Active lesson visualizer mapping
+  const VisualizerComponent = selectedLesson?.visualizerType
+    ? visualizerMap[selectedLesson.visualizerType]
+    : null;
+
+  const isConfigured = config.owner && config.repo && config.token;
 
   return (
     <div className="app">
@@ -177,99 +258,334 @@ export default function App() {
           <span className="mascot">🐸</span>
           <h1 className="app-title">Toán 2 Phiêu Lưu Ký</h1>
         </div>
-        <div className="header-center">
-          <span className="student-name">Bé</span>
-        </div>
         <div className="header-right">
-          <span className="hearts-display">
-            {Array.from({ length: MAX_HEARTS }, (_, i) => (
-              <span key={i} className={i < hearts ? 'heart active' : 'heart empty'}>
-                {i < hearts ? '❤️' : '🤍'}
-              </span>
-            ))}
-          </span>
-          <span className="stars-display">⭐ {totalStars}</span>
-          <button
-            className="header-btn toc-btn"
-            onClick={() => setShowToc(true)}
-            title="Mục lục"
-          >
-            📖
-          </button>
-          <button
-            className="header-btn history-btn"
-            onClick={() => setShowHistory(true)}
-            title="Lịch sử"
-          >
-            📊
+          <div className="sync-status">
+            {isSyncing ? (
+              <>🔄 Đang đồng bộ...</>
+            ) : isConfigured ? (
+              <>🟢 Đã đồng bộ GitHub</>
+            ) : (
+              <>🟡 Chế độ Ngoại tuyến</>
+            )}
+          </div>
+          <button className="settings-btn" onClick={handleOpenSettings} title="Thiết lập cho Bố Mẹ">
+            ⚙️ Bố Mẹ
           </button>
         </div>
       </header>
 
       {/* ===== MAIN CONTENT ===== */}
-      <main className="app-main">
-        {currentView === 'map' && (
-          <QuestMap
-            chapters={curriculum.chapters}
-            allLessons={allLessons}
-            progress={progress}
-            isLessonUnlocked={isLessonUnlocked}
-            onSelectLesson={handleSelectLesson}
-          />
-        )}
+      <div className="app-content">
+        
+        {/* SIDEBAR: Lesson List */}
+        <aside className="app-sidebar">
+          <h2 className="sidebar-title">📖 Các bài học của con</h2>
+          {curriculum.map((chapter, chIdx) => (
+            <div key={chIdx} className="chapter-group">
+              <div className="chapter-title">
+                {chapter.theme}
+              </div>
+              <div className="lessons-list">
+                {chapter.lessons.map((lesson, lIdx) => {
+                  const hasVisited = progress.theory_visits[lesson.title];
+                  const hasCompleted = progress.practice_completions[lesson.title];
+                  const isSelected = selectedLesson?.title === lesson.title;
 
-        {currentView === 'theory' && selectedLesson && (
-          <TheorySection
-            lesson={selectedLesson}
-            onBack={handleBackToMap}
-            recoverHearts={recoverHearts}
-            hearts={hearts}
-            maxHearts={MAX_HEARTS}
-          />
-        )}
+                  return (
+                    <button
+                      key={lIdx}
+                      className={`lesson-item-btn ${isSelected ? 'active' : ''} ${hasCompleted ? 'dim-grey' : ''}`}
+                      onClick={() => handleSelectLesson(lesson)}
+                    >
+                      <span className="lesson-item-title">{lesson.title}</span>
+                      <div className="lesson-badges">
+                        {hasVisited && (
+                          <span className="badge badge-visit" title={`Xem lý thuyết lần cuối: ${formatDate(hasVisited)}`}>
+                            👁️ Xem: {formatDate(hasVisited).split(' ')[0]}
+                          </span>
+                        )}
+                        {hasCompleted && (
+                          <span className="badge badge-complete" title={`Nộp bài lần cuối: ${formatDate(hasCompleted)}`}>
+                            ✅ Nộp: {formatDate(hasCompleted).split(' ')[0]}
+                          </span>
+                        )}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </aside>
 
-        {currentView === 'quiz' && selectedLesson && quizLevel && (
-          <QuizSection
-            lesson={selectedLesson}
-            level={quizLevel}
-            hearts={hearts}
-            setHearts={setHearts}
-            onCompleted={(score, total) =>
-              handleLevelCompleted(selectedLesson.id, quizLevel, score, total)
-            }
-            onBack={handleBackToMap}
-          />
-        )}
-      </main>
+        {/* WORKSPACE: Active Lesson Detail */}
+        <main className="app-workspace">
+          {selectedLesson ? (
+            <div className="lesson-card">
+              
+              <div className="lesson-header-bar">
+                <h2 className="lesson-title">{selectedLesson.title}</h2>
+              </div>
 
-      {/* ===== LESSON DRAWER ===== */}
-      {currentView === 'map' && selectedLesson && (
-        <LessonDrawer
-          lesson={selectedLesson}
-          progress={progress[selectedLesson.id] || {}}
-          onClose={handleCloseDrawer}
-          onStartTheory={handleStartTheory}
-          onStartQuiz={handleStartQuiz}
-        />
+              {/* Tab Navigation */}
+              <div className="lesson-tabs">
+                <button
+                  className={`tab-btn ${activeTab === 'theory' ? 'active' : ''}`}
+                  onClick={() => setActiveTab('theory')}
+                >
+                  📖 Lý thuyết trực quan
+                </button>
+                <button
+                  className={`tab-btn ${activeTab === 'practice' ? 'active' : ''}`}
+                  onClick={() => setActiveTab('practice')}
+                >
+                  ✏️ Luyện tập & Câu hỏi
+                </button>
+              </div>
+
+              {/* Tab Contents */}
+              <div className="tab-pane-content">
+                
+                {/* 1. THEORY TAB */}
+                {activeTab === 'theory' && (
+                  <div className="theory-content">
+                    {/* Concept */}
+                    <div className="theory-block block-concept">
+                      <h3 className="theory-block-title">💡 Khái niệm dễ hiểu</h3>
+                      <p className="theory-text">{selectedLesson.concept}</p>
+                    </div>
+
+                    {/* Formula (if any) */}
+                    {selectedLesson.formula && (
+                      <div className="theory-block block-formula">
+                        <h3 className="theory-block-title">⚡ Bí kíp Toán học</h3>
+                        <p className="theory-text">{selectedLesson.formula}</p>
+                      </div>
+                    )}
+
+                    {/* Skills */}
+                    <div className="theory-block block-skills">
+                      <h3 className="theory-block-title">⭐ Kỹ năng đạt được</h3>
+                      <ul className="skills-list">
+                        {selectedLesson.skills.map((skill, sIdx) => (
+                          <li key={sIdx}>
+                            <strong>{skill[0]}</strong>{skill[1]}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Real World */}
+                    <div className="theory-block block-realworld">
+                      <h3 className="theory-block-title">🌍 Thực tế xung quanh em</h3>
+                      <p className="theory-text">{selectedLesson.real_world}</p>
+                    </div>
+
+                    {/* Diagram Image */}
+                    {selectedLesson.image && (
+                      <div className="theory-image-container">
+                        <img
+                          src={`./${selectedLesson.image[0]}`}
+                          style={{ width: `${selectedLesson.image[1]}%` }}
+                          alt={selectedLesson.image[2]}
+                          className="theory-image"
+                        />
+                        <p className="theory-image-caption">{selectedLesson.image[2]}</p>
+                      </div>
+                    )}
+
+                    {/* Interactive Laboratory */}
+                    {VisualizerComponent && (
+                      <div className="visualizer-wrapper">
+                        <h3 className="visualizer-title">🔬 Phòng thực hành toán học</h3>
+                        <Suspense fallback={<div className="visualizer-loading">🐸 Đang chuẩn bị mô hình...</div>}>
+                          <VisualizerComponent config={selectedLesson.visualizerConfig || {}} />
+                        </Suspense>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {/* 2. PRACTICE TAB */}
+                {activeTab === 'practice' && (
+                  <div className="practice-content">
+                    <p className="practice-guide">
+                      🌟 <strong>Hướng dẫn:</strong> Con hãy gõ câu trả lời của mình vào các ô trống bên dưới nhé. Sau khi trả lời xong tất cả các câu, con hãy nhấn nút <strong>Hoàn thành</strong> màu xanh ở cuối trang để gửi kết quả cho bố mẹ chấm điểm nha!
+                    </p>
+
+                    {/* Questions */}
+                    <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', borderBottom: '2px solid var(--color-border)', paddingBottom: '8px', color: '#1E88E5', margin: '16px 0 8px 0' }}>
+                      Phần 1: Câu hỏi hiểu bài
+                    </h3>
+                    {selectedLesson.questions.map((q, idx) => (
+                      <div key={`q_${idx}`} className="item-card">
+                        <h4 className="item-label">Câu hỏi {idx + 1}</h4>
+                        <p className="item-prompt"><strong>{q[0]}</strong>{q[1]}</p>
+                        <textarea
+                          className="answer-textarea"
+                          placeholder="Nhập câu trả lời của con..."
+                          value={answers[`q_${idx}`] || ''}
+                          onChange={(e) => handleAnswerChange(`q_${idx}`, e.target.value)}
+                        />
+                      </div>
+                    ))}
+
+                    {/* Exercises */}
+                    <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', borderBottom: '2px solid var(--color-border)', paddingBottom: '8px', color: '#E91E63', margin: '32px 0 8px 0' }}>
+                      Phần 2: Bài tập luyện tập
+                    </h3>
+                    {selectedLesson.exercises.map((e, idx) => (
+                      <div key={`e_${idx}`} className="item-card">
+                        <h4 className="item-label">Bài tập {idx + 1}</h4>
+                        <p className="item-prompt"><strong>{e[0]}</strong>{e[1]}</p>
+                        <textarea
+                          className="answer-textarea"
+                          placeholder="Nhập câu trả lời của con..."
+                          value={answers[`e_${idx}`] || ''}
+                          onChange={(e) => handleAnswerChange(`e_${idx}`, e.target.value)}
+                        />
+                      </div>
+                    ))}
+
+                    {/* Submit Button */}
+                    <div className="submit-section">
+                      <button
+                        className="submit-btn"
+                        onClick={handleSubmit}
+                        disabled={!isConfigured}
+                        title={!isConfigured ? 'Bố mẹ cần cấu hình GitHub để con gửi bài' : 'Gửi bài làm cho bố mẹ'}
+                      >
+                        🚀 Hoàn thành & Gửi bài làm
+                      </button>
+                    </div>
+                    {!isConfigured && (
+                      <p style={{ textAlign: 'center', color: '#F57C00', fontWeight: 'bold', fontSize: '1.1rem', margin: 0 }}>
+                        ⚠️ Bố mẹ vui lòng nhấp nút <strong>⚙️ Bố Mẹ</strong> ở góc trên bên phải để cấu hình GitHub trước khi con làm bài nhé!
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+          ) : (
+            <div className="welcome-panel">
+              <div className="welcome-logo">🐸🌈✨</div>
+              <h2 className="welcome-title">Chào mừng con đến với thế giới Toán học!</h2>
+              <p className="welcome-desc">
+                Con hãy nhấp chuột chọn một bài học ở danh sách bên trái để bắt đầu khám phá các bí quyết toán học và thử sức làm bài tập nhé!
+              </p>
+            </div>
+          )}
+        </main>
+      </div>
+
+      {/* ===== PARENTS CONFIGURATION MODAL ===== */}
+      {showSettings && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h3 className="modal-title">⚙️ Cấu hình vùng dành cho Bố Mẹ</h3>
+            
+            <div className="form-group">
+              <label>Tên tài khoản GitHub (Username)</label>
+              <input
+                type="text"
+                placeholder="Ví dụ: chuductu-ui"
+                value={formOwner}
+                onChange={(e) => setFormOwner(e.target.value)}
+              />
+            </div>
+
+            <div className="form-group">
+              <label>Tên kho lưu trữ GitHub (Repository)</label>
+              <input
+                type="text"
+                placeholder="Ví dụ: toan2-cun"
+                value={formRepo}
+                onChange={(e) => setFormRepo(e.target.value)}
+              />
+            </div>
+
+            <div className="form-group">
+              <label>GitHub Personal Access Token (PAT)</label>
+              <input
+                type="password"
+                placeholder="github_pat_..."
+                value={formToken}
+                onChange={(e) => setFormToken(e.target.value)}
+              />
+              <p className="form-help">
+                Mã token cần có quyền ghi kho lưu trữ (write permission) để hệ thống tự động lưu lịch sử học tập của con lên GitHub.
+              </p>
+            </div>
+
+            <div className="form-group">
+              <label>Email của Bố Mẹ (ngăn cách bởi dấu phẩy)</label>
+              <input
+                type="text"
+                placeholder="chu.duc.tu@gmail.com, thanhha.phth@gmail.com"
+                value={formEmails}
+                onChange={(e) => setFormEmails(e.target.value)}
+              />
+            </div>
+
+            <div className="form-group">
+              <label>Khóa Web3Forms Access Key (Tùy chọn)</label>
+              <input
+                type="text"
+                placeholder="72e519e9-d754-47b2-a4e9-6f5dfdb3d1c1"
+                value={formWeb3FormsKey}
+                onChange={(e) => setFormWeb3FormsKey(e.target.value)}
+              />
+              <p className="form-help">
+                Khóa Web3Forms dùng để gửi trực tiếp email từ trình duyệt đến hòm thư bố mẹ.
+              </p>
+            </div>
+
+            <div className="modal-buttons">
+              <button className="btn-secondary" onClick={() => setShowSettings(false)}>Hủy</button>
+              <button className="btn-primary" onClick={handleSaveSettings}>Lưu cấu hình</button>
+            </div>
+          </div>
+        </div>
       )}
 
-      {/* ===== MODALS ===== */}
-      {showHistory && (
-        <HistoryModal
-          history={historyList}
-          allLessons={allLessons}
-          onClose={() => setShowHistory(false)}
-        />
+      {/* ===== SUBMITTING OVERLAY ===== */}
+      {submitStatus === 'submitting' && (
+        <div className="loader-overlay">
+          <div className="loader-emoji">🚀</div>
+          <h2 className="loader-title">Đang gửi bài làm...</h2>
+          <p className="loader-desc">Hệ thống đang lưu trữ bài làm lên GitHub và gửi thư cho bố mẹ. Con đợi một chút nhé!</p>
+        </div>
       )}
 
-      {showToc && (
-        <TableOfContentsModal
-          chapters={curriculum.chapters}
-          progress={progress}
-          onSelectLesson={handleSelectLessonFromToc}
-          onClose={() => setShowToc(false)}
-        />
+      {/* ===== SUCCESS OVERLAY ===== */}
+      {submitStatus === 'success' && (
+        <div className="success-overlay">
+          <div className="success-emoji">🎉🐸🎉</div>
+          <h2 className="success-title">Tuyệt vời ông mặt trời!</h2>
+          <p className="success-desc">
+            Bài làm của con đã được gửi thành công đến bố mẹ rồi đó! Con hãy nghỉ ngơi một chút hoặc chọn bài học tiếp theo nhé! 💚
+          </p>
+          <button className="success-btn" onClick={() => setSubmitStatus(null)}>
+            Quay lại bài học
+          </button>
+        </div>
       )}
+
+      {/* ===== ERROR OVERLAY ===== */}
+      {submitStatus === 'error' && (
+        <div className="modal-overlay">
+          <div className="modal-content" style={{ border: '2px solid red', textAlign: 'center' }}>
+            <h3 style={{ color: 'red', margin: 0 }}>Gửi bài thất bại!</h3>
+            <p>Có lỗi xảy ra khi kết nối với GitHub hoặc dịch vụ email. Bố mẹ vui lòng kiểm tra lại cấu hiệu mạng hoặc mã token GitHub.</p>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: '12px' }}>
+              <button className="btn-secondary" onClick={() => setSubmitStatus(null)}>Đóng</button>
+              <button className="btn-primary" style={{ backgroundColor: 'red' }} onClick={handleSubmit}>Thử lại</button>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }
