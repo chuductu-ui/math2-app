@@ -25,10 +25,10 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('theory'); // 'theory' | 'practice'
   const [answers, setAnswers] = useState({}); // { q_0: 'ans', e_0: 'ans' }
 
-  // GitHub configuration (loaded from sessionStorage to satisfy "no local storage on machine")
+  // GitHub configuration (loaded from localStorage for ease of use across days)
   const [config, setConfig] = useState(() => {
     try {
-      const saved = sessionStorage.getItem('math2_github_config');
+      const saved = localStorage.getItem('math2_github_config');
       return saved ? JSON.parse(saved) : {
         owner: '',
         repo: '',
@@ -228,9 +228,10 @@ export default function App() {
       }
 
       // 1. Submit answers and send email
+      const emailStr = typeof config.emails === 'string' ? config.emails : (Array.isArray(config.emails) ? config.emails.join(',') : '');
       const submitConfig = {
         ...config,
-        emails: config.emails.split(',').map(e => e.trim()).filter(Boolean)
+        emails: emailStr.split(',').map(e => e.trim()).filter(Boolean)
       };
       
       // Submit answers to GitHub repo & send parent emails via Web3Forms
@@ -245,9 +246,11 @@ export default function App() {
       setProgress(updatedProgress);
       setSubmitStatus('success');
       setAnswers({}); // Clear answers
+      alert("Bài làm của con đã được gửi thành công cho Bố Mẹ rồi nhé! Con giỏi quá! 🎉🐸💚");
     } catch (err) {
       console.error("Submission failed:", err);
       setSubmitStatus('error');
+      alert(`Gửi bài thất bại. 😢\nLỗi: ${err.message}\n\nBố mẹ vui lòng kiểm tra lại cấu hình GitHub (Token, Tài khoản, Repository) hoặc kết nối mạng.`);
     }
   };
 
@@ -270,7 +273,7 @@ export default function App() {
       web3formsKey: formWeb3FormsKey.trim()
     };
     setConfig(newConfig);
-    sessionStorage.setItem('math2_github_config', JSON.stringify(newConfig));
+    localStorage.setItem('math2_github_config', JSON.stringify(newConfig));
     setShowSettings(false);
   };
 
@@ -525,10 +528,10 @@ export default function App() {
                       <button
                         className="submit-btn"
                         onClick={handleSubmit}
-                        disabled={!isConfigured}
-                        title={!isConfigured ? 'Bố mẹ cần cấu hình GitHub để con gửi bài' : 'Gửi bài làm cho bố mẹ'}
+                        disabled={!isConfigured || submitStatus === 'submitting'}
+                        title={!isConfigured ? 'Bố mẹ cần cấu hình GitHub để con gửi bài' : (submitStatus === 'submitting' ? 'Đang gửi...' : 'Gửi bài làm cho bố mẹ')}
                       >
-                        🚀 Hoàn thành & Gửi bài
+                        🚀 {submitStatus === 'submitting' ? 'Đang gửi bài...' : 'Hoàn thành & Gửi bài'}
                       </button>
                     </div>
                     {!isConfigured && (

@@ -19,7 +19,8 @@ function b64_to_utf8(str) {
  */
 async function getFile(config, path) {
   const { owner, repo, token } = config;
-  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+  const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}`;
   
   const headers = {
     'Accept': 'application/vnd.github.v3+json',
@@ -53,7 +54,8 @@ async function getFile(config, path) {
  */
 async function writeFile(config, path, contentStr, commitMessage, sha = null) {
   const { owner, repo, token } = config;
-  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+  const encodedPath = path.split('/').map(encodeURIComponent).join('/');
+  const url = `https://api.github.com/repos/${owner}/${repo}/contents/${encodedPath}`;
   
   const headers = {
     'Accept': 'application/vnd.github.v3+json',
