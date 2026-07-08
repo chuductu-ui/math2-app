@@ -31,24 +31,26 @@ jobs:
               
               try {
                 if (beforeSha && beforeSha !== '0000000000000000000000000000000000000000') {
-                  diffFiles = execSync(`git diff --name-only ${beforeSha} ${context.sha}`)
+                  diffFiles = execSync(`git -c core.quotepath=false diff --name-only ${beforeSha} ${context.sha}`)
                     .toString()
                     .trim()
                     .split('\n');
                 } else {
-                  diffFiles = execSync(`git diff-tree --no-commit-id --name-only -r ${context.sha}`)
+                  diffFiles = execSync(`git -c core.quotepath=false diff-tree --no-commit-id --name-only -r ${context.sha}`)
                     .toString()
                     .trim()
                     .split('\n');
                 }
               } catch (e) {
                 console.log("Error running git diff, falling back to single commit diff-tree:", e);
-                diffFiles = execSync(`git diff-tree --no-commit-id --name-only -r ${context.sha}`)
+                diffFiles = execSync(`git -c core.quotepath=false diff-tree --no-commit-id --name-only -r ${context.sha}`)
                   .toString()
                   .trim()
                   .split('\n');
               }
               
+              // Clean up any double quotes from paths and trim whitespace
+              diffFiles = diffFiles.map(f => f.replace(/^"|"$/g, '').trim()).filter(Boolean);
               console.log("Modified files in this push:", diffFiles);
               
               const subFile = diffFiles.find(f => f.startsWith('submissions/') && f.endsWith('.json'));
