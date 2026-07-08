@@ -38,7 +38,14 @@ export default function App() {
   const [config, setConfig] = useState(() => {
     try {
       const saved = localStorage.getItem('math2_github_config');
-      return saved ? JSON.parse(saved) : DEFAULT_CONFIG;
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        // Only use saved config if it contains valid owner, repo, and token
+        if (parsed.owner && parsed.repo && parsed.token) {
+          return parsed;
+        }
+      }
+      return DEFAULT_CONFIG;
     } catch {
       return DEFAULT_CONFIG;
     }
@@ -185,7 +192,7 @@ export default function App() {
       alert("Đã lưu tạm bài làm của con lên GitHub! 🐸💚");
     } catch (err) {
       console.error("Failed to save draft:", err);
-      alert("Lỗi khi lưu bài tạm. Bố mẹ vui lòng kiểm tra lại cấu hình GitHub.");
+      alert(`Lỗi khi lưu bài tạm. 😢\nChi tiết: ${err.message}\n\nBố mẹ vui lòng kiểm tra lại cấu hình GitHub.`);
     } finally {
       setDraftSaving(false);
     }
@@ -286,6 +293,18 @@ export default function App() {
     };
     setConfig(newConfig);
     localStorage.setItem('math2_github_config', JSON.stringify(newConfig));
+    setShowSettings(false);
+  };
+
+  const handleResetToDefault = () => {
+    setConfig(DEFAULT_CONFIG);
+    setFormOwner(DEFAULT_CONFIG.owner);
+    setFormRepo(DEFAULT_CONFIG.repo);
+    setFormToken(DEFAULT_CONFIG.token);
+    setFormEmails(DEFAULT_CONFIG.emails);
+    setFormWeb3FormsKey(DEFAULT_CONFIG.web3formsKey);
+    localStorage.removeItem('math2_github_config');
+    alert("Đã đặt lại cấu hình mặc định thành công! 🟢");
     setShowSettings(false);
   };
 
@@ -638,9 +657,14 @@ export default function App() {
               </p>
             </div>
 
-            <div className="modal-buttons">
-              <button className="btn-secondary" onClick={() => setShowSettings(false)}>Thoát / Đóng</button>
-              <button className="btn-primary" onClick={handleSaveSettings}>Lưu cấu hình</button>
+            <div className="modal-buttons" style={{ display: 'flex', gap: '8px', justifyContent: 'space-between', flexWrap: 'wrap', width: '100%' }}>
+              <div>
+                <button className="btn-secondary" onClick={handleResetToDefault} style={{ background: '#f44336', color: 'white', border: 'none' }} title="Đặt lại cấu hình mặc định gốc của hệ thống">Đặt lại mặc định</button>
+              </div>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <button className="btn-secondary" onClick={() => setShowSettings(false)}>Thoát / Đóng</button>
+                <button className="btn-primary" onClick={handleSaveSettings}>Lưu cấu hình</button>
+              </div>
             </div>
           </div>
         </div>
