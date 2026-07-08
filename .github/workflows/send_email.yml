@@ -5,41 +5,90 @@ on:
     paths:
       - 'submissions/**'
 
+permissions:
+  contents: write
+
 jobs:
-  send-email:
+  notify-parents:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Get modified files
-        id: files
-        run: |
-          # Get list of added files in submissions directory
-          ADDED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | grep '^submissions/' || true)
-          echo "files=$ADDED_FILES" >> $GITHUB_OUTPUT
+      - name: Process submission and post comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const { execSync } = require('child_process');
+            
+            try {
+              // Get list of modified files in the commit
+              const diffFiles = execSync('git diff-tree --no-commit-id --name-only -r ' + context.sha)
+                .toString()
+                .trim()
+                .split('\n');
+              
+              const subFile = diffFiles.find(f => f.startsWith('submissions/') && f.endsWith('.json'));
+              if (!subFile) {
+                console.log("No submission JSON file found in this commit.");
+                return;
+              }
+              
+              if (!fs.existsSync(subFile)) {
+                console.log(`File ${subFile} does not exist.`);
+                return;
+              }
+              
+              const subData = JSON.parse(fs.readFileSync(subFile, 'utf8'));
+              const lessonTitle = subData.lessonTitle || 'Bài học';
+              const submittedAt = subData.submittedAt ? new Date(subData.submittedAt).toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' }) : new Date().toLocaleString('vi-VN', { timeZone: 'Asia/Ho_Chi_Minh' });
+              
+              let body = `## 🐸 Toán 2 Phiêu Lưu Ký - Bài làm mới của con\n\n`;
+              body += `Chào bố mẹ, con đã hoàn thành xong bài học **${lessonTitle}**!\n`;
+              body += `* **Thời gian nộp bài:** ${submittedAt}\n`;
+              body += `* **Bản ghi trực tuyến:** [\`${subFile}\`](https://github.com/${context.repo.owner}/${context.repo.repo}/blob/${context.sha}/${subFile})\n\n`;
+              body += `### ✏️ Chi tiết câu trả lời của con:\n\n`;
+              
+              if (subData.answers && subData.answers.length > 0) {
+                subData.answers.forEach(item => {
+                  const typeLabel = item.type === 'question' ? '❓ Câu hỏi' : '🏃 Bài tập';
+                  body += `#### ${typeLabel} ${item.num}: ${item.prompt}\n`;
+                  body += `> **Trả lời của con:** <span style="color: #007BFF; font-weight: bold;">${item.answer || '*(Con không trả lời)*'}</span>\n\n`;
+                });
+              } else {
+                body += `*(Không tìm thấy câu trả lời nào)*\n`;
+              }
+              
+              body += `---\n*Lưu ý: Bố mẹ vui lòng xem và tự chấm điểm cho con. Hệ thống không hiện đáp án để khuyến khích con tự tin suy nghĩ.*`;
+              
+              await github.rest.repos.createCommitComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                commit_sha: context.sha,
+                body: body
+              });
+              
+              console.log("Posted commit comment successfully!");
+            } catch (err) {
+              console.error("Failed to post commit comment:", err);
+            }
 
-      - name: Send email
-        if: steps.files.outputs.files != ''
+      - name: Send SMTP email (Optional)
+        # Only run if SMTP secrets are configured
+        if: "${{ secrets.SMTP_USERNAME != '' && secrets.SMTP_PASSWORD != '' }}"
         uses: dawidd6/action-send-mail@v3
         with:
-          # Bố mẹ có thể cấu hình các secrets này trong phần cài đặt repository trên GitHub
-          # Settings -> Secrets and variables -> Actions
           server_address: ${{ secrets.SMTP_SERVER || 'smtp.gmail.com' }}
           server_port: ${{ secrets.SMTP_PORT || 465 }}
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "[Toán 2] Bài làm mới của con trên GitHub"
+          subject: "[Toán 2] Bài làm mới của con"
           to: "chu.duc.tu@gmail.com, thanhha.phth@gmail.com"
           from: "Toán 2 Phiêu Lưu Ký <${{ secrets.SMTP_USERNAME }}>"
           body: |
             Chào bố mẹ,
-            Con đã hoàn thành xong một bài học mới và nộp bài làm lên GitHub!
+            Con đã hoàn thành xong bài học mới và nộp bài làm lên GitHub!
             
-            Các file bài làm mới được thêm vào:
-            ${{ steps.files.outputs.files }}
-            
-            Bố mẹ có thể kiểm tra trực tiếp các file JSON này trong thư mục submissions/ trên kho lưu trữ để xem câu trả lời của con và tiến hành chấm điểm nhé.
-            
+            Vui lòng kiểm tra commit mới nhất trên GitHub để xem trực tiếp nhận xét và câu trả lời chi tiết của con.
             Chúc con học tập vui vẻ!
-          convert_markdown: true
