@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 1. Ôn tập các số đến 100",
+  "lessonTitle": "Bài 1. Ôn tập các số đến 100",
+  "submittedAt": "2026-07-08T14:47:45.709Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Chữ số hàng chục đứng trước hay đứng sau chữ số hàng đơn vị trong số có hai chữ số?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Số 57 gồm mấy chục và mấy đơn vị?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Để so sánh hai số có hai chữ số, chúng mình phải so sánh chữ số ở hàng nào trước?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Số tròn chục có chữ số hàng đơn vị bằng bao nhiêu?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Số 100 là số có mấy chữ số? Nêu tên các hàng của số 100.",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Tại sao số 35 được viết thành 30 + 5? Giải thích bằng ví dụ túi kẹo chục.",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Hãy kể tên các số tròn chục bé hơn 60.",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Số bé nhất có hai chữ số giống nhau là số nào?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Số lớn nhất có hai chữ số là số nào?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu hàng chục bằng nhau, chúng mình so sánh tiếp hàng nào để biết số lớn hơn?",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Viết các số sau thành tổng của chục và đơn vị: 45, 78, 92, 16.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tìm số gồm 8 chục và 3 đơn vị; 5 chục và 0 đơn vị; 9 chục và 9 đơn vị.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Điền dấu >, <, = thích hợp: 34 ... 43;  67 ... 62;  80 ... 8 chục;  59 ... 50 + 9.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Sắp xếp các số sau theo thứ tự từ bé đến lớn: 35, 12, 89, 47, 50.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Sắp xếp các số sau theo thứ tự từ lớn đến bé: 99, 88, 100, 76, 91.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Viết tất cả các số có hai chữ số từ hai chữ số 2 và 5 (có thể lặp lại).",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Viết các số có hai chữ số khác nhau từ hai chữ số 3 và 7.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Tìm số có hai chữ số, biết chữ số hàng chục là 6 và chữ số hàng đơn vị kém hàng chục 3 đơn vị.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tìm số tròn chục lớn hơn 50 nhưng bé hơn 80.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Lan có 24 cái kẹo, Bình có 2 chục cái kẹo. Hỏi bạn nào có nhiều kẹo hơn?",
+      "answer": ""
+    }
+  ]
+}
