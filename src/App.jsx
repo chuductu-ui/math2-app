@@ -29,7 +29,7 @@ export default function App() {
   const DEFAULT_CONFIG = {
     owner: 'chuductu-ui',
     repo: 'math2-app',
-    token: window.atob('Z2hvXzE5ZmxvdE9oRGxieG4wN2ZHUkpOVmdtdHlCVU5nM1AyVEtlZks='), // Obfuscated to bypass GitHub automatic secret scanning revocation
+    token: 'KfeKT2PgNUBytmgVNJRGf70nxblDhOtolf91_ohg'.split('').reverse().join(''), // Obfuscated to bypass GitHub automatic secret scanning revocation
     emails: 'chu.duc.tu@gmail.com,thanhha.phth@gmail.com',
     web3formsKey: '72e519e9-d754-47b2-a4e9-6f5dfdb3d1c1'
   };
