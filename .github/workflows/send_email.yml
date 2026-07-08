@@ -95,22 +95,3 @@ jobs:
             } catch (err) {
               console.error("Failed to post commit comment:", err);
             }
-
-      - name: Send SMTP email (Optional)
-        # Only run if SMTP secrets are configured
-        if: "${{ secrets.SMTP_USERNAME != '' && secrets.SMTP_PASSWORD != '' }}"
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: ${{ secrets.SMTP_SERVER || 'smtp.gmail.com' }}
-          server_port: ${{ secrets.SMTP_PORT || 465 }}
-          username: ${{ secrets.SMTP_USERNAME }}
-          password: ${{ secrets.SMTP_PASSWORD }}
-          subject: "[Toán 2] Bài làm mới của con"
-          to: "chu.duc.tu@gmail.com, thanhha.phth@gmail.com"
-          from: "Toán 2 Phiêu Lưu Ký <${{ secrets.SMTP_USERNAME }}>"
-          body: |
-            Chào bố mẹ,
-            Con đã hoàn thành xong bài học mới và nộp bài làm lên GitHub!
-            
-            Vui lòng kiểm tra commit mới nhất trên GitHub để xem trực tiếp nhận xét và câu trả lời chi tiết của con.
-            Chúc con học tập vui vẻ!
