@@ -39,6 +39,9 @@ async function getFile(config, path) {
       throw new Error(`GitHub API error: ${res.status} - ${errText}`);
     }
     const data = await res.json();
+    if (!data || typeof data.content !== 'string') {
+      return null;
+    }
     return {
       content: b64_to_utf8(data.content),
       sha: data.sha
