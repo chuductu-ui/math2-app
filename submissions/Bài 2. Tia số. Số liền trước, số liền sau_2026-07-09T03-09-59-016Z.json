@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 2. Tia số. Số liền trước, số liền sau",
+  "lessonTitle": "Bài 2. Tia số. Số liền trước, số liền sau",
+  "submittedAt": "2026-07-09T03:09:59.016Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Tia số là gì? Số 0 nằm ở vị trí nào trên tia số?",
+      "answer": "Giữa"
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Trên tia số, các số được xếp theo thứ tự như thế nào?",
+      "answer": "từ bé đến lớn"
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Số liền trước của một số gốc hơn hay kém số gốc bao nhiêu đơn vị?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Số liền sau của một số gốc hơn hay kém số gốc bao nhiêu đơn vị?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Số nào đứng ngay bên trái số 45 trên tia số?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Số nào đứng ngay bên phải số 99 trên tia số?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Nếu em biết một số, làm sao để tìm được số liền trước của nó?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Nếu em biết một số, làm sao để tìm được số liền sau của nó?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Tại sao số đứng bên trái trên tia số lại luôn bé hơn số đứng bên phải?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Số liền trước của 10 là số có mấy chữ số?",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tìm số liền trước của các số sau: 19, 50, 85, 100.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tìm số liền sau của các số sau: 9, 34, 79, 99.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Điền số thích hợp vào chỗ chấm trên tia số: 12, 13, 14, ..., 16, 17, ..., 19.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tìm một số biết số liền sau của nó là số 60.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Tìm một số biết số liền trước của nó là số 88.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tìm số liền trước của số liền trước số 30.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tìm số liền sau của số liền sau số 75.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Tìm số nằm giữa hai số 54 và 56.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tính tổng của số liền trước 10 và số liền sau 10.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tính hiệu của số liền sau 45 và số liền trước 45.",
+      "answer": ""
+    }
+  ]
+}
