@@ -11,7 +11,12 @@
   "drafts": {
     "Bài 1. Ôn tập các số đến 100": {},
     "Bài 3. Các thành phần của phép cộng, phép trừ": {
-      "q_0": "A"
+      "q_0": "A và b được gọi là số hạng.",
+      "q_1": "Kết quả của phép cộng gọi là tổng.",
+      "q_2": "Số a đứng trước dấu trừ gọi là số bị trừ .",
+      "q_3": "Số b đứng sau dấu trừ gọi là số trừ.",
+      "q_4": "Kết quả của phép trừ gọi là hiệu.",
+      "q_5": "Ví dụ trong hộp có 35 cái kẹo bạn Lan ăn đi mất 2 cái kẹo kẹo thì số 35 bi bớt đi 2 cái kẹo thì số 35 được gọi là số bị trừ bởi vì số 35 cái kẹo bị đánh lao ra ăn 2 cái kẹo thì số 35 bị bớt đi 2 cái kẹo."
     }
   }
 }
