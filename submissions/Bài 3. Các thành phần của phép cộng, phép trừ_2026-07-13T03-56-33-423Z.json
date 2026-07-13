@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 3. Các thành phần của phép cộng, phép trừ",
+  "lessonTitle": "Bài 3. Các thành phần của phép cộng, phép trừ",
+  "submittedAt": "2026-07-13T03:56:33.424Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Trong phép cộng A + B = C, các số A và B được gọi là gì?",
+      "answer": "A và b được gọi là số hạng."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Kết quả của phép cộng gọi là gì?",
+      "answer": "Kết quả của phép cộng gọi là tổng."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Trong phép trừ A - B = C, số A đứng trước dấu trừ gọi là gì?",
+      "answer": "Số a đứng trước dấu trừ gọi là số bị trừ ."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Trong phép trừ A - B = C, số B đứng sau dấu trừ gọi là gì?",
+      "answer": "Số b đứng sau dấu trừ gọi là số trừ."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Kết quả của phép trừ gọi là gì?",
+      "answer": "Kết quả của phép trừ gọi là hiệu."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Giải thích ý nghĩa từ \"Số bị trừ\" bằng ví dụ hộp kẹo ăn bớt.",
+      "answer": "Ví dụ trong hộp có 35 cái kẹo bạn Lan ăn đi mất 2 cái kẹo kẹo thì số 35 bi bớt đi 2 cái kẹo thì số 35 được gọi là số bị trừ bởi vì số 35 cái kẹo bị đánh lao ra ăn 2 cái kẹo thì số 35 bị bớt đi 2 cái kẹo."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Muốn tìm số hạng chưa biết trong phép cộng ta làm thế nào?",
+      "answer": "Nếu như chúng ta muốn tìm số hạng trong phép cộng nhưng chưa biết chúng ta có thể lấy số tổng trừ đi số hạng mình đã biết thì mình sẽ biết số hạng mà mình cần tìm."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Muốn tìm số bị trừ chưa biết trong phép trừ ta làm thế nào?",
+      "answer": "Muốn tìm số bị trừ nhưng chưa biết chúng ta có thể lấy số trừ sau đó cộng với hiệu sẽ ra số bị trừ mà chúng ta đang cần."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Muốn tìm số trừ chưa biết trong phép trừ ta làm thế nào?",
+      "answer": "Em muốn tìm số trừ nhưng chưa biết chúng ta có thể lấy số bị trừ trừ đi số hiệu số trừ chúng ta đang cần tiền."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Cả biểu thức '8 + 5' có được gọi là một tổng không?",
+      "answer": "‘8 + 5’ có được gọi là một tổng."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Gọi tên các thành phần trong phép tính sau: 23 + 5 = 28.",
+      "answer": "Các thành phần phép tính 23 + 5 =28 là 25,5,28."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Gọi tên các thành phần trong phép tính sau: 45 - 12 = 33.",
+      "answer": "Các thành phần trong phép tính 45 - 12 = 33 là 45,12,33."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính tổng của hai số khi biết các số hạng là 30 và 40.",
+      "answer": "Tổng của 30 và 40 là 70."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tính hiệu của hai số khi biết số bị trừ là 80, số trừ là 30.",
+      "answer": "Hiệu của 80 và 30 là 50."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Tìm X biết: X + 20 = 50.",
+      "answer": "Chữ x là 30."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tìm Y biết: Y - 10 = 40.",
+      "answer": "Chữ y là số 50."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tìm Z biết: 60 - Z = 20.",
+      "answer": "Chữ z là 40"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Biết số bị trừ là 15, hiệu là 8. Tìm số trừ.",
+      "answer": "Số trừ là 7."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Trong phép cộng, nếu ta tăng một số hạng thêm 5 đơn vị và giữ nguyên số hạng kia thì tổng thay đổi thế nào?",
+      "answer": "Tổng sẽ tăng thêm 5 đơn vị"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Trong phép trừ, nếu ta bớt số bị trừ đi 3 đơn vị và giữ nguyên số trừ thì hiệu mới thay đổi thế nào?",
+      "answer": "Trong phép trừ nếu ta bớt số bị trừ đi 3 đơn vị thì hiệu sẽ giảm đi 3 đơn vị."
+    }
+  ]
+}
