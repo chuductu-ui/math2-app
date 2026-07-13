@@ -21,8 +21,13 @@
       "q_7": "Muốn tìm số bị trừ nhưng chưa biết chúng ta có thể lấy số trừ sau đó cộng với hiệu sẽ ra số bị trừ mà chúng ta đang cần.",
       "q_8": "Em muốn tìm số trừ nhưng chưa biết chúng ta có thể lấy số bị trừ trừ đi số hiệu số trừ chúng ta đang cần tiền.",
       "q_9": "‘8 + 5’ có được gọi là một tổng.",
-      "e_0": "Các thành phần phép tính 23 + 5 =28 là 23",
-      "e_1": ""
+      "e_0": "Các thành phần phép tính 23 + 5 =28 là 25,5,28.",
+      "e_1": "Các thành phần trong phép tính 45 - 12 = 33 là 45,12,33.",
+      "e_2": "Tổng của 30 và 40 là 70.",
+      "e_3": "Hiệu của 80 và 30 là 50.",
+      "e_4": "Chữ x là 30.",
+      "e_5": "Chữ y là số 50.",
+      "e_6": "Chữ z là 40"
     }
   }
 }
