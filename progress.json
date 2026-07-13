@@ -6,28 +6,10 @@
   },
   "practice_completions": {
     "Bài 1. Ôn tập các số đến 100": "2026-07-08T15:29:13.422Z",
-    "Bài 2. Tia số. Số liền trước, số liền sau": "2026-07-09T03:09:59.016Z"
+    "Bài 2. Tia số. Số liền trước, số liền sau": "2026-07-09T03:09:59.016Z",
+    "Bài 3. Các thành phần của phép cộng, phép trừ": "2026-07-13T03:56:33.417Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 3. Các thành phần của phép cộng, phép trừ": {
-      "q_0": "A và b được gọi là số hạng.",
-      "q_1": "Kết quả của phép cộng gọi là tổng.",
-      "q_2": "Số a đứng trước dấu trừ gọi là số bị trừ .",
-      "q_3": "Số b đứng sau dấu trừ gọi là số trừ.",
-      "q_4": "Kết quả của phép trừ gọi là hiệu.",
-      "q_5": "Ví dụ trong hộp có 35 cái kẹo bạn Lan ăn đi mất 2 cái kẹo kẹo thì số 35 bi bớt đi 2 cái kẹo thì số 35 được gọi là số bị trừ bởi vì số 35 cái kẹo bị đánh lao ra ăn 2 cái kẹo thì số 35 bị bớt đi 2 cái kẹo.",
-      "q_6": "Nếu như chúng ta muốn tìm số hạng trong phép cộng nhưng chưa biết chúng ta có thể lấy số tổng trừ đi số hạng mình đã biết thì mình sẽ biết số hạng mà mình cần tìm.",
-      "q_7": "Muốn tìm số bị trừ nhưng chưa biết chúng ta có thể lấy số trừ sau đó cộng với hiệu sẽ ra số bị trừ mà chúng ta đang cần.",
-      "q_8": "Em muốn tìm số trừ nhưng chưa biết chúng ta có thể lấy số bị trừ trừ đi số hiệu số trừ chúng ta đang cần tiền.",
-      "q_9": "‘8 + 5’ có được gọi là một tổng.",
-      "e_0": "Các thành phần phép tính 23 + 5 =28 là 25,5,28.",
-      "e_1": "Các thành phần trong phép tính 45 - 12 = 33 là 45,12,33.",
-      "e_2": "Tổng của 30 và 40 là 70.",
-      "e_3": "Hiệu của 80 và 30 là 50.",
-      "e_4": "Chữ x là 30.",
-      "e_5": "Chữ y là số 50.",
-      "e_6": "Chữ z là 40"
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
