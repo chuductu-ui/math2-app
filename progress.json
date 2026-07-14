@@ -11,6 +11,13 @@
     "Bài 3. Các thành phần của phép cộng, phép trừ": "2026-07-13T03:56:33.417Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 4. Hơn, kém nhau bao nhiêu": {
+      "q_0": "Ta phải dùng phép tính cộng.",
+      "q_1": "Thì bạn b kém bạn a 3cái kẹo",
+      "q_2": "Khi so sánh ta sẽ lấy hơn kém bằng cách đặt thẳng hàng 2 nhóm đồ vật ta sẽ phải đặt thẳng hàng nếu bên phải thừa thì bên phải sẽ nhiều hơn còn nếu như bên trái thiếu thì bên trái sẽ bé hơn",
+      "q_3": "Nếu biết sốbé và phần nhiều hơn phải làm thế nào để tìm được số lớn thì chúng ta sẽ lấy ví dụ số bé là số 2 sau đó người ta bảo phần nhiều hơn nhưng mình chưa biết phần nhiều hơn là phần gì mình sẽ lấy số 2 cộng thêm 1 đơn vị nữa thì sẽ ra số 3 thi số 3 là số nhiều hơn",
+      "q_4": " Nếu biết số lớn và phần ít hơn tìm được số lớn thì chúng ta ví dụ số lớn là số 3 chúng ta trừ đi 1 đơn vị sẽ ra số 2 và số 2 sẽ là số ít hơn"
+    }
   }
 }
