@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 4. Hơn, kém nhau bao nhiêu",
+  "lessonTitle": "Bài 4. Hơn, kém nhau bao nhiêu",
+  "submittedAt": "2026-07-14T08:05:38.380Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Để tìm xem một số lớn hơn số bé bao nhiêu, ta phải dùng phép tính gì?",
+      "answer": "Ta phải dùng phép tính cộng."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Nếu bạn A có nhiều hơn bạn B 3 cái kẹo, thì bạn B kém bạn A mấy cái kẹo?",
+      "answer": "Thì bạn b kém bạn a 3cái kẹo"
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Giải thích cách so sánh hơn kém bằng cách đặt thẳng hàng hai nhóm đồ vật.",
+      "answer": "Khi so sánh ta sẽ lấy hơn kém bằng cách đặt thẳng hàng 2 nhóm đồ vật ta sẽ phải đặt thẳng hàng nếu bên phải thừa thì bên phải sẽ nhiều hơn còn nếu như bên trái thiếu thì bên trái sẽ bé hơn"
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Nếu biết số bé và phần nhiều hơn, làm sao để tìm được số lớn?",
+      "answer": "Nếu biết sốbé và phần nhiều hơn phải làm thế nào để tìm được số lớn thì chúng ta sẽ lấy ví dụ số bé là số 2 sau đó người ta bảo phần nhiều hơn nhưng mình chưa biết phần nhiều hơn là phần gì mình sẽ lấy số 2 cộng thêm 1 đơn vị nữa thì sẽ ra số 3 thi số 3 là số nhiều hơn"
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nếu biết số lớn và phần ít hơn, làm sao để tìm được số bé?",
+      "answer": " Nếu biết số lớn và phần ít hơn tìm được số lớn thì chúng ta ví dụ số lớn là số 3 chúng ta trừ đi 1 đơn vị sẽ ra số 2 và số 2 sẽ là số ít hơn"
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Từ \"kém hơn\" trong bài toán thường gợi cho em phép tính nào?",
+      "answer": "Tui kém hơn trong bài toán thường gọi cho em phép tính trừ vì em sẽ lấy ví dụ nhé ví dụ bạn có 2 cái kẹo bạn Hà có ít hơn bạn Lan 2 cái kẹo thì bạn Hà sẽ có 10 cái kẹo đó như thế trong lớp sẽ có từ ít hơn bởi vì Hà có ít hơn"
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Từ \"nhiều hơn\" trong bài toán thường gợi cho em phép tính nào?",
+      "answer": "Từ nhiều hơn trong bài toán thường gợi cho em phép tính cộng bởi vì ví dụ bạn Lan có 12 chiếc kẹo kẹo bạn Hà có nhiều hơn bạn nam năm chiếc kẹo có nghĩa là tư nhiều hơn trong bài toán thường cho em phép tính cộng nhé"
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Khi so sánh chiều cao của hai bạn, phần chênh lệch được tính bằng cách nào?",
+      "answer": "Khi so sánh 2 chiều cao của 2 bạn ví dụ chiều cao của bạn nam là 19 chiều cao của bạn Đức là 20 chúng ta sẽ lấy 2 số xếp 1 hàng bằng nhau sau đó chúng ta thấy chiều cao của bạn Đức nhiều hơn chiều cao của bạn nam 1 đơn vị có nghĩa là chiều cao của bạn Đức là lớn hơn chiều cao của bạn nam."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Nếu hiệu của hai số là 5, nghĩa là số lớn hơn số bé bao nhiêu đơn vị?",
+      "answer": "Nếu hiệu của 2 số là 5 có nghĩa là cả 2 xét tính hiệu là 5 tiếp theo là nghĩa là số lớn hơn số bé là bao nhiêu đơn vị thì ví dụ nhé cả 2 phép tính đều có kết quả bằng 5 thì người ta lại nói tiếp số lớn hơn số bé bao nhiêu đơn vị thì ta lấy số bé là số 5 vì kết quả là 5 tiếp theo người ta lại nói số lớn hơn số bé số lớn hơn số 5 lấy số 5 cộng thêm 1 đơn vị thì sẽ ra số 6 chúng ta nhiêu đơn vị cũng được nhưng mà gần nhất là 6."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Có phải bài toán nhiều hơn lúc nào cũng dùng phép cộng không? Cho ví dụ.",
+      "answer": "Không phải không phải từ nhiều hơn lúc nào cũng là phép cậu bởi vì mình trong ví dụ nhá ví dụ như bạn Lan có 10 cây kẹo mà bạn hàn có tận 15 cái chậu thì chúng ta có thể làm cả 2 tính để cho biết bạn nào nhiều hơn bạn nào ít ít hơn ví dụ như cộng trước thì sẽ lấy 10 cộng 5 bằng 15 còn nếu như phép trừ 15 trừ 5 bằng 10 nếu không phải lúc nào nhiều hơn là dùng cho phép cộng đâu cũng dùng cho phép trừ đấy"
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Hà có 9 nhãn vở, Mai có 5 nhãn vở. Hỏi Hà có nhiều hơn Mai bao nhiêu nhãn vở?",
+      "answer": "Bạn Hà có 14 nhãn vở"
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Bình có 6 bút chì, An có ít hơn Bình 2 bút chì. Hỏi An có bao nhiêu bút chì?",
+      "answer": "An có 4 cái bút chì"
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Con sên thứ nhất bò được 12 cm, con sên thứ hai bò được 8 cm. Hỏi con sên thứ hai bò kém con thứ nhất bao nhiêu xăng-ti-mét?",
+      "answer": "Con sên thứ 2 bò kém con sên nhất 4 xăng-ti-mét."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Lớp 2A có 15 bạn nam, số bạn nữ nhiều hơn số bạn nam là 3 bạn. Hỏi lớp 2A có bao nhiêu bạn nữ?",
+      "answer": "Lớp 2A có 18 bạn nữ."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Mẹ mua 12 quả táo, bố mua ít hơn mẹ 4 quả. Hỏi bố mua bao nhiêu quả táo?",
+      "answer": "Bố mua 8 quả táo."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tìm một số biết số đó nhiều hơn số 20 là 5 đơn vị.",
+      "answer": "Đó là số 25 bởi vì 20 cộng 5 đơn vị sẽ thành 25."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tìm một số biết số đó kém số 45 là 10 đơn vị.",
+      "answer": "Đó là số 35 bởi vì 45 trừ đi 5 bằng 40 nhưng 5 cộng 5 bằng 10 thì lại trừ đi 5 sẽ bằng 35."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Đoạn thẳng AB dài 10cm, đoạn thẳng CD dài 7cm. Hỏi đoạn thẳng AB dài hơn đoạn thẳng CD bao nhiêu xăng-ti-mét?",
+      "answer": "Đoạn thẳng AD dài hơn đoạn thẳng CD 3 xăng-ti-mét."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Anh 10 tuổi, em kém anh 4 tuổi. Hỏi em bao nhiêu tuổi?",
+      "answer": "Anh 10 tuổi em kém anh 4 tuổi bây giờ em đã 6 tuổi."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Túi gạo thứ nhất nặng 15kg, túi gạo thứ hai nặng hơn túi thứ nhất 5kg. Hỏi túi thứ hai nặng bao nhiêu ki-lô-gam?",
+      "answer": "Túi gạo thứ 2 nặng 20 kg."
+    }
+  ]
+}
