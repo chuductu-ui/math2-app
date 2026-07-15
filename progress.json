@@ -16,7 +16,10 @@
     "Bài 1. Ôn tập các số đến 100": {},
     "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100": {
       "q_0": "Khi đặt tính dọc hàng đơn vị phải thẳng cột với hàng đơn vị bên dưới.",
-      "q_1": "Khi thực hiện tính toán phép tính dọc ta tính từ hàng đơn vị trước."
+      "q_1": "Khi thực hiện tính toán phép tính dọc ta tính từ hàng đơn vị trước.",
+      "q_2": "Phép cộng không nhớ có nghĩa là ví dụ như 24 cộng với 32 thi chúng ta chỉ cần biết đây nhé 4 cộng với 2 bằng bằng bằng 6 còn 22 cộng cộng với 3 bằng bằng 5 kết quả được là 56 chúng ta không cần phải nhớ kết quả đúng không nào chúng ta chỉ cần tính chúng ta đã biết được rồi chúng ta không cần phải nhớ kết quả nên tính mà như thế chúng ta sẽ được gọi là phép cộng không nhớ.",
+      "q_3": "Nêu các bước đặt tính cho phép trừ 65 - 23 chúng ta sẽ tính hàng đơn vị trước nhé 5 -3 =2, 6 -2 =4 vậy kết quả là 42.",
+      "q_4": ""
     }
   }
 }
