@@ -13,6 +13,10 @@
     "Bài 4. Hơn, kém nhau bao nhiêu": "2026-07-14T08:05:38.372Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100": {
+      "q_0": "Khi đặt tính dọc hàng đơn vị phải thẳng cột với hàng đơn vị bên dưới.",
+      "q_1": "Khi thực hiện tính toán phép tính dọc ta tính từ hàng đơn vị trước."
+    }
   }
 }
