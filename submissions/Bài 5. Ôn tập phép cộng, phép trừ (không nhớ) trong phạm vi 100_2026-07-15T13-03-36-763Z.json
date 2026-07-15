@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+  "lessonTitle": "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100",
+  "submittedAt": "2026-07-15T13:03:36.765Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Khi đặt tính dọc, hàng đơn vị phải thẳng cột với hàng nào?",
+      "answer": "Khi đặt tính dọc hàng đơn vị phải thẳng cột với hàng đơn vị bên dưới."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Khi thực hiện tính toán phép tính dọc, ta tính từ hàng nào trước?",
+      "answer": "Khi thực hiện tính toán phép tính dọc ta tính từ hàng đơn vị trước."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Phép cộng không nhớ có nghĩa là gì?",
+      "answer": "Phép cộng không nhớ có nghĩa là ví dụ như 24 cộng với 32 thi chúng ta chỉ cần biết đây nhé 4 cộng với 2 bằng bằng bằng 6 còn 22 cộng cộng với 3 bằng bằng 5 kết quả được là 56 chúng ta không cần phải nhớ kết quả đúng không nào chúng ta chỉ cần tính chúng ta đã biết được rồi chúng ta không cần phải nhớ kết quả nên tính mà như thế chúng ta sẽ được gọi là phép cộng không nhớ."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Hãy nêu các bước đặt tính cho phép trừ 65 - 23.",
+      "answer": "Nêu các bước đặt tính cho phép trừ 65 - 23 chúng ta sẽ tính hàng đơn vị trước nhé 5 -3 =2, 6 -2 =4 vậy kết quả là 42."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Tính nhẩm 40 + 30 bằng cách đếm chục như thế nào?",
+      "answer": "Khi tính nhầm 40 và 30 chúng ta sẽ viết 10 20 30 40 chúng ta cần cộng thêm 30 nữa 10 cộng thành 3 lần 10 sẽ ra 30 thì chúng ta sẽ lấy 40 cộng 1 chục bằng 50 cộng được 1 chục 40 lại cộng thêm 20 thì lại bằng 60 vậy đã cộng được 20 4 cộng 30 bằng 70 đã cộng được 30 có nghĩa là kết quả sẽ là 70."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Tính nhẩm 70 - 20 bằng cách đếm chục như thế nào?",
+      "answer": "Khi tính nhầm 70 trừ 20 chúng ta sẽ viết các số trục 10 20 30 40 50 60 70 chúng ta cứ đi 20 được gọi là 20 70 trừ 1 chục giống như 7 trừ 1 bằng 60 60 trừ 1 chục bằng 50 vừa trừ trong 1 chục 6 trừ cho 1 chục nữa là trừ được đi 20 giống như 6 trừ 1 vậy 6 trừ 1 bằng 5 có nghĩa là kết quả là 50 "
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Tại sao chúng ta phải viết các số thẳng cột hàng chục và hàng đơn vị với nhau?",
+      "answer": "Bởi vì nếu chúng ta như thế chúng ta có thể bị nhầm số hàng đơn vị sang số hàng chục thì sẽ rất dễ kết quả bị sai nên chúng ta cần điền số thẳng cột để xác định kết quả đã đúng. "
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Nếu đặt tính bị lệch cột thì kết quả sẽ bị sai như thế nào?",
+      "answer": "Khi tính bị lệch cột thì kết quả sẽ bị sai hoàn toàn với kết quả đúng ban đầu và lúc đó hàng chục sẽ bị nhầm thành hàng đơn vị và hàng đơn vị sẽ bị nhầm thành hàng trục "
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Số 0 cộng với bất kỳ số nào thì bằng bao nhiêu?",
+      "answer": "Bằng cái số mà số không đã cộng với"
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Một số trừ đi chính nó thì bằng bao nhiêu?",
+      "answer": "Bằng 0"
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đặt tính rồi tính: 34 + 15;  52 + 27;  86 - 32;  99 - 45.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính nhẩm: 50 + 30;  80 - 40;  20 + 70;  90 - 50.",
+      "answer": "Các số theo thứ tự lần lượt là 80, 40, 90,40"
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tìm số thích hợp điền vào chỗ chấm: 42 + ... = 47;  ... - 10 = 50;  68 - ... = 62.",
+      "answer": "Các số lần lượt là 5,40,6"
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Mẹ hái được 35 quả cam, chị hái được 24 quả cam. Hỏi cả hai mẹ con hái được bao nhiêu quả cam?",
+      "answer": "Hai mẹ con hái được 59 quả cam"
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Đàn gà có 48 con, trong đó có 20 con gà trống. Hỏi có bao nhiêu con gà mái?",
+      "answer": "Có 28 con gà mái "
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Một sợi dây dài 85 cm, bé cắt đi một đoạn dài 30 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?",
+      "answer": "Đoạn dây còn lại dài 55 cm"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tính giá trị biểu thức: 45 + 12 - 7;  89 - 34 + 10.",
+      "answer": "Kết quả lần lượt 50,65"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Điền dấu >, <, = thích hợp: 23 + 12 ... 30;  87 - 20 ... 67;  45 + 4 ... 50 - 1.",
+      "answer": "Các dấu lần lượt là:> ,<,="
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tìm một số biết rằng lấy số đó cộng với 12 thì được 57.",
+      "answer": "Kết quả là 45"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Nhà Nam nuôi 36 con vịt, nhà Bình nuôi nhiều hơn nhà Nam 12 con vịt. Hỏi nhà Bình nuôi bao nhiêu con vịt?",
+      "answer": "Nhà Bình có 48 con vịt"
+    }
+  ]
+}
