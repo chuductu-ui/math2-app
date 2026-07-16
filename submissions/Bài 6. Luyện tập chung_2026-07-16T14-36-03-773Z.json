@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 6. Luyện tập chung",
+  "lessonTitle": "Bài 6. Luyện tập chung",
+  "submittedAt": "2026-07-16T14:36:03.775Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Số liền trước của 100 là số tròn chục hay số thường?",
+      "answer": "Số liền trước của 100 là số thường."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Làm sao để biết số 67 lớn hơn số 58 mà không cần vẽ ra tia số?",
+      "answer": "Tại sao chúng ta lại biết chúng ta chỉ cần nói số 67 là 58 số 67 số là 6 số 58 số chục là 5 số 6 lớn hơn 5 số 67 lớn hơn 58 nếu như số hàng chục bằng nhau chúng ta sẽ so sánh phần đơn vị xem phần đơn vị số nào lớn hơn nếu như 2 số bằng nhau thì 2 số đấy bằng nhau ."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Trong phép tính 30 + 50 = 80, em hãy chỉ ra Số hạng và Tổng.",
+      "answer": "Trong phép tính 30 cộng 50 bằng 80 số 30 và 50 là số hạng còn số 80 là số"
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Hiệu của số lớn nhất có hai chữ số và số tròn chục lớn nhất có hai chữ số là bao nhiêu?",
+      "answer": "99 trừ 90 bằng 9. "
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Tìm số liền sau của số bé nhất có hai chữ số.",
+      "answer": "Số lần sau của số bé nhất có 2 chữ số là số 11."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Nếu tăng một số hạng thêm 10 đơn vị thì tổng mới sẽ thay đổi như thế nào?",
+      "answer": "Nếu tăng 1 số hạng thêm 10 đơn vị thì tổng sẽ tăng thêm 10 đơn vị."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Làm sao để đếm nhanh số lượng sách nếu chúng được xếp thành các chồng 10 quyển?",
+      "answer": "Muốn đến nhanh số lượng sách chúng ta sẽ dùng phép tiếng dọc không cộng không bằng không 1 cộng 1 bằng 2 vậy kết quả sẽ bằng 20."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Để làm phép tính 42 + 5, em đặt chữ số 5 thẳng cột với chữ số nào?",
+      "answer": "Để làm phép tính 42 cộng 5 em sẽ đặt chữ số 5 ở hàng đơn vị là số 2."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Số 80 gồm mấy chục và mấy đơn vị?",
+      "answer": "80 gồm 80 và 0 đơn vị."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Số liền trước của số bé nhất có hai chữ số là số có mấy chữ số?",
+      "answer": "Số liền trước của số bé nhất có 2 chữ số là số có 1 chữ số."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Điền số thích hợp: Số liền trước của 50 là ...; Số liền sau của 99 là ...",
+      "answer": "Số liền trước của 50 là số 49 số liền sau của 99 là 100."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Đặt tính rồi tính: 45 + 23;  89 - 56;  70 + 28;  64 - 4.",
+      "answer": "Đã đặt tính trong vở."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Giải bài toán: Một bến xe có 45 ô tô. Lúc sau có thêm 12 ô tô vào bến. Hỏi có tất cả bao nhiêu ô tô trong bến?",
+      "answer": "Trong bến có 57 ô tô chúng ta chỉ cần lấy 45 cộng với 12 5 cộng 2 bằng 74 cộng cộng 1 bằng 5 kết quả là 57."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Giải bài toán: Lan gấp được 38 ngôi sao, Lan cho Bình 15 ngôi sao. Hỏi Lan còn lại bao nhiêu ngôi sao?",
+      "answer": "Lan còn lại 23 ngôi sao chúng ta chỉ cần lấy 38 trừ 15 chúng ta lấy 8 trừ 5 bằng 3 3 trừ 1 bằng 2 vậy kết quả là 23."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Điền dấu >, <, =: 45 + 4 ... 50;  88 - 8 ... 80;  34 + 12 ... 12 + 34.",
+      "answer": "Viết vào vở ."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tìm X biết: X - 15 = 40.",
+      "answer": "X=55."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Viết các số 56, 32, 89, 74 theo thứ tự từ bé đến lớn.",
+      "answer": "32,56,74,89."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Tìm số có hai chữ số, biết chữ số hàng chục gấp đôi chữ số hàng đơn vị và hàng đơn vị là 3.",
+      "answer": "Là số 63."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Đoạn thẳng AB dài 15cm, đoạn thẳng CD ngắn hơn đoạn thẳng AB là 5cm. Hỏi đoạn thẳng CD dài bao nhiêu xăng-ti-mét?",
+      "answer": "Đoạn thẳng CD dài 10 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tính nhanh: 20 + 30 + 40 = ...;  90 - 50 - 10 = ...",
+      "answer": "90,30"
+    }
+  ]
+}
