@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+  "lessonTitle": "Bài 7. Phép cộng (qua 10) trong phạm vi 20",
+  "submittedAt": "2026-07-17T07:26:21.414Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Tại sao khi tính 9 + 5 ta lại tách số 5 thành 1 và 4?",
+      "answer": "Bởi vì khi chúng ta tách 5 thành 1 và 4 sách tính rất dễ dàng chúng ta biết là 9 cộng với 1 bằng 10 như thế chúng ta biết ngay 10 cộng 4 bằng 14 tại sao người ta lại bảo phải tách bởi vì nếu như chúng ta tách chúng ta sẽ không dễ bị nhầm mà lại còn được tính nhanh."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Mục đích của việc tách số trong phép cộng qua 10 là gì?",
+      "answer": "Mục đích của việc tách số trong phép cộng qua 10 giúp chúng ta tính nhầm nhanh hơn và dễ dàng hơn."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Để cộng qua 10 với số 8, ta cần tách từ số sau mấy đơn vị?",
+      "answer": "Ta cần tách từ số sau 2 đơn vị."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Để cộng qua 10 với số 7, ta cần tách từ số sau mấy đơn vị?",
+      "answer": "Ta cần tách từ số sau 3 đơn vị."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Khung 10 ô (Ten Frame) giúp em nhìn thấy phép cộng qua 10 trực quan như thế nào?",
+      "answer": "Không 10 ô giúp em nhìn thấy phép cộng tính nhanh hơn và đơn giản hơn và dễ dàng hơn."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Kết quả của 9 + 2 bằng 10 cộng với mấy?",
+      "answer": "Kết quả của 9 cộng 2 bằng 10 cộng với 1."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Kết quả của 8 + 4 bằng 10 cộng với mấy?",
+      "answer": "Kết quả của 8 cộng 4 bằng 10 cộng với 2."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Tại sao 9 + 5 lại bằng 14? Giải thích bằng cách xếp trứng.",
+      "answer": "Chúng ta lấy 9 quả trứng sang 1 bên lấy năm quả trứng sang 1 bên chúng ta tách năm quả trứng thành 1 quả trứng và 4 quả trứng chúng ta cộng lần lượt 9 quả trứng cộng 1 quả trứng bằng 10 quả trứng 10 quả trứng cộng 4 quả trứng còn lại chúng ta biết ngay 10 quả trứng cộng 4 quả trứng bằng 14 đấy là lý do 9 cộng 5 bằng 14."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Phép cộng qua 10 luôn có kết quả lớn hơn bao nhiêu?",
+      "answer": "Phép cộng qua 10 luôn có kết quả lớn hơn 10."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu cộng 6 với một số, em cần tách từ số sau mấy đơn vị để tròn 10?",
+      "answer": "Nếu cộng 6 với 1 số em cần tách từ số sau 4 đơn vị."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính nhẩm bằng cách tách số: 9 + 3;  9 + 6;  9 + 8.",
+      "answer": "Phép tính thứ nhất 9 cộng 3 ta tách số 3,1 và 2 lại cộng lần lượt 9 cộng 1 bằng 10 10 cộng 2 bằng 12 phép tính thứ 2,9 cộng 6 sách số 6 ra 1 và 5 lại cộng lần lượt 9 cộng 1 bằng 10 10 cộng 5 bằng 15 phép tính thứ 3, 9 cộng 8 cách số 8 ra 1 và 7 lại cộng lần lượt 9 cộng 1 bằng 10 17 bằng 17."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính nhẩm bằng cách tách số: 8 + 4;  8 + 6;  8 + 7.",
+      "answer": "Đã tính nhẩm."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính nhẩm bằng cách tách số: 7 + 5;  7 + 6;  7 + 8.",
+      "answer": "Đã tính nhẩm."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tính nhẩm bằng cách tách số: 6 + 5;  6 + 6;  6 + 8.",
+      "answer": "Đã tính nhẩm."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Điền số thích hợp: 9 + ... = 12;  8 + ... = 15;  7 + ... = 14.",
+      "answer": "9 + 3 =12, 8 + 7=15,7 + 7=14."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "So sánh: 9 + 4 ... 8 + 5;  9 + 7 ... 8 + 8.",
+      "answer": "Các số lần lượt là: =,="
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Mẹ mua 9 bông hoa hồng và 6 bông hoa cúc. Hỏi mẹ mua tất cả bao nhiêu bông hoa?",
+      "answer": "Mẹ mua tất cả 15 bông hoa"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Lan có 8 cái nhãn vở, Mai có nhiều hơn Lan 5 cái. Hỏi Mai có bao nhiêu cái nhãn vở?",
+      "answer": "Mai có 13 cái nhãn vở"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tính giá trị biểu thức: 9 + 1 + 5 = ...;  8 + 2 + 7 = ...",
+      "answer": "Kết quả lần lượt của 2 biểu thức là 15,17"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Trong vườn có 7 cây cam và 8 cây bưởi. Hỏi có tất cả bao nhiêu cây cam và bưởi?",
+      "answer": "Có tất cả 15 cây cam và cây bưởi"
+    }
+  ]
+}
