@@ -24,7 +24,12 @@
   "drafts": {
     "Bài 1. Ôn tập các số đến 100": {},
     "Bài 9. Bài toán về thêm, bớt một số đơn vị": {
-      "q_0": "Từ khóa chạy vào bay vào cho em biết cần làm gì với cộng ."
+      "q_0": "Từ khóa chạy vào bay vào cho em biết cần làm phép cộng.",
+      "q_1": "Từ khóa bớt đi cho đi cho em biết cần làm phép tính trừ.",
+      "q_2": "Hành động bay đi của chim tương ứng với bớt.",
+      "q_3": "Hành động mua thêm bánh tương ứng với thêm.",
+      "q_4": "Bài giải toán có lời văn 1 trả lời câu hỏi 2 lấy phép tính trên đề bài phù hợp để cộng hoặc trừ 3 viết kết quả.",
+      "q_5": ""
     }
   }
 }
