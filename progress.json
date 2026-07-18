@@ -19,6 +19,13 @@
     "Bài 7. Phép cộng (qua 10) trong phạm vi 20": "2026-07-17T07:26:21.411Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 8. Bảng cộng (qua 10)": {
+      "q_0": "Bảng cộng 10 gồm bảng cộng 9 bảng cộng 8 bảng cộng 7.",
+      "q_1": "Đó chính là phép tính 9 cộng 10 ",
+      "q_2": "Đó chính là phép tính 8 cộng 1",
+      "q_3": "Chín cộng 2 bằng 11, 8 cộng 3 bằng 11, 7 cộng 4 và 11, 6 cộng 5 bằng 11, 5 cộng 6 bằng 11, 4 cộng 7 bằng 11, 10 cộng 1 bằng 11.",
+      "q_4": "10 cộng 5 bằng 15, 9 cộng 6 bằng 15 , 8 cộng 7 bằng 15, 7 cộng 8 bằng 15, 6 cộng 9 bằng 15"
+    }
   }
 }
