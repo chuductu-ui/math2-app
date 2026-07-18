@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 8. Bảng cộng (qua 10)",
+  "lessonTitle": "Bài 8. Bảng cộng (qua 10)",
+  "submittedAt": "2026-07-18T09:39:30.457Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Bảng cộng qua 10 gồm những bảng nào?",
+      "answer": "Bảng cộng 10 gồm bảng cộng 9 bảng cộng 8 bảng cộng 7."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Trong bảng cộng 9, phép tính nào có kết quả lớn nhất?",
+      "answer": "Đó chính là phép tính 9 cộng 10 "
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Trong bảng cộng 8, phép tính nào có kết quả bé nhất?",
+      "answer": "Đó chính là phép tính 8 cộng 1"
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Nêu các phép tính trong bảng cộng có kết quả bằng 11.",
+      "answer": "Chín cộng 2 bằng 11, 8 cộng 3 bằng 11, 7 cộng 4 và 11, 6 cộng 5 bằng 11, 5 cộng 6 bằng 11, 4 cộng 7 bằng 11, 10 cộng 1 bằng 11, 3 cộng 8 bằng 11, 2 cộng 9 bằng 11."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nêu các phép tính trong bảng cộng có kết quả bằng 15.",
+      "answer": "10 cộng 5 bằng 15, 9 cộng 6 bằng 15 , 8 cộng 7 bằng 15, 7 cộng 8 bằng 15, 6 cộng 9 bằng 15, 5 cộng 10 bằng 15, 4 cộng 11 bằng 15, 3 cộng 12 bằng 15, 2 cộng 13 bằng 15, 1 cộng 14 bằng 15."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Tại sao học thuộc bảng cộng lại giúp em tính nhẩm nhanh hơn?",
+      "answer": "Bởi vì khi học thuộc bảng cộng chúng ta sẽ ghi nhớ luôn kết quả chúng ta chỉ cần biết cách chừng đó là gì chúng ta sẽ mang ra kết quả luôn sẽ không cần đi từng các bước nữa"
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Kết quả của 7 + 8 và 8 + 7 có giống nhau không? Tại sao?",
+      "answer": "Kết quả của 7 cộng 8 và 8 cộng 7 có giống nhau bởi vì chúng ta có 2 số đều giống nhau chỉ là đổi ngược lại thôi 7 năm trước nâng bên kia lại 7 đằng sau nhưng mà cái đằng trước kia 8 đằng sau hình vẫn giống nhau được bởi vì chỉ là đổi chỗ còn giá trị thì vẫn nằm nguyên ."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Điền số thích hợp: 9 + 3 = 8 + ...",
+      "answer": "9 + 3=8+ 4."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Điền số thích hợp: 7 + 5 = 6 + ...",
+      "answer": "7 + 5 =6 + 6."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Phép tính nào trong bảng cộng 6 có kết quả bằng 12?",
+      "answer": "Phép tính 6 cộng 6."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính nhẩm nhanh: 9 + 4;  8 + 5;  7 + 6;  6 + 7.",
+      "answer": "Đã tính nhẩm."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính nhẩm nhanh: 9 + 8;  8 + 9;  7 + 8;  6 + 9.",
+      "answer": "Đã tính nhẩm."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tìm các số thích hợp điền vào bảng cộng chéo.",
+      "answer": "Sai đề."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "So sánh: 9 + 5 ... 8 + 6;  7 + 5 ... 9 + 3;  6 + 8 ... 7 + 7.",
+      "answer": "9 + 5=8 + 6, 7 + 5 =9 + 3, 6 + 8+7 +7."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Điền số thích hợp vào ô trống: 9 + [ ] = 11;  8 + [ ] = 12;  7 + [ ] = 13.",
+      "answer": "9 + 2 =11, 8 + 4 =12, 7 + 6 =13."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Bé gieo xúc xắc được 7 nút và 6 nút. Hỏi tổng số nút bé gieo được là bao nhiêu?",
+      "answer": "Tổng số nút bé gieo được là 13."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tính chuỗi tính: 9 + 2 + 3 = ...;  8 + 4 + 2 = ...",
+      "answer": "9 + 2 + 3 =14, 8 + 4 + 2 =14."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Một xe chở khách có 9 người, đến trạm có thêm 5 người lên. Hỏi trên xe có bao nhiêu người?",
+      "answer": "Trên xe có 14 người."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Nam có 8 viên bi, Hùng có 7 viên bi. Hỏi cả hai bạn có bao nhiêu viên bi?",
+      "answer": "Cả 2 bạn có 15 viên bi."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Mẹ cắm 7 bông hoa vào bình thứ nhất, 8 bông hoa vào bình thứ hai. Hỏi mẹ cắm tất cả bao nhiêu bông hoa?",
+      "answer": "Mẹ cắm tất cả 15 bông hoa."
+    }
+  ]
+}
