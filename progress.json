@@ -17,22 +17,10 @@
     "Bài 4. Hơn, kém nhau bao nhiêu": "2026-07-14T08:05:38.372Z",
     "Bài 5. Ôn tập phép cộng, phép trừ (không nhớ) trong phạm vi 100": "2026-07-15T13:03:36.756Z",
     "Bài 6. Luyện tập chung": "2026-07-16T14:36:03.770Z",
-    "Bài 7. Phép cộng (qua 10) trong phạm vi 20": "2026-07-17T07:26:21.411Z"
+    "Bài 7. Phép cộng (qua 10) trong phạm vi 20": "2026-07-17T07:26:21.411Z",
+    "Bài 8. Bảng cộng (qua 10)": "2026-07-18T09:39:30.453Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 8. Bảng cộng (qua 10)": {
-      "q_0": "Bảng cộng 10 gồm bảng cộng 9 bảng cộng 8 bảng cộng 7.",
-      "q_1": "Đó chính là phép tính 9 cộng 10 ",
-      "q_2": "Đó chính là phép tính 8 cộng 1",
-      "q_3": "Chín cộng 2 bằng 11, 8 cộng 3 bằng 11, 7 cộng 4 và 11, 6 cộng 5 bằng 11, 5 cộng 6 bằng 11, 4 cộng 7 bằng 11, 10 cộng 1 bằng 11, 3 cộng 8 bằng 11, 2 cộng 9 bằng 11.",
-      "q_4": "10 cộng 5 bằng 15, 9 cộng 6 bằng 15 , 8 cộng 7 bằng 15, 7 cộng 8 bằng 15, 6 cộng 9 bằng 15, 5 cộng 10 bằng 15, 4 cộng 11 bằng 15, 3 cộng 12 bằng 15, 2 cộng 13 bằng 15, 1 cộng 14 bằng 15.",
-      "q_5": "Bởi vì khi học thuộc bảng cộng chúng ta sẽ ghi nhớ luôn kết quả chúng ta chỉ cần biết cách chừng đó là gì chúng ta sẽ mang ra kết quả luôn sẽ không cần đi từng các bước nữa",
-      "q_6": "Kết quả của 7 cộng 8 và 8 cộng 7 có giống nhau bởi vì chúng ta có 2 số đều giống nhau chỉ là đổi ngược lại thôi 7 năm trước nâng bên kia lại 7 đằng sau nhưng mà cái đằng trước kia 8 đằng sau hình vẫn giống nhau được bởi vì chỉ là đổi chỗ còn giá trị thì vẫn nằm nguyên .",
-      "q_7": "9 + 3=8+ 4.",
-      "q_8": "7 + 5 =6 + 6.",
-      "q_9": "Phép tính 6 cộng 6.",
-      "e_0": "Đã tính nhẩm."
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
