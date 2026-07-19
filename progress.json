@@ -29,7 +29,17 @@
       "q_2": "Hành động bay đi của chim tương ứng với bớt.",
       "q_3": "Hành động mua thêm bánh tương ứng với thêm.",
       "q_4": "Bài giải toán có lời văn 1 trả lời câu hỏi 2 lấy phép tính trên đề bài phù hợp để cộng hoặc trừ 3 viết kết quả.",
-      "q_5": "Để viết câu lời giải hoàn chỉnh chúng ta bỏ từ hỏi đi thay chữ bao nhiêu thành số thêm chữ là số cuối câu sau đó viết phép tính và kèm theo kết quả thích hợp trên đề bài."
+      "q_5": "Để viết câu lời giải hoàn chỉnh chúng ta bỏ từ hỏi đi thay chữ bao nhiêu thành số thêm chữ là số cuối câu sau đó viết phép tính và kèm theo kết quả thích hợp trên đề bài.",
+      "q_6": "Bởi vì nếu chúng ta không viết kèm đơn vị trong ngoặc thì người ta sẽ không biết phân biệt đây là phép tính hay phép tính trong lời giải ví dụ bạn Lan có 3 quả táo 1 tiếng sau bạn Hà đã cho thêm 4 quả táo thi chúng ta sẽ phải viết 3 cộng 4 bằng 7 mở ngoặc quả táo đóng ngoặc vì nếu như chúng ta không viết như thế người ta sẽ tưởng là đấy là phép tính không phải là bài giải.",
+      "q_7": "Chúng ta cần viết dấu ngoặc ở đáp số bởi vì 1 bài giải đáp số là kết quả cuối cùng ví dụ Lan có 3 quả táo xong rồi Hà lại cho thêm 3 quả táo nữa đấy chúng ta sẽ viết câu trả lời xong chúng ta sẽ hết phép tính 3 cộng 3 bằng 6 nhưng người ta lại tưởng là phép tính nên chúng ta cần mở ngoặc quả táo đóng ngoặc thì người ta sẽ biết đây là phép tính trong đề bài không phải phép tính riêng.",
+      "q_8": "Ví dụ Lan có 4 quả táo hoa cho Lan thêm 5 quả táo hỏi làm có bao nhiêu quả táo.",
+      "q_9": "Ví dụ Nam có 9 quả xoài Nam cho Đức 4 quả xoài hỏi Nam còn lại bao nhiêu quả táo.",
+      "e_0": "Số ô tô là: 12+5=17 (ô tô) ",
+      "e_1": "Số táo là: 15-4=11(quả táo)",
+      "e_2": " Số vịt dưới ao là:9+6=15(con vịt)",
+      "e_3": "Số bút màu là:12-3=9(bút màu)",
+      "e_4": "Số học sinh là:14-5=9(học sinh)",
+      "e_5": "Số quả trứng là:8+6=14(quả trưng"
     }
   }
 }
