@@ -35,7 +35,13 @@
       "q_6": "Trên xe buýt có 12 người hành khách khi đến bến đỗ có 4 người đi xuống xe buýt sau đó có 3 người đi lên xe buýt hỏi có bao nhiêu người xem xe buýt.",
       "q_7": "Đơn vị có thể ở luôn trong đề giảng ví dụ tôi có 3 quả táo quả táo là đơn vị và khi câu hỏi hỏi có bao nhiêu quả táo quả táo lại được nói tiếp là đơn vị nên đơn vị được nằm ở đề và câu hỏi.",
       "q_8": "Để tính nhanh 9 cộng 3 cộng 1, em có thể gộp 9 cộng 1 trước bởi vì 9 cộng 1 bằng 10 thì em sẽ chỉ cần cộng thêm 3 sẽ bằng 13 nếu chúng ta không tách chúng ta có thể dễ bị nhầm chúng ta tách ra 9 cộng 1 bằng 10 thì cộng thêm 3 nữa sẽ bằng 13 em cách số 3 ra thành 1 và 2 chúng ta cộng lần lượt 9 cộng 1 bằng 10 10 cộng 2 bằng 12 12 cộng 1 bằng 13.",
-      "e_0": " 9+3+2=14 "
+      "e_0": " 9+3+2=14,8+5+3=16,7+6+4=17.",
+      "e_1": "15-5-3=7, 12-2-4=6, 16-6-5=5 ",
+      "e_2": "9+ 4 -3 =10, 8+7 - 5=10, 12-4 + 6=14 ",
+      "e_3": "Lan còn lại 10 cái bánh ",
+      "e_4": "Trên xe buýt lúc này có 13 người",
+      "e_5": "Các số lần lượt là:4 , 4, 5",
+      "e_7": ""
     }
   }
 }
