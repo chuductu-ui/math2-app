@@ -36,7 +36,11 @@
       "q_5": "Ta lấy 10 trừ đi phần còn lại",
       "q_6": "Kết quả của 11 trừ 3 bằng 10 trừ 2.",
       "q_7": "Kết quả của 14 trừ 6 bằng 10 trừ 2.",
-      "q_8": "Ví dụ tôi có 13 cái kẹo tôi cho bạn của tôi 5 cái kẹo tôi tách 5 tôi tách 5 thành 3 và 2 tôi lấy 13 trừ 3 trước sau đó trừ đi cho 23 trừ 3 bằng 10 10 trừ đi 2 bằng 8 đấy là lý do 13 trừ năm lại bằng 8."
+      "q_8": "Ví dụ tôi có 13 cái kẹo tôi cho bạn của tôi 5 cái kẹo tôi tách 5 tôi tách 5 thành 3 và 2 tôi lấy 13 trừ 3 trước sau đó trừ đi cho 23 trừ 3 bằng 10 10 trừ đi 2 bằng 8 đấy là lý do 13 trừ năm lại bằng 8.",
+      "q_9": "Cách số trượt trong phép trừ qua 10 cộng qua 10 ở chỗ phép trừ thì để thành 10 còn phép cộng thì cộng để thành 10.",
+      "e_0": "Phép tính thứ nhất 11-3 chúng ta tách số 3 thành 1 và 2 chúng ta trừ đi 1 để thành 10 sau đó chúng ta chú tiếp 10 trừ 2 bằng 8 với 11 trừ 3 bằng 8 phép tính thứ 2 11 trừ 5 ta cách số 5 thành 1 và 4 ta lấy số 11 trừ đi 1 để thành 10 sau đó chúng ta lấy 10 trừ đi 4 bằng 6 vậy 11 trừ 5 bằng 6 phép tính thứ Ba 11 trừ 7 cách số 7 thành 1 và 6 ta lấy số 11 trừ đi 1 để thành 10 sau đó 10 trừ 6 bằng 4 vậy 1 trừ 7 bằng 4.",
+      "e_1": "Phép tính thứ nhất 12 trừ 4 chúng ta sẽ tách số 4 thành 2 và 2 chúng ta lấy mấy 2 trừ 2 bằng 10 sau đó 10 lại trừ đi 2 nữa 10 trừ 2 bằng 8 vậy 12 trừ 4 bằng 8 tính thứ 2 12 thứ 6 ta tách số 6 thành 2 và 4 12 trừ 2 bằng 10 10 trừ 4 bằng 6 vậy 12 trừ 6 bằng 6 phép tính thứ 3 12 chú 8 ta cắt số 8 thành 2 và 6 để trừ được thành 10 12 trừ 2 bằng 10 10 trừ 6 bằng 4 vậy 12 trừ 8 bằng 4.",
+      "e_2": "Phép tính thứ nhất 13 trừ 5 ta tách số 5 thành 3 và 2 13 trừ 3 bằng 10 10 trừ 2 bằng 8 vậy 13 trừ 5 bằng 8 phép tính thứ 2 13 trừ 7 ta tách số 7 thành 3 và 4 13 trừ 3 bằng 10 10 trừ 4 bằng 6 vậy 13 trừ 7 bằng 6 phép tính thứ 3 13 trừ 8 ta tách số 8 thành 3 và 53 trừ 3 bằng 10 10 trừ 5 bằng 5 vậy 13 trừ 8 bằng 5."
     }
   }
 }
