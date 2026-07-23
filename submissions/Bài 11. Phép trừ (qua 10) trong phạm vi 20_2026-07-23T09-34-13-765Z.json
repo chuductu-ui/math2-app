@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+  "lessonTitle": "Bài 11. Phép trừ (qua 10) trong phạm vi 20",
+  "submittedAt": "2026-07-23T09:34:13.767Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Tại sao khi tính 12 - 5 ta lại tách số 5 thành 2 và 3?",
+      "answer": "Khi có phép tính 12 trừ 5 ta phải cách số 5 thành 2 và 3 chúng ta dễ tính bởi vì 2 cộng 3 bằng 5 ví dụ chúng ta có 12 kẹo chúng mình cho bạn B 5 cái kẹo hay cộng với 3 là bằng 5 ta cần chú 5 ta phải lấy số 12 để thành số 10 để cho dễ tính mà số 12 có 2 đơn vị mình chỉ cần trừ đi 222 cộng 3 bằng năm mình sẽ trừ còn lại là 33 10 trừ 33 bằng 7 mình còn lại 7 cái kẹo ta cần tách số để ta tính dễ dàng hơn và không cần phải đi nhiều bước ."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Ý nghĩa của việc trừ lùi về 10 là gì?",
+      "answer": "Ý nghĩa của việc chui lùi về 10 là để chúng ta đứng dễ hơn hiểu hơn tính nhanh hơn tính nhầm dễ hơn và chúng ta không cần phải đến ngón tay nữa chúng ta sẽ làm được và ý nghĩa của việc lùi về 10 là để giúp chúng ta biến khó 2 tính cực kỳ dễ."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Để thực hiện phép trừ qua 10 với số bị trừ là 11, ta cần tách từ số trừ mấy đơn vị trước?",
+      "answer": "Để thực hiện phép trừ qua 10 với số lượng trừ là 11, ta cần tách từ số trừ 1 đơn vị chúng ta cần trừ đi về 10 để chúng ta trừ phần còn lại dễ hơn và đơn giản hơn."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Để thực hiện phép trừ qua 10 với số bị trừ là 13, ta cần tách từ số trừ mấy đơn vị trước?",
+      "answer": "Thực hiện các từ qua 10 với số bị trừ là 13, ta cần tách từ số trừ 3 đơn vị."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Giải thích phép tính 12 - 5 = 7 bằng hình ảnh bóc túi kẹo 10 cái.",
+      "answer": "Hãy ví dụ bạn có 12 cái kẹo bạn cách số 12 thành 2 cái kẹo lẻ và 10 cái kẹo vào trong 1 túi bạn muốn cho bạn của bạn 5 cái kẹo thì sẽ trừ đi 2 cái kẹo lẻ và phải trừ thêm 3 cái nữa thì ta sẽ bóc túi có 10 chiếc kẹo ra và cho đi 3 cái kẹo nữa để đủ năm cái kẹo vậy 10 trừ 3 bằng 7."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Sau khi lùi số bị trừ về 10, ta lấy 10 trừ đi phần nào của số trừ?",
+      "answer": "Ta lấy 10 trừ đi phần còn lại"
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Kết quả của 11 - 3 bằng 10 trừ đi mấy?",
+      "answer": "Kết quả của 11 trừ 3 bằng 10 trừ 2."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Kết quả của 14 - 6 bằng 10 trừ đi mấy?",
+      "answer": "Kết quả của 14 trừ 6 bằng 10 trừ 2."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Tại sao 13 - 5 lại bằng 8? Giải thích bằng cách đếm lùi.",
+      "answer": "Ví dụ tôi có 13 cái kẹo tôi cho bạn của tôi 5 cái kẹo tôi tách 5 tôi tách 5 thành 3 và 2 tôi lấy 13 trừ 3 trước sau đó trừ đi cho 23 trừ 3 bằng 10 10 trừ đi 2 bằng 8 đấy là lý do 13 trừ năm lại bằng 8."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tách số trừ trong phép trừ qua 10 khác gì so với tách số cộng ở bài 7?",
+      "answer": "Cách số trượt trong phép trừ qua 10 cộng qua 10 ở chỗ phép trừ thì để thành 10 còn phép cộng thì cộng để thành 10."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính nhẩm bằng cách lùi về 10: 11 - 3;  11 - 5;  11 - 7.",
+      "answer": "Phép tính thứ nhất 11-3 chúng ta tách số 3 thành 1 và 2 chúng ta trừ đi 1 để thành 10 sau đó chúng ta chú tiếp 10 trừ 2 bằng 8 với 11 trừ 3 bằng 8 phép tính thứ 2 11 trừ 5 ta cách số 5 thành 1 và 4 ta lấy số 11 trừ đi 1 để thành 10 sau đó chúng ta lấy 10 trừ đi 4 bằng 6 vậy 11 trừ 5 bằng 6 phép tính thứ Ba 11 trừ 7 cách số 7 thành 1 và 6 ta lấy số 11 trừ đi 1 để thành 10 sau đó 10 trừ 6 bằng 4 vậy 1 trừ 7 bằng 4."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính nhẩm bằng cách lùi về 10: 12 - 4;  12 - 6;  12 - 8.",
+      "answer": "Phép tính thứ nhất 12 trừ 4 chúng ta sẽ tách số 4 thành 2 và 2 chúng ta lấy mấy 2 trừ 2 bằng 10 sau đó 10 lại trừ đi 2 nữa 10 trừ 2 bằng 8 vậy 12 trừ 4 bằng 8 tính thứ 2 12 thứ 6 ta tách số 6 thành 2 và 4 12 trừ 2 bằng 10 10 trừ 4 bằng 6 vậy 12 trừ 6 bằng 6 phép tính thứ 3 12 chú 8 ta cắt số 8 thành 2 và 6 để trừ được thành 10 12 trừ 2 bằng 10 10 trừ 6 bằng 4 vậy 12 trừ 8 bằng 4."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính nhẩm bằng cách lùi về 10: 13 - 5;  13 - 7;  13 - 8.",
+      "answer": "Phép tính thứ nhất 13 trừ 5 ta tách số 5 thành 3 và 2 13 trừ 3 bằng 10 10 trừ 2 bằng 8 vậy 13 trừ 5 bằng 8 phép tính thứ 2 13 trừ 7 ta tách số 7 thành 3 và 4 13 trừ 3 bằng 10 10 trừ 4 bằng 6 vậy 13 trừ 7 bằng 6 phép tính thứ 3 13 trừ 8 ta tách số 8 thành 3 và 53 trừ 3 bằng 10 10 trừ 5 bằng 5 vậy 13 trừ 8 bằng 5."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tính nhẩm bằng cách lùi về 10: 14 - 6;  14 - 8;  14 - 9.",
+      "answer": "Phép tính thứ nhất 14-6 ta tách số 6 thành 4 và 2 tại sao lại 4 và 2 bởi vì chúng ta cần tách thế nào để số 14 lùi về 10 cần cách 4 và 2 bây giờ sẽ tính lần lượt 14 trừ 4 bằng 10 10 trừ 2 bằng 8 phép tính thứ 2 14 trừ 8 chúng ta sẽ tách số 8 thành 4 và 4 14 trừ 4 bằng 10 10 trừ 4 bằng 6 vậy 14 trừ 8 bằng 6."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Tính nhẩm: 15 - 7;  16 - 8;  17 - 9;  18 - 9.",
+      "answer": "15 trừ 7 bằng 8, 16 trừ 8 bằng 8, 17 trừ 9 bằng 7, 18 trừ 9 bằng 9."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Điền số thích hợp: 11 - ... = 8;  13 - ... = 7;  15 - ... = 9.",
+      "answer": "11-3=8, 13-6=7, 15-6=9."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "So sánh: 12 - 4 ... 11 - 3;  14 - 6 ... 15 - 7;  13 - 5 ... 12 - 5.",
+      "answer": "12-4=11-3, 14-6=15-7, 13-5>12-5."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Lan có 13 viên kẹo, Lan cho Bình 6 viên kẹo. Hỏi Lan còn lại bao nhiêu viên kẹo?",
+      "answer": "Số viên kẹo Lan có là:13-6=7(viên kẹo)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Lớp 2A có 14 học sinh vẽ tranh, trong đó có 8 bạn nữ. Hỏi có bao nhiêu bạn nam vẽ tranh?",
+      "answer": "Số học sinh nam là:14-8=6(học sinh nam)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Đoạn dây dài 15 cm, bé cắt đi một đoạn dài 6 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?",
+      "answer": "Số đoạn dây còn lại là:15-6=9(đoạn dây còn lại)"
+    }
+  ]
+}
