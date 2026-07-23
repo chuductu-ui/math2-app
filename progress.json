@@ -23,24 +23,10 @@
     "Bài 7. Phép cộng (qua 10) trong phạm vi 20": "2026-07-17T07:26:21.411Z",
     "Bài 8. Bảng cộng (qua 10)": "2026-07-18T09:39:30.453Z",
     "Bài 9. Bài toán về thêm, bớt một số đơn vị": "2026-07-19T07:13:29.508Z",
-    "Bài 10. Luyện tập": "2026-07-20T10:20:39.505Z"
+    "Bài 10. Luyện tập": "2026-07-20T10:20:39.505Z",
+    "Bài 11. Phép trừ (qua 10) trong phạm vi 20": "2026-07-23T09:34:13.759Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 11. Phép trừ (qua 10) trong phạm vi 20": {
-      "q_0": "Khi có phép tính 12 trừ 5 ta phải cách số 5 thành 2 và 3 chúng ta dễ tính bởi vì 2 cộng 3 bằng 5 ví dụ chúng ta có 12 kẹo chúng mình cho bạn B 5 cái kẹo hay cộng với 3 là bằng 5 ta cần chú 5 ta phải lấy số 12 để thành số 10 để cho dễ tính mà số 12 có 2 đơn vị mình chỉ cần trừ đi 222 cộng 3 bằng năm mình sẽ trừ còn lại là 33 10 trừ 33 bằng 7 mình còn lại 7 cái kẹo ta cần tách số để ta tính dễ dàng hơn và không cần phải đi nhiều bước .",
-      "q_1": "Ý nghĩa của việc chui lùi về 10 là để chúng ta đứng dễ hơn hiểu hơn tính nhanh hơn tính nhầm dễ hơn và chúng ta không cần phải đến ngón tay nữa chúng ta sẽ làm được và ý nghĩa của việc lùi về 10 là để giúp chúng ta biến khó 2 tính cực kỳ dễ.",
-      "q_2": "Để thực hiện phép trừ qua 10 với số lượng trừ là 11, ta cần tách từ số trừ 1 đơn vị chúng ta cần trừ đi về 10 để chúng ta trừ phần còn lại dễ hơn và đơn giản hơn.",
-      "q_3": "Thực hiện các từ qua 10 với số bị trừ là 13, ta cần tách từ số trừ 3 đơn vị.",
-      "q_4": "Hãy ví dụ bạn có 12 cái kẹo bạn cách số 12 thành 2 cái kẹo lẻ và 10 cái kẹo vào trong 1 túi bạn muốn cho bạn của bạn 5 cái kẹo thì sẽ trừ đi 2 cái kẹo lẻ và phải trừ thêm 3 cái nữa thì ta sẽ bóc túi có 10 chiếc kẹo ra và cho đi 3 cái kẹo nữa để đủ năm cái kẹo vậy 10 trừ 3 bằng 7.",
-      "q_5": "Ta lấy 10 trừ đi phần còn lại",
-      "q_6": "Kết quả của 11 trừ 3 bằng 10 trừ 2.",
-      "q_7": "Kết quả của 14 trừ 6 bằng 10 trừ 2.",
-      "q_8": "Ví dụ tôi có 13 cái kẹo tôi cho bạn của tôi 5 cái kẹo tôi tách 5 tôi tách 5 thành 3 và 2 tôi lấy 13 trừ 3 trước sau đó trừ đi cho 23 trừ 3 bằng 10 10 trừ đi 2 bằng 8 đấy là lý do 13 trừ năm lại bằng 8.",
-      "q_9": "Cách số trượt trong phép trừ qua 10 cộng qua 10 ở chỗ phép trừ thì để thành 10 còn phép cộng thì cộng để thành 10.",
-      "e_0": "Phép tính thứ nhất 11-3 chúng ta tách số 3 thành 1 và 2 chúng ta trừ đi 1 để thành 10 sau đó chúng ta chú tiếp 10 trừ 2 bằng 8 với 11 trừ 3 bằng 8 phép tính thứ 2 11 trừ 5 ta cách số 5 thành 1 và 4 ta lấy số 11 trừ đi 1 để thành 10 sau đó chúng ta lấy 10 trừ đi 4 bằng 6 vậy 11 trừ 5 bằng 6 phép tính thứ Ba 11 trừ 7 cách số 7 thành 1 và 6 ta lấy số 11 trừ đi 1 để thành 10 sau đó 10 trừ 6 bằng 4 vậy 1 trừ 7 bằng 4.",
-      "e_1": "Phép tính thứ nhất 12 trừ 4 chúng ta sẽ tách số 4 thành 2 và 2 chúng ta lấy mấy 2 trừ 2 bằng 10 sau đó 10 lại trừ đi 2 nữa 10 trừ 2 bằng 8 vậy 12 trừ 4 bằng 8 tính thứ 2 12 thứ 6 ta tách số 6 thành 2 và 4 12 trừ 2 bằng 10 10 trừ 4 bằng 6 vậy 12 trừ 6 bằng 6 phép tính thứ 3 12 chú 8 ta cắt số 8 thành 2 và 6 để trừ được thành 10 12 trừ 2 bằng 10 10 trừ 6 bằng 4 vậy 12 trừ 8 bằng 4.",
-      "e_2": "Phép tính thứ nhất 13 trừ 5 ta tách số 5 thành 3 và 2 13 trừ 3 bằng 10 10 trừ 2 bằng 8 vậy 13 trừ 5 bằng 8 phép tính thứ 2 13 trừ 7 ta tách số 7 thành 3 và 4 13 trừ 3 bằng 10 10 trừ 4 bằng 6 vậy 13 trừ 7 bằng 6 phép tính thứ 3 13 trừ 8 ta tách số 8 thành 3 và 53 trừ 3 bằng 10 10 trừ 5 bằng 5 vậy 13 trừ 8 bằng 5."
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
