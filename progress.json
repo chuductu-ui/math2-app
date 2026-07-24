@@ -28,6 +28,13 @@
     "Bài 11. Phép trừ (qua 10) trong phạm vi 20": "2026-07-23T09:34:13.759Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 12. Bảng trừ (qua 10)": {
+      "q_0": "Bảng trừ qua 10 gồm những bảng Như 11 trừ đi bao nhiêu đó 12 trừ đi bao nhiêu đó tiếp đến 18 trừ đi bao nhiêu đó.",
+      "q_1": "Trong bảng 11 chú đi 1 số phép tính 11 trừ 2 bằng 9 là kết quả lớn nhất.",
+      "q_2": "Trong bảng 12 chú đi 1 chỗ phép tính 12 trừ 12 bằng 0 là kết quả bé nhất.",
+      "q_3": "9-1=8, 10-2=8, 11-3=8, 12-4=8, 13-5=8, 14-6=8, 15-7=8, 16-8=8, 17-9=8, \n8-0=8.",
+      "q_4": "5-0=5, 6-1=5, 7-2=5, 8-3=5, "
+    }
   }
 }
