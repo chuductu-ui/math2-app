@@ -25,30 +25,10 @@
     "Bài 8. Bảng cộng (qua 10)": "2026-07-18T09:39:30.453Z",
     "Bài 9. Bài toán về thêm, bớt một số đơn vị": "2026-07-19T07:13:29.508Z",
     "Bài 10. Luyện tập": "2026-07-20T10:20:39.505Z",
-    "Bài 11. Phép trừ (qua 10) trong phạm vi 20": "2026-07-23T09:34:13.759Z"
+    "Bài 11. Phép trừ (qua 10) trong phạm vi 20": "2026-07-23T09:34:13.759Z",
+    "Bài 12. Bảng trừ (qua 10)": "2026-07-24T13:22:44.171Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 12. Bảng trừ (qua 10)": {
-      "q_0": "Bảng trừ qua 10 gồm những bảng Như 11 trừ đi bao nhiêu đó 12 trừ đi bao nhiêu đó tiếp đến 18 trừ đi bao nhiêu đó.",
-      "q_1": "Trong bảng 11 chú đi 1 số phép tính 11 trừ 2 bằng 9 là kết quả lớn nhất.",
-      "q_2": "Trong bảng 12 chú đi 1 chỗ phép tính 12 trừ 12 bằng 0 là kết quả bé nhất.",
-      "q_3": "9-1=8, 10-2=8, 11-3=8, 12-4=8, 13-5=8, 14-6=8, 15-7=8, 16-8=8, 17-9=8, \n8-0=8.",
-      "q_4": "5-0=5, 6-1=5, 7-2=5, 8-3=5, 9-4=5, 10-5=5, 11-6=5, 12-7=5, 13-8=5, 14-9=5.",
-      "q_5": "Bởi vì chúng ta đã học thuộc bản trừ chúng ta đã học thuộc hết tính học thuộc kết quả và khi gặp tiếng chúng ta đã được học thuộc đã thuộc cả kết quả đã biết cách phải làm thế nào để dễ hiểu thì chúng ta đã biết rồi chúng ta đã biết kết quả rồi chúng ta đã biết phải làm thế nào để dễ hiểu rồi chúng ta đã biết vì sao lại ra kết quả đó nên chỉ cần có máy tính chúng ta có ngay kết quả không cần phải suy nghĩ.",
-      "q_6": "Phép tính 15-8 và 15-7 có liên quan đổi chỗ bởi vì 15-8=7 mà 15-8=7.",
-      "q_7": "Số cần điền vào chỗ trống là số 7",
-      "q_8": "Số cần nhìn vào chỗ trống là 3",
-      "q_9": "Phép tính 13 - 9 =4 ",
-      "e_0": "Kết quả của cả 4 phép tính này đều bằng 7",
-      "e_1": "Kết quả lần lượt là: 7; 7; 9; 9",
-      "e_2": "Kết quả ô trống lần lượt của các phép tính này là: 3; 5; 9 ",
-      "e_3": "Các dấu lần lượt cần điền là:=; >; = ",
-      "e_4": "Kết quả lần lượt cần điền là: 5; 6; 8",
-      "e_5": "Số bút chì màu là:13-5=8(bút chì màu)",
-      "e_6": "Số xe đạp là:16-8=8(xe đạp)",
-      "e_8": "11-5+8=14; 14-6+5=13; ",
-      "e_9": "Số trang sách nam phải đọc là:18-9=9 "
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
