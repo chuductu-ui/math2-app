@@ -44,7 +44,11 @@
       "e_1": "Kết quả lần lượt là: 7; 7; 9; 9",
       "e_2": "Kết quả ô trống lần lượt của các phép tính này là: 3; 5; 9 ",
       "e_3": "Các dấu lần lượt cần điền là:=; >; = ",
-      "e_4": "Kết quả lần lượt cần điền là: 5; 6; 8"
+      "e_4": "Kết quả lần lượt cần điền là: 5; 6; 8",
+      "e_5": "Số bút chì màu là:13-5=8(bút chì màu)",
+      "e_6": "Số xe đạp là:16-8=8(xe đạp)",
+      "e_8": "11-5+8=14; 14-6+5=13; ",
+      "e_9": "Số trang sách nam phải đọc là:18-9=9 "
     }
   }
 }
