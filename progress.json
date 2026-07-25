@@ -30,6 +30,12 @@
     "Bài 12. Bảng trừ (qua 10)": "2026-07-24T13:22:44.171Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị": {
+      "q_0": "Để tìm số đối tượng nhiều hơn đối tượng đã biết ta phải làm phép tính cộng.",
+      "q_1": "Để tìm số đối tượng ít hơn đối tượng đã biết ta làm phép tính trừ.",
+      "q_2": "Ví dụ mình chỉ có 1 cột gạch thôi sau đó mình tăng thêm 5 cột gạch làm mình được tăng thêm nhiều cột gạch khác đấy là lý do tại sao bài toán nhiều hơn lại dùng phép tính cộng.",
+      "q_3": "Ví dụ mình có 10 cột gạch khi mình đã dùng hết các cột gạch mà mình cần thì lúc đó 10 cột gạch sẽ bị bớt đi 3 cột gạch bởi vì mình đã dùng hết 3 cột gạch đấy là lý do tại sao bài toán ít hơn lại dùng phép tính trừ."
+    }
   }
 }
