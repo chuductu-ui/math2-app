@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị",
+  "lessonTitle": "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị",
+  "submittedAt": "2026-07-27T00:52:31.641Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Để tìm số của đối tượng \"nhiều hơn\" đối tượng đã biết, ta làm phép tính gì?",
+      "answer": "Để tìm số đối tượng nhiều hơn đối tượng đã biết ta phải làm phép tính cộng."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Để tìm số của đối tượng \"ít hơn\" đối tượng đã biết, ta làm phép tính gì?",
+      "answer": "Để tìm số đối tượng ít hơn đối tượng đã biết ta làm phép tính trừ."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Tại sao bài toán nhiều hơn lại dùng phép cộng? Giải thích bằng ví dụ cột gạch.",
+      "answer": "Ví dụ mình chỉ có 1 cột gạch thôi sau đó mình tăng thêm 5 cột gạch làm mình được tăng thêm nhiều cột gạch khác đấy là lý do tại sao bài toán nhiều hơn lại dùng phép tính cộng."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Tại sao bài toán ít hơn lại dùng phép trừ? Giải thích bằng ví dụ cột gạch.",
+      "answer": "Ví dụ mình có 10 cột gạch khi mình đã dùng hết các cột gạch mà mình cần thì lúc đó 10 cột gạch sẽ bị bớt đi 3 cột gạch bởi vì mình đã dùng hết 3 cột gạch đấy là lý do tại sao bài toán ít hơn lại dùng phép tính trừ"
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Làm thế nào để phân biệt bài toán \"hơn kém nhau bao nhiêu\" với bài toán \"nhiều hơn, ít hơn\"?",
+      "answer": "Để phân biệt bài toán hơn kém nhau bao nhiêu với bài toán nhiều hơn ít hơn nếu chúng ta nghe thấy bài toán nói là nhiều hơn là người ta sẽ cho 1 số trước để chúng ta biết sau đó người ta bảo là số kia nhiều hơn chỗ này bao nhiêu đó con nếu như ít hơn người ta cũng sẽ cho 1 số và bảo số này ít hơn số kia là số chúng ta đã được biết trước còn nếu như bài toán hơn kém nhau bao nhiêu thì người ta sẽ cho 2 số để chúng ta trước sau đó sẽ so sánh."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Nếu Mai có ít hơn Lan 3 cái kẹo, nghĩa là số kẹo của Mai bằng số kẹo của Lan thế nào?",
+      "answer": "Có nghĩa là số kẹo của mai bằng số kẹo của Lan trừ đi 3"
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Nếu Nam có nhiều hơn Bình 4 viên bi, nghĩa là số bi của Nam bằng số bi của Bình thế nào?",
+      "answer": "Nghĩa là số của nam bằng số bi của Bình cộng 4"
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Đơn vị của bài toán tìm số tuổi là gì?",
+      "answer": "Tuổi."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Đơn vị của bài toán tìm số lít nước là gì?",
+      "answer": "Là lÍt."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu bài toán hỏi \"Bạn Hoa có bao nhiêu cái nhãn vở?\", lời giải của em sẽ viết thế nào?",
+      "answer": "Nếu bài toán hỏi bạn Hoa có bao nhiêu cái nhãn vở?, Lời giải của em sẽ viết là số nhãn vở của bạn Hoa là: bạn Hoa có bao nhiêu đó sau đó(cái nhãn vở)"
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Bạn Hoa gấp được 8 ngôi sao, bạn Bình gấp được nhiều hơn bạn Hoa 5 ngôi sao. Hỏi bạn Bình gấp được bao nhiêu ngôi sao?",
+      "answer": "Số Ngôi sao bình gấp được là:8+5=13(ngôi sao)"
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Bạn Lan có 12 cái kẹo, bạn Mai có ít hơn bạn Lan 4 cái. Hỏi bạn Mai có bao nhiêu cái kẹo?",
+      "answer": "Số kẹo của bạn Mai là:12-4=8(cái kẹo)"
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Bể thứ nhất có 8 con cá, bể thứ hai có nhiều hơn bể thứ nhất 6 con. Hỏi bể thứ hai có bao nhiêu con cá?",
+      "answer": "Số con cá ở bể thứ 2 là:8+6=14(con cá ở bể thứ 2)"
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Hùng cân nặng 15 kg, Minh nhẹ hơn Hùng 3 kg. Hỏi Minh cân nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số cân nặng của Minh là:15-3=12(kg)"
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Thùng thứ nhất đựng 12 lít nước, thùng thứ hai đựng ít hơn thùng thứ nhất 4 lít. Hỏi thùng thứ hai đựng bao nhiêu lít nước?",
+      "answer": "Số số lít thùng thứ 2 là:12-4=8(thùng lít thứ 2)"
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Mẹ mua 9 quả táo, chị mua nhiều hơn mẹ 5 quả. Hỏi chị mua bao nhiêu quả táo?",
+      "answer": "Số quả táo chị mua là:9+5=14(số quả táo chị mua)"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Lan có 11 quyển truyện, Mai có ít hơn Lan 4 quyển. Hỏi Mai có bao nhiêu quyển truyện?",
+      "answer": "Số quyển truyện mai có là:11-4=7(số quyển truyện Mai có)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Bố trồng được 9 cây cam, ông trồng được nhiều hơn bố 3 cây. Hỏi ông trồng được bao nhiêu cây cam?",
+      "answer": "Số cây cam ông trồng được là:9+3=12(cây cam ông trồng được)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Bình có 14 tờ giấy màu, Hà có ít hơn Bình 6 tờ. Hỏi Hà có bao nhiêu tờ giấy màu?",
+      "answer": "Số giấy màu Hà có là:14-6=8(tờ giấy màu Hà có)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Một cửa hàng buổi sáng bán được 15 cái bánh, buổi chiều bán được nhiều hơn buổi sáng 5 cái. Hỏi buổi chiều bán được bao nhiêu cái bánh?",
+      "answer": "Số bánh bán được buổi chiều là:15+5=20(số bánh bán được buổi chiều)"
+    }
+  ]
+}
