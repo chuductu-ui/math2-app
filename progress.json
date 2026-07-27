@@ -27,18 +27,10 @@
     "Bài 9. Bài toán về thêm, bớt một số đơn vị": "2026-07-19T07:13:29.508Z",
     "Bài 10. Luyện tập": "2026-07-20T10:20:39.505Z",
     "Bài 11. Phép trừ (qua 10) trong phạm vi 20": "2026-07-23T09:34:13.759Z",
-    "Bài 12. Bảng trừ (qua 10)": "2026-07-24T13:22:44.171Z"
+    "Bài 12. Bảng trừ (qua 10)": "2026-07-24T13:22:44.171Z",
+    "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị": "2026-07-27T00:52:31.638Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị": {
-      "q_0": "Để tìm số đối tượng nhiều hơn đối tượng đã biết ta phải làm phép tính cộng.",
-      "q_1": "Để tìm số đối tượng ít hơn đối tượng đã biết ta làm phép tính trừ.",
-      "q_2": "Ví dụ mình chỉ có 1 cột gạch thôi sau đó mình tăng thêm 5 cột gạch làm mình được tăng thêm nhiều cột gạch khác đấy là lý do tại sao bài toán nhiều hơn lại dùng phép tính cộng.",
-      "q_3": "Ví dụ mình có 10 cột gạch khi mình đã dùng hết các cột gạch mà mình cần thì lúc đó 10 cột gạch sẽ bị bớt đi 3 cột gạch bởi vì mình đã dùng hết 3 cột gạch đấy là lý do tại sao bài toán ít hơn lại dùng phép tính trừ",
-      "q_4": "Để phân biệt bài toán hơn kém nhau bao nhiêu với bài toán nhiều hơn ít hơn nếu chúng ta nghe thấy bài toán nói là nhiều hơn là người ta sẽ cho 1 số trước để chúng ta biết sau đó người ta bảo là số kia nhiều hơn chỗ này bao nhiêu đó con nếu như ít hơn người ta cũng sẽ cho 1 số và bảo số này ít hơn số kia là số chúng ta đã được biết trước còn nếu như bài toán hơn kém nhau bao nhiêu thì người ta sẽ cho 2 số để chúng ta trước sau đó sẽ so sánh.",
-      "q_5": "Có nghĩa là số kẹo của mai bằng số kẹo của Lan trừ đi 3",
-      "q_6": "Nghĩa là số của nam bằng số bi của Bình cộng 4"
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
