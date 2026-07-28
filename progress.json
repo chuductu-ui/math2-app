@@ -32,6 +32,11 @@
     "Bài 13. Bài toán về nhiều hơn, ít hơn một số đơn vị": "2026-07-27T00:52:31.638Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 14. Luyện tập chung": {
+      "q_0": "Nếu hiệu là 9, số trừ là 5 thì số bị trừ là 14.",
+      "q_1": "Nếu tổng là 15, 1 số hạng là 8 thì số hạng còn lại là 7.",
+      "q_2": "Để tính nhanh biểu thức 9+5-4? thì ta biết số 5 sẽ tách Thành 1 và 4 chúng ta tính 9+1=10 10+ 4=14 chúng ta đã biết 10+4=14 rồi thì 14 lại trả đi 4 thì lại bằng 10 đấy là cách tính của tôi."
+    }
   }
 }
