@@ -36,7 +36,14 @@
     "Bài 14. Luyện tập chung": {
       "q_0": "Nếu hiệu là 9, số trừ là 5 thì số bị trừ là 14.",
       "q_1": "Nếu tổng là 15, 1 số hạng là 8 thì số hạng còn lại là 7.",
-      "q_2": "Để tính nhanh biểu thức 9+5-4? thì ta biết số 5 sẽ tách Thành 1 và 4 chúng ta tính 9+1=10 10+ 4=14 chúng ta đã biết 10+4=14 rồi thì 14 lại trả đi 4 thì lại bằng 10 đấy là cách tính của tôi."
+      "q_2": "Để tính nhanh biểu thức 9+5-4? thì ta biết số 5 sẽ tách Thành 1 và 4 chúng ta tính 9+1=10 10+ 4=14 chúng ta đã biết 10+4=14 rồi thì 14 lại trả đi 4 thì lại bằng 10 đấy là cách tính của tôi.",
+      "q_3": "Để tính nhanh biểu thức 12-6+5? chúng ta sẽ tách số 6 thành 2 và 4 12 -2=10 10-4=6 bây giờ lại 6+5 chúng ta tách số 5 thành 4 và 1 6 cộng 4 bằng 10 10 cộng 1 bằng 11 đấy là cách tính của tôi.",
+      "q_4": "Số liền sau của số liền sau của số 10 là 12.",
+      "q_5": "Số liền trước của số liền trước của số 15 là 13.",
+      "q_6": "Khi giải bài toán đố, việc viết tóm tắt có lợi ích như 1 bài giải toán đố quá dài và phức tạp tóm tắt giúp chúng ta biến câu dài phức tạp đó chuyển thành 1 câu ngắn gọn còn dễ hiểu hơn.",
+      "q_7": "Chúng ta chỉ cần tính 2 phép tính đó thật đúng để kiểm tra chuẩn sau đó chúng ta sẽ xem 8+7=15 18-3=15 thì chúng ta sẽ so sánh 15 bằng 15,2 phép tính có kết quả bằng nhau nếu như có những phép tính khác thì chúng ta sẽ luôn luôn làm như thế dù nó có không bằng nhau nó có nhỏ hơn nó có lớn hơn vẫn phải làm như thế để chúng ta xem là bên này nhỏ hơn bên này to hơn không phải mỗi bằng nhau làm cách này.",
+      "q_8": "Các ngày trong tuần là thứ 2, thứ 3, thứ 4, thứ 5, thứ 6, thứ 7, CN.",
+      "q_9": "Số liền trước của 20 là số có 2 chữ số."
     }
   }
 }
