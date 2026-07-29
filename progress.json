@@ -39,7 +39,8 @@
       "q_0": "Đơn vị ki-lô-gam dùng để biết đồ vật này nặng bao nhiêu hoặc",
       "q_1": "Quả cân ghi 1 kg nặng 1 kg dùng để biết cân nặng của đồ vật lớn hay bé hoặc dùng để biết cân nặng của đồ vật.",
       "q_2": "Em chỉ cần thấy tay nào cầm khó hơn thì cái tay cầm khó hơn là nặng hơn.",
-      "q_3": "Nếu cân thăng bằng khi đó khối lượng 2 bên sẽ bằng nhau."
+      "q_3": "Nếu cân thăng bằng khi đó khối lượng 2 bên sẽ bằng nhau.",
+      "q_4": "Nếu đĩa cân bên trái đựng quả bí, đĩa bên phải đựng 2 quả cân 1 kg thì quả bí nặng 2 kg."
     }
   }
 }
