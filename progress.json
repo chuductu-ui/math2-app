@@ -40,7 +40,15 @@
       "q_1": "Quả cân ghi 1 kg nặng 1 kg dùng để biết cân nặng của đồ vật lớn hay bé hoặc dùng để biết cân nặng của đồ vật.",
       "q_2": "Em chỉ cần thấy tay nào cầm khó hơn thì cái tay cầm khó hơn là nặng hơn.",
       "q_3": "Nếu cân thăng bằng khi đó khối lượng 2 bên sẽ bằng nhau.",
-      "q_4": "Nếu đĩa cân bên trái đựng quả bí, đĩa bên phải đựng 2 quả cân 1 kg thì quả bí nặng 2 kg."
+      "q_4": "Nếu đĩa cân bên trái đựng quả bí, đĩa bên phải đựng 2 quả cân 1 kg thì quả bí nặng 2 kg.",
+      "q_5": "Khi kim cân đồng hồ chỉ đồng chỉ đúng số 3, vật bên trên nặng 3 kg.",
+      "q_6": "Chẳng có vật nào nặng hơn.",
+      "q_7": " Vật thứ nhất là em sẽ lấy hộp màu sau đó cho thêm vài thứ vào được 1 kg vật thứ 2 em lấy cắp sách của em cho sách vở vào được 1 kg em lại lấy Túi đi làm của mẹ em được 1 kg?",
+      "q_8": "Thứ thứ nhất là cái đo chiều cao nhẹ hơn 1 kg cái thứ 2 là cái loa nhẹ hơn 1 kg cái thứ 3 là túi đồ nhẹ hơn 1 kg.",
+      "q_9": "Số kg của 2 quả táo và ổi là:2+3=5 (kg)",
+      "e_1": "5 kg+8 kg=13 kg; 12 kg-7 kg=5 kg; 20 kg+15 kg=35 kg.",
+      "e_2": "8 kg+7 kg=15 kg; 16 kg-7 kg=9 kg.",
+      "e_3": "9 kg+4 kg =13 kg "
     }
   }
 }
