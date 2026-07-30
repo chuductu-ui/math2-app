@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 15. Ki-lô-gam (kg)",
+  "lessonTitle": "Bài 15. Ki-lô-gam (kg)",
+  "submittedAt": "2026-07-30T02:31:35.502Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Đơn vị ki-lô-gam dùng để đo gì? Viết tắt là gì?",
+      "answer": "Đơn vị ki-lô-gam dùng để biết đồ vật này nặng bao nhiêu hoặc"
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Quả cân ghi '1 kg' nặng bao nhiêu? Dùng để làm gì?",
+      "answer": "Quả cân ghi 1 kg nặng 1 kg dùng để biết cân nặng của đồ vật lớn hay bé hoặc dùng để biết cân nặng của đồ vật."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Làm sao em biết vật nào nặng hơn khi cầm trên tay?",
+      "answer": "Em chỉ cần thấy tay nào cầm khó hơn thì cái tay cầm khó hơn là nặng hơn."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Thế nào là đĩa cân thăng bằng? Khi đó khối lượng hai bên thế nào?",
+      "answer": "Nếu cân thăng bằng khi đó khối lượng 2 bên sẽ bằng nhau."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nếu đĩa cân bên trái đựng quả bí, đĩa bên phải đựng 2 quả cân 1kg thì quả bí nặng bao nhiêu?",
+      "answer": "Nếu đĩa cân bên trái đựng quả bí, đĩa bên phải đựng 2 quả cân 1 kg thì quả bí nặng 2 kg."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Khi kim cân đồng hồ chỉ đúng số 3, vật trên cân nặng bao nhiêu?",
+      "answer": "Khi kim cân đồng hồ chỉ đồng chỉ đúng số 3, vật bên trên nặng 3 kg."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Vật nào nặng hơn: 1kg bông hay 1kg sắt? Vì sao?",
+      "answer": "Chẳng có vật nào nặng hơn."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Hãy kể tên 3 vật trong nhà nặng hơn 1kg.",
+      "answer": " Vật thứ nhất là em sẽ lấy hộp màu sau đó cho thêm vài thứ vào được 1 kg vật thứ 2 em lấy cắp sách của em cho sách vở vào được 1 kg em lại lấy Túi đi làm của mẹ em được 1 kg?"
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Hãy kể tên 3 vật trong nhà nhẹ hơn 1kg.",
+      "answer": "Thứ thứ nhất là cái đo chiều cao nhẹ hơn 1 kg cái thứ 2 là cái loa nhẹ hơn 1 kg cái thứ 3 là túi đồ nhẹ hơn 1 kg."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu em mua 2kg táo và 3kg ổi, tổng khối lượng hoa quả mua là bao nhiêu?",
+      "answer": "Số kg của 2 quả táo và ổi là:2+3=5 (kg)"
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đọc khối lượng của các vật được đặt trên cân đồng hồ (vẽ hình hoặc mô tả: kim chỉ số 2, số 5).",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính nhẩm: 5kg + 8kg = ...;  12kg - 7kg = ...;  20kg + 15kg = ...",
+      "answer": "5 kg+8 kg=13 kg; 12 kg-7 kg=5 kg; 20 kg+15 kg=35 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Điền số thích hợp: 8kg + ... kg = 15kg;  16kg - ... kg = 9kg.",
+      "answer": "8 kg+7 kg=15 kg; 16 kg-7 kg=9 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "So sánh: 9kg + 4kg ... 15kg - 2kg;  8kg + 7kg ... 12kg + 4kg.",
+      "answer": "9 kg+4 kg =13 kg "
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Quả bí ngô nặng 3kg, quả dưa hấu nặng hơn quả bí ngô 2kg. Hỏi quả dưa hấu nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của quả dưa hấu là:3+2=5 (số kg của quả dưa hấu)"
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Con ngỗng nặng 6kg, con gà nhẹ hơn con ngỗng 4kg. Hỏi con gà nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của con gà là:6-4=2 (số kg của con gà)"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Đĩa cân bên trái có quả đu đủ. Đĩa cân bên phải có quả cân 2kg và quả cân 1kg. Khi cân thăng bằng, quả đu đủ nặng bao nhiêu?",
+      "answer": "Đĩa cân bên trái có quả đu đủ. Đĩa cân bên phải có quả cân 2kg và quả cân 1kg. Khi cân thăng bằng, quả đu đủ nặng 3kg."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Mẹ mua 5kg gạo tẻ và 3kg gạo nếp. Hỏi mẹ mua tất cả bao nhiêu ki-lô-gam gạo? (Trình bày bài giải)",
+      "answer": "Số kg gạo tẻ và gạo nếp là:5+3=8 (số kg của gạo tẻ và gạo nếp)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tìm X biết: X + 5kg = 12kg;  X - 6kg = 8kg.",
+      "answer": "7 kg+5 kg=12 kg; 14 kg-6 kg=8 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Bé Nam nặng 22kg, bé Bình nặng hơn bé Nam 3kg. Hỏi bé Bình nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của bé Bình là:22+3=25 (kg của bé Bình)"
+    }
+  ]
+}
