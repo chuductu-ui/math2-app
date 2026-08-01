@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 16. Lít (l)",
+  "lessonTitle": "Bài 16. Lít (l)",
+  "submittedAt": "2026-08-01T10:18:50.278Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Đơn vị lít dùng để đo gì? Viết tắt là gì?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Làm thế nào để đong được đúng 1 lít nước? Dùng dụng cụ nào?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Hãy kể tên 3 loại chất lỏng thường được đo bằng lít.",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Chai nước lọc nhỏ em uống hàng ngày thường chứa nhiều hơn hay ít hơn 1 lít?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Bình nước lọc to ở văn phòng lớp học chứa được khoảng bao nhiêu lít nước?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Can nước 5 lít chứa được lượng nước gấp mấy lần ca đong 1 lít?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Nếu đổ đầy nước vào ca 2 lít và ca 3 lít rồi đổ chung vào xô, trong xô có mấy lít nước?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Vật chứa nào đựng được nhiều nước hơn: cái bể cá hay cái can 10 lít?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Để đo thể tích xăng đổ vào xe máy, người ta dùng đơn vị nào?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tại sao chúng ta không dùng đơn vị ki-lô-gam để đo lượng nước ngọt trong chai?",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính nhẩm: 5l + 8l = ...;  15l - 7l = ...;  20l + 10l = ...",
+      "answer": "5l+8l=13l; 15l-7l=8l; 20l+10l=30l."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Điền số thích hợp: 9l + ... l = 13l;  12l - ... l = 6l;  ... l + 5l = 11l.",
+      "answer": "9l+4l=13l; 12l-6l=6l; 6l+5l=11l."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "So sánh: 9l + 4l ... 15l - 2l;  8l + 7l ... 12l + 4l.",
+      "answer": "9l+4l=15l-2l; 8l+7l<12l+4l."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Rót đầy 1 ca 5 lít và 1 ca 2 lít nước rồi đổ chung vào một xô. Hỏi trong xô có tất cả bao nhiêu lít nước?",
+      "answer": "7 lít."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Một can chứa 10 lít nước ngọt, người ta rót ra các chai nhỏ mất 4 lít. Hỏi trong can còn lại bao nhiêu lít nước ngọt?",
+      "answer": "Số can nước ngọt là: 10-4=6 (số cân nước ngọt)"
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Thùng thứ nhất đựng 18 lít dầu, thùng thứ hai đựng ít hơn thùng thứ nhất 5 lít. Hỏi thùng thứ hai đựng bao nhiêu lít dầu?",
+      "answer": "Số lít dầu của thùng thứ hai là: 18-5=13 (số lít dầu của thùng thứ hai)"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tìm Y biết: Y + 5l = 12l;  Y - 6l = 8l.",
+      "answer": "7l+5l=12l; 14l-6l=8l."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Bể nước có 50 lít nước, bố bơm thêm vào bể 30 lít nữa. Hỏi lúc này bể có bao nhiêu lít nước?",
+      "answer": "Số lít nước trong bể là: 50+30=80 (số lít nước trong bể)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Có hai chiếc can, can thứ nhất đựng 9 lít nước, can thứ hai đựng 6 lít. Hỏi can thứ nhất nhiều hơn can thứ hai mấy lít?",
+      "answer": "Can thứ nhất nhiều hơn can thứ hai 3 cái."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Một thùng đựng dầu có 45 lít dầu, người ta đã bán đi 20 lít. Hỏi trong thùng còn lại bao nhiêu lít dầu? (Trình bày bài giải)",
+      "answer": "Số lít dầu còn lại là: 45-20=25 (số lít dầu còn lại)"
+    }
+  ]
+}
