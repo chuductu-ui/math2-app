@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+  "lessonTitle": "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít",
+  "submittedAt": "2026-08-03T07:38:37.396Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Ước lượng xem một chiếc balo đi học nặng khoảng bao nhiêu ki-lô-gam?",
+      "answer": "Nhẹ hơn 1 kg."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Ước lượng xem một xô lau nhà đầy nước chứa được khoảng bao nhiêu lít?",
+      "answer": "Khoảng 4 lít."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Làm sao em biết một quả dưa hấu nặng khoảng 3kg chứ không phải 30kg?",
+      "answer": "Vì 30 kg quá nặng so với 1 quả dưa hấu nên 1 quả dưa hấu chỉ đáng với 3 kg thôi."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Khi đong nước pha nước cam cho gia đình, em dùng dụng cụ nào để đo lượng nước?",
+      "answer": "Sẽ có vài cái bình có vạch thì em sẽ lấy cái vạch đó để em đong nước cam cho cả nhà uống."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nếu không có ca 3 lít, làm sao để đong được 3 lít nước bằng ca 1 lít?",
+      "answer": "Nếu không có ca 3 lÍt, chúng ta có thể lấy 3 chai 1 lít để được 3 lít."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Mô tả cách em cân cân nặng của chính mình ở trường.",
+      "answer": "Em chỉ cần đứng lên chiếc cân đấy xem nó chỉ đến bao nhiêu ví dụ như 20 20 cũng là cân nặng của em thì sẽ ra 20 cân còn nếu ra số khác như 11 thì cần của em sẽ là 11."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Một cốc nước uống hàng ngày chứa được nhiều hơn hay ít hơn 1 lít nước?",
+      "answer": "Một cốc nước uống hàng ngày chứa được ít hơn 1 lít."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Có thể dùng cân đồng hồ để biết chiếc bút chì nặng bao nhiêu kg không? Vì sao?",
+      "answer": "Đáp án của con là không bởi vì chiếc bút thì thẳng tắp còn cân đồng hồ lại có cái móc nên khi chúng ta đặt chiếc bút chì lên cái móc thì cái bút chì sẽ rơi vào không cân được con nếu cái cân đồng hồ đấy có thể đựng được chiếc bút chì thì đáp án của con là có ."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Một muỗng nước canh nhỏ chứa được nhiều hay ít hơn 1 lít nước?",
+      "answer": "Một muỗng nước canh nhỏ chứa được ít hơn 1 lít."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tại sao việc biết ước lượng cân nặng và sức chứa lại giúp ích cho em trong cuộc sống?",
+      "answer": "Ước lượng tốt có thể giúp làm bữa cơm cho gia đình đủ không bị thừa , ngoài ra vài đứa trẻ thích là người bán đồ bố mẹ cũng có thể mua cho các bạn nhỏ để lớn lên các bạn nhỏ làm người bán đồ thì sẽ có tiền."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Em hãy xách thử các túi sách của mình và ước lượng xem túi nào nặng khoảng 1kg, 2kg, hay 3kg.",
+      "answer": "Chiếc túi của chị con và con đã đựng các cái sách vở vào túi của chị con cái túi đó được 1 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Thực hành đong nước bằng ca chia vạch: Đong 2 ca 1 lít đổ vào ấm đun nước. Hỏi ấm có bao nhiêu lít nước?",
+      "answer": "Nếu đong 2 ca 1 lít đã đổ vào ấm đun nước 1 lít, lít còn lại 1 lít."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Cân một số đồ dùng học tập: Đặt hộp bút lên cân tiểu ly và ghi lại số chỉ gram/kg nếu có.",
+      "answer": "Nhà con không có cân tiểu ly nên không thể đặt hộp bút lên được."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Ước lượng rồi điền đơn vị kg hoặc l thích hợp vào chỗ chấm: Chai nước khoáng lớn chứa 1...; Quả mít nặng 5...",
+      "answer": "Chai nước khoáng lớn chứa 1 lít; Quả mít nặng 5 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Ước lượng rồi điền đơn vị kg hoặc l thích hợp vào chỗ chấm: Nồi nấu canh chứa được 3...; Bé Mai cân nặng 18...",
+      "answer": "Nồi nấu canh chứa được 3 lít; Bé Mai cân nặng 18 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Giải bài toán: Mẹ đong 3 lít mật ong đổ vào can A và 2 lít mật ong vào can B. Hỏi cả hai can có bao nhiêu lít mật ong?",
+      "answer": "Cả hai can có 5 lít mật ong."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Giải bài toán: Túi muối nặng 1kg, túi đường nặng hơn túi muối 2kg. Hỏi túi đường nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của túi đường là: 1+2=3 (số kg của túi đượng)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Một bình trà chứa được 2 lít nước. Người ta đã rót ra uống hết 1 lít. Hỏi trong bình còn lại bao nhiêu lít nước trà?",
+      "answer": "Số lít trà còn lại là: 2-1=1 (số lít trà còn lại)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Mẹ mua quả đu đủ nặng 2kg và quả dưa hấu nặng 4kg. Hỏi cả hai quả nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg tổng của 2 quả là: 2+4=6 (số kg của hai quả)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Bình nước nhà Nam đựng được 19 lít nước. Cả nhà đã uống hết 9 lít nước. Hỏi trong bình còn lại bao nhiêu lít nước?",
+      "answer": "Số lít nước còn lại là: 19-9=10 (số lít nước còn lại)"
+    }
+  ]
+}
