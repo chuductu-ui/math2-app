@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 18. Luyện tập chung",
+  "lessonTitle": "Bài 18. Luyện tập chung",
+  "submittedAt": "2026-08-04T07:19:14.323Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "So sánh: 5kg và 5 lít có thể so sánh lớn bé với nhau được không? Vì sao?",
+      "answer": "Đáp án là không bởi vì  kg chỉ đo cân nặng thôi còn lít thì chỉ đo chất lỏng nên \n5 kg và 5 lít không thể so sánh lớn bé với nhau được."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Nếu đĩa cân bên trái đựng quả mít nặng 5kg, đĩa bên phải đựng 2 quả cân loại 2kg thì cân có thăng bằng không? Vì sao?",
+      "answer": "Không vì bên trái đựng 5 kg, đĩa bên phải đựng 4 kg nên cân sẽ không thăng bằng."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Làm thế nào để đĩa cân thăng bằng ở câu hỏi trên?",
+      "answer": "Để cân thăng bằng ở câu hỏi trên chúng ta cần để đĩa bên phải thêm một loại cân một kg nữa nếu không có thì chúng ta sẽ lấy một vật nào đó nặng 1 kg để để vào cân."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Đọc vạch ca đong: Nếu nước chỉ đến nửa vạch 2 lít thì thể tích khoảng bao nhiêu?",
+      "answer": "Thể tích nước là 1 lít"
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nếu đổ 10 lít nước ngọt vào can 5 lít thì điều gì sẽ xảy ra?",
+      "answer": " Nếu đổ 10 lít nước ngọt vào can 5 lít thì 1 là nước sẽ đổ ra ngoài vì thừa 5 lít còn lại 2 là sẽ bị thừa 5 lít trong bình nước ngọt với 10 lít."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Đơn vị kg dùng để đo đại lượng nào? Đơn vị lít dùng để đo đại lượng nào?",
+      "answer": "Đơn vị kg dùng để đo đại lượng cân nặng, đơn vị lít dùng để đo đại lượng chất lỏng."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Tìm số liền sau của số đo: Số liền sau của số đo 12kg là bao nhiêu?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Tìm số liền trước của số đo: Số liền trước của số đo 8l là bao nhiêu?",
+      "answer": ""
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Làm sao để đong được đúng 4 lít nước nếu em chỉ có ca 2 lít?",
+      "answer": "Chúng ta chỉ cần múc đầy nước ca 2 lít đó đổ vào một cái bình to hơn và một lần nữa  đổ đầy ca 2 lít lại đổ vào bình thì mình sẽ có 4 lít."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu có 3 quả cân: 1kg, 2kg, 5kg. Em có thể cân được vật nặng tối đa bao nhiêu ki-lô-gam?",
+      "answer": "Nếu có 3 quả cân:1 kg, 2kg, 5 kg. Em có thể cân được vật nặng tối đa 8 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính: 15kg + 7kg - 8kg = ...;  20l - 8l + 5l = ...",
+      "answer": "15 kg+7 kg-8 kg=14 kg; 20l-8l+5l=17l."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Điền số thích hợp: 12kg + [ ] kg = 18kg;  15l - [ ] l = 9l.",
+      "answer": "12 kg+6 kg=18 kg; 15l-6l=9l."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Điền dấu >, <, =: 8kg + 6kg ... 15kg;  12l - 4l ... 8l;  5kg + 3kg ... 10kg - 2kg.",
+      "answer": "8kg+6 kg<15 kg; 12l-4l=8l; 5 kg+3 kg=10 kg-2 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Bao ngô nặng 25kg, bao thóc nặng hơn bao ngô 5kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của bao thóc là: 25+5=30 (số kg của bao thóc)"
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Thùng thứ nhất đựng 15 lít sơn, thùng thứ hai đựng nhiều hơn thùng thứ nhất 4 lít sơn. Hỏi thùng thứ hai đựng bao nhiêu lít sơn?",
+      "answer": "Số lít sơn của thùng thứ hai là: 15+4=19 (số lít sơn của thùng thứ hai)"
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Con lợn nặng 50kg, con chó nhẹ hơn con lợn 38kg. Hỏi con chó nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của con chó là: 50-38=12 (số kg của con chó)"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Can A đựng 8 lít nước ngọt, can B đựng 12 lít nước ngọt. Người ta đổ chung cả hai can vào một thùng. Hỏi thùng có bao nhiêu lít nước ngọt?",
+      "answer": "Số lít ở trong thùng là:8+12=20 (số lít trong thùng)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Có 3 quả cân loại 2kg, 5kg và 1kg. Tổng khối lượng của cả 3 quả cân này là bao nhiêu?",
+      "answer": "Tổng khối lượng của 3 quả cân này là 8 kg."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Cửa hàng có 35kg đường, đã bán đi 15kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam đường? (Trình bày bài giải)",
+      "answer": "Số kg đường là:35-15=20 (số kg đường còn lại)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Một can chứa đầy 20 lít dầu ăn. Mẹ đã dùng hết 8 lít để chiên bánh. Hỏi trong can còn lại bao nhiêu lít dầu ăn?",
+      "answer": "Số lít dầu ăn còn lại là: 20-8=12 (số lít dầu ăn còn lại)"
+    }
+  ]
+}
