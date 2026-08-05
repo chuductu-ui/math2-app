@@ -42,6 +42,11 @@
     "Bài 18. Luyện tập chung": "2026-08-04T07:19:14.319Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số": {
+      "q_0": "Bởi vì nếu chúng ta không cho 1 chục sang hàng bên kia thì 1 phép tính sẽ bị sai 2 kết quả sai.",
+      "q_1": "Kết quả của phép tính 28+5 được ghi ở hàng đơn vị bên tay phải của số chục.",
+      "q_2": "Khi cộng hàng chục"
+    }
   }
 }
