@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+  "lessonTitle": "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số",
+  "submittedAt": "2026-08-06T06:36:43.402Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Tại sao khi cộng 8 + 7 = 15 ta lại phải \"nhớ\" 1 chục sang cột hàng chục?",
+      "answer": "Bởi vì nếu chúng ta không cho 1 chục sang hàng bên kia thì 1 phép tính sẽ bị sai 2 kết quả sai."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Chữ số hàng đơn vị của kết quả phép cộng 28 + 5 được ghi ở đâu?",
+      "answer": "Kết quả của phép tính 28+5 được ghi ở hàng đơn vị bên tay phải của số chục."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Khi cộng hàng chục ở phép tính 38 + 7, ta lấy 3 chục cộng thêm mấy chục đã nhớ?",
+      "answer": "Khi cộng hàng chục ở phép tính 38+7, ta lấy 3 chục cộng thêm 1 chục đã nhớ."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Khi nào thì phép cộng có nhớ xảy ra? (Tổng hàng đơn vị từ bao nhiêu trở lên?)",
+      "answer": "Phép cộng có nhớ xảy ra khi tổng hàng đơn bằng 10 hoặc lớn hơn 10."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nêu cách đặt tính hàng dọc cho phép tính 46 + 8.",
+      "answer": "Nếu cách đặt tính hàng dọc cho phép tính 46+8 thì chúng ta sẽ đặt số 46 bên trên số 8 ở dưới số 8 sẽ đặt thẳng số 8 dấu cộng ở dữa hai số."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Tại sao chữ số 8 trong phép tính 46 + 8 phải đặt thẳng cột với chữ số 6?",
+      "answer": "Bởi ví nếu chữ số 8 trong phép tính 46+8 mà không đặt thẳng cột thì 1 là chúng ta sẽ bị đặt số 8 sai sẽ bị trừ điểm 2 là kết quả sẽ sai vì thế chúng ta cần đặt thẳng cột."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Nếu quên cộng thêm 1 chục nhớ, kết quả phép tính sẽ bị làm sao?",
+      "answer": "Nếu quên cộng thêm 1 chục nhớ thì kết quả sẽ bị giảm đi 1 chục ví dụ 45+13 thì nếu quên cộng 1 chục kết quả là 53 còn nếu nhớ cộng 1 chục thì bằng 63."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Kết quả hàng chục của phép tính 29 + 3 là bao nhiêu?",
+      "answer": "Kết quả hàng chục của phép tính 29+3 là 30."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Số nhớ 1 chục được lấy từ đâu ra?",
+      "answer": "Số nhớ 1 chục được lấy từ hàng đơn vị ra."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Phép cộng 35 + 3 có phải là phép cộng có nhớ không? Vì sao?",
+      "answer": "Không vì phép tính 35+3 chỉ cần tính thôi cộng vào các kiểu thôi còn giống như 9+3 thì mới cần nhớ."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đặt tính rồi tính: 28 + 5;  37 + 6;  49 + 4;  56 + 7.",
+      "answer": "Không đặt tính được."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Đặt tính rồi tính: 65 + 8;  74 + 9;  83 + 9;  19 + 5.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính nhẩm nhanh: 29 + 2;  38 + 3;  47 + 4;  56 + 5.",
+      "answer": "29+2=31, 38+3=41, 47+4=51, 56+5=61."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tìm số thích hợp điền vào ô trống: 28 + [ ] = 33;  47 + [ ] = 52;  79 + [ ] = 84.",
+      "answer": "28+5=33, 47+5=52, 79+5=84."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "So sánh: 38 + 5 ... 40;  29 + 6 ... 35;  47 + 8 ... 55.",
+      "answer": "38+5>40; 29+6=35; 47+8=55."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tìm X biết: X - 7 = 28;  X - 8 = 45.",
+      "answer": "35-7=28; 53-8=45."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Dũng có 29 viên bi, Hùng cho Dũng thêm 6 viên bi nữa. Hỏi Dũng có tất cả bao nhiêu viên bi?",
+      "answer": "Số viên bi Dũng có là: 29+6=35 (số viên bi Dũng có)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Một sợi dây đồng uốn thành hình tam giác có độ dài các cạnh lần lượt là 15cm, 15cm và 8cm. Tính chu vi hình tam giác đó.",
+      "answer": "Số chu vi của hình tam giác đó là: 15+15+8=38 (chu vi của hình tam giác đó)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Mẹ mua 27 quả cam, chị hái thêm 9 quả cam nữa. Hỏi cả hai mẹ con có bao nhiêu quả cam?",
+      "answer": "Số quả cam mẹ mua là: 27+9=36 (số quả cam mẹ có)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tìm số có hai chữ số, biết chữ số hàng chục là 3 và chữ số hàng đơn vị là kết quả của 8 + 7.",
+      "answer": "Đó là chữ số 45."
+    }
+  ]
+}
