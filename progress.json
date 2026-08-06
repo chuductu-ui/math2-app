@@ -50,7 +50,12 @@
       "q_3": "Phép cộng có nhớ xảy ra khi tổng hàng đơn bằng 10 hoặc lớn hơn 10.",
       "q_4": "Nếu cách đặt tính hàng dọc cho phép tính 46+8 thì chúng ta sẽ đặt số 46 bên trên số 8 ở dưới số 8 sẽ đặt thẳng số 8 dấu cộng ở dữa hai số.",
       "q_5": "Bởi ví nếu chữ số 8 trong phép tính 46+8 mà không đặt thẳng cột thì 1 là chúng ta sẽ bị đặt số 8 sai sẽ bị trừ điểm 2 là kết quả sẽ sai vì thế chúng ta cần đặt thẳng cột.",
-      "q_6": "Nếu quên cộng thêm 1 chục nhớ thì kết quả sẽ bị giảm đi 1 chục ví dụ 45+13 thì nếu quên cộng 1 chục kết quả là 53 còn nếu nhớ cộng 1 chục thì bằng 63."
+      "q_6": "Nếu quên cộng thêm 1 chục nhớ thì kết quả sẽ bị giảm đi 1 chục ví dụ 45+13 thì nếu quên cộng 1 chục kết quả là 53 còn nếu nhớ cộng 1 chục thì bằng 63.",
+      "q_7": "Kết quả hàng chục của phép tính 29+3 là 30.",
+      "q_8": "Số nhớ 1 chục được lấy từ hàng đơn vị ra.",
+      "q_9": "Không vì phép tính 35+3 chỉ cần tính thôi cộng vào các kiểu thôi còn giống như 9+3 thì mới cần nhớ.",
+      "e_0": "Không đặt tính được.",
+      "e_2": "29+2=31, 38+3=41, 47+4=51, 56+5=61."
     }
   }
 }
