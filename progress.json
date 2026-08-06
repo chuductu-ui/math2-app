@@ -39,23 +39,10 @@
     "Bài 15. Ki-lô-gam (kg)": "2026-07-30T02:31:35.494Z",
     "Bài 16. Lít (l)": "2026-08-01T10:18:50.273Z",
     "Bài 17. Thực hành và trải nghiệm với các đơn vị ki-lô-gam, lít": "2026-08-03T07:38:37.388Z",
-    "Bài 18. Luyện tập chung": "2026-08-04T07:19:14.319Z"
+    "Bài 18. Luyện tập chung": "2026-08-04T07:19:14.319Z",
+    "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số": "2026-08-06T06:36:43.394Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số": {
-      "q_0": "Bởi vì nếu chúng ta không cho 1 chục sang hàng bên kia thì 1 phép tính sẽ bị sai 2 kết quả sai.",
-      "q_1": "Kết quả của phép tính 28+5 được ghi ở hàng đơn vị bên tay phải của số chục.",
-      "q_2": "Khi cộng hàng chục ở phép tính 38+7, ta lấy 3 chục cộng thêm 1 chục đã nhớ.",
-      "q_3": "Phép cộng có nhớ xảy ra khi tổng hàng đơn bằng 10 hoặc lớn hơn 10.",
-      "q_4": "Nếu cách đặt tính hàng dọc cho phép tính 46+8 thì chúng ta sẽ đặt số 46 bên trên số 8 ở dưới số 8 sẽ đặt thẳng số 8 dấu cộng ở dữa hai số.",
-      "q_5": "Bởi ví nếu chữ số 8 trong phép tính 46+8 mà không đặt thẳng cột thì 1 là chúng ta sẽ bị đặt số 8 sai sẽ bị trừ điểm 2 là kết quả sẽ sai vì thế chúng ta cần đặt thẳng cột.",
-      "q_6": "Nếu quên cộng thêm 1 chục nhớ thì kết quả sẽ bị giảm đi 1 chục ví dụ 45+13 thì nếu quên cộng 1 chục kết quả là 53 còn nếu nhớ cộng 1 chục thì bằng 63.",
-      "q_7": "Kết quả hàng chục của phép tính 29+3 là 30.",
-      "q_8": "Số nhớ 1 chục được lấy từ hàng đơn vị ra.",
-      "q_9": "Không vì phép tính 35+3 chỉ cần tính thôi cộng vào các kiểu thôi còn giống như 9+3 thì mới cần nhớ.",
-      "e_0": "Không đặt tính được.",
-      "e_2": "29+2=31, 38+3=41, 47+4=51, 56+5=61."
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
