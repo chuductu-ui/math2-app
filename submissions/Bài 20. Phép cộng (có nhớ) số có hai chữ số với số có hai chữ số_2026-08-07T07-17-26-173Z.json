@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+  "lessonTitle": "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số",
+  "submittedAt": "2026-08-07T07:17:26.173Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Các bước thực hiện phép cộng hai số có hai chữ số có nhớ là gì?",
+      "answer": "Ví dụ như phép tính 23+20 thì chúng ta chỉ cần đặt tính sau đó thính viết kết quả xuống dưới là xong."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Khi đặt tính 36 + 25, chữ số nào thẳng hàng với chữ số nào?",
+      "answer": "Khi đặt tính 36+25 chữ số hàng đơn vị đặt thẳng với chữ số hàng đơn vị ở dưới còn chữ số hàng chục cũng đặt thẳng cột để không bị nhầm lẫn và tính đúng."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Hàng đơn vị của 36 + 25 cộng lại được bao nhiêu? Viết chữ số nào và nhớ mấy?",
+      "answer": "Hàng đơn vị của 36+25 cộng lại được 11 chúng ta cần viết chữ số 1 và nhớ 1 chục sang Hàng chục."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Khi cộng hàng chục của 36 + 25, ta lấy 3 chục cộng 2 chục cộng thêm mấy chục nhớ?",
+      "answer": "Khi cộng hàng chục của 36+25, ta lấy 3 chục cộng 2 chục cộng thêm 1 chục đã nhớ."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Tại sao số chục kết quả lại là 6 chục?",
+      "answer": "Bởi vì 6+5=11 chúng ta cho hàng chục 1 chục thì chúng ta sẽ viết số 1 ở dưới tiếp theo đến hàng chục thì chúng ta cho hàng chục 1 chục thì 3 được cộng thêm 1 chục bằng 40 20 thì bằng 60 đấy là lý do vì sao số chục kết quả là 60."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Nếu tổng hàng đơn vị bằng đúng 10, ta viết số mấy ở cột đơn vị kết quả? Nhớ mấy?",
+      "answer": "Nếu tổng hàng đơn vị bằng đúng 10, ta sẽ viết số 0 vì chúng ta đã nhớ 1 chục sang bên kia rồi."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Cho ví dụ phép cộng hai số có hai chữ số có nhớ.",
+      "answer": "Ví dụ như 9+3."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Phép cộng 42 + 23 có nhớ không? Tại sao?",
+      "answer": "Phép cộng 42+23 không nhớ bởi vì chúng ta chỉ cần cộng hàng đơn vị và hàng chục thôi không cần phải nhớ kết quả."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Phép cộng 57 + 28 có nhớ không? Tại sao?",
+      "answer": "Phép cộng 57+28 có nhớ bởi vì chúng ta cần nhớ cho 1 chục sang hàng chục còn phép cộng không nhớ là chúng ta chỉ cần tính thôi không cần nhớ kết quả."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Khi cộng có nhớ, ta luôn nhớ thêm mấy chục sang hàng chục?",
+      "answer": "Khi cộng có nhớ, ta luôn nhớ thêm 1 chục sang hàng chục."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đặt tính rồi tính: 36 + 25;  47 + 18;  59 + 24;  68 + 15.",
+      "answer": "Không đặt tính được."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Đặt tính rồi tính: 27 + 27;  39 + 39;  48 + 48;  19 + 29.",
+      "answer": "Không đặt tính được."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính nhẩm nhanh các tổng tròn chục: 35 + 25;  44 + 16;  58 + 22;  67 + 13.",
+      "answer": "35+25=60; 44+16=60; 58+22=80; 67+13=80."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Điền số thích hợp vào chỗ chấm: 28 + 15 = ...;  36 + 27 = ...;  49 + 18 = ...",
+      "answer": "28+15=43; 36+27=63; 49+18=67."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "So sánh: 36 + 15 ... 50;  47 + 28 ... 75;  59 + 13 ... 60 + 12.",
+      "answer": "36+15 > 50; 47+28 =75; 59+13=60+12."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Mẹ đi chợ mua một con gà giá 45 nghìn đồng và một bó rau giá 18 nghìn đồng. Hỏi mẹ phải trả tất cả bao nhiêu nghìn đồng?",
+      "answer": "Số tiền mẹ tiêu hết là: 45+18=63 (số tiền mẹ đã tiêu)"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Lớp 2A có 18 bạn nam và 17 bạn nữ. Hỏi lớp 2A có tất cả bao nhiêu học sinh? (Trình bày bài giải)",
+      "answer": "Số học sinh ở lớp 2A là: 18+17=35 (số học sinh ở lớp 2A)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Tìm Y biết: Y - 25 = 36;  Y - 18 = 47.",
+      "answer": "61-25=36; 65-18=47."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Một thanh gỗ dài 35 cm, người ta ghép thêm một thanh gỗ dài 28 cm nữa. Hỏi thanh gỗ mới dài bao nhiêu xăng-ti-mét?",
+      "answer": "Số cm thanh gỗ mới dài là: 35+28=63 (số cm của thanh gỗ mới dài)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tính giá trị biểu thức: 25 + 18 + 17 = ...;  36 + 24 + 15 = ...",
+      "answer": "25+18+17=60; 36+24+15=75."
+    }
+  ]
+}
