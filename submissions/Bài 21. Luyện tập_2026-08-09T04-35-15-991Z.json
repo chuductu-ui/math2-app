@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 21. Luyện tập",
+  "lessonTitle": "Bài 21. Luyện tập",
+  "submittedAt": "2026-08-09T04:35:15.993Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Làm sao để nhẩm nhanh phép tính 38 + 25 bằng cách tách gộp tròn chục?",
+      "answer": "Chỉ cần tính như bình thường và nhớ 1 chục sang hàng chục là xong."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Khi gặp bài toán tìm X có dạng X - 18 = 45, em tìm X bằng cách nào? Gọi tên thành phần.",
+      "answer": "Em không cần nhớ phải làm thế nào mà em đặt tình huống đấy ra luôn em có bao nhiêu cái kẹo em không biết em ăn đi 2 cái kẹo còn hai cái để biết được chúng ta sẽ lấy 2+2 =4 vậy 18+45=63."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Độ dài đoạn thẳng AB = 28cm, BC = 15cm. Tính độ dài đoạn thẳng AC ghép từ hai đoạn đó.",
+      "answer": "28+15=43 vậy AC = 43cm."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Trong bài toán đố, làm thế nào để chọn lời giải hay và ngắn gọn?",
+      "answer": "Lời giải là câu trả lời"
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Khi nào ta viết đơn vị là 'bạn', khi nào viết là 'học sinh'?",
+      "answer": "Đề bài người ta hỏi bạn thì mình viết đơn vị bạn còn người ta hỏi học sinh thì trả lời đơn vị học sinh."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Có phải kết quả của phép cộng có nhớ luôn lớn hơn số bị cộng lúc đầu không? Vì sao?",
+      "answer": "Phép cộng lúc nào cũng lớn hơn."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Hãy nêu một bài toán thực tế cần dùng phép cộng có nhớ trong phạm vi 100.",
+      "answer": "Ví dụ như 25+ 16."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Điền số thích hợp: 28 + 17 = 30 + ...",
+      "answer": "28+17=30+13."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Điền số thích hợp: 45 + 18 = 50 + ...",
+      "answer": "45+18=50+13."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu tổng là 70, một số hạng là 25 thì số hạng kia là bao nhiêu?",
+      "answer": "Nếu tổng là 70, 1 số hạng là 25 thì số hạng kia là 45."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính nhẩm nhanh: 28 + 15;  36 + 18;  49 + 25;  57 + 16.",
+      "answer": "28+15=43; 36+18=54; 49+25=74; 57+16=73."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Đặt tính rồi tính: 45 + 38;  57 + 26;  68 + 27;  19 + 79.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tìm X biết: X - 28 = 45;  X - 17 = 58;  X - 39 = 24.",
+      "answer": "73-28=45; 75-17=58; 63-39=24."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Điền số vào ô trống: 28 + [ ] = 63;  36 + [ ] = 54;  47 + [ ] = 72.",
+      "answer": "28+35=63; 36+18=54; 47+25=72."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "So sánh: 38 + 25 ... 60;  45 + 18 ... 92 - 27;  19 + 29 ... 50 - 2.",
+      "answer": "38+25>60; 45+18<92-27; 19+29"
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Hộp thứ nhất có 36 viên bi, hộp thứ hai có nhiều hơn hộp thứ nhất 18 viên bi. Hỏi hộp thứ hai có bao nhiêu viên bi?",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Quãng đường từ nhà Nam đến trường dài 45 m, quãng đường từ trường đến thư viện dài 28 m. Hỏi quãng đường từ nhà Nam đến thư viện dài bao nhiêu mét?",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Mẹ mua 25 quả trứng gà và 18 quả trứng vịt. Hỏi mẹ mua tất cả bao nhiêu quả trứng? (Trình bày bài giải)",
+      "answer": "Số quả trứng mẹ mua là: 25+18=43 (số quả trứng mẹ mua)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tìm một số biết rằng lấy số đó trừ đi 18 thì được 36.",
+      "answer": "54-18=36."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tính nhanh chuỗi cộng: 28 + 15 + 12 = ...;  36 + 17 + 14 = ...",
+      "answer": "28+15+12=55; 36+17+14=67."
+    }
+  ]
+}
