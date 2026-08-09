@@ -48,6 +48,18 @@
     "Bài 21. Luyện tập": "2026-08-09T04:35:15.984Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số": {
+      "q_0": "Khi trừ thẳng cột 42-5, hàng đơn vị 2 không trừ được cho 5 vậy ta phải mượn số 4 hàng chục mượn 1 chục được 12 12-5=7 ghi nhớ khi chúng ta đã mượn 1 chục rồi thì nhớ hàng chục sẽ bị trừ đi 1 chục vì chúng ta đã mượn 1 chục rồi.",
+      "q_1": "Khi’’mượn 1 chục’ ở hàng chục, chúng ta gộp với chữ số hàng đơn vị thành số 12 để trừ.",
+      "q_2": "Bởi vì chúng ta đã mượn 1 chục đi rồi.",
+      "q_3": "Giả vờ bạn có 32 nghìn gồm 3 tờ 10 nghìn và 1 tờ 2 nghìn bạn mua một thứ gì đó 5 nghìn thì bạn phải trả 10 nghìn người ta trả lại 5 nghìn thì 32-10+5=27.",
+      "q_4": "Đầu tiên chúng ta đặt số 54 ở bên trên số 8 ở dưới dấu trừ ở giữa tiếp theo dấu bằng ở dưới số 8 thay dấu bằng bằng nét ngang cuối cùng tính kết quả.",
+      "q_5": "Nếu quên bớt 1 chục ở hàng chục thì 1 kết quả sẽ sai 2 là kết quả sẽ bị tăng thêm 1 chục.",
+      "q_6": "Kết quả hàng chục của phép tính 71-4 là 6.",
+      "q_7": "Không vì chúng ta chỉ cần tính ",
+      "q_8": "Không.",
+      "q_9": "Không ."
+    }
   }
 }
