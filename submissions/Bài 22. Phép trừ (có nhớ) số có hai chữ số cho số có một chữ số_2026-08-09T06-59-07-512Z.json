@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+  "lessonTitle": "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số",
+  "submittedAt": "2026-08-09T06:59:07.514Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Khi trừ thẳng cột 42 - 5, hàng đơn vị 2 có trừ được 5 không? Ta làm thế nào?",
+      "answer": "Khi trừ thẳng cột 42-5, hàng đơn vị 2 không trừ được cho 5 vậy ta phải mượn số 4 hàng chục mượn 1 chục được 12 12-5=7 ghi nhớ khi chúng ta đã mượn 1 chục rồi thì nhớ hàng chục sẽ bị trừ đi 1 chục vì chúng ta đã mượn 1 chục rồi."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Khi \"mượn 1 chục\" ở hàng chục, chúng ta gộp với chữ số hàng đơn vị thành số bao nhiêu để trừ?",
+      "answer": "Khi’’mượn 1 chục’ ở hàng chục, chúng ta gộp với chữ số hàng đơn vị thành số 12 để trừ."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Tại sao chữ số hàng chục của số bị trừ lại phải bớt đi 1 chục?",
+      "answer": "Bởi vì chúng ta đã mượn 1 chục đi rồi."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Giải thích thao tác mượn chục ở phép tính 32 - 5 bằng ví dụ đổi tiền lẻ.",
+      "answer": "Giả vờ bạn có 32 nghìn gồm 3 tờ 10 nghìn và 1 tờ 2 nghìn bạn mua một thứ gì đó 5 nghìn thì bạn phải trả 10 nghìn người ta trả lại 5 nghìn thì 32-10+5=27."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nêu các bước đặt tính dọc cho phép tính 54 - 8.",
+      "answer": "Đầu tiên chúng ta đặt số 54 ở bên trên số 8 ở dưới dấu trừ ở giữa tiếp theo dấu bằng ở dưới số 8 thay dấu bằng bằng nét ngang cuối cùng tính kết quả."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Nếu mượn chục ở hàng đơn vị mà quên bớt ở hàng chục thì kết quả sẽ bị làm sao?",
+      "answer": "Nếu quên bớt 1 chục ở hàng chục thì 1 kết quả sẽ sai 2 là kết quả sẽ bị tăng thêm 1 chục."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Kết quả hàng chục của phép tính 71 - 4 là bao nhiêu?",
+      "answer": "Kết quả hàng chục của phép tính 71-4 là 6."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Phép trừ 85 - 3 có phải là phép trừ có nhớ không? Vì sao?",
+      "answer": "Không vì chúng ta chỉ cần tính "
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Số 10 trừ đi một số có nhớ không?",
+      "answer": "Không."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu hàng đơn vị của số bị trừ bằng số trừ (ví dụ 5 - 5), có cần mượn chục không?",
+      "answer": "Không ."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đặt tính rồi tính: 32 - 5;  45 - 8;  51 - 4;  63 - 7.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Đặt tính rồi tính: 74 - 9;  82 - 6;  91 - 5;  20 - 3.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính nhẩm nhanh: 31 - 2;  42 - 4;  53 - 5;  64 - 6.",
+      "answer": "31-2=29; 42-4=38; 53-5=48; 64-6=58."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tìm số thích hợp điền vào ô trống: 32 - [ ] = 27;  45 - [ ] = 37;  71 - [ ] = 67.",
+      "answer": "32-5=27; 45-8=37; 71-4=67."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "So sánh: 32 - 5 ... 25;  45 - 8 ... 38;  51 - 4 ... 47.",
+      "answer": "32-5 > 25; 45-8 < 38; 51-4=47."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tìm Y biết: Y + 6 = 32;  Y + 8 = 45.",
+      "answer": "26+6=32; 37+8=45."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Bình có 32 nghìn đồng, Bình mua kẹo hết 5 nghìn đồng. Hỏi Bình còn lại bao nhiêu nghìn đồng?",
+      "answer": "Số tiền còn lại là: 32-5=27 (nghìn đồng)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Một đoạn dây dài 42 cm, bé cắt đi một đoạn dài 7 cm. Hỏi đoạn dây còn lại dài bao nhiêu xăng-ti-mét?",
+      "answer": "Số cm còn lại là: 42-7=35 (cm)"
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Hộp bút có 31 cây bút, Hà lấy ra dùng 4 cây. Hỏi trong hộp còn lại bao nhiêu cây bút? (Trình bày bài giải)",
+      "answer": "Số cây bút còn lại là: 31-4=27 (cây bút)"
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tìm số có hai chữ số, biết chữ số hàng chục là 5 và chữ số hàng đơn vị kém chữ số hàng chục 6 đơn vị.",
+      "answer": ""
+    }
+  ]
+}
