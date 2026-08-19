@@ -47,16 +47,10 @@
     "Bài 19. Phép cộng (có nhớ) số có hai chữ số với số có một chữ số": "2026-08-06T06:36:43.394Z",
     "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số": "2026-08-07T07:17:26.168Z",
     "Bài 21. Luyện tập": "2026-08-09T04:35:15.984Z",
-    "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số": "2026-08-09T06:59:07.507Z"
+    "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số": "2026-08-09T06:59:07.507Z",
+    "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số": "2026-08-19T04:31:10.345Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số": {
-      "q_0": "Ví dụ như phép tính 23-6 thì 3 không trừ được cho 6 chúng ta mượn hàng chục 1 chục còn lại 1 chục 13-6=7 từ lúc nãy hàng chục bị bớt đi 1 chục rồi thì còn lại 1 chục vậy kết quả là 17.",
-      "q_1": "Khi đặt tính 62-27, chữ số hàng đơn vị thẳng với chữ số hàng đơn vị hàng chục thẳng với chữ số hàng chục.",
-      "q_2": "Hàng đơn vị của 62-27 thì số hai mượn số 6 1 chục thành 12 12-7=5 số 6 đã bị bớt đi 1 chục thì còn lại 5 chục 5 chục trừ 2 chục bằng 3 vậy kết quả là 35.",
-      "q_3": "Ta lấy 6 chục trừ 2 chục.",
-      "q_4": "Bởi vì số 2 đã mượn 1 chục bên đó rồi thì còn lại 5 chục 5 chục - 2 chục =3 chục."
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
