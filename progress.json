@@ -64,7 +64,8 @@
       "q_7": "Chúng ta lấy số bị trừ trừ đi hiệu thì sẽ ra số trừ.",
       "q_8": "Khi thực hiện chuỗi phép tính có cả cộng và trừ , ta tính từ trái sang phải.",
       "q_9": "Khi gặp một bài toán đố phức tạp chúng ta tóm tắt sẽ dễ dàng hơn vì tóm tắt là chỉ nói những từ mà quan trọng thôi rút gọn lại những từ phức tạp lại.",
-      "e_0": "36+25=61; 62-27=35; 45+18=63; 92-27=65."
+      "e_0": "36+25=61; 62-27=35; 45+18=63; 92-27=65.",
+      "e_1": "45+18-27=36; 92-27+15=80; 36+25-18=43."
     }
   }
 }
