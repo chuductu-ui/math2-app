@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 24. Luyện tập chung",
+  "lessonTitle": "Bài 24. Luyện tập chung",
+  "submittedAt": "2026-08-21T01:36:35.486Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Nếu hiệu là 35, số trừ là 27 thì số bị trừ là bao nhiêu?",
+      "answer": "Nếu hiệu là 35, số trừ là 27 thì số bị trừ là 62."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Nếu tổng là 61, một số hạng là 25 thì số hạng còn lại là bao nhiêu?",
+      "answer": "Nếu tổng là 61, một số hạng là 25 thì số hạng còn lại là 36."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Làm thế nào để tính nhẩm nhanh biểu thức 62 - 27 + 15?",
+      "answer": "Để tính nhẩm nhanh biểu thức 62-27+15 chúng ta tánh số 27 thành 20 và 7 62-20 bằng 42 , 42-7=35 , 35+15=50."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Làm thế nào để so sánh hai biểu thức 45 + 18 và 92 - 27?",
+      "answer": "Đầu tiên chúng ta tính biểu thức thứ nhất 45+18=63 biểu thức thứ hai 92-27=65 tiếp theo so sánh hàng chục 6=6 , 3 < 5 vậy biểu thức thứ nhất có kết quả bé hơn biểu thức thứ hai biểu thứ hai lớn hơn biểu thức thứ nhất."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Tìm số liền sau của số đo: Số liền sau của 45cm là bao nhiêu?",
+      "answer": "Số liền sau của 45 cm là 46 cm."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Tìm số liền trước của số đo: Số liền trước của 92m là bao nhiêu?",
+      "answer": "Số liền trước của 92 m là 91 m."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Nêu quy tắc tìm Số bị trừ chưa biết.",
+      "answer": "Chúng ta sẽ lấy hiệu cộng với số bị trừ là ra số bị trừ."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Nêu quy tắc tìm Số trừ chưa biết.",
+      "answer": "Chúng ta lấy số bị trừ trừ đi hiệu thì sẽ ra số trừ."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Khi thực hiện chuỗi phép tính có cả cộng và trừ, ta tính theo chiều nào?",
+      "answer": "Khi thực hiện chuỗi phép tính có cả cộng và trừ , ta tính từ trái sang phải."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tại sao cần viết tóm tắt cho bài toán đố phức tạp?",
+      "answer": "Khi gặp một bài toán đố phức tạp chúng ta tóm tắt sẽ dễ dàng hơn vì tóm tắt là chỉ nói những từ mà quan trọng thôi rút gọn lại những từ phức tạp lại."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính nhẩm nhanh: 36 + 25;  62 - 27;  45 + 18;  92 - 27.",
+      "answer": "36+25=61; 62-27=35; 45+18=63; 92-27=65."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính: 45 + 18 - 27 = ...;  92 - 27 + 15 = ...;  36 + 25 - 18 = ...",
+      "answer": "45+18-27=36; 92-27+15=80; 36+25-18=43."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tìm X biết: X + 25 = 61;  X - 27 = 35;  62 - X = 35.",
+      "answer": "36+25=61; 62-27=35; 62-27=35."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Điền số thích hợp: 36 + ... = 61;  62 - ... = 35;  ... + 27 = 62.",
+      "answer": "36+25=62; 62-27=35; 35+27=62."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Điền dấu >, <, =: 36 + 25 ... 62 - 1;  62 - 27 ... 35;  45 + 18 ... 92 - 27.",
+      "answer": "36+25=62-1; 62-27=35; 45+18 < 92-27."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Giải toán: Cửa hàng có 92 lít dầu ăn, đã bán đi 27 lít. Hỏi cửa hàng còn lại bao nhiêu lít dầu ăn?",
+      "answer": " Số lít dầu còn lại là: 92-27=65 (dầu)"
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Giải toán: Bao ngô nặng 45kg, bao thóc nặng hơn bao ngô 18kg. Hỏi bao thóc nặng bao nhiêu ki-lô-gam?",
+      "answer": "Số kg của bao thóc là: 45+18=63 (thóc)"
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Viết các số 61, 35, 62, 45 theo thứ tự từ bé đến lớn.",
+      "answer": "35,45,61,62."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Tìm số có hai chữ số, biết chữ số hàng chục là số liền sau của 5 và chữ số hàng đơn vị là kết quả của 12 - 7.",
+      "answer": "Số liền sau của số 5 là 6 ,12-7=5 vậy số đó là 65."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tính nhanh: 28 + 15 + 12 - 5 = ...;  36 + 24 - 15 + 5 = ...",
+      "answer": "28+15+12-5=50; 36+24-15+5=50."
+    }
+  ]
+}
