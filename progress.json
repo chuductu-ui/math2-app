@@ -55,6 +55,10 @@
     "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng": "2026-08-21T03:06:18.174Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 26. Đường gấp khúc. Hình tứ giác": {
+      "q_0": "Đường gấp khúc gồm những đoạn thẳng ghép lại với nhau tên của đường gấp khúc là ABC.",
+      "q_1": "Độ dài đường gấp khúc được tính tổng của các đoạn thẳng chúng ta dùng phép cộng để tính."
+    }
   }
 }
