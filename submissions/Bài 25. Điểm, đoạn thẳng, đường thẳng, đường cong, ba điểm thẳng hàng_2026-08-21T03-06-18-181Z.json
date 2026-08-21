@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+  "lessonTitle": "Bài 25. Điểm, đoạn thẳng, đường thẳng, đường cong, ba điểm thẳng hàng",
+  "submittedAt": "2026-08-21T03:06:18.182Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Điểm là gì? Nó được ký hiệu bằng chữ gì?",
+      "answer": "Điểm là một dấu chấm nhỏ xíu ở trên giấy."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Đoạn thẳng AB nối hai điểm nào? Nó có bị giới hạn ở hai đầu không?",
+      "answer": "Đoạn thẳng AB nối từ hai điểm A và B."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Đường thẳng khác đoạn thẳng ở điểm nào? (Kéo dài như thế nào?)",
+      "answer": "Đường thẳng khác đoạn thẳng ở điểm đoạn thẳng thì có điểm đầu và có điểm kết thúc còn đường thẳng thì là một đường thẳng cứ đi mãi mãi không có điểm kết thúc."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Đường cong là gì? Nêu ví dụ đường cong ngoài đời.",
+      "answer": "Đường cong là một đường cong vòng vèo hoặc là một đường cong giống  cầu vồng."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Thế nào là ba điểm thẳng hàng? Làm sao dùng thước kẻ để kiểm tra?",
+      "answer": "Đầu tiên chúng ta đặt chiếc thước kẻ lên sau đó để thước kẻ thẳng nếu thấy thẳng  hàng thì có nghĩa là thẳng hàng."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Nếu ba điểm không cùng nằm trên mép thước kẻ thì có thẳng hàng không?",
+      "answer": "Không."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Đường thẳng đi qua hai điểm thì vẽ được tất cả bao nhiêu đường thẳng?",
+      "answer": "Duy nhất 1 đường thôi bởi vì đấy là đường thẳng ."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Một đoạn thẳng có mấy đầu điểm? Có đo được chiều dài không?",
+      "answer": "Một đoạn thẳng có hai đầu điểm có thể đo được chiều dài."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Có đo được chiều dài của một đường thẳng không? Vì sao?",
+      "answer": "Không vì đường thẳng kéo dài mãi mãi không thể đo được."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Kể tên 3 hình ảnh thẳng hàng xung quanh lớp học của em.",
+      "answer": "Em thấy cái bàn trong lớp học em cũng thẳng hàng cái quạt và cái ghế."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Vẽ ba điểm A, B, C không thẳng hàng trên giấy.",
+      "answer": "Đã vẽ Trên giấy"
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Vẽ đoạn thẳng MN dài 6cm bằng thước kẻ.",
+      "answer": "Đã vẽ ra giấy."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Vẽ đường thẳng đi qua hai điểm P và Q.",
+      "answer": "Đã vẽ trên giấy."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Nhận diện các đường sau: đoạn thẳng AB, đường thẳng CD, đường cong xy.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Cho hình vẽ 3 điểm D, E, F. Dùng thước kẻ kiểm tra và trả lời xem chúng có thẳng hàng không.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Đo và ghi lại độ dài của đoạn thẳng AB cho sẵn trên giấy.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Vẽ ba điểm thẳng hàng X, Y, Z sao cho Y nằm giữa X và Z.",
+      "answer": ""
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Kể tên tất cả các đoạn thẳng có trong hình vẽ tam giác ABC (nối A, B, C).",
+      "answer": "Là AB, BC, CA."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Đoạn thẳng AB dài 5cm, đoạn thẳng BC dài 3cm. Nếu ghép thẳng hàng thành đoạn AC thì đoạn AC dài bao nhiêu cm?",
+      "answer": "Ta có: AC=AB+BC\nThay số:AC=5+3=8cm\nVậy đoạn thẳng AC dài 8 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Vẽ một đường cong đi qua hai điểm A và B cho trước.",
+      "answer": "Đã vẽ vào vở."
+    }
+  ]
+}
