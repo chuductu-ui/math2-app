@@ -49,30 +49,10 @@
     "Bài 20. Phép cộng (có nhớ) số có hai chữ số với số có hai chữ số": "2026-08-07T07:17:26.168Z",
     "Bài 21. Luyện tập": "2026-08-09T04:35:15.984Z",
     "Bài 22. Phép trừ (có nhớ) số có hai chữ số cho số có một chữ số": "2026-08-09T06:59:07.507Z",
-    "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số": "2026-08-19T04:31:10.345Z"
+    "Bài 23. Phép trừ (có nhớ) số có hai chữ số cho số có hai chữ số": "2026-08-19T04:31:10.345Z",
+    "Bài 24. Luyện tập chung": "2026-08-21T01:36:35.484Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {},
-    "Bài 24. Luyện tập chung": {
-      "q_0": "Nếu hiệu là 35, số trừ là 27 thì số bị trừ là 62.",
-      "q_1": "Nếu tổng là 61, một số hạng là 25 thì số hạng còn lại là 36.",
-      "q_2": "Để tính nhẩm nhanh biểu thức 62-27+15 chúng ta tánh số 27 thành 20 và 7 62-20 bằng 42 , 42-7=35 , 35+15=50.",
-      "q_3": "Đầu tiên chúng ta tính biểu thức thứ nhất 45+18=63 biểu thức thứ hai 92-27=65 tiếp theo so sánh hàng chục 6=6 , 3 < 5 vậy biểu thức thứ nhất có kết quả bé hơn biểu thức thứ hai biểu thứ hai lớn hơn biểu thức thứ nhất.",
-      "q_4": "Số liền sau của 45 cm là 46 cm.",
-      "q_5": "Số liền trước của 92 m là 91 m.",
-      "q_6": "Chúng ta sẽ lấy hiệu cộng với số bị trừ là ra số bị trừ.",
-      "q_7": "Chúng ta lấy số bị trừ trừ đi hiệu thì sẽ ra số trừ.",
-      "q_8": "Khi thực hiện chuỗi phép tính có cả cộng và trừ , ta tính từ trái sang phải.",
-      "q_9": "Khi gặp một bài toán đố phức tạp chúng ta tóm tắt sẽ dễ dàng hơn vì tóm tắt là chỉ nói những từ mà quan trọng thôi rút gọn lại những từ phức tạp lại.",
-      "e_0": "36+25=61; 62-27=35; 45+18=63; 92-27=65.",
-      "e_1": "45+18-27=36; 92-27+15=80; 36+25-18=43.",
-      "e_2": "36+25=61; 62-27=35; 62-27=35.",
-      "e_3": "36+25=62; 62-27=35; 35+27=62.",
-      "e_4": "36+25=62-1; 62-27=35; 45+18 < 92-27.",
-      "e_5": " Số lít dầu còn lại là: 92-27=65 (dầu)",
-      "e_6": "Số kg của bao thóc là: 45+18=63 (thóc)",
-      "e_7": "35,45,61,62.",
-      "e_8": "Số liền sau của số 5 là 6 ,12-7=5 vậy số đó là 65."
-    }
+    "Bài 1. Ôn tập các số đến 100": {}
   }
 }
