@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 26. Đường gấp khúc. Hình tứ giác",
+  "lessonTitle": "Bài 26. Đường gấp khúc. Hình tứ giác",
+  "submittedAt": "2026-08-22T04:23:15.424Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Đường gấp khúc gồm những gì ghép lại? Nêu tên một đường gấp khúc.",
+      "answer": "Đường gấp khúc gồm những đoạn thẳng ghép lại với nhau tên của đường gấp khúc là ABC."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Độ dài đường gấp khúc được tính bằng cách nào? Phép tính gì?",
+      "answer": "Độ dài đường gấp khúc được tính tổng của các đoạn thẳng chúng ta dùng phép cộng để tính."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Hình tam giác có mấy cạnh và mấy đỉnh?",
+      "answer": "Hình tam giác có 3 cạnh và 3 đỉnh."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Hình tứ giác có mấy cạnh và mấy đỉnh?",
+      "answer": "Hình tứ giác có 4 cạnh và 4 đỉnh."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Chữ \"tứ\" trong tứ giác nghĩa là gì?",
+      "answer": "Chữ tứ trong tứ giác nghĩa là số bốn."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Hình vuông có phải là một hình tứ giác không? Vì sao?",
+      "answer": "Hình vuông là hình tứ giác vì hình vuông có bốn cạnh."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Hình chữ nhật có phải là một hình tứ giác không? Vì sao?",
+      "answer": "Hình chữ nhật là hình tứ giác vì hình chữ nhật có bốn cạnh."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Chu vi của hình tam giác được tính bằng cách nào?",
+      "answer": "Chu vi của hình tam giác được tính bằng cách lấy các cạnh cộng vào nhau."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Chu vi của hình tứ giác được tính bằng cách nào?",
+      "answer": "Chu vi của hình tứ giác được tính bằng cách lấy các cạnh cộng vào nhau."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Kể tên các đồ vật xung quanh em có hình tam giác và hình tứ giác.",
+      "answer": "Cái thời khóa biểu lớp 2A2 năm học 2022 2023 của chị em có hình tứ giác cái đồ chơi lắp ghép thông minh của em có hình tam giác."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính độ dài đường gấp khúc AB-BC-CD biết AB = 4cm, BC = 5cm, CD = 6cm.",
+      "answer": "Nếu đường gấp khúc AB=4 cm, BC=5 cm, CD=6 cm vậy tổng của các đường gấp khúc là: 15."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính độ dài đường gấp khúc MN-NP biết MN = 8cm, NP = 7cm. (Trình bày bài giải)",
+      "answer": "MN=8 cm, NP=7 cm tổng bằng 15 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính chu vi hình tam giác ABC có độ dài các cạnh là AB = 3cm, BC = 4cm, CA = 5cm.",
+      "answer": "3 cm + 4 cm +5 cm =12 cm vậy chu vi hình tam giác bằng 12."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tính chu vi hình tứ giác MNPQ có độ dài các cạnh lần lượt là 2cm, 3cm, 4cm, 5cm.",
+      "answer": "2 cm + 3 cm + 4 cm + 5 cm =14 cm vậy chu vi của hình tứ giác là 14 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Một hình vuông có cạnh dài 3cm. Tính chu vi hình vuông đó.",
+      "answer": "12 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Một hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 4cm. Tính chu vi hình tam giác đó.",
+      "answer": "12 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Đếm số hình tam giác trong hình vẽ gồm 2 hình tam giác nhỏ ghép lại.",
+      "answer": "3 hình tam giác."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Đếm số hình tứ giác trong hình vẽ gồm 2 hình chữ nhật nhỏ ghép sát nhau.",
+      "answer": "Ba hình chữ nhật."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Đoạn dây đồng dài 20cm được uốn thành hình vuông. Hỏi cạnh hình vuông dài bao nhiêu xăng-ti-mét?",
+      "answer": "Các cạnh của hình vuông dài 5 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Đường gấp khúc M-N-P-Q dài 15cm. Biết MN = 5cm, NP = 4cm. Tính độ dài đoạn PQ.",
+      "answer": "Độ dài của PQ bằng 6 cm."
+    }
+  ]
+}
