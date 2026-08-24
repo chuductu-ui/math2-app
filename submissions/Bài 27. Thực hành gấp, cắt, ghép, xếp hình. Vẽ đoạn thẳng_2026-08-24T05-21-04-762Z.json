@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 27. Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+  "lessonTitle": "Bài 27. Thực hành gấp, cắt, ghép, xếp hình. Vẽ đoạn thẳng",
+  "submittedAt": "2026-08-24T05:21:04.764Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Nêu các bước vẽ đoạn thẳng AB dài 5cm bằng thước kẻ chia vạch.",
+      "answer": "Đầu tiên chúng ta sẽ đặt thước kẻ thẳng dọc sau đó đặt bút ở vạch số 0 sau đó viết viết và viết theo cái thước kẻ viết đến khi nào đến vạch số 5 thì chúng ta đã có một đoạn thẳng dài 5 cm."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Để gấp một tờ giấy hình chữ nhật thành hình tam giác, em làm thế nào?",
+      "answer": "Đầu tiên Chúng ta cắt ở góc bên dưới của hình chữ nhật sau đó cắt chéo lên trên của 1 góc hình chữ nhật."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Trò chơi xếp hình Tangram gồm bao nhiêu mảnh ghép? Có những hình nào?",
+      "answer": "Trò chơi xếp hình Tangram gồm 8 mảnh ghép gồm 5 hình tam giác một hình thang vuông một hình thoi một hình chữ nhật."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Khi dùng kéo cắt giấy thủ công, em cần chú ý điều gì để an toàn?",
+      "answer": "Khi dùng kéo cắt giấy thủ công, em cần chú ý không để cắt vào tay không thì rất nguy hiểm."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Làm sao ghép 4 hình tam giác nhỏ thành 1 hình vuông to?",
+      "answer": "Biết rồi nhưng không biết viết như nào cho phù hợp."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Làm sao ghép 2 hình tam giác nhỏ thành 1 hình chữ nhật?",
+      "answer": "Đầu tiên chúng ta cắt 2 hình tam giác có cạnh dài cạnh nhỏ sau đó ghép vào nhau sẽ được 1 hình chữ nhật."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Khi vẽ đoạn thẳng, tại sao phải giữ chặt thước kẻ?",
+      "answer": "Khi vẽ đoạn thẳng cần giữ chặt thước kẻ bởi vì khi chúng ta để nghiêng thì không phải đoạn thẳng nữa mà là đoạn chéo."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Vạch số 0 trên thước có vai trò gì khi bắt đầu vẽ đoạn thẳng?",
+      "answer": "Vạch số không trên thước Là chỗ xuất phát của đoạn thẳng."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Mô tả cách gấp một chiếc thuyền giấy đơn giản mà em biết.",
+      "answer": "Không biết gấp thuyền."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tại sao thực hành cắt ghép hình giúp em thông minh hơn?",
+      "answer": "Bởi vì thực hành cách ghép hình giúp rèn luyện tay khéo léo biết giải quyết vấn đề khi lỡ cắt vào tay."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Dùng thước và bút chì vẽ đoạn thẳng AB dài đúng 5cm.",
+      "answer": "Đã viết."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Dùng thước và bút chì vẽ đoạn thẳng CD dài đúng 8cm.",
+      "answer": "Đã viết."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Cắt 2 hình tam giác giống nhau bằng giấy màu và ghép chúng thành một hình chữ nhật.",
+      "answer": "Đã ghép."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Cắt 4 hình tam giác giống nhau và xếp chúng thành một hình tam giác lớn hơn.",
+      "answer": "Đã ghép."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Vẽ đoạn thẳng AB dài 4cm, tiếp tục vẽ đoạn BC thẳng hàng dài 3cm. Đoạn AC dài mấy cm?",
+      "answer": "4+3=7 cm AC dài 7 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Thực hành gấp tờ giấy hình vuông theo đường chéo và cho biết em được hình gì.",
+      "answer": "Thực hành gấp tờ giấy hình vuông theo đường chéo cho em biết được hình tam giác."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Dùng các que tính xếp thành một hình tam giác và một hình tứ giác.",
+      "answer": "Đã Xếp."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Xếp các que tính thành một hình chữ nhật có cạnh dài, cạnh ngắn.",
+      "answer": "Đã xếp."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Dùng giấy thủ công xếp hình chú cá bơi lội và dán vào vở.",
+      "answer": "Không biết xếp."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Dùng giấy thủ công xếp hình ngôi nhà đơn giản gồm mái tam giác và tường tứ giác.",
+      "answer": "Đã xếp."
+    }
+  ]
+}
