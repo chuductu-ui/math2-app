@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 28. Luyện tập chung",
+  "lessonTitle": "Bài 28. Luyện tập chung",
+  "submittedAt": "2026-08-25T07:08:06.999Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Đoạn thẳng MN dài hơn đoạn thẳng PQ 3cm. PQ dài 5cm. Hỏi MN dài bao nhiêu cm?",
+      "answer": "3 + 5 =8 cm vậy đoạn thẳng MN dài 8 cm."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Một hình tam giác và một hình tứ giác, hình nào có nhiều góc hơn? Nhiều hơn mấy góc?",
+      "answer": "Hình tam giác và 1 hình tứ giác, hình tứ giác có nhiều góc hơn hình tứ giác nhiều hơn 1 góc của hình tam giác vì hồi xưa số 3 nói tiếng Trung Quốc là tam số 4 nói tiếng Trung Quốc là tứ hình tam giác có chữ tam là 3 có nghĩa là 3 cạnh 3 góc còn khi nói tứ giác tứ là 4 có nghĩa là 4 cạnh 4 góc."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Làm thế nào để đếm hình tam giác bằng phương pháp đánh số?",
+      "answer": "Bỏ qua về bố giảng."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Tính độ dài đường gấp khúc AB-BC-CD nếu cả 3 đoạn thẳng đều dài 5cm.",
+      "answer": "5 + 5 + 5=15 cm vậy tổng của độ dài gấp khúc AB, BC, CD là 15 cm."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Một hình tứ giác có các cạnh dài bằng nhau được gọi là hình gì?",
+      "answer": "Một hình tứ giác có các cạnh dài bằng nhau được gọi là hình vuông."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Chu vi hình tam giác ABC có phụ thuộc vào thứ tự cộng các cạnh không? Vì sao?",
+      "answer": "Chu vi hình tam giác ABC ko phụ thuộc vào thứ tự cộng các cạnh ví dụ cạnh AB = 3 cm BC = 5 cm CA = 4 cm 3cm +5 cm+ 4 cm=12 cm mà 5 cm+4 cm+3cm vẫn bằng 12 cm nên ko nhất thiết phải cộng đúng thứ tự."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Nêu tên các đoạn thẳng trong hình chữ nhật ABCD gồm các đỉnh A, B, C, D.",
+      "answer": "Các đoạn thẳng trong hình chữ nhật là: AB, BC, CD, DA."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Làm sao dùng thước kẻ để kiểm tra ba điểm có thẳng hàng hay không?",
+      "answer": "Đầu tiên lấy thước kẻ để lên giấy sau đó để thước thẳng hàng với một điểm sau đó chúng ta sẽ xem xem có điểm nào trong 3 chỗ đấy lệch với mép thước không nếu có thì 3 điểm đó không thẳng hàng nếu không thì 3 điểm đó có thẳng hàng."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Ba điểm thẳng hàng có thể tạo thành hình tam giác được không? Vì sao?",
+      "answer": "Không vì hình tam giác cần ba điểm Không thẳng hàng nên 3 điểm thẳng hàng không tạo thành được 1 hình tam giác được."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Kể tên các đường gấp khúc em nhìn thấy trên khung cửa sổ lớp học.",
+      "answer": "Em chưa bao giờ nhìn đường gấp khúc trên khung cửa sổ lớp học."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đo và ghi lại độ dài các cạnh của hình tam giác ABC cho sẵn trên giấy, sau đó tính chu vi của nó.",
+      "answer": "Bỏ qua."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính độ dài đường gấp khúc gồm 4 đoạn thẳng, mỗi đoạn dài 3cm. (Trình bày bài giải)",
+      "answer": "3 + 3 + 3+ 3 =12 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Đếm số hình tam giác có trong hình vuông được chia đôi bởi một đường chéo.",
+      "answer": "Có 2 hình tam giác."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Đếm số hình tứ giác có trong hình vẽ gồm 3 hình chữ nhật nhỏ xếp chồng lên nhau.",
+      "answer": "Có 4 hình tứ giác khi 3 hình chữ nhật nhỏ sếp chồng lấy nhau được hình vuông 3 hình chữ nhật nhỏ là được 3 hình tứ giác 1 hình tứ giác nữa là hình vuông ở bên ngoài vậy có 4 hình tứ giác."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Vẽ đoạn thẳng AB dài 7cm. Dùng thước đánh dấu điểm C nằm giữa A và B sao cho AC dài 3cm. Tính độ dài BC.",
+      "answer": "3+4=7 vậy BC dài 4 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Tính chu vi hình tam giác có các cạnh dài 6cm, 8cm, 10cm.",
+      "answer": "6+8+10=24 vậy chu vi của hình tam giác là 14 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Tính chu vi hình tứ giác có các cạnh dài 5cm, 6cm, 7cm, 8cm.",
+      "answer": "5+6+7+8=26 vậy chu vi của hình tứ giác là 26 cm."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Một hình chữ nhật có chiều dài 6cm, chiều rộng 4cm. Tính chu vi hình chữ nhật đó (bằng tổng 4 cạnh).",
+      "answer": "6+4=10 cm vậy chu vi của hình chữ nhật là 10."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Đoạn dây dài 24cm được uốn thành hình tam giác có 3 cạnh bằng nhau. Hỏi mỗi cạnh dài mấy xăng-ti-mét?",
+      "answer": "Không biết làm không biết chia."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Vẽ ba điểm thẳng hàng D, E, F sao cho DE = 3cm, EF = 4cm. Đo và tính độ dài DF.",
+      "answer": "Ba cộng 4 bằng 7 vậy tổng của DE và EF dài 7 cm."
+    }
+  ]
+}
