@@ -61,6 +61,13 @@
     "Bài 28. Luyện tập chung": "2026-08-25T07:08:06.994Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 29. Ngày - giờ, giờ - phút": {
+      "q_0": "Một ngày đêm có 24 giờ bắt đầu từ 12 giờ tối hay còn gọi là 0 giờ sáng của ngày mai.",
+      "q_1": "Kim ngắn của đồng hồ dùng để chỉ giờ, kim dài dùng để chỉ phút.",
+      "q_2": "Khi kim dài chỉ đúng số 12, đồng hồ chỉ giờ đúng.",
+      "q_3": "Khi kim dài chỉ đúng số 3, đồng hồ chỉ 15 phút.",
+      "q_4": "Khi kim dài chỉ đúng số 6, đồng hồ chỉ 30 phút có tên gọi khác là rưỡi."
+    }
   }
 }
