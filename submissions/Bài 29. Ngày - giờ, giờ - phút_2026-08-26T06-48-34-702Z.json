@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 29. Ngày - giờ, giờ - phút",
+  "lessonTitle": "Bài 29. Ngày - giờ, giờ - phút",
+  "submittedAt": "2026-08-26T06:48:34.706Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Một ngày đêm có bao nhiêu giờ? Bắt đầu từ lúc nào?",
+      "answer": "Một ngày đêm có 24 giờ bắt đầu từ 12 giờ tối hay còn gọi là 0 giờ sáng của ngày mai."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Kim ngắn của đồng hồ dùng để chỉ gì? Kim dài dùng để chỉ gì?",
+      "answer": "Kim ngắn của đồng hồ dùng để chỉ giờ, kim dài dùng để chỉ phút."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Khi kim dài chỉ đúng số 12, đồng hồ chỉ giờ gì?",
+      "answer": "Khi kim dài chỉ đúng số 12, đồng hồ chỉ giờ đúng."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Khi kim dài chỉ đúng số 3, đồng hồ chỉ bao nhiêu phút?",
+      "answer": "Khi kim dài chỉ đúng số 3, đồng hồ chỉ 15 phút."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Khi kim dài chỉ đúng số 6, đồng hồ chỉ bao nhiêu phút? Có tên gọi nào khác?",
+      "answer": "Khi kim dài chỉ đúng số 6, đồng hồ chỉ 30 phút có tên gọi khác là rưỡi."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Một giờ có bao nhiêu phút? Kim dài đi được mấy vòng thì hết 1 giờ?",
+      "answer": "Không biết về hỏi bố."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Phân biệt giờ sáng và giờ chiều. 14 giờ là mấy giờ chiều?",
+      "answer": "14 giờ là 2 giờ chiều."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Phân biệt giờ tối và giờ đêm. 20 giờ là mấy giờ tối?",
+      "answer": "20 giờ là 8 giờ tối."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Tại sao một ngày kim giờ lại quay được 2 vòng quanh mặt đồng hồ 12 số?",
+      "answer": "Vì trên mặt đồng hồ có 12 số 1 số quay được 1 tiếng vậy 12 số được 12 tiếng mà một ngày có 24 tiếng thì phải quay hai vòng ."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Nếu kim giờ chỉ giữa số 8 và 9, kim phút chỉ số 6, đây là mấy giờ?",
+      "answer": "Nếu kim giờ chỉ giữa số 8 và 9, kim phút chỉ số 6, đây là 8 rưỡi."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Đọc giờ trên các đồng hồ kim sau: Đồng hồ A: kim ngắn chỉ số 7, kim dài chỉ số 12; Đồng hồ B: kim ngắn chỉ số 9, kim dài chỉ số 3.",
+      "answer": "Đồng hồ A là 7 giờ đúng, đồng hồ B là 9 giờ 15 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Đọc giờ trên các đồng hồ sau: Đồng hồ C: kim ngắn chỉ số 4, kim dài chỉ số 6; Đồng hồ D: kim ngắn chỉ số 12, kim dài chỉ số 6.",
+      "answer": "Đồng hồ C là 4 rưỡi, đồng hồ D là 12 rưỡi."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Quy đổi giờ: 13 giờ = ... giờ chiều;  17 giờ = ... giờ chiều;  21 giờ = ... giờ tối.",
+      "answer": "13 giờ = 1 giờ chiều; 17 giờ = 5 giờ chiều; 21 giờ = 9 giờ tối."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Quy đổi giờ: 3 giờ chiều = ... giờ;  8 giờ tối = ... giờ;  12 giờ đêm = ... giờ.",
+      "answer": "3 giờ chiều = 15 giờ; 8 giờ tối = 20 giờ; 12 giờ đêm = 0 giờ sáng."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Bé học bài lúc 8 giờ tối. Đồng hồ điện tử của bé sẽ hiển thị số mấy?",
+      "answer": "Bé học bài lúc 8 giờ tối. Đồng hồ điện tử của bé sẽ hiển thị số 8 giờ 00."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Mẹ đi làm lúc 7 giờ sáng và về nhà lúc 5 giờ chiều. Hỏi mẹ vắng nhà bao nhiêu giờ?",
+      "answer": "Đổi 5 giờ chiều thành 17 giờ chiều 17 - 7 =10 vậy mẹ vằng nhà 10 tiếng."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Buổi học bắt đầu lúc 8 giờ sáng và kết thúc lúc 11 giờ sáng. Hỏi buổi học kéo dài bao nhiêu giờ? (Trình bày bài giải)",
+      "answer": "8 + 3 =11 vậy buổi học kéo dài 3 giờ."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Bé xem phim hoạt hình từ 7 giờ tối đến 7 giờ 30 phút tối. Hỏi bé xem phim trong bao nhiêu phút?",
+      "answer": "30 - 0 =30 vậy bé đã xem 30 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Xe khởi hành từ Hà Nội lúc 6 giờ sáng và đến Hải Phòng lúc 8 giờ 30 phút sáng. Hỏi xe đi mất bao nhiêu giờ và phút?",
+      "answer": "6 + 2 =8 đổi 2 thành 2 tiếng nhưng mà 8 giờ 30 phút thì cộng thêm 30 mươi phút nữa là 2 tiếng 30 phút vậy từ Hà Nội đến Hải Phòng mất 2 tiếng 30 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Kim dài đồng hồ chạy từ số 12 đến số 3 mất bao nhiêu phút? Chạy từ số 12 đến số 6 mất bao nhiêu phút?",
+      "answer": "Kim dài đồng hồ chạy từ số 12 đến số 3 mất 15 phút , chạy từ số 12 đến số 6 mất  30 phút."
+    }
+  ]
+}
