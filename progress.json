@@ -67,7 +67,13 @@
       "q_1": "Kim ngắn của đồng hồ dùng để chỉ giờ, kim dài dùng để chỉ phút.",
       "q_2": "Khi kim dài chỉ đúng số 12, đồng hồ chỉ giờ đúng.",
       "q_3": "Khi kim dài chỉ đúng số 3, đồng hồ chỉ 15 phút.",
-      "q_4": "Khi kim dài chỉ đúng số 6, đồng hồ chỉ 30 phút có tên gọi khác là rưỡi."
+      "q_4": "Khi kim dài chỉ đúng số 6, đồng hồ chỉ 30 phút có tên gọi khác là rưỡi.",
+      "q_5": "Không biết về hỏi bố.",
+      "q_6": "14 giờ là 2 giờ chiều.",
+      "q_7": "20 giờ là 8 giờ tối.",
+      "q_8": "Vì trên mặt đồng hồ có 12 số 1 số quay được 1 tiếng vậy 12 số được 12 tiếng mà một ngày có 24 tiếng thì phải quay hai vòng .",
+      "q_9": "Nếu kim giờ chỉ giữa số 8 và 9, kim phút chỉ số 6, đây là 8 rưỡi.",
+      "e_0": "Đồng hồ A là 7 giờ đúng, đồng hồ B là 9 giờ 15 phút."
     }
   }
 }
