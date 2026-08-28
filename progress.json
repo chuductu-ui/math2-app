@@ -63,6 +63,12 @@
     "Bài 29. Ngày - giờ, giờ - phút": "2026-08-26T06:48:34.696Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 30. Ngày - tháng": {
+      "q_0": "Một tuần lễ có 7 ngày đó là các ngày thứ 2, thứ 3, thứ tư, thứ 5, thứ 6, thứ 7, CN.",
+      "q_1": "Một năm có 12 tháng các tháng đó là tháng 1, tháng 2, tháng 3, tháng 4, tháng 5, tháng 6, tháng 7, tháng 8, tháng 9, tháng 10, tháng 11, tháng 12.",
+      "q_2": "Tờ lịch tháng cho em biết hôm nay là thứ mấy hôm nay tháng mấy hôm nay ngày mấy.",
+      "q_3": "Nếu hôm nay là thứ Hai thì ngày mai là thứ 3."
+    }
   }
 }
