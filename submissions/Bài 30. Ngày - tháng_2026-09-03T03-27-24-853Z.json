@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 30. Ngày - tháng",
+  "lessonTitle": "Bài 30. Ngày - tháng",
+  "submittedAt": "2026-09-03T03:27:24.856Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Một tuần lễ có bao nhiêu ngày? Kể tên các ngày theo thứ tự.",
+      "answer": "Một tuần lễ có 7 ngày đó là các ngày thứ 2, thứ 3, thứ tư, thứ 5, thứ 6, thứ 7, CN."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Một năm có bao nhiêu tháng? Kể tên tháng đầu tiên và tháng cuối cùng.",
+      "answer": "Một năm có 12 tháng các tháng đó là tháng 1, tháng 2, tháng 3, tháng 4, tháng 5, tháng 6, tháng 7, tháng 8, tháng 9, tháng 10, tháng 11, tháng 12."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Tờ lịch tháng giúp em biết những thông tin gì?",
+      "answer": "Tờ lịch tháng cho em biết hôm nay là thứ mấy hôm nay tháng mấy hôm nay ngày mấy."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Nếu hôm nay là thứ Hai thì ngày mai là thứ mấy?",
+      "answer": "Nếu hôm nay là thứ Hai thì ngày mai là thứ 3."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Nếu hôm nay là thứ Năm thì ngày hôm qua là thứ mấy?",
+      "answer": "Nếu hôm nay là thứ Năm thì ngày hôm qua là thứ 4."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Một tháng thường có bao nhiêu ngày? (Kể các số ngày phổ biến).",
+      "answer": "Một tháng có 30 ngày hoặc 31 ngày nếu là tháng 2 thì có 28 ngày  hoặc ngày 29 vậy ngày phổ biến là ngày 30 ngày 31 và ngày 28 hoặc 29."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Tháng nào trong năm có ít ngày nhất? Có bao nhiêu ngày?",
+      "answer": "Tháng 2 trong năm có ít ngày nhất có 28 ngày."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Làm sao để tìm ngày thứ Ba tuần sau khi biết thứ Ba tuần này? (Cộng thêm mấy?)",
+      "answer": "Để tìm thứ 3 tuần sau thì chúng ta sẽ cộng thêm 7 ngày nữa là tìm được thứ ba tuần sau."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Làm sao để tìm ngày thứ Sáu tuần trước khi biết thứ Sáu tuần này? (Bớt đi mấy?)",
+      "answer": " Đầu tiên chúng ta sẽ lấy thứ 6 tuần này bớt đi 7 ngày."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Cách đọc ngày tháng: ngày đọc trước hay tháng đọc trước?",
+      "answer": "Cách đọc ngày tháng: đọc ngày thước đọc tháng sau."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Hôm nay là thứ Ba ngày 15. Hỏi thứ Ba tuần sau là ngày mùng mấy?",
+      "answer": "15 cộng 7 bằng 22 vậy thứ ba tuần sau là ngày 22."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Hôm nay là thứ Sáu ngày 20. Hỏi thứ Sáu tuần trước là ngày mùng mấy?",
+      "answer": "20 - 7 =13 vậy 13 là ngày của thứ ba tuần trước."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Xem tờ lịch tháng 10 và cho biết: Ngày 20 tháng 10 là thứ mấy?",
+      "answer": "Xem tờ lịch tháng 10 và cho biết: ngày 20 tháng 10 là thứ mấy đầu tiên chúng ta sẽ nhìn vào lịch xem từ nào có số 20 ở dưới sau đó nhìn lên trên sẽ thấy thứ của ngày 20."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Nếu thứ Bảy tuần này là ngày 5 thì thứ Bảy tuần sau là ngày mấy?",
+      "answer": "5 + 7 =12 vậy thứ bảy tuần sau là ngày 12."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Bố đi công tác 1 tuần và 3 ngày. Hỏi bố đi công tác tất cả bao nhiêu ngày? (Trình bày bài giải)",
+      "answer": "1 tuần là 7 ngày 7 + 3 =10 vậy bố đi công tác 10 ngày."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Lớp học vẽ bắt đầu vào ngày 8 tháng 9 và kéo dài đúng 2 tuần. Hỏi lớp kết thúc vào ngày mùng mấy tháng 9?",
+      "answer": "7+7=14 , 8+14=22 vậy lớp học kết thúc vào ngày 22 tháng 9."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Điền vào chỗ trống các ngày còn thiếu trong tuần: Thứ Hai, Thứ Ba, ..., Thứ Năm, ..., Thứ Bảy, ...",
+      "answer": "Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ  Sáu, Thứ Bảy, CN."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Kể tên 3 tháng có 31 ngày và 3 tháng có 30 ngày (nếu em biết).",
+      "answer": "Ba tháng có 31 ngày là tháng 1, tháng 3, tháng 5 3 tháng có 30 ngày là tháng 4, tháng 6 , tháng 9."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Nếu hôm qua là thứ Sáu ngày 12 thì ngày mai là thứ mấy ngày mùng mấy?",
+      "answer": "6+1=7 , 12+1=13 vậy ngày mai là thứ 7 ngày 13."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tờ lịch tháng 11 có 5 ngày Chủ nhật. Nếu Chủ nhật đầu tiên là ngày 1 thì Chủ nhật tiếp theo là ngày mấy?",
+      "answer": "Tờ lịch tháng 11 có 5 ngày chủ nhật. Nếu chủ nhật đầu tiên là ngày 1 thì chủ nhật tiếp theo là ngày 2."
+    }
+  ]
+}
