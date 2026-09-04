@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+  "lessonTitle": "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch",
+  "submittedAt": "2026-09-04T11:05:09.885Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Thời gian biểu là gì? Nó giúp ích gì cho cuộc sống của em?",
+      "answer": "Thời gian biểu là một bảng kế hoạch nó giúp em ví dụ em đã học bài xong rồi em không biết phải làm gì thì thời gian biểu sẽ hướng dẫn em bây giờ phải làm gì."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "Mô tả hoạt động em thường làm lúc 7 giờ sáng và lúc 9 giờ tối.",
+      "answer": "Lúc 7 giờ em chưa dậy em chưa biết còn 9 giờ tối thì em đang đánh răng."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Khi lập thời gian biểu, em viết giờ sáng, chiều, tối như thế nào cho rõ ràng?",
+      "answer": "Đầu tiên em sẽ xem những công việc quan trọng công việc quan trọng của em là học tiếng anh , học toán , tập thể dục thì em sẽ sắp xếp sáng học tiếng anh chiều học toán , sau đó tập thể dục và tối là lúc em được nghỉ ngơi."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Làm thế nào để biết thời gian em làm bài tập kéo dài bao nhiêu phút?",
+      "answer": " Chúng ta có 2 cách 1. Đo lượng 2. Một ngày chúng ta học chúng ta nhìn giờ trước khi học khi học xong chúng ta lại nhìn giờ sau đó tính mình đã học được bao nhiêu phút khi chúng ta đã biết thì những ngày khác chúng ta sẽ biết."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Tại sao xem lịch giúp em chuẩn bị bài học tốt hơn?",
+      "answer": "Vì em sắp lên lớp Hai nên em cần lịch để chuẩn bị bài đấy là lý do em cần lịch."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Nếu em muốn lên kế hoạch đi dã ngoại vào Chủ nhật, em cần xem đồng hồ hay xem lịch trước? Vì sao?",
+      "answer": "Nếu em muốn lên kế hoạch đi dã ngoại vào Chủ nhật, em cần xem lịch trước để biết Chủ nhật sẽ đi chơi và chuẩn bị đồ xem đồng hồ sau để xuất phát."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Em thường thức dậy lúc mấy giờ? Đồng hồ chỉ kim ngắn và kim dài ở số mấy khi đó?",
+      "answer": "Em nghĩ là 8 giờ kim dài chỉ số 12 kim ngắn chỉ số 8."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Em đi ngủ lúc mấy giờ? Đồng hồ kim ngắn và kim dài ở số mấy khi đó?",
+      "answer": "Em ngủ lúc 9 rưỡi kim dài  chỉ số 6 kim ngắn chỉ  số 9."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Làm sao em biết thời gian trôi qua nhanh hay chậm khi em học bài và chơi game?",
+      "answer": "Thực ra thời gian lúc nào cũng bằng nhau để nhận biết chúng ta phải nhìn vào đồng hồ nhưng khi chúng ta chơi game thì chúng ta không để ý đồng hồ thì sẽ thấy thời gian trôi qua quá nhanh còn khi làm bài thì để ý đồng hồ xem mình đã học xong trưa đấy là tại não bộ."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tại sao việc đi ngủ đúng giờ lại giúp cơ thể em khỏe mạnh?",
+      "answer": "Việc ngủ sớm cực kì quan trọng giúp chúng ta tạo ra được nhiều hoocmon tăng trưởng hơn và khỏe hơn làm cho ngày mai có đầy sức mạnh."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tự lập thời gian biểu buổi sáng Chủ nhật của em: tập thể dục, ăn sáng, học bài.",
+      "answer": "Tối em sẽ lập."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tự lập thời gian biểu buổi chiều Chủ nhật của em: đi đá bóng, giúp mẹ quét nhà.",
+      "answer": "Em không đi đá bóng nhưng em sẽ quét nhà."
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Tính thời gian: Lan làm bài tập bắt đầu lúc 19 giờ 15 phút và xong lúc 19 giờ 45 phút. Hỏi Lan làm bài mất bao nhiêu phút?",
+      "answer": "45-15=30 vậy Lan học 30 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Tính thời gian: Hà quét dọn nhà cửa từ 16 giờ đến 16 giờ 45 phút. Hỏi Hà quét dọn trong bao nhiêu phút? (Trình bày bài giải)",
+      "answer": "16:00 là 0+45 bằng 45 vậy Hà quét dọn trong 45 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Xem lịch và ghi lại ngày sinh nhật của tất cả các thành viên trong gia đình em.",
+      "answer": "Đã xem lịch và ghi lại ngày sinh ngật của tất cả các thành viên trong gia đình em."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Lên kế hoạch đếm ngược: Nếu hôm nay là ngày 20, chuyến dã ngoại diễn ra ngày 25. Hỏi còn bao nhiêu ngày nữa?",
+      "answer": "25-20=5 vậy còn 5 ngày nữa  sẽ đi dã ngoại."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Bé tập vẽ tranh mất 30 phút. Bé bắt đầu vẽ lúc 9 giờ sáng. Hỏi bé vẽ xong lúc mấy giờ?",
+      "answer": "9:00 là 0+30=30 vậy bé tập vẽ 30 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Bố đi làm lúc 8 giờ sáng và về nhà lúc 17 giờ. Ghi lại thời gian bố vắng nhà theo đồng hồ điện tử và đồng hồ kim.",
+      "answer": "Tính vào đồng hồ điện tử chúng ta sẽ lấy 17-8=9 vậy bố vắng nhà 9 tiếng còn đồng hồ kim chúng ta sẽ đếm 9, 10, 11, 12, 1, 2, 3, 4 đến số 5 là mình dừng sau đó mình tính xem bố đã vắng nhà bao nhiêu."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Mỗi ngày bé tự học ở nhà 1 giờ. Hỏi một tuần 7 ngày bé tự học bao nhiêu giờ ở nhà?",
+      "answer": "Mỗi ngày bé tự học ở nhà 1 giờ vậy 1 tuần bé tự học 7 giờ."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Đồng hồ điện tử chỉ 19:30. Đồng hồ kim tương ứng sẽ chỉ kim ngắn và kim dài ở vị trí nào?",
+      "answer": "Đồng hồ điện tử chỉ 19:30. Đồng hồ kim tương ứng kim ngắn chỉ số 7 kim dài chỉ số 6."
+    }
+  ]
+}
