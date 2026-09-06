@@ -73,8 +73,14 @@
       "q_1": "1 ngày có 24 giờ, 1 tuần có 7 ngày.",
       "q_2": "Đồng hồ chỉ 10 giờ rươi, đây là 10 giờ 30 phút.",
       "q_3": "Đồng hồ chỉ 3 giờ 15 phút, kim dài đang chỉ đúng số 15.",
-      "q_5": "Nếu ngày khai giảng là ngày 5 tháng",
-      "q_4": "Đúng."
+      "q_5": "Nếu ngày khai giảng là ngày 5 tháng 9, nếu là thứ Hai thì ngày 4 tháng 9 là CN.",
+      "q_4": "Đúng.",
+      "q_6": "Đúng.",
+      "q_7": "30 phút + 15 phút = 45 phút.",
+      "q_8": "Kim giờ đi hết 1 vòng mặt đồng hồ mất 12 tiếng, quay được 2 lần trong một ngày.",
+      "q_9": "12+12=24 nên một ngày kim đồng hồ phải quay 2 vòng các bạn cùng đếm với mình nhé 12 giờ tối , 1 giờ , 2 giờ , 3 giờ , 4 giờ ,5 giờ, 6 giờ, 7 giờ , 8 giờ ,9 giờ , 10 giờ , 11 giờ , 12 giờ trưa , lại quay một lần nữa 12 giờ trưa , 1 giờ , 2 giờ , 3 giờ , 4 giờ , 5 giờ , 6 giờ, 7 giờ , 8 giờ , 9 giờ , 10 giờ , 11 giờ các bạn có thấy không đồng hồ quay 2 vòng đấy.",
+      "e_0": "2 giờ+3 giờ=5 giờ; 8 giờ-5 giờ=3 giờ; 12 giờ - 6 giờ =6 giờ.",
+      "e_1": "15 phút+15 phút=30 phút;\n\n"
     }
   }
 }
