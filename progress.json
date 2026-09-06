@@ -67,6 +67,14 @@
     "Bài 31. Thực hành và trải nghiệm xem đồng hồ, xem lịch": "2026-09-04T11:05:09.876Z"
   },
   "drafts": {
-    "Bài 1. Ôn tập các số đến 100": {}
+    "Bài 1. Ôn tập các số đến 100": {},
+    "Bài 32. Luyện tập chung": {
+      "q_0": "Nếu hôm nay là thứ Tư ngày 10, hôm qua là thứ Ba ngày mùng 9.",
+      "q_1": "1 ngày có 24 giờ, 1 tuần có 7 ngày.",
+      "q_2": "Đồng hồ chỉ 10 giờ rươi, đây là 10 giờ 30 phút.",
+      "q_3": "Đồng hồ chỉ 3 giờ 15 phút, kim dài đang chỉ đúng số 15.",
+      "q_5": "Nếu ngày khai giảng là ngày 5 tháng",
+      "q_4": "Đúng."
+    }
   }
 }
