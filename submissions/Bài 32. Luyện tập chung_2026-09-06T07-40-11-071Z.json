@@ -1,0 +1,127 @@
+{
+  "lessonId": "Bài 32. Luyện tập chung",
+  "lessonTitle": "Bài 32. Luyện tập chung",
+  "submittedAt": "2026-09-06T07:40:11.074Z",
+  "answers": [
+    {
+      "type": "question",
+      "num": 1,
+      "prompt": "Nếu hôm nay là thứ Tư ngày 10, hôm qua là thứ mấy ngày mùng mấy?",
+      "answer": "Nếu hôm nay là thứ Tư ngày 10, hôm qua là thứ Ba ngày mùng 9."
+    },
+    {
+      "type": "question",
+      "num": 2,
+      "prompt": "1 ngày có bao nhiêu giờ? 1 tuần có bao nhiêu ngày?",
+      "answer": "1 ngày có 24 giờ, 1 tuần có 7 ngày."
+    },
+    {
+      "type": "question",
+      "num": 3,
+      "prompt": "Đồng hồ chỉ 10 giờ rưỡi, đây là mấy giờ mấy phút?",
+      "answer": "Đồng hồ chỉ 10 giờ rươi, đây là 10 giờ 30 phút."
+    },
+    {
+      "type": "question",
+      "num": 4,
+      "prompt": "Đồng hồ chỉ 3 giờ 15 phút, kim dài đang chỉ đúng số mấy?",
+      "answer": "Đồng hồ chỉ 3 giờ 15 phút, kim dài đang chỉ đúng số 15."
+    },
+    {
+      "type": "question",
+      "num": 5,
+      "prompt": "Đồng hồ chỉ 6 giờ đúng, hai kim ngắn và kim dài tạo thành đường gì thẳng hàng?",
+      "answer": "Đúng."
+    },
+    {
+      "type": "question",
+      "num": 6,
+      "prompt": "Xem lịch để chuẩn bị khai giảng: Khai giảng ngày 5 tháng 9, nếu là thứ Hai thì ngày 4 tháng 9 là thứ mấy?",
+      "answer": "Nếu ngày khai giảng là ngày 5 tháng 9, nếu là thứ Hai thì ngày 4 tháng 9 là CN."
+    },
+    {
+      "type": "question",
+      "num": 7,
+      "prompt": "Phép tính thời gian: 2 giờ + 3 giờ = 5 giờ. Phép tính này đúng hay sai?",
+      "answer": "Đúng."
+    },
+    {
+      "type": "question",
+      "num": 8,
+      "prompt": "Phép tính thời gian: 30 phút + 15 phút = ... phút.",
+      "answer": "30 phút + 15 phút = 45 phút."
+    },
+    {
+      "type": "question",
+      "num": 9,
+      "prompt": "Kim giờ đi hết 1 vòng mặt đồng hồ mất mấy giờ? Quay được mấy vòng trong một ngày?",
+      "answer": "Kim giờ đi hết 1 vòng mặt đồng hồ mất 12 tiếng, quay được 2 lần trong một ngày."
+    },
+    {
+      "type": "question",
+      "num": 10,
+      "prompt": "Tại sao đồng hồ kim chỉ có 12 số nhưng một ngày lại có 24 giờ?",
+      "answer": "12+12=24 nên một ngày kim đồng hồ phải quay 2 vòng các bạn cùng đếm với mình nhé 12 giờ tối , 1 giờ , 2 giờ , 3 giờ , 4 giờ ,5 giờ, 6 giờ, 7 giờ , 8 giờ ,9 giờ , 10 giờ , 11 giờ , 12 giờ trưa , lại quay một lần nữa 12 giờ trưa , 1 giờ , 2 giờ , 3 giờ , 4 giờ , 5 giờ , 6 giờ, 7 giờ , 8 giờ , 9 giờ , 10 giờ , 11 giờ các bạn có thấy không đồng hồ quay 2 vòng đấy."
+    },
+    {
+      "type": "exercise",
+      "num": 1,
+      "prompt": "Tính: 2 giờ + 3 giờ = ...;  8 giờ - 5 giờ = ...;  12 giờ - 6 giờ = ...",
+      "answer": "2 giờ+3 giờ=5 giờ; 8 giờ-5 giờ=3 giờ; 12 giờ - 6 giờ =6 giờ."
+    },
+    {
+      "type": "exercise",
+      "num": 2,
+      "prompt": "Tính: 15 phút + 15 phút = ...;  30 phút - 15 phút = ...;  45 phút + 15 phút = ...",
+      "answer": "15 phút+15 phút=30 phút; 30 phút -15 phút=15 phút; 45 phút+15 phút=60 phút.\n\n"
+    },
+    {
+      "type": "exercise",
+      "num": 3,
+      "prompt": "Điền số: 1 ngày = ... giờ;  1 tuần = ... ngày;  1 giờ = ... phút.",
+      "answer": "1 ngày = 24 giờ; 1 tuần= 7 ngày; 1 giờ = 50 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 4,
+      "prompt": "Hôm nay thứ Ba ngày 15. Thứ Ba tuần trước là ngày mấy? Thứ Ba tuần sau là ngày mấy?",
+      "answer": "15-7=8 vậy thứ ba tuần trước là ngày 8 15+7=22 vậy thứ ba tuần sau là ngày 22."
+    },
+    {
+      "type": "exercise",
+      "num": 5,
+      "prompt": "Tính: Một trận bóng đá bắt đầu lúc 15 giờ 15 phút và kết thúc lúc 17 giờ. Hỏi trận đấu kéo dài bao lâu?",
+      "answer": "Chúng ta cứ coi là trận bóng bắt đầu lúc 15 giờ thực ra là 15 giờ 15 phút vì 15 giờ 15 phút chúng ta phải lấy 60 -15=45 thế là đến 4 giờ cộng 60 phút nữa là 5 giờ vậy một trận đá bóng kéo dài 1 tiếng 45 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 6,
+      "prompt": "Nam giúp mẹ làm việc nhà trong 45 phút. Nam bắt đầu làm lúc 16 giờ. Hỏi Nam làm xong lúc mấy giờ mấy phút? (Trình bày bài giải)",
+      "answer": "16 giờ là 4 giờ , 4 giờ cộng 45 phút là 4 giờ 45 phút vậy Nam làm xong lúc 4 giờ 45 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 7,
+      "prompt": "Bố đi công tác từ ngày 5 đến ngày 12 của tháng. Hỏi bố đi công tác bao nhiêu ngày?",
+      "answer": "Bố đi công tác 8 ngày."
+    },
+    {
+      "type": "exercise",
+      "num": 8,
+      "prompt": "Điền dấu >, <, =: 1 giờ ... 60 phút;  1 ngày ... 20 giờ;  1 giờ 15 phút ... 75 phút.",
+      "answer": "1 giờ =60 phút, 1 ngày > 20 giờ, 1 giờ 15 phút =75 phút."
+    },
+    {
+      "type": "exercise",
+      "num": 9,
+      "prompt": "Đồng hồ điện tử chỉ 22:00. Đây là mấy giờ đêm?",
+      "answer": "Đúng."
+    },
+    {
+      "type": "exercise",
+      "num": 10,
+      "prompt": "Tính thời gian học: Mỗi ngày Nam học ở trường 8 giờ, một tuần Nam học 5 ngày. Hỏi mỗi tuần Nam học bao nhiêu giờ ở trường?",
+      "answer": "Nam học 1 tuần là 40 tiếng."
+    }
+  ]
+}
