@@ -80,7 +80,12 @@
       "q_8": "Kim giờ đi hết 1 vòng mặt đồng hồ mất 12 tiếng, quay được 2 lần trong một ngày.",
       "q_9": "12+12=24 nên một ngày kim đồng hồ phải quay 2 vòng các bạn cùng đếm với mình nhé 12 giờ tối , 1 giờ , 2 giờ , 3 giờ , 4 giờ ,5 giờ, 6 giờ, 7 giờ , 8 giờ ,9 giờ , 10 giờ , 11 giờ , 12 giờ trưa , lại quay một lần nữa 12 giờ trưa , 1 giờ , 2 giờ , 3 giờ , 4 giờ , 5 giờ , 6 giờ, 7 giờ , 8 giờ , 9 giờ , 10 giờ , 11 giờ các bạn có thấy không đồng hồ quay 2 vòng đấy.",
       "e_0": "2 giờ+3 giờ=5 giờ; 8 giờ-5 giờ=3 giờ; 12 giờ - 6 giờ =6 giờ.",
-      "e_1": "15 phút+15 phút=30 phút;\n\n"
+      "e_1": "15 phút+15 phút=30 phút; 30 phút -15 phút=15 phút; 45 phút+15 phút=60 phút.\n\n",
+      "e_2": "1 ngày = 24 giờ; 1 tuần= 7 ngày; 1 giờ = 50 phút.",
+      "e_3": "15-7=8 vậy thứ ba tuần trước là ngày 8 15+7=22 vậy thứ ba tuần sau là ngày 22.",
+      "e_4": "Chúng ta cứ coi là trận bóng bắt đầu lúc 15 giờ thực ra là 15 giờ 15 phút vì 15 giờ 15 phút chúng ta phải lấy 60 -15=45 thế là đến 4 giờ cộng 60 phút nữa là 5 giờ vậy một trận đá bóng kéo dài 1 tiếng 45 phút.",
+      "e_5": "16 giờ là 4 giờ , 4 giờ cộng 45 phút là 4 giờ 45 phút vậy Nam làm xong lúc 4 giờ 45 phút.",
+      "e_6": "Bố đi công tác 8 ngày."
     }
   }
 }
